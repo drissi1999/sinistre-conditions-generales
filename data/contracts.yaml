@@ -1,0 +1,71 @@
+# Registre des contrats ingérés.
+# Un "profil" décrit la mise en page d'un modèle de conditions générales (un par assureur/édition) :
+# regex de titres par niveau, pages à ignorer (couverture, sommaire), sections déclarées par pages
+# quand le document n'a pas de titre exploitable (lexique, tableaux). Ajouter un contrat d'un modèle
+# déjà connu = une entrée de plus, sans code.
+
+contracts:
+  - contract_id: altima_mrh
+    insurer: Altima Assurances
+    product: Multirisques Habitation
+    edition: "2019-08"
+    file: raw/altima_mrh.pdf
+    source_url: https://www.altima-assurances.fr/sites/default/files/2019-08/Documents%20contractuels%20B2C/Conditions_Generales%20mrh%20altima.pdf
+    profile:
+      skip_pages: [1, 2]
+      columns: 2
+      headings:
+        - level: 1
+          pattern: '^(\d{1,2})\s*-\s+(.+)$'
+          min_size: 13
+        - level: 2
+          pattern: '^(\d{1,2}\.\d{1,2})\s*[-–]?\s*([A-ZÉÈÀÂÎÔÛÇ«].*)$'
+          bold: true
+      lexicon_title: 'LEXIQUE'
+
+  - contract_id: macsf_mh
+    insurer: MACSF
+    product: Assurance Multirisque Habitation
+    edition: "01 03 200 Y"
+    file: raw/macsf_mh.pdf
+    source_url: https://www.espacemembre.macsf.fr/cdn/content/download/7333/file/01%2003%20200%20Y%20CG%20ASSURANCE%20MH.pdf
+    profile:
+      skip_pages: [1, 2, 4, 5, 6, 7]
+      columns: 1
+      headings:
+        - level: 1
+          pattern: '^(TITRE\s+[IVX]+)\s*[-–]\s*(.+)$'
+        - level: 2
+          pattern: '^ART(?:ICLE)?\.?\s*(\d{1,2})\s*[-–]?\s+([A-ZÉÈÀÂÎÔÛÇ«].*)$'
+          bold: true
+        - level: 3
+          pattern: '^ART(?:ICLE)?\.?\s*(\d{1,2}[.\-]\d{1,2})\s*[-–]?\s*(.+)$'
+          bold: true
+      page_sections:
+        - {title: "Préambule", pages: [3, 3]}
+        - {title: "Définitions", pages: [8, 10], lexicon: true}
+        - {title: "Tableaux des garanties et plafonds", pages: [11, 23]}
+
+  - contract_id: matmut_jeunes
+    insurer: Matmut
+    product: Habitation Résidence principale - Jeunes
+    edition: CGJEUNES
+    file: raw/matmut_jeunes.pdf
+    source_url: https://www.matmut.fr/services-en-ligne/doc/CG/CGJEUNES.pdf
+    profile:
+      skip_pages: [1, 2, 3, 4]
+      columns: 1
+      headings:
+        - level: 1
+          pattern: '^(TITRE\s+[IVX]+)\s*(.*)$'
+          min_size: 10.5
+        - level: 2
+          pattern: '^(CHAPITRE\s+[IVX]+)\s*[-–]\s*(.+)$'
+          min_size: 10.5
+        - level: 3
+          pattern: '^ARTICLE\s+(\d{1,2})\s+(.+)$'
+          bold: true
+        - level: 4
+          pattern: '^(\d{1,2}-\d{1,2})\s+(.+)$'
+          bold: true
+      lexicon_title: 'Lexique'
