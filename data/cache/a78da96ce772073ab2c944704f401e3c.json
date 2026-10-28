@@ -1,0 +1,27 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le vol du vélo est exclu car il s'est produit dans un local à usage commun de plusieurs occupants, lieu spécifiquement visé par l'exclusion de la garantie Vol-Vandalisme.",
+ "raisonnement": [
+  "La garantie applicable est le Vol-Vandalisme (Art. 4.7), qui couvre la disparition des biens assurés situés à l'intérieur du bâtiment assuré résultant d'un vol.",
+  "Cependant, l'Art. 4.7 §2 exclut expressément 'Le vol des objets déposés ou fixés à l'extérieur des bâtiments assurés, ou dans des bâtiments non entièrement clos et couverts, ou dans les locaux à usage commun de plusieurs occupants locataires ou copropriétaires.'",
+  "Le fait que le local ne soit pas fermé à clé renforce l'argument d'absence de protection, mais l'exclusion principale repose sur la nature du lieu (local commun).",
+  "Aucune autre garantie ne couvre ce vol spécifique dans les parties communes."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.7",
+   "page": 6,
+   "citation": "La disparition, destruction ou détérioration des biens assurés situés à l’intérieur du bâtiment assuré, résultant d’un vol, d’une tentative de vol ou d’un acte de vandalisme commis dans l’une des circonstances suivantes : - par effraction, - par escalade lorsque l’ouverture est située à plus de 3 mètres du sol, - avec violences et menaces sur les personnes présentes.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.7 §2",
+   "page": 6,
+   "citation": "Le vol des objets déposés ou fixés à l’extérieur des bâtiments assurés, ou dans des bâtiments non entièrement clos et couverts, ou dans les locaux à usage commun de plusieurs occupants locataires ou copropriétaires.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion est explicite et directe : le vol dans un local à usage commun est exclu de la garantie Vol-Vandalisme, indépendamment de la question de la fermeture à clé."
+}

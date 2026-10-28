@@ -1,0 +1,86 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Présence d'un proche au chevet du patient",
+   "scope": "En cas d'hospitalisation de plus de 2 jours ou d'immobilisation au domicile de plus de 5 jours, IMA GIE organise et prend en charge le déplacement aller-retour d'un proche et son hébergement pour 2 nuits.",
+   "ceiling": "92 €",
+   "deductible": null,
+   "optional": null,
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE organise et prend en charge en France métropolitaine le déplacement aller - retour d’un proche désigné par l’assuré, en train 1ère classe ou avion de ligne, classe économique, à compter du premier jour."
+  },
+  {
+   "peril": "assistance",
+   "label": "Aide-ménagère",
+   "scope": "En cas d'hospitalisation de plus de 2 jours ou d'immobilisation au domicile de plus de 5 jours, IMA GIE met une aide-ménagère à disposition pour un minimum de 2 heures par jour.",
+   "ceiling": "30 heures",
+   "deductible": null,
+   "optional": null,
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE prend en charge le coût de cette garantie pour un minimum journalier de 2 heures par jour d’immobilisation, dans la limite de 30 heures, réparties sur une période maximale d’un mois selon la situation."
+  },
+  {
+   "peril": "assistance",
+   "label": "Prise en charge des enfants et petits-enfants",
+   "scope": "Lorsque l'hospitalisation immédiate ou une immobilisation au domicile de plus de 5 jours empêche l'assuré de s'occuper de ses enfants, IMA GIE organise le déplacement d'un proche, le transfert des enfants, la conduite à l'école ou la garde des enfants.",
+   "ceiling": "30 heures",
+   "deductible": null,
+   "optional": null,
+   "clause_id": "Art. 9.2",
+   "quote": "Lorsque l’hospitalisation immédiate et imprévue de l’assuré ou de son conjoint ou une immobilisation au domicile de plus de 5 jours ne lui permet pas de s’occuper de ses enfants ou petits-enfants, IMA GIE organise et prend en charge dès le premier jour de l’événement l’une des garanties suivantes"
+  },
+  {
+   "peril": "assistance",
+   "label": "École à domicile",
+   "scope": "Si l'enfant est immobilisé au domicile pour une durée de plus de 2 semaines, IMA GIE organise et prend en charge son soutien pédagogique jusqu'à la reprise des cours.",
+   "ceiling": "3 heures par jour ouvrable",
+   "deductible": null,
+   "optional": null,
+   "clause_id": "Art. 9.2",
+   "quote": "Si, à la suite d’un accident ou en raison d’une maladie imprévue, l’enfant ou le petit-enfant de l’assuré est immobilisé au domicile pour une durée de plus de 2 semaines, IMA GIE organise et prend en charge son soutien pédagogique jusqu’à la reprise des cours."
+  },
+  {
+   "peril": "assistance",
+   "label": "Transfert et garde d'animaux domestiques",
+   "scope": "IMA GIE organise et prend en charge le transport et/ou l'hébergement des animaux vivant au domicile de l'assuré en cas d'hospitalisation de plus de 2 jours ou d'immobilisation de plus de 5 jours.",
+   "ceiling": "1 mois",
+   "deductible": null,
+   "optional": null,
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE organise et prend en charge le transport et/ou l’hébergement des animaux vivant au domicile de l’assuré, dans la limite d’un mois à compter du 1er jour de l’événement, s’il est hospitalisé plus de 2 jours ou immobilisé à son domicile plus de 5 jours."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Les garanties ne s'appliquent pas si l'événement est directement lié à l'utilisation d'un véhicule terrestre à moteur dont un des bénéficiaires est propriétaire, preneur en location avec option d'achat ou location longue durée.",
+   "clause_id": "Art. 9.2",
+   "quote": "Les garanties ne s’appliquent pas si l’événement donnant lieu à l’application des garanties d’assistance est directement lié à l’utilisation d’un véhicule terrestre à moteur dont un des bénéficiaires désignés ci-dessus est propriétaire, preneur en location avec option d’achat ou location longue durée."
+  },
+  {
+   "peril": "assistance",
+   "description": "IMA GIE ne sera pas tenu responsable des manquements ou contretemps résultant de cas de force majeure ou d'événements tels que guerre, révolution, émeute, grève, saisie, piraterie, explosion, effets nucléaires ou empêchements climatiques.",
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE ne sera pas tenu responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou d’événements tels que guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "IMA GIE se réserve le droit de demander la justification médicale de l'événement générant la mise en œuvre des garanties (certificat médical, bulletin d'hospitalisation, certificat de décès...).",
+   "parameter": null,
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE se réserve le droit de demander la justification médicale de l’événement générant la mise en œuvre des garanties (certificat médical, bulletin d’hospitalisation, certificat de décès...)"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Les garanties d'assistance sont mises en œuvre par IMA GIE ou en accord préalable avec lui.",
+   "parameter": null,
+   "clause_id": "Art. 9.2",
+   "quote": "Les garanties d’assistance sont mises en œuvre par IMA GIE ou en accord préalable avec lui."
+  }
+ ]
+}

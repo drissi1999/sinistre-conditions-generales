@@ -1,0 +1,26 @@
+{
+ "resume": "Vol d'un vélo dans le local commun de l'immeuble, ce dernier n'étant pas fermé à clé au moment des faits.",
+ "perils": [
+  "vol",
+  "responsabilite_civile",
+  "protection_juridique"
+ ],
+ "biens_endommages": [
+  "vélo"
+ ],
+ "lieu": "partie_commune",
+ "local_ferme_a_cle": false,
+ "effraction": null,
+ "assure_absent": null,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "vol",
+ "termes_cles": [
+  "vol",
+  "vélo",
+  "parties communes",
+  "local commun",
+  "fermeture à clé",
+  "mobilier de jardin"
+ ]
+}

@@ -20,6 +20,6 @@ LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai_compatible")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL") or None
 LLM_MODEL = os.getenv("LLM_MODEL", "mistral-small-latest")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "")
-LLM_TIMEOUT = float(os.getenv("LLM_TIMEOUT", "120"))
+LLM_TIMEOUT = float(os.getenv("LLM_TIMEOUT", "300"))  # les modèles gratuits peuvent mettre > 2 min
 
 EMBED_MODEL = os.getenv("EMBED_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")

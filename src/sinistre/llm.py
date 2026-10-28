@@ -37,7 +37,8 @@ def _raw_completion(system: str, user: str, max_tokens: int) -> str:
                                      system=system, messages=[{"role": "user", "content": user}])
         return "".join(b.text for b in msg.content if b.type == "text")
     from openai import OpenAI
-    client = OpenAI(api_key=config.LLM_API_KEY, base_url=config.LLM_BASE_URL, timeout=config.LLM_TIMEOUT)
+    client = OpenAI(api_key=config.LLM_API_KEY, base_url=config.LLM_BASE_URL, timeout=config.LLM_TIMEOUT,
+                    max_retries=1)
     resp = client.chat.completions.create(
         model=config.LLM_MODEL, temperature=0, max_tokens=max_tokens,
         messages=[{"role": "system", "content": system}, {"role": "user", "content": user}])

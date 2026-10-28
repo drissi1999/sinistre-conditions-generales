@@ -1,0 +1,116 @@
+{
+ "guarantees": [
+  {
+   "peril": "protection_juridique",
+   "label": "Défense et recours amiables ou judiciaires",
+   "scope": "Exercice à frais de la société d'interventions amiables ou actions judiciaires pour défendre l'assuré ou réclamer réparation de préjudices garantis par le contrat.",
+   "ceiling": "Plafond figurant aux Conditions Particulières",
+   "deductible": null,
+   "optional": null,
+   "clause_id": "Chap. 8",
+   "quote": "La société s’engage à exercer à ses frais toutes interventions amiables ou actions judiciaires en vue : - de vous défendre devant les tribunaux en cas d’action mettant en cause une responsabilité assurée par le présent contrat"
+  },
+  {
+   "peril": "protection_juridique",
+   "label": "Prise en charge des frais de procès",
+   "scope": "Remboursement des sommes allouées pour les frais de procès si le procès a été conseillé par l'assureur et le dossier confié à l'un de ses avocats.",
+   "ceiling": "Plafond de garantie prévu dans les Conditions Particulières",
+   "deductible": null,
+   "optional": null,
+   "clause_id": "Chap. 8 §2",
+   "quote": "Si nous vous avons conseillé d’engager ce procès et que votre dossier a été confié à l’un de nos avocats, nous vous remboursons cette somme."
+  },
+  {
+   "peril": "assistance",
+   "label": "Retour d'urgence au domicile sinistré",
+   "scope": "Organisation et prise en charge du retour au domicile sinistré en train 1ère classe, avion classe économique, ou par tout autre moyen approprié, ainsi que des frais de transport pour récupérer un véhicule ou poursuivre un séjour.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": null,
+   "clause_id": "Chap. 9",
+   "quote": "IMA GIE organise et prend en charge son retour au domicile sinistré en train 1ère classe, avion classe économique, ou par tout autre moyen approprié"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "protection_juridique",
+   "description": "Litiges ou différends dans lesquels l'assuré engage une procédure sans l'accord préalable de l'assureur.",
+   "clause_id": "Chap. 8 §2",
+   "quote": "Sont exclus les litiges ou différends dans lesquels vous engagez une procédure sans notre accord préalable."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Remboursement des amendes, de toutes sanctions pénales et des condamnations.",
+   "clause_id": "Chap. 8 §3",
+   "quote": "Le remboursement des amendes, de toutes sanctions pénales et des condamnations."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Recours contre les personnes ayant la qualité d'assuré au titre de la garantie de responsabilité civile.",
+   "clause_id": "Chap. 8 §3",
+   "quote": "Les recours contre les personnes ayant la qualité d’assuré au titre de la garantie de responsabilité civile."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Recours en cas de dommages corporels ou matériels subis par une personne assurée lorsqu'elle conduit un véhicule terrestre à moteur.",
+   "clause_id": "Chap. 8 §3",
+   "quote": "Le recours en cas de dommages corporels ou matériels subis par une personne assurée lorsqu’elle conduit un véhicule terrestre à moteur."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Réclamations relatives aux dommages matériels fondées sur l'inexécution ou la mauvaise exécution d'une obligation contractuelle du responsable, sauf pour les dommages d'incendie, d'explosion ou provenant des eaux survenant dans les bâtiments.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "Les réclamations relatives aux dommages matériels fondées sur l’inexécution ou la mauvaise exécution d’une obligation contractuelle du responsable. Toutefois, cette exclusion ne s’applique pas aux dommages d’incendie, d’explosion ou provenant des eaux survenant dans vos bâtiments."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litiges dont l'origine n'est pas un risque couvert par le présent contrat.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "Les litiges dont l’origine n’est pas un risque couvert par le présent contrat."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Exercice d'un recours judiciaire lorsque les indemnités à obtenir sont inférieures au plancher figurant dans les Conditions Particulières.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "L’exercice d’un recours judiciaire lorsque les indemnités à obtenir sont inférieures au plancher figurant dans les Conditions Particulières."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Frais de déplacement et vacations correspondantes lorsque l'avocat se déplace en dehors du ressort de la Cour d'Appel, ainsi que les honoraires de résultat et les consignations en cas de constitution de partie civile.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "Les frais de déplacement et vacations correspondantes lorsque votre avocat est amené à se déplacer en dehors du ressort de la Cour d’Appel dont dépend son ordre, ainsi que les honoraires de résultat et les consignations en cas de constitution de partie civile."
+  },
+  {
+   "peril": null,
+   "description": "Exclusions communes à toutes les garanties.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "Les exclusions communes à toutes les garanties."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "protection_juridique",
+   "condition_type": "autre",
+   "description": "Accord préalable de l'assureur pour engager une procédure.",
+   "parameter": null,
+   "clause_id": "Chap. 8 §2",
+   "quote": "Sont exclus les litiges ou différends dans lesquels vous engagez une procédure sans notre accord préalable."
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "autre",
+   "description": "Frais de constitution du dossier exposés avec l'accord de l'assureur.",
+   "parameter": null,
+   "clause_id": "Chap. 8",
+   "quote": "Nous prenons en charge les frais de constitution de votre dossier, sous réserve qu’ils soient exposés avec notre accord."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Les dépenses ne doivent pas être engagées de la propre initiative du bénéficiaire.",
+   "parameter": null,
+   "clause_id": "Chap. 9 §2",
+   "quote": "IMA GIE ne participe pas après coup aux dépenses que le bénéficiaire a engagées de sa propre initiative."
+  }
+ ]
+}

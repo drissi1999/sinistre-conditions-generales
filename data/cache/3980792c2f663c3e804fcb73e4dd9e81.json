@@ -1,0 +1,25 @@
+{
+ "resume": "Une bougie laissée sur une table de jardin pendant les vacances de l'assuré a fondu sous l'effet de la chaleur, abîmant la table.",
+ "perils": [
+  "incendie",
+  "autre"
+ ],
+ "biens_endommages": [
+  "Table de jardin"
+ ],
+ "lieu": "exterieur_jardin",
+ "local_ferme_a_cle": null,
+ "effraction": null,
+ "assure_absent": true,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "Chaleur",
+ "termes_cles": [
+  "incendie",
+  "chaleur",
+  "mobilier de jardin",
+  "plein air",
+  "dépendances",
+  "vacances"
+ ]
+}

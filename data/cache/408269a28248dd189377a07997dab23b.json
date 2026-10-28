@@ -1,0 +1,35 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le sinistre est causé par la chaleur (fondue de la bougie) sans incendie. L'exclusion spécifique de l'Art. 4.1 §2 écarte les dommages dus à la chaleur sans incendie. De plus, la table étant en plein air, l'exclusion de l'Art. 4.3 §2 (mobilier en plein air) s'applique également si l'on considérait une cause climatique, mais l'exclusion principale est celle de la chaleur.",
+ "raisonnement": [
+  "1. Garantie : L'événement est une déformation due à la chaleur. La garantie la plus proche est l'Art. 4.1 (Incendie et événements assimilés), qui couvre l'incendie. Cependant, il n'y a pas eu d'incendie, seulement de la chaleur.",
+  "2. Conditions : Le bien est une table de jardin, située en extérieur. L'assuré était absent, mais cela n'est pas une condition déterminante ici.",
+  "3. Exclusions : L'Art. 4.1 §2 exclut explicitement \"Les dommages dus à la chaleur sans qu'il y ait eu incendie\". La bougie a fondu à cause de la chaleur, sans mention de flammes ou d'incendie. De plus, l'Art. 4.3 §2 exclut \"Les dommages causés au mobilier situé en plein air\", ce qui renforce le non-couvrement si l'on tentait de rattacher l'événement aux événements climatiques (bien que la cause soit la chaleur et non la pluie/tempête). L'exclusion de l'Art. 4.1 §2 est la plus directe.",
+  "4. Conclusion : L'exclusion de l'Art. 4.1 §2 écarte clairement le sinistre car il s'agit d'un dommage dû à la chaleur sans incendie."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.1",
+   "page": 5,
+   "citation": "Les dommages matériels causés aux biens assurés par : - l’incendie, l’explosion, l’implosion, les fumées,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.1 §2",
+   "page": 5,
+   "citation": "Les dommages dus à la chaleur sans qu’il y ait eu incendie, tels que brûlures de cigarettes, de fers à repasser ou dégâts provoqués par les éclairages halogènes ou appareils de chauffage.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 4.3 §2",
+   "page": 6,
+   "citation": "Les dommages causés au mobilier situé en plein air ou dans des bâtiments non entièrement clos ou couverts.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "Y a-t-il eu des flammes ou un début d'incendie, ou uniquement une fonte due à la chaleur ambiante ?"
+ ],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion de l'Art. 4.1 §2 est très spécifique et correspond parfaitement à la description du sinistre (chaleur sans incendie). L'exclusion du mobilier en plein air (Art. 4.3 §2) offre une seconde raison de non-couverture."
+}

@@ -139,6 +139,12 @@ class Answer(BaseModel):
     confiance: Literal["faible", "moyenne", "élevée"]
     raison_confiance: str = ""
 
+    @field_validator("raisonnement", mode="before")
+    @classmethod
+    def _steps(cls, v):
+        import re
+        return [re.sub(r"^\s*(\d+[.)]|[-•])\s*", "", s) for s in (v or [])]
+
     @field_validator("verdict", mode="before")
     @classmethod
     def _v(cls, v):

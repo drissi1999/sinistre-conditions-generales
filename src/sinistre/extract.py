@@ -10,15 +10,17 @@ from __future__ import annotations
 
 import re
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 
 from . import config
-from .llm import complete_json
+from .llm import LLMError, complete_json
 from .parse import Clause
 from .schemas import PERILS, ConditionType, SectionExtraction
 from .verify import check_quote
 
 PROMPT_VERSION = "extract-v1"
 BATCH_CHARS = 7000
+WORKERS = 4
 
 # Sections sans portée sur la couverture (vie du contrat, cotisation…) : pas d'appel LLM.
 ADMIN = re.compile(r"cotisation|prescription|donn[ée]es personnelles|r[ée]clamation|m[ée]diation|"
@@ -30,7 +32,8 @@ remplis une base de données. Règles :
 - N'extrais que ce qui est écrit. Aucune connaissance extérieure, aucune supposition.
 - Chaque ligne cite sa source : "clause_id" exactement comme fourni entre crochets, et "quote" = un extrait
   recopié MOT POUR MOT de cette clause (une phrase ou un membre de phrase, 15 à 300 caractères).
-- peril ∈ {list(PERILS)}.
+- peril ∈ {list(PERILS)} : c'est la garantie de l'article où figure la clause (une condition ou une
+  exclusion de l'article « Vol » a peril = "vol"). null uniquement pour ce qui vaut pour toutes les garanties.
 - guarantees : ce qui est couvert (scope en une phrase), plafond (ceiling) et franchise (deductible) si écrits.
 - exclusions : chaque exclusion distincte ; peril = garantie restreinte, null si exclusion générale à
   toutes les garanties.
@@ -83,11 +86,27 @@ def _locate(quote: str, claimed: str, batch: list[Clause]) -> tuple[str, bool]:
 def extract_contract(clauses: list[Clause], progress=None) -> tuple[dict[str, list[dict]], dict]:
     rows: dict[str, list[dict]] = {"guarantees": [], "exclusions": [], "conditions": []}
     bs = batches(clauses)
-    for i, batch in enumerate(bs, 1):
+    done = 0
+
+    def run(batch: list[Clause]) -> SectionExtraction | Exception:
+        nonlocal done
+        try:
+            res = complete_json(SYSTEM, "Extraits du contrat :\n\n" + _render(batch), SectionExtraction,
+                                max_tokens=6000)
+        except Exception as e:  # les autres lots continuent ; ils restent en cache
+            res = e
+        done += 1
         if progress:
-            progress(i, len(bs))
-        res = complete_json(SYSTEM, "Extraits du contrat :\n\n" + _render(batch), SectionExtraction,
-                            max_tokens=6000)
+            progress(done, len(bs))
+        return res
+
+    with ThreadPoolExecutor(WORKERS) as pool:
+        results = list(pool.map(run, bs))
+    failed = [r for r in results if isinstance(r, Exception)]
+    if failed:
+        # pas d'enregistrement partiel : relancer reprend uniquement les lots échoués (cache)
+        raise LLMError(f"{len(failed)}/{len(bs)} lots en échec, relancer la commande. Premier : {failed[0]}")
+    for batch, res in zip(bs, results):
         for table, items in (("guarantees", res.guarantees), ("exclusions", res.exclusions),
                              ("conditions", res.conditions)):
             for item in items:
