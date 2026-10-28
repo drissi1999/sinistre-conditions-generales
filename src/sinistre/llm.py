@@ -29,7 +29,7 @@ def _cache_path(key: str):
 
 def _raw_completion(system: str, user: str, max_tokens: int) -> str:
     if not config.LLM_API_KEY:
-        raise LLMError("LLM_API_KEY absent : renseignez .env (voir .env.example).")
+        raise LLMError("LLM_API_KEY absent : renseignez .env en local, ou les Secrets de l'application sur Streamlit Cloud.")
     if config.LLM_PROVIDER == "anthropic":
         import anthropic
         client = anthropic.Anthropic(api_key=config.LLM_API_KEY, timeout=config.LLM_TIMEOUT)

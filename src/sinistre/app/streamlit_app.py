@@ -3,14 +3,24 @@
 from __future__ import annotations
 
 import html
+import os
 import sqlite3
 
 import pandas as pd
 import streamlit as st
 
-from sinistre import config, store
-from sinistre.llm import LLMError
-from sinistre.pipeline import Result, answer_claim, compare
+# Streamlit Cloud : les secrets (LLM_API_KEY, LLM_MODEL…) ne deviennent des variables d'environnement
+# qu'une fois st.secrets lu. On les copie AVANT d'importer la config, qui lit l'environnement.
+try:
+    for _k, _v in st.secrets.items():
+        if isinstance(_v, (str, int, float)):
+            os.environ.setdefault(_k, str(_v))
+except Exception:  # pas de secrets.toml en local : la config lit alors .env
+    pass
+
+from sinistre import config, store  # noqa: E402
+from sinistre.llm import LLMError  # noqa: E402
+from sinistre.pipeline import Result, answer_claim, compare  # noqa: E402
 
 EXEMPLES = {
     "1 · vélo volé (local commun)": "Je me fais voler mon vélo dans le local commun de l'immeuble, "
