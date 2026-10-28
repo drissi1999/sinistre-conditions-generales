@@ -260,13 +260,21 @@ Lancer : `python eval/run_eval.py`.
 Ce projet reprend des choix que j'ai déjà dû faire en production sur des produits d'IA dans la santé,
 un domaine où, comme en assurance, une réponse non justifiée n'est pas acceptable.
 
-### MedKit.ai : des documents médicaux non structurés aux données vérifiées (en production)
+### MedKit.ai : documentation médicale assistée par IA (en production)
 
-Plateforme qui transforme des documents médicaux (comptes rendus, courriers, formulaires) en données
-structurées **vérifiées**. Le document source est affiché à côté des champs extraits, pour que le
-professionnel de santé valide chaque valeur au regard de sa source. Stack : React/Vite, Node/Express,
-FastAPI, extraction par modèle de vision exécuté en local (LLaVA via Ollama), SQLite. Le site et le
-programme bêta (inscriptions, contact) sont déployés sur Vercel. Dans le même cadre, un POC pour les
+Site : https://med-kit-ai.vercel.app
+
+Deux modules, avec le même principe : l'IA prépare, le professionnel de santé valide au regard de la source.
+
+- **Documents → données vérifiées.** Les documents médicaux (comptes rendus, courriers, formulaires)
+  deviennent des données structurées ; le document source est affiché à côté des champs extraits pour
+  que chaque valeur soit validée. Extraction par modèle de vision exécuté en local (LLaVA via Ollama).
+- **Assistant vocal.** Une consultation enregistrée devient une note structurée au format SOAP :
+  transcription locale (faster-whisper, modèle de reconnaissance vocale médicale MultiMed), détection de
+  la langue, génération de la note par LLM avec un score de confiance par note.
+
+Stack : React/Vite, Node/Express, FastAPI, SQLite, modèles locaux ; site et programme bêta (inscriptions,
+contact) déployés sur Vercel. Dans le même cadre, un POC pour les
 services de santé au travail (SPSTI) : score d'aide à la priorisation des visites de prévention, sur
 données synthétiques, avec explicabilité SHAP et une analyse RGPD / AI Act avant tout déploiement réel.
 
@@ -282,7 +290,7 @@ en entretien, dans les limites de la confidentialité due à mon employeur.
 - **Montrer la source à côté de la réponse.** Dans MedKit, une valeur extraite n'est utile que si
   l'utilisateur peut la vérifier en un coup d'œil sur le document. Ici, chaque citation est surlignée
   dans sa clause, avec la page.
-- **Structurer avant de générer.** Une table de champs se contrôle ; un texte libre non. Ici, les
+- **Structurer avant de générer.** Une note SOAP ou une table de champs se contrôle ; un texte libre non. Ici, les
   contrats deviennent des tables et la réponse un JSON strict, validé.
 - **Des garde-fous en code, pas seulement dans le prompt.** Ici, vérification mot pour mot des citations
   et rétrogradation automatique du verdict, plutôt qu'une consigne « cite tes sources » laissée au modèle.
