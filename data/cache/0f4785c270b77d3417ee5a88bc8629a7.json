@@ -1,0 +1,44 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le vol du vélo dans la cave privative est potentiellement couvert par la garantie Vol (Art. 16-1), mais l'application de l'exclusion des biens remisés dans les dépendances (Art. 10-4) dépend de la qualification juridique de la cave (dépendance ou local d'habitation). De plus, la conformité des moyens de fermeture (serrure 2 points d'ancrage) n'est pas confirmée.",
+ "raisonnement": [
+  "Garantie : L'événement est un vol par effraction. L'Art. 16-1 garantit le vol commis par des tiers pénétrant dans les locaux assurés par effraction. La cave est décrite comme privative et fermée à clé, ce qui suggère qu'elle fait partie des locaux assurés.",
+  "Exclusion clé : L'Art. 10-4 exclut explicitement les « biens mobiliers : remisés dans les dépendances ». Si la cave est qualifiée de « dépendance » (au sens juridique, distincte du logement principal), le vélo est exclu. Si la cave est considérée comme une pièce du logement (local d'habitation), l'exclusion ne s'applique pas. Le contrat ne définit pas explicitement la frontière entre « local d'habitation » et « dépendance » pour les caves privatives.",
+  "Conditions : L'Art. 16-3 impose des moyens de fermeture obligatoires. Pour les portes des dépendances, il exige une serrure à deux points d'ancrage (ou un seul avec verrou à clé/système d'alarme). L'assuré indique « fermée à clé », mais ne précise pas le type de serrure. Si la condition n'est pas remplie, l'indemnité est réduite de 50 % (Art. 16-3 B).",
+  "Plafond : Le plafond de la garantie Vol est de 1 000 € (Art. 3-2).",
+  "Conclusion : Le verdict est indéterminé car la qualification de la cave (dépendance vs local d'habitation) est déterminante pour l'application de l'exclusion Art. 10-4, et cette qualification n'est pas tranchée par les faits fournis ni par le texte des clauses générales sans interprétation supplémentaire."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 16-1",
+   "page": 24,
+   "citation": "Nous garantissons le vol, la tentative de volou l’acte de vandalisme commis par des tiers, lorsqu’ils pénètrent ou tentent de pénétrer dans ces locaux : • par effraction ou usage de fausses clés,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 10-4",
+   "page": 18,
+   "citation": "• les biens mobiliers : - remisés dans les dépendances, - emportés en villégiature,",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 16-3",
+   "page": 25,
+   "citation": "Portes des locaux d’habitation et des dépendances Elles doivent être protégées par un dispositif empêchant leur ouverture, constitué : • soit d’une serrure comportant deux points d’ancrage.",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 3-2",
+   "page": 11,
+   "citation": "Vol, tentative de volet acte de vandalisme 1 000 €",
+   "role": "garantie"
+  }
+ ],
+ "informations_manquantes": [
+  "La cave est-elle qualifiée de « dépendance » ou de « local d'habitation » dans les conditions particulières ou la déclaration de souscription ?",
+  "La porte de la cave est-elle équipée d'une serrure à deux points d'ancrage, ou d'une serrure à un point d'ancrage avec verrou à clé/système d'alarme ?",
+  "Le vélo est-il un vélo à assistance électrique rapide (exclu par Art. 10-4) ou un vélo classique ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie Vol s'applique en principe, mais l'exclusion des biens remisés dans les dépendances (Art. 10-4) crée une ambiguïté majeure sur la qualification de la cave. Sans précision sur le type de serrure, la condition de réduction de 50% reste en suspens."
+}

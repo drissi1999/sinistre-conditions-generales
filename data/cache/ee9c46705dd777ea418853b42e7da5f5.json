@@ -1,0 +1,41 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le sinistre est causé par la chaleur (fondue de la bougie) sans feu ni flamme. L'exclusion spécifique de la garantie Incendie écarte les dommages dus à la chaleur sans incendie. De plus, la table se trouve en plein air, zone exclue par la garantie Événements climatiques si celle-ci était envisagée.",
+ "raisonnement": [
+  "Garantie : L'événement est un dommage matériel à un meuble (table de jardin) causé par la chaleur. La garantie la plus proche est l'Incendie (Art. 4.1), qui couvre les dommages causés par l'incendie, les fumées, etc. La garantie Événements climatiques (Art. 4.3) couvre la grêle, la tempête, etc., mais pas la chaleur simple.",
+  "Conditions : Le bien est situé dans le jardin (extérieur). L'assuré est absent. Aucune condition de prévention spécifique n'est mentionnée pour les bougies, mais la localisation est un facteur clé.",
+  "Exclusions : L'Art. 4.1 §2 exclut explicitement « Les dommages dus à la chaleur sans qu’il y ait eu incendie, tels que brûlures de cigarettes, de fers à repasser ou dégâts provoqués par les éclairages halogènes ou appareils de chauffage ». Ici, la bougie a fondu sous l'effet de la chaleur ambiante, sans mention de flamme ou de feu actif, ce qui correspond à l'exclusion de la chaleur sans incendie. Par ailleurs, si l'on considérait la garantie climatique (Art. 4.3), l'Art. 4.3 §2 exclut « Les dommages causés au mobilier situé en plein air ou dans des bâtiments non entièrement clos ou couverts ». La table de jardin est en plein air.",
+  "Conclusion : L'exclusion de l'Art. 4.1 §2 (chaleur sans incendie) écarte la garantie Incendie. L'exclusion de l'Art. 4.3 §2 (mobilier en plein air) écarte la garantie Climatique. Le sinistre est donc non couvert."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.1",
+   "page": 5,
+   "citation": "Les dommages matériels causés aux biens assurés par : - l’incendie, l’explosion, l’implosion, les fumées,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.1 §2",
+   "page": 5,
+   "citation": "Les dommages dus à la chaleur sans qu’il y ait eu incendie, tels que brûlures de cigarettes, de fers à repasser ou dégâts provoqués par les éclairages halogènes ou appareils de chauffage.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 4.3",
+   "page": 5,
+   "citation": "Les dommages matériels causés aux biens assurés par : - l’action de la tempête (c’est-à-dire l’action du vent soufflant à une vitesse supérieure à 100 km/h) :",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.3 §2",
+   "page": 6,
+   "citation": "Les dommages causés au mobilier situé en plein air ou dans des bâtiments non entièrement clos ou couverts.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "Y a-t-il eu une flamme active (incendie) ou uniquement une fonte due à la chaleur ambiante ?"
+ ],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion de la chaleur sans incendie est explicite dans l'Art. 4.1 §2 et correspond parfaitement au mécanisme de dommage décrit (fonte par la chaleur). L'exclusion du mobilier en plein air renforce le verdict si l'on envisageait une autre garantie."
+}

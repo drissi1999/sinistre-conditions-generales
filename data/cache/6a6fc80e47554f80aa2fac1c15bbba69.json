@@ -1,0 +1,37 @@
+{
+ "verdict": "couvert",
+ "resume": "Les dommages au réfrigérateur et à la box internet, causés par une surtension électrique consécutive à la foudre, relèvent de la garantie Dommages électriques (Art. 14-5). Aucune exclusion spécifique ne s'applique aux appareils eux-mêmes.",
+ "raisonnement": [
+  "La garantie applicable est l'Art. 14-5 (Dommages électriques). L'article couvre les dommages « occasionnés par le mauvais fonctionnement électrique d’un appareil électrique ou par une surtension ou une rupture de tension du réseau électrique ». La déclaration mentionne une surtension due à la foudre, ce qui correspond à la définition.",
+  "L'Art. 14-5 précise que la garantie s'applique « dans les locaux d’habitation : aux circuits, aux appareils électriques ». Le réfrigérateur et la box internet sont des appareils électriques situés dans le logement, donc couverts.",
+  "L'Art. 14-5 §2 exclut les « dommages causés au contenu des appareils électriques (y compris les denrées conservées dans les congélateurs et/ou réfrigérateurs) ». Ici, ce sont les appareils qui sont endommagés, pas leur contenu (aliments), donc l'exclusion ne s'applique pas aux biens déclarés.",
+  "Les exclusions générales de l'Art. 20 (faute intentionnelle, données informatiques, etc.) ne semblent pas s'appliquer à un sinistre matériel classique de surtension, sauf si la box est considérée comme un support de données (mais c'est l'appareil physique qui est en cause).",
+  "La garantie Événements climatiques (Art. 15-1) ne couvre que le vent, la grêle ou la neige, pas la foudre/surtension, donc c'est bien l'Art. 14-5 qui joue."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 14-5",
+   "page": 22,
+   "citation": "Nous garantissons les dommages : • provoqués par la chute directe de la foudre sur les biens assurés, • occasionnés par le mauvais fonctionnement électrique d’un appareil électrique ou par une surtension ou une rupture de tension du réseau électrique, aux biens ci-après : ‐ dans les locaux d’habitation : aux circuits, aux appareils électriques ou à ceux permettant le chauffage, l’éclairage, la climatisation ou l’alimentation en eau des locaux,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 14-5 §2",
+   "page": 22,
+   "citation": "Outre les exclusions prévues à l’article 20, nous ne garantissons : • les dommages causés au contenu des appareils électriques (y compris les denrées conservées dans les congélateurs et/ou réfrigérateurs),",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 20",
+   "page": 34,
+   "citation": "Outre les exclusions spécifiques à chacun des risques couverts, nous n’assurons pas : 1- pour toutes les garanties, les dommages : • provenant de votre faute intentionnelle ou dolosive,",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "Vérifier si la box internet est considérée comme un « appareil électrique » au sens de l'Art. 14-5 ou si elle relève d'une exclusion spécifique sur les données informatiques (Art. 20) si seuls les données sont perdues et non l'appareil physique.",
+  "Vérifier si le réfrigérateur est un bien assuré (vérifier les plafonds et la vétusté aux conditions particulières)."
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie est clairement applicable aux appareils électriques endommagés par surtension. L'incertitude porte sur la qualification exacte de la box internet (appareil vs données) et sur la confirmation que les biens sont bien assurés aux conditions particulières."
+}

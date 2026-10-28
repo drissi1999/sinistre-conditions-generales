@@ -1,0 +1,44 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le vol d'un salon de jardin sur une terrasse est potentiellement couvert par la garantie Vol (Art. 2.5) ou le Pack Jardin (Art. 8), mais la couverture dépend de la souscription du Pack Jardin, de la hauteur de la terrasse et de la clôture de la propriété, ainsi que de la formule souscrite.",
+ "raisonnement": [
+  "Garantie : L'événement est un vol de mobilier de jardin. La garantie Vol (Art. 2.5) couvre le vol des biens assurés. L'extension spécifique au mobilier de jardin est décrite à l'Art. 8 §3 : « Vols, tentatives de vol, actes de vandalisme ou actes de sabotage de la tondeuse autonome et du mobilier de jardin. »",
+  "Conditions : L'Art. 8 §3 impose des conditions strictes pour le mobilier de jardin. Pour un vol sur une terrasse, il est exigé que « ceux-ci doivent être situés à plus de 2,50 m du sol ». De plus, pour le vol dans les jardins, « la propriété doit être entièrement clôturée ». Ces faits ne sont pas précisés dans la déclaration.",
+  "Exclusions : L'Art. 2.5 §4 exclut les « Vols, tentatives de vol, actes de vandalisme ou sabotage commis sur les terrasses, balcons, jardins et locaux non entièrement clos ou couverts, sauf Pack Jardin. » Cela signifie que sans le Pack Jardin, le vol sur une terrasse (considérée comme un local non entièrement clos/couvert) est exclu. Le Pack Jardin est une option (Tableau p. 11).",
+  "Conclusion : Si l'assuré a souscrit le Pack Jardin, le vol est couvert sous réserve des conditions de hauteur/clôture. S'il n'a pas le Pack Jardin, le vol est exclu par l'Art. 2.5 §4. La formule souscrite (Eco/Confort/Excellence) est également à vérifier car le Pack Jardin est une option distincte."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 8 §3",
+   "page": 0,
+   "citation": "Vols, tentatives de vol, actes de vandalisme ou actes de sabotage de la tondeuse autonome et du mobilier de jardin.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 8 §3",
+   "page": 0,
+   "citation": "Pour le vol de la tondeuse et du mobilier de jardin sur les balcons et terrasses, ceux-ci doivent être situés à plus de 2,50 m du sol.",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 2.5 §4",
+   "page": 0,
+   "citation": "Vols, tentatives de vol, actes de vandalisme ou sabotage commis sur les terrasses, balcons, jardins et locaux non entièrement clos ou couverts, sauf Pack Jardin.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "page": 11,
+   "citation": "Pack Jardin option option",
+   "role": "autre"
+  }
+ ],
+ "informations_manquantes": [
+  "L'assuré a-t-il souscrit le Pack Jardin ?",
+  "La terrasse est-elle située à plus de 2,50 m du sol ?",
+  "La propriété est-elle entièrement clôturée ?",
+  "Quelle est la formule souscrite (Eco, Confort ou Excellence) ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "Le verdict dépend de la souscription d'une option (Pack Jardin) et de caractéristiques physiques non précisées (hauteur de la terrasse, clôture), rendant la réponse conditionnelle."
+}

@@ -1,0 +1,31 @@
+{
+ "verdict": "couvert",
+ "resume": "Le bris accidentel de la vitre de la porte-fenêtre du salon par un enfant en jouant au ballon relève de la garantie Bris de glaces (Art. 2-7). Aucune exclusion spécifique ne s'applique à cet événement.",
+ "raisonnement": [
+  "L'événement est un bris accidentel d'une vitre de porte-fenêtre située dans le salon (local d'habitation). L'Art. 2-7 garantit expressément les « vitrages des portes, portes-fenêtres, baies et fenêtres » lorsqu'ils sont « brisés accidentellement ».",
+  "La cause (jeu au ballon) constitue un accident au sens commun, sans mention de faute intentionnelle ou de vétusté qui déclencherait les exclusions de l'Art. 2-7 §2.",
+  "L'exclusion des « ébréchures ainsi que tous dommages résultant de la vétusté ou de l'impropriété du support » (Art. 2-7 §2) ne semble pas applicable à un bris net par impact de ballon, sauf preuve contraire.",
+  "Les exclusions générales (Art. 1.2 §3) concernent les biens mobiliers spécifiques (animaux, véhicules, etc.) et non les vitrages fixes de l'habitation.",
+  "La garantie s'applique donc, sous réserve du respect des délais de déclaration et des plafonds fixés aux conditions particulières."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 2-7",
+   "page": 28,
+   "citation": "La garantie couvre, lorsqu’ils sont brisés accidentellement, les frais de remplacement : • des miroirs intérieurs, des glaces équipant les meubles et les aquariums, • des vitrages des portes, portes-fenêtres, baies et fenêtres, y compris en toiture,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 2-7 §2",
+   "page": 28,
+   "citation": "ne sont pas garantis : • les appareils électroménagers, sauf ceux garantis dans le « Bris de glace renforcé » ci-dessus, • les serres d’une superficie de plus de 5 m2, sauf si le Pack Jardin est souscrit, • les ébréchures ainsi que tous dommages résultant de la vétusté ou de l’impropriété du support.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "Vérifier si la déclaration a été faite dans les délais contractuels (souvent 5 jours, cf. Art. 18 pour les accidents corporels, mais à vérifier pour les biens).",
+  "Vérifier le plafond de garantie applicable dans les conditions particulières pour le bris de glace."
+ ],
+ "confiance": "élevée",
+ "raison_confiance": "La garantie Bris de glaces (Art. 2-7) vise explicitement les vitrages de portes-fenêtres brisés accidentellement. L'impact de ballon est un accident typique. Les exclusions listées (vétusté, ébréchures, électroménager) ne s'appliquent pas clairement aux faits décrits."
+}

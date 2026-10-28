@@ -1,0 +1,43 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le sinistre (bris accidentel d'une vitre de porte-fenêtre par un enfant) relève de la garantie bris de glace (Art. 2-7). Cependant, la couverture dépend de la formule souscrite (Eco, Confort ou Excellence) et de la présence éventuelle d'une franchise, éléments non précisés dans les conditions particulières.",
+ "raisonnement": [
+  "Garantie : L'événement est un bris accidentel d'une vitre de porte-fenêtre. L'Art. 2-7 garantit les « frais de remplacement des miroirs, glaces, vitrages, parois vitrées [...] brisés accidentellement ». La vitre de la porte-fenêtre du salon entre dans la catégorie des « vitrages » ou « parois vitrées » des biens immobiliers (Art. 1.1).",
+  "Conditions : Le sinistre a lieu à l'intérieur du local d'habitation (salon), ce qui correspond au lieu des biens assurés. Il n'y a pas de condition d'effraction ou d'absence requise pour le bris de glace simple.",
+  "Exclusions : L'Art. 2-7 §2 exclut les « ébréchures ainsi que les dommages résultant de la vétusté ou de l'impropriété du support ». Ici, la casse est due à un choc (ballon), donc pas de vétusté. L'exclusion des appareils électroménagers (Art. 2-7 §2) ne s'applique pas car il s'agit d'une porte-fenêtre. Les exclusions générales (Titre IX) ne semblent pas s'appliquer (pas de faute intentionnelle de l'assuré principal, mais accident de son fils).",
+  "Conclusion : La garantie bris de glace est incluse dans les formules Eco, Confort et Excellence (Tableaux p. 11). Toutefois, le montant de l'indemnisation dépend de la franchise applicable à la formule souscrite, qui n'est pas fournie dans les clauses générales. De plus, il faut vérifier si la formule souscrite est bien l'une de celles incluant cette garantie (bien que ce soit le cas pour toutes les formules standard, la confirmation aux CP est nécessaire).",
+  "Point de vigilance : Si la formule est Eco, il faut vérifier s'il y a une limite de montant spécifique pour le bris de glace dans le tableau des plafonds, car les formules Eco ont souvent des plafonds plus bas. L'indétermination vient principalement de l'absence des conditions particulières (formule exacte, franchise, plafond éventuel)."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 2-7",
+   "page": 0,
+   "citation": "Frais de remplacement des miroirs, glaces, vitrages, parois vitrées, panneaux de signalisation et serres en verre (jusqu'à 5 m2) brisés accidentellement, ainsi que les produits plastiques équivalents, frais de clôture provisoire, dommages par éclats et film occultant.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 2-7 §2",
+   "page": 0,
+   "citation": "Les ébréchures ainsi que les dommages résultant de la vétusté ou de l'impropriété du support ne sont pas garantis.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "page": 11,
+   "citation": "Garantie incluse dans les formules Eco, Confort et Excellence",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 1.1",
+   "page": 24,
+   "citation": "votre local d’habitation, c’est-à-dire les parties immobilières des bâtiments principaux d’habitation destinées à un usage privé",
+   "role": "definition"
+  }
+ ],
+ "informations_manquantes": [
+  "Quelle est la formule souscrite (Eco, Confort ou Excellence) ? Cela détermine les plafonds et franchises applicables au bris de glace.",
+  "Quelle est la franchise applicable à la garantie bris de glace pour cette formule ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie bris de glace couvre clairement le type de dommage (bris accidentel de vitrage). L'indétermination porte sur les paramètres financiers (franchise, plafond) qui dépendent de la formule souscrite, non fournie dans les clauses générales. Le verdict est donc 'indéterminé' car on ne peut pas affirmer une prise en charge intégrale sans connaître la franchise, mais le risque est bien couvert en principe."
+}

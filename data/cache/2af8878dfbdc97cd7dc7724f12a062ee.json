@@ -1,0 +1,38 @@
+{
+ "verdict": "indéterminé",
+ "resume": "La surtension électrique a grillé le lave-linge. La garantie « Dommages électriques » (Art. 4.2) vise cet événement, mais son application est conditionnée à la souscription de cette garantie dans la formule choisie. Sans vérification des Conditions Particulières, on ne peut pas affirmer que la garantie est acquise.",
+ "raisonnement": [
+  "L'événement est une surtension électrique ayant endommagé un appareil ménager (lave-linge). Cela correspond à la garantie « Dommages électriques » décrite à l'Art. 4.2 §2 : « Les garanties qui sont déjà accordées par le contrat sont étendues aux dommages d’origine électrique, causés aux appareils ménagers. »",
+  "Cependant, l'Art. 4.2 précise que cette garantie s'applique « Lorsque cette garantie est contenue dans la formule choisie ». Il s'agit d'une condition suspensive liée à la formule souscrite par l'assuré.",
+  "Les exclusions propres à la garantie (Art. 4.2 §3) ne s'appliquent pas ici : il ne s'agit pas d'une panne due à l'usure ou au mauvais entretien, ni d'un dommage au contenu de l'appareil, ni d'un jouet à moteur. L'appareil n'est pas un matériel de jardin automoteur.",
+  "Les exclusions communes (Chap. 11) ne semblent pas non plus s'appliquer (pas de faute intentionnelle, pas de transport, etc.), sauf si l'assuré a provoqué la surtension intentionnellement, ce qui est peu probable.",
+  "Le point bloquant est la nature de la garantie : est-elle incluse dans la formule de base ou est-elle une option ? Le texte de l'Art. 4.2 dit « Lorsque cette garantie est contenue dans la formule choisie ». Si elle n'est pas dans la formule, le sinistre n'est pas couvert. Cette information se trouve aux Conditions Particulières.",
+  "Par conséquent, le verdict est indéterminé car l'application même de la garantie dépend d'un fait inconnu (la composition de la formule souscrite)."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.2",
+   "page": 5,
+   "citation": "Lorsque cette garantie est contenue dans la formule choisie :",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 4.2 §2",
+   "page": 5,
+   "citation": "Les garanties qui sont déjà accordées par le contrat sont étendues aux dommages d’origine électrique, causés aux appareils ménagers.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.2 §3",
+   "page": 5,
+   "citation": "Les pannes subies par les appareils dues à leur usure, leur mauvais entretien ou une utilisation non appropriée.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "La garantie « Dommages électriques » est-elle incluse dans la formule souscrite par l'assuré (à vérifier aux Conditions Particulières) ?",
+  "L'appareil a-t-il moins de 10 ans ? (L'exclusion de l'Art. 10.2 §2 concerne spécifiquement la piscine, mais il faut vérifier si une exclusion similaire s'applique aux appareils ménagers hors piscine, ou si l'Art. 4.2 s'applique sans limite d'âge. L'Art. 4.2 ne mentionne pas de limite d'âge, mais l'Art. 10.2 §2 le fait pour la piscine. Il faut confirmer que l'Art. 4.2 est bien la clause applicable aux appareils ménagers généraux et non pas une extension limitée à la piscine. En relisant l'Art. 4.2, il parle d'« appareils ménagers » en général. L'Art. 10.2 est une option piscine. Donc l'Art. 4.2 est la bonne clause. L'absence de mention d'âge dans l'Art. 4.2 suggère qu'il n'y a pas de limite d'âge pour les appareils ménagers, contrairement aux appareils de la piscine. Mais il faut vérifier si l'assuré a souscrit l'option piscine ou si c'est une garantie de base. Si c'est une garantie de base, l'Art. 4.2 s'applique. Si c'est une option, il faut vérifier la formule.)"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie semble viser l'événement, mais la condition « contenue dans la formule choisie » rend le verdict conditionnel. Sans accès aux Conditions Particulières, on ne peut pas trancher entre « couvert » et « non couvert »."
+}

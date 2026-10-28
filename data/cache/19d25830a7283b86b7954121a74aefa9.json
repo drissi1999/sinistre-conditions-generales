@@ -1,0 +1,28 @@
+{
+ "resume": "Éclatement d'un tuyau d'eau dans une maison non chauffée pendant une absence de trois semaines en janvier, en raison du gel et de l'absence de vidange des conduites.",
+ "perils": [
+  "degats_des_eaux",
+  "evenements_climatiques",
+  "autre"
+ ],
+ "biens_endommages": [
+  "tuyau",
+  "conduites d'eau"
+ ],
+ "lieu": "interieur_logement",
+ "local_ferme_a_cle": null,
+ "effraction": null,
+ "assure_absent": true,
+ "duree_absence_jours": 21,
+ "flammes_ou_incendie": false,
+ "cause": "gel",
+ "termes_cles": [
+  "gel",
+  "tuyau",
+  "conduites",
+  "maison non chauffée",
+  "absence",
+  "vidange",
+  "défaut d'entretien"
+ ]
+}

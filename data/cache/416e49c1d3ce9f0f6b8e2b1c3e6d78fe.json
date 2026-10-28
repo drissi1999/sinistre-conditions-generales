@@ -1,0 +1,26 @@
+{
+ "resume": "Fuite d'une canalisation d'eau située dans le mur de la salle de bain, entraînant des dégâts sur le parquet du salon.",
+ "perils": [
+  "degats_des_eaux",
+  "dommages_electriques"
+ ],
+ "biens_endommages": [
+  "canalisation d'eau",
+  "parquet du salon"
+ ],
+ "lieu": "interieur_logement",
+ "local_ferme_a_cle": null,
+ "effraction": null,
+ "assure_absent": null,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "fuite de canalisation",
+ "termes_cles": [
+  "dégâts des eaux",
+  "canalisation",
+  "fuite",
+  "parquet",
+  "salle de bain",
+  "salon"
+ ]
+}

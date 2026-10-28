@@ -1,0 +1,35 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le sinistre (brûlure du canapé par un fer à repasser sans flammes) est expressément exclu de la garantie Incendie par l'article 14-1 §2. Aucune autre garantie ne vise ce type de dommage.",
+ "raisonnement": [
+  "L'événement est une brûlure du tissu d'un canapé causée par un fer à repasser, sans propagation de flammes. Le bien endommagé est un bien mobilier situé dans le logement.",
+  "La garantie qui pourrait s'appliquer est l'Incendie (Art. 14-1), qui couvre la 'combustion avec flammes'. Or, les faits précisent qu'il n'y a pas eu de flammes, ce qui s'approche de la 'seule action de la chaleur'.",
+  "L'exclusion de l'Art. 14-1 §2 est déterminante : elle exclut les dommages 'résultant de brûlures (incidents de repassage...)' et de 'la seule action de la chaleur'. Le fait d'avoir laissé le fer posé sur le canapé correspond à un incident de repassage ou au contact avec un objet chaud, sans flammes.",
+  "La garantie Dommages électriques (Art. 14-5) ne s'applique pas car le fer n'a pas subi de surtension ou de rupture de tension, il a simplement été posé chaud sur le tissu.",
+  "Aucune autre garantie (Choc véhicule, Foudre, etc.) ne vise ce type de dommage domestique.",
+  "Par conséquent, le dommage est exclu de la garantie Incendie et n'est pas couvert par une autre garantie."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 14-1",
+   "page": 21,
+   "citation": "Nous garantissons les dommages provoqués par : • un incendie, c’est-à-dire la combustion avec flammes en dehors d’un foyer normal",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 14-1 §2",
+   "page": 21,
+   "citation": "Outre les exclusions prévues à l’article 20, nous ne garantissons pas les dommages : • résultant : - de brûlures (incidents de repassage, cigarettes, objets jetés ou tombés dans un foyer, contact avec un objet incandescent ou des braises provenant d’un foyer), - de la seule action de la chaleur.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 14-5",
+   "page": 22,
+   "citation": "Nous garantissons les dommages : • provoqués par la chute directe de la foudre sur les biens assurés, • occasionnés par le mauvais fonctionnement électrique d’un appareil électrique ou par une surtension ou une rupture de tension du réseau électrique",
+   "role": "garantie"
+  }
+ ],
+ "informations_manquantes": [],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion de l'Art. 14-1 §2 cite explicitement les 'incidents de repassage' et la 'seule action de la chaleur', ce qui correspond parfaitement aux faits déclarés (fer posé, tissu brûlé, pas de flammes)."
+}

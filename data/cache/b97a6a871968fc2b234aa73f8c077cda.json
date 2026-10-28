@@ -1,0 +1,33 @@
+{
+ "verdict": "non couvert",
+ "resume": "La table de jardin est située à l'extérieur des locaux d'habitation. L'Article 10-4 exclut expressément les biens mobiliers situés à l'extérieur des locaux d'habitation assurés. De plus, le dommage est causé par la seule action de la chaleur, ce qui est exclu par l'Article 14-1 §2.",
+ "raisonnement": [
+  "Garantie : L'événement est un dommage matériel à un bien mobilier (table de jardin) causé par la chaleur. La garantie Incendie (Art. 14-1) semble la plus proche, car la chaleur est souvent associée à ce péril. Cependant, la définition de l'incendie est la 'combustion avec flammes en dehors d'un foyer normal'. Ici, il n'y a pas de flammes, seulement la fonte de la cire due à la chaleur ambiante.",
+  "Conditions et Biens assurés : Le bien endommagé est une table de jardin, située à l'extérieur. L'Article 10-1 garantit les biens mobiliers 'dans les locaux à usage exclusif d'habitation'. L'Article 10-4 précise les biens non assurés.",
+  "Exclusions : L'Article 10-4 exclut explicitement 'les biens mobiliers situés à l'extérieur des locaux d'habitation assurés'. La table de jardin est un bien mobilier situé à l'extérieur. C'est l'exclusion déterminante principale. En outre, même si le bien était à l'intérieur, l'Article 14-1 §2 exclut les dommages 'résultant de la seule action de la chaleur'.",
+  "Conclusion : Le bien est exclu car situé à l'extérieur (Art. 10-4). Le péril est exclu car il s'agit de la seule action de la chaleur (Art. 14-1 §2). Le sinistre est donc non couvert."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 14-1",
+   "page": 21,
+   "citation": "Nous garantissons les dommages provoqués par : • un incendie, c’est-à-dire la combustion avec flammes en dehors d’un foyer normal,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 10-4",
+   "page": 18,
+   "citation": "les biens mobiliers situés à l’extérieur des locaux d’habitation assurés, sous réserve des dispositions relatives aux biens mobiliers garantis en tout lieu (fauteuils roulants, appareils d’assistance médicale et matériel informatique adapté au handicap) visées à l’article 10-3,",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 14-1 §2",
+   "page": 21,
+   "citation": "résultant : - de brûlures (incidents de repassage, cigarettes, objets jetés ou tombés dans un foyer, contact avec un objet incandescent ou des braises provenant d’un foyer), - de la seule action de la chaleur.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [],
+ "confiance": "élevée",
+ "raison_confiance": "Les clauses sont explicites : l'exclusion des biens à l'extérieur (Art. 10-4) et l'exclusion de la seule action de la chaleur (Art. 14-1 §2) s'appliquent clairement au cas décrit."
+}

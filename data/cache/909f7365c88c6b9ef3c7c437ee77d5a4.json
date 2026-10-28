@@ -1,0 +1,35 @@
+{
+ "verdict": "couvert",
+ "resume": "Le bris de la vitre de fenêtre causé par un ballon relève de la garantie bris de vitres (Art. 4.8). L'événement est accidentel et la vitre fait partie intégrante du bâtiment assuré. Aucune exclusion spécifique ou commune ne s'applique clairement aux faits décrits.",
+ "raisonnement": [
+  "La garantie applicable est le bris de vitres (Art. 4.8), qui couvre le « bris accidentel des vitres et des miroirs qui font partie intégrante des bâtiments assurés ». Un ballon qui casse une vitre constitue un choc accidentel typique de cette garantie.",
+  "L'exclusion propre à la garantie bris de vitres (Art. 4.8 §2) vise les « dommages dus à un défaut de réparation ou d'entretien apparent qui vous incombe ». Rien n'indique que la vitre était déjà fissurée ou mal entretenue avant l'impact du ballon.",
+  "Les exclusions communes à toutes les garanties (Chap. 11) sont examinées : le dommage n'est pas intentionnel (sauf si le ballon a été lancé volontairement, ce qui n'est pas précisé mais reste un cas d'espèce), ne relève pas de la législation sur la construction, ni d'un cataclysme, ni d'un transport, etc. Le fait que le ballon soit un objet volant ne rentre pas dans les exclusions listées.",
+  "La condition de déclaration dans les 5 jours ouvrés (Art. 12.1) est une condition de procédure, non un fait déterminant pour la couverture de principe, sauf retard préjudiciable non mentionné ici."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.8",
+   "page": 7,
+   "citation": "Le bris accidentel des vitres et des miroirs qui font partie intégrante des bâtiments assurés.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.8 §2",
+   "page": 7,
+   "citation": "Les dommages dus à un défaut de réparation ou d'entretien apparent qui vous incombe.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Chap. 11",
+   "page": 17,
+   "citation": "Outre les exclusions propres à chaque garantie, votre contrat ne couvre pas les dommages : • intentionnellement causés ou provoqués par vous ou avec votre complicité.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "Le ballon a-t-il été lancé intentionnellement par l'assuré ou un tiers ? (Si oui, vérifier si l'acte est considéré comme intentionnel au sens de l'Art. 4.8 ou Chap. 11, bien que le bris soit souvent couvert même en cas de choc volontaire si la garantie bris de glace est souscrite, mais le texte dit 'accidentel')."
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie bris de vitres semble clairement applicable, mais le terme 'accidentel' dans l'Art. 4.8 pourrait poser question si le ballon a été lancé volontairement (ex: par un enfant). Le verdict est 'couvert' car le bris de glace est une garantie autonome qui couvre généralement les chocs, mais l'absence de précision sur l'intentionnalité laisse une marge d'interprétation."
+}

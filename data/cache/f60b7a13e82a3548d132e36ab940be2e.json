@@ -1,0 +1,43 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le vol du vélo dans la cave privative est potentiellement couvert par la garantie Vol (Art. 16-1) sous réserve de l'effraction, mais l'exclusion des biens remisés dans les dépendances (Art. 10-4) s'applique sauf si la cave est considérée comme un local d'habitation. La qualification juridique de la cave (dépendance vs local d'habitation) et la nature du vélo (classique vs VAE rapide) conditionnent le verdict.",
+ "raisonnement": [
+  "La garantie Vol (Art. 16-1) couvre le vol commis par des tiers pénétrant par effraction dans les locaux assurés. L'effraction de la porte de la cave est un fait établi.",
+  "L'exclusion générale (Art. 10-4) exclut les 'biens mobiliers remisés dans les dépendances'. Si la cave est qualifiée de dépendance, le vélo est exclu. Si elle est qualifiée de local d'habitation (pièce à vivre), elle est couverte. Le contrat ne définit pas explicitement la distinction entre cave et local d'habitation dans le texte fourni.",
+  "L'exclusion (Art. 10-4) vise les 'vélos à assistance électrique dits rapides'. Si le vélo volé est un VAE rapide, il est exclu. S'il s'agit d'un vélo classique, il n'est pas visé par cette exclusion spécifique.",
+  "La condition de fermeture (Art. 16-3) est remplie puisque la cave était fermée à clé, ce qui répond à l'exigence de moyens de fermeture obligatoires pour les portes des dépendances."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 16-1",
+   "page": 24,
+   "citation": "Nous garantissons le vol, la tentative de volou l’acte de vandalisme commis par des tiers, lorsqu’ils pénètrent ou tentent de pénétrer dans ces locaux : • par effraction ou usage de fausses clés,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 10-4",
+   "page": 18,
+   "citation": "les biens mobiliers : - remisés dans les dépendances, - emportés en villégiature,",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 10-4",
+   "page": 18,
+   "citation": "les vélos à assistance électrique dits rapides dont les caractéristiques techniques excèdent celles des cycles à pédalage assisté telles que prévues par le paragraphe 6.11 de l’article R.311-1 du Code de la route,",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 16-3",
+   "page": 25,
+   "citation": "Portes des locaux d’habitation et des dépendances Elles doivent être protégées par un dispositif empêchant leur ouverture, constitué : • soit d’une serrure comportant deux points d’ancrage.",
+   "role": "condition"
+  }
+ ],
+ "informations_manquantes": [
+  "La cave est-elle qualifiée de 'local d'habitation' ou de 'dépendance' dans les conditions particulières ou au sens du contrat ? (Si dépendance, exclusion Art. 10-4).",
+  "S'agit-il d'un vélo classique ou d'un vélo à assistance électrique rapide (VAE > 25 km/h) ? (Si VAE rapide, exclusion Art. 10-4).",
+  "La porte de la cave est-elle pleine ? (Exigence Art. 16-3 pour les dépendances)."
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "Le verdict dépend de la qualification de la cave (dépendance vs habitation) et du type de vélo, deux éléments non précisés dans la déclaration et non tranchés par les clauses générales seules."
+}

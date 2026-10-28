@@ -1,0 +1,27 @@
+{
+ "resume": "Vol d'un ordinateur portable et casse de la serrure de la porte d'entrée suite à une effraction par des cambrioleurs pendant l'absence de l'assuré (au travail).",
+ "perils": [
+  "vol",
+  "vandalisme",
+  "protection_juridique"
+ ],
+ "biens_endommages": [
+  "ordinateur portable",
+  "serrure de la porte d'entrée"
+ ],
+ "lieu": "interieur_logement",
+ "local_ferme_a_cle": true,
+ "effraction": true,
+ "assure_absent": true,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "effraction par des cambrioleurs",
+ "termes_cles": [
+  "vol",
+  "effraction",
+  "cambriolage",
+  "serrure",
+  "porte d'entrée",
+  "plainte"
+ ]
+}

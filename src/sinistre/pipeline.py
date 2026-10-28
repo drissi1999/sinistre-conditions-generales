@@ -71,12 +71,18 @@ def build_context(conn: sqlite3.Connection, contract_id: str, claim: str,
     rows = {t: [r for r in rs if r.get("quote_ok", 1)] for t, rs in rows.items()}
 
     query = " ".join([claim, *facts.termes_cles, *facts.biens_endommages])
-    retrieved = [cid for cid, _ in idx.search(query, k=TOP_K)]
+    ranking = [cid for cid, _ in idx.search(query, k=len(idx.clauses))]
+    rank = {cid: i for i, cid in enumerate(ranking)}
+    by_rank = lambda ids: sorted(set(ids), key=lambda c: rank.get(c, len(rank)))
 
-    # Priorité : articles de garantie concernés (avec TOUTES leurs clauses : garantie, exclusions,
-    # prévention), puis exclusions et conditions issues de la base, puis définitions, puis le reste.
-    # La recherche seule ne suffit pas : sur Altima, l'exclusion décisive du vol (locaux communs)
-    # n'est pas dans le top 6 de la recherche hybride, mais elle est dans le même article.
+    # Priorité, dans un budget fixe :
+    # 1. les articles les mieux classés, avec TOUTES leurs clauses (garantie, exclusions, prévention).
+    #    La recherche seule ne suffit pas : sur Altima, l'exclusion décisive du vol (locaux communs)
+    #    n'est pas dans le top 6, mais elle est dans le même article que la garantie trouvée ;
+    # 2. les exclusions et conditions de la base pour ces périls, les plus pertinentes d'abord ;
+    # 3. les autres articles de garantie de ces périls ; 4. les définitions ; 5. le reste.
+    # Un contrat comme MACSF a ~180 lignes de garanties : sans ce classement, les articles de
+    # garantie secondaires épuisaient le budget avant les exclusions décisives.
     def article(cid: str) -> list[str]:
         c = idx.by_id.get(cid)
         if c is None or c.kind_hint == "definition":
@@ -84,14 +90,14 @@ def build_context(conn: sqlite3.Connection, contract_id: str, claim: str,
         return [o.clause_id for o in idx.clauses if o.section_path == c.section_path]
 
     ordered: list[str] = []
-    for g in rows["guarantees"]:
-        ordered += article(g["clause_id"])
-    for cid in retrieved[:3]:
+    for cid in ranking[:3]:
         ordered += article(cid)
-    ordered += [r["clause_id"] for r in rows["exclusions"] + rows["conditions"]]
+    ordered += by_rank(r["clause_id"] for r in rows["exclusions"] + rows["conditions"])
+    for cid in by_rank(g["clause_id"] for g in rows["guarantees"]):
+        ordered += article(cid)
     words = [claim, *facts.termes_cles, *facts.biens_endommages]
     ordered += store.find_definitions(conn, contract_id, words)
-    ordered += retrieved[3:]
+    ordered += ranking[3:TOP_K]
 
     seen, picked, size = set(), [], 0
     for cid in ordered:
@@ -104,6 +110,9 @@ def build_context(conn: sqlite3.Connection, contract_id: str, claim: str,
         picked.append(c)
         size += len(c.text)
     picked.sort(key=lambda c: c.ord)  # ordre du contrat : plus lisible pour le modèle et l'humain
+    # la fiche structurée ne montre que des lignes dont la clause est fournie en texte intégral :
+    # sinon le modèle cite la description de la fiche comme si c'était le contrat
+    rows = {t: [r for r in rs if r["clause_id"] in seen] for t, rs in rows.items()}
     return picked, rows
 
 

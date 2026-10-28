@@ -1,0 +1,43 @@
+{
+ "verdict": "couvert",
+ "resume": "La fuite d'une canalisation d'eau dans le mur de la salle de bain causant des dégâts au parquet du salon relève de la garantie Dégâts des eaux et gel (Art. 4.5). L'événement correspond à la définition des dommages matériels causés par l'eau aux biens assurés. Aucune exclusion spécifique (conduite enterrée, défaut d'entretien apparent, etc.) ne s'applique clairement aux faits décrits.",
+ "raisonnement": [
+  "Garantie : L'Art. 4.5 garantit les « dommages matériels causés par l'eau aux biens assurés ». La fuite de la canalisation dans le mur de la salle de bain est un événement typique de dégât des eaux. Le parquet du salon, bien assuré, est endommagé par cette eau.",
+  "Conditions : L'Art. 4.5 §3 impose des mesures de prévention (coupure d'eau si absence > 10 jours, vidange si non-chauffé de novembre à avril). Les faits extraits indiquent que l'assuré n'est pas absent (« assure_absent : null ») et ne mentionnent pas de période de non-chauffage. En l'absence de preuve du contraire, la condition est réputée remplie ou non déterminante pour l'existence de la garantie.",
+  "Exclusions : L'Art. 4.5 §2 exclut les « fuites ou ruptures de conduites enterrées ». La canalisation est dans le mur de la salle de bain, donc non enterrée. L'exclusion des « défauts de réparation ou d'entretien apparent » n'est pas démontrée par les faits. Les exclusions communes (Chap. 11) ne s'appliquent pas (pas de guerre, pas de transport, etc.).",
+  "Conclusion : La garantie s'applique. Le point de vigilance est la nature exacte de la canalisation (si elle était enterrée, ce serait exclu, mais le mur de salle de bain suggère le contraire) et l'absence de défaut d'entretien apparent."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.5",
+   "page": 6,
+   "citation": "Les dommages matériels causés par l’eau aux biens assurés.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.5 §2",
+   "page": 6,
+   "citation": "Les dommages dus à des fuites ou ruptures de conduites enterrées (celles dont l’accès nécessite des travaux de terrassement et de fouille).",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 4.5 §2",
+   "page": 6,
+   "citation": "Les dommages dus à un défaut de réparation ou d’entretien apparent qui vous incombe.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 4.5 §3",
+   "page": 6,
+   "citation": "Lorsque vous vous absentez de votre habitation plus de 10 jours consécutifs, vous devez interrompre la distribution d’eau.",
+   "role": "condition"
+  }
+ ],
+ "informations_manquantes": [
+  "La canalisation est-elle bien située dans le mur (non enterrée) ou passe-t-elle par le sol nécessitant des travaux de terrassement ?",
+  "Y a-t-il un défaut d'entretien apparent de la canalisation (corrosion visible, vétusté) qui pourrait faire jouer l'exclusion de l'Art. 4.5 §2 ?",
+  "L'assuré était-il absent plus de 10 jours consécutifs au moment du sinistre ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie vise clairement l'événement, mais l'absence de détails sur l'état de la canalisation (entretien) et sa localisation précise (mur vs sol) laisse une marge d'incertitude sur les exclusions spécifiques de l'Art. 4.5 §2."
+}

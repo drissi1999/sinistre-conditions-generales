@@ -1,0 +1,25 @@
+{
+ "resume": "Un ballon a brisé la vitre d'une fenêtre de la maison de l'assuré.",
+ "perils": [
+  "bris_de_glace",
+  "autre"
+ ],
+ "biens_endommages": [
+  "vitre de fenêtre"
+ ],
+ "lieu": "interieur_logement",
+ "local_ferme_a_cle": null,
+ "effraction": null,
+ "assure_absent": null,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": null,
+ "cause": "ballon",
+ "termes_cles": [
+  "bris de glace",
+  "vitre",
+  "fenêtre",
+  "choc",
+  "objet volant",
+  "maison"
+ ]
+}

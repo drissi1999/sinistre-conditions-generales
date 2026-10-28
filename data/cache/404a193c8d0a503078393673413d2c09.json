@@ -1,0 +1,38 @@
+{
+ "verdict": "couvert",
+ "resume": "Le sinistre (éclatement d'un tuyau par le gel) est couvert par la garantie Dégâts des eaux et gel (Art. 4.5). L'assuré n'a pas respecté les mesures de prévention (absence > 10 jours sans coupure d'eau, locaux non chauffés en hiver sans vidange), ce qui entraîne une retenue de 30 % sur l'indemnité, mais n'exclut pas la garantie.",
+ "raisonnement": [
+  "La garantie applicable est l'Art. 4.5 « Dégâts des eaux et gel », qui couvre les « dommages causés par le gel aux canalisations et aux appareils qui leur sont raccordés » à l'intérieur des pièces d'habitation. Le tuyau éclaté par le gel dans la maison correspond à cette définition.",
+  "Les conditions de prévention de l'Art. 4.5 §3 sont en cause : l'assuré s'est absenté 21 jours (supérieur au seuil de 10 jours) sans interrompre la distribution d'eau, et les locaux n'étaient pas chauffés en janvier (période du 1er nov. au 1er avr.) sans vidange des conduites. Le texte précise : « Si vous ne respectez pas ces mesures de prévention et qu’un sinistre survient ou est aggravé de ce fait, vous conserverez à votre charge 30 % de l’indemnité. »",
+  "L'application de cette retenue de 30 % signifie que la garantie s'applique partiellement (70 % de l'indemnité), et non qu'elle est totalement exclue. Il n'y a pas d'exclusion totale pour non-respect des mesures de prévention, seulement une retenue.",
+  "Les exclusions de l'Art. 4.5 §2 ne s'appliquent pas clairement : le tuyau n'est pas un bien « à l'origine du sinistre » au sens de l'exclusion des frais de réparation (c'est le bien endommagé, pas la cause externe), et il n'y a pas de défaut d'entretien apparent prouvé (le gel est un événement climatique, pas un défaut d'entretien). L'exclusion des conduites enterrées ne s'applique pas car le tuyau est dans la maison (non enterré).",
+  "Les exclusions communes (Art. 4.7 §2, Art. 4.8 §2, Chap. 5 §2, Chap. 8 §4) ne visent pas spécifiquement ce cas de gel."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.5",
+   "page": 6,
+   "citation": "A l’intérieur des pièces d’habitation ou des bâtiments clos et couverts qui leurs sont contigus, les dommages causés par le gel aux canalisations et aux appareils qui leur sont raccordés.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.5 §3",
+   "page": 6,
+   "citation": "Lorsque vous vous absentez de votre habitation plus de 10 jours consécutifs, vous devez interrompre la distribution d’eau. Pendant la période du 1er novembre au 1er avril, si les locaux ne sont pas chauffés, vous devez vidanger les conduites, réservoirs et installations de chauffage non pourvus d’antigel. Si vous ne respectez pas ces mesures de prévention et qu’un sinistre survient ou est aggravé de ce fait, vous conserverez à votre charge 30 % de l’indemnité.",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 4.5 §2",
+   "page": 6,
+   "citation": "Les dommages dus à un défaut de réparation ou d’entretien apparent qui vous incombe. Les frais de réparation des biens à l’origine du sinistre.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "Le tuyau éclaté est-il bien une canalisation non enterrée (dans la maison) ou une conduite enterrée (exclusion Art. 4.5 §2) ?",
+  "Y a-t-il eu un défaut d'entretien apparent du tuyau (ex. corrosion, fissure préexistante) qui pourrait justifier l'exclusion de l'Art. 4.5 §2 ?",
+  "Les conduites étaient-elles pourvues d'antigel ? Si oui, la vidange n'était pas nécessaire."
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie vise clairement le gel des canalisations, et le non-respect des mesures de prévention entraîne une retenue de 30 % mais pas une exclusion totale. Cependant, l'absence de précision sur la nature du tuyau (enterré ou non) et la possibilité d'un défaut d'entretien apparent laissent une marge d'incertitude."
+}

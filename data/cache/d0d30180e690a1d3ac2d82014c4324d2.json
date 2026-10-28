@@ -1,0 +1,26 @@
+{
+ "resume": "Lors d'un orage, la foudre est tombée à proximité du domicile, provoquant une surtension électrique qui a endommagé le réfrigérateur et la box internet.",
+ "perils": [
+  "dommages_electriques",
+  "evenements_climatiques"
+ ],
+ "biens_endommages": [
+  "réfrigérateur",
+  "box internet"
+ ],
+ "lieu": "interieur_logement",
+ "local_ferme_a_cle": null,
+ "effraction": null,
+ "assure_absent": null,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "surtension électrique due à la foudre",
+ "termes_cles": [
+  "dommages électriques",
+  "surtension",
+  "foudre",
+  "orage",
+  "appareils électroménagers",
+  "matériel informatique"
+ ]
+}

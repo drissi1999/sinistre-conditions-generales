@@ -1,0 +1,44 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le sinistre (surtension grillant un lave-linge) relève de la garantie « Dommages électriques » (Art. 4.2). Cependant, cette garantie n'est active que si elle est incluse dans la formule choisie, ce qui n'est pas précisé dans les faits fournis. De plus, l'âge de l'appareil est inconnu, ce qui est déterminant au regard des exclusions.",
+ "raisonnement": [
+  "La garantie applicable est l'extension aux dommages d'origine électrique causés aux appareils ménagers, définie à l'Art. 4.2 §2. Le lave-linge est un appareil ménager et la surtension est un dommage d'origine électrique.",
+  "L'Art. 4.2 précise que cette garantie s'applique « Lorsque cette garantie est contenue dans la formule choisie ». Sans vérification des Conditions Particulières, on ne sait pas si l'assuré a souscrit cette option.",
+  "L'Art. 4.2 §3 exclut les pannes dues à l'usure ou au mauvais entretien. Une surtension externe est généralement distincte de l'usure, mais la cause exacte doit être confirmée.",
+  "L'Art. 10.2 §2 (qui s'applique aux dommages électriques en général dans le contexte des options, mais souvent repris dans les CG pour les appareils) exclut les « dommages d'origine électrique subis par les appareils électriques ou électroniques de plus de 10 ans ». L'âge du lave-linge est inconnu.",
+  "Les exclusions communes (Chap. 11) ne semblent pas s'appliquer directement (pas de guerre, pas de transport, etc.), sauf si la surtension est liée à un défaut de construction (législation sur la construction), ce qui est peu probable pour un simple appareil."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.2 §2",
+   "page": 5,
+   "citation": "Les garanties qui sont déjà accordées par le contrat sont étendues aux dommages d’origine électrique, causés aux appareils ménagers.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.2",
+   "page": 5,
+   "citation": "Lorsque cette garantie est contenue dans la formule choisie :",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 4.2 §3",
+   "page": 5,
+   "citation": "Les pannes subies par les appareils dues à leur usure, leur mauvais entretien ou une utilisation non appropriée.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 10.2 §2",
+   "page": 17,
+   "citation": "Les dommages d’origine électrique subis par les appareils électriques ou électroniques de plus de 10 ans ou par les résistances chauffantes.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "La garantie « Dommages électriques » est-elle bien incluse dans la formule souscrite par l'assuré (vérifier les Conditions Particulières) ?",
+  "Quel est l'âge du lave-linge endommagé (est-il de plus de 10 ans) ?",
+  "La surtension est-elle due à un défaut de l'installation électrique du logement (exclusion construction/rénovation) ou à une cause externe (foudre, réseau) ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "Le raisonnement est solide sur la base des clauses, mais le verdict dépend entièrement de deux faits non fournis : l'inclusion de la garantie dans la formule et l'âge de l'appareil."
+}

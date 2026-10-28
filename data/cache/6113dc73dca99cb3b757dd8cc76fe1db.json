@@ -1,0 +1,44 @@
+{
+ "verdict": "couvert",
+ "resume": "Les dommages au réfrigérateur et à la box internet, causés par une surtension électrique consécutive à la foudre, relèvent de la garantie Dommages électriques (Art. 14-5). Aucune exclusion spécifique ne s'applique aux biens eux-mêmes, sous réserve du respect du délai de déclaration et du plafond de 500 €.",
+ "raisonnement": [
+  "La garantie applicable est l'Art. 14-5 (Chute de la foudre et dommages électriques). L'article précise que sont garantis les dommages 'occasionnés par le mauvais fonctionnement électrique d’un appareil électrique ou par une surtension ou une rupture de tension du réseau électrique'. La déclaration mentionne une surtension due à la foudre, ce qui correspond à la définition de la garantie.",
+  "Les biens endommagés (réfrigérateur, box internet) sont des 'appareils électriques' situés dans les locaux d'habitation, ce qui entre dans le périmètre de l'Art. 14-5 ('aux circuits, aux appareils électriques... dans les locaux d’habitation').",
+  "L'exclusion de l'Art. 14-5 §2 vise les 'dommages causés au contenu des appareils électriques (y compris les denrées conservées dans les congélateurs et/ou réfrigérateurs)'. Ici, c'est l'appareil lui-même (le réfrigérateur) qui est endommagé, pas son contenu. La box internet n'est pas un contenant de denrées. L'exclusion ne s'applique donc pas aux biens déclarés.",
+  "L'Art. 3-2 fixe un plafond de 500 € pour la garantie 'Chute de la foudre et dommages électriques'. Ce plafond s'applique à l'ensemble des dommages électriques, y compris consécutifs à la chute de la foudre. L'indemnisation sera donc limitée à 500 €.",
+  "Les conditions de déclaration (Art. 22-2) exigent une déclaration dans les 5 jours ouvrés. Ce point est à vérifier, mais ne remet pas en cause la nature de la garantie.",
+  "Aucune autre exclusion générale (Art. 20) ne semble applicable (pas de faute intentionnelle, pas de glissement de terrain, etc.)."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 14-5",
+   "page": 22,
+   "citation": "Nous garantissons les dommages : • provoqués par la chute directe de la foudre sur les biens assurés, • occasionnés par le mauvais fonctionnement électrique d’un appareil électrique ou par une surtension ou une rupture de tension du réseau électrique, aux biens ci-après : ‐ dans les locaux d’habitation : aux circuits, aux appareils électriques ou à ceux permettant le chauffage, l’éclairage, la climatisation ou l’alimentation en eau des locaux,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 14-5 §2",
+   "page": 22,
+   "citation": "Outre les exclusions prévues à l’article 20, nous ne garantissons : • les dommages causés au contenu des appareils électriques (y compris les denrées conservées dans les congélateurs et/ou réfrigérateurs),",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 3-2",
+   "page": 11,
+   "citation": "Chute de la foudre et dommages électriques 500 € (2) (2) Ce plafond s’applique uniquement aux Dommages électriques, y compris consécutifs à la chute de la foudre.",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 22-2",
+   "page": 36,
+   "citation": "Délai 5 jours ouvrés maximum",
+   "role": "condition"
+  }
+ ],
+ "informations_manquantes": [
+  "La date de déclaration du sinistre (pour vérifier le respect du délai de 5 jours ouvrés de l'Art. 22-2).",
+  "La valeur des biens endommagés (pour vérifier si le plafond de 500 € de l'Art. 3-2 est atteint ou dépassé)."
+ ],
+ "confiance": "élevée",
+ "raison_confiance": "La garantie est explicite pour les surtensions électriques (Art. 14-5) et les biens concernés (appareils électriques) sont clairement visés. L'exclusion principale (contenu du frigo) ne s'applique pas ici. Le seul point de vigilance est le plafond financier et le délai de déclaration, qui sont des conditions de forme et de montant, pas de fond sur la couverture du risque."
+}

@@ -1,0 +1,27 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le vol du vélo dans le local commun de l'immeuble est exclu de la garantie Vol par l'article 16-4, qui exclut spécifiquement les vols commis dans les parties communes d'un immeuble collectif.",
+ "raisonnement": [
+  "La garantie applicable est la garantie Vol (Art. 3-2), qui couvre le vol des biens mobiliers. L'événement est bien un vol d'un vélo (bien mobilier).",
+  "L'examen des exclusions spécifiques à la garantie Vol révèle l'article 16-4, qui exclut expressément le \"Vol commis dans les parties communes d'un immeuble collectif\". Le local commun de l'immeuble correspond à cette définition.",
+  "Bien que l'absence de fermeture à clé du local commun pourrait soulever la question de la condition de fermeture (Art. 16-3), l'exclusion de l'Art. 16-4 est déterminante et écarte la garantie indépendamment de cette condition.",
+  "Aucile autre garantie (RC, PJ) ne couvre le dommage subi par le bien lui-même (le vélo volé), mais seulement la responsabilité envers des tiers ou les frais de justice."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 3-2",
+   "page": 0,
+   "citation": "Le vol, la tentative de vol ou l'acte de vandalisme sur les biens mobiliers est garanti dans la limite de 1 000 €.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 16-4",
+   "page": 0,
+   "citation": "Vol commis dans les parties communes d'un immeuble collectif ou dans les serres",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion de l'article 16-4 est explicite et vise directement le lieu du sinistre (parties communes d'un immeuble collectif), ce qui écarte clairement la garantie Vol."
+}

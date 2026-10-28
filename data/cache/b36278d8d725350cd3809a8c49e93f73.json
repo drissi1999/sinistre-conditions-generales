@@ -1,0 +1,49 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le sinistre concerne une table de jardin abîmée par la fonte d'une bougie sous l'effet de la chaleur. La couverture dépend de la souscription du Pack Jardin (optionnel) et de la qualification de l'événement (chaleur simple vs incendie).",
+ "raisonnement": [
+  "Garantie : L'événement est la fonte d'une bougie due à la chaleur, abîmant une table de jardin. La garantie principale potentielle est le Pack Jardin (Art. 8), qui couvre les « Dommages matériels causés aux ... mobilier de jardin situés à l'extérieur du local d'habitation ». Si le Pack Jardin n'est pas souscrit, la table de jardin n'est pas un bien assuré (les biens mobiliers ne sont couverts que dans le local d'habitation et ses dépendances, Art. 1.2 §2, et le mobilier de jardin est spécifiquement lié au Pack Jardin, Art. 3-7).",
+  "Conditions : Le Pack Jardin est une option qui « doit être spécialement mentionnée aux conditions particulières » (Art. 8). Sans cette mention, la garantie ne joue pas. De plus, il faut vérifier si la chaleur seule est un événement assuré. L'incendie (Art. 2.1) couvre les « dommages matériels causés par l'incendie... ». La fonte d'une bougie sans flammes ni feu apparent ne constitue pas forcément un incendie au sens du contrat. Si c'est considéré comme un simple dommage dû à la chaleur (non listé explicitement comme événement assuré pour le jardin, sauf si assimilé à un incendie ou un dommage électrique), la couverture est incertaine.",
+  "Exclusions : L'Art. 8 §4 exclut « Le gel » et « Les rayures, écaillements et égratignures sans influence sur le fonctionnement du bien ». La fonte d'une bougie abîmant la table pourrait être qualifiée de dommage superficiel ou d'usure, mais surtout, l'absence de flammes remet en cause la garantie incendie. L'Art. 1.1 §5 exclut les aires cimentées, plantations, etc., sauf Pack Jardin, ce qui confirme que le jardin n'est pas couvert par défaut.",
+  "Conclusion : Le verdict est indéterminé car il dépend de la souscription du Pack Jardin (option) et de la qualification juridique de la « chaleur » comme événement assuré (incendie ou autre)."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 8",
+   "page": 34,
+   "citation": "Ce Pack doit être spécialement mentionné aux conditions particulières.",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 8",
+   "page": 34,
+   "citation": "Dommages matériels causés aux serres, arbres, végétaux, clôtures, pergolas, terrasses, aires, tondeuse autonome et mobilier de jardin situés à l'extérieur du local d'habitation.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 1.2 §2",
+   "page": 24,
+   "citation": "Tous les objets d’usage courant et les vêtements vous appartenant ou qui vous sont confiés ou appartenant à toute personne résidant avec vous ou en simple visite, contenus à l’intérieur du local d’habitation et des dépendances assurés.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 2.1",
+   "page": 0,
+   "citation": "Couvre les dommages matériels causés par l'incendie, l'explosion, l'enfumage accidentel, la chute de la foudre, le choc d'un véhicule, la chute d'engins volants et le mur du son.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 1.1 §5",
+   "page": 24,
+   "citation": "Sont exclus, sauf si vous avez souscrit le Pack Jardin : • les aires cimentées, goudronnées, dallées ou gravillonnées • les plantations, • les clôtures végétales, • les serres d’une superficie de plus de 5 m2.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "Le Pack Jardin est-il souscrit et mentionné aux conditions particulières ?",
+  "Y a-t-il eu des flammes ou un feu (incendie) ou uniquement de la chaleur (fonte) ?",
+  "La table de jardin est-elle considérée comme un bien meuble ou une installation fixe ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La qualification de l'événement (chaleur vs incendie) et la souscription de l'option Pack Jardin sont déterminantes et non précisées dans les faits extraits."
+}

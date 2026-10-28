@@ -1,0 +1,46 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le vol du vélo dans le local commun n'est pas clairement couvert ni exclu par les clauses fournies. La garantie vol exige une effraction ou une escalade (Art. 2.5 §2), ce qui n'est pas le cas ici (porte non fermée). L'exclusion des locaux non entièrement clos (Art. 2.5 §4) vise les terrasses, balcons et jardins, pas explicitement les locaux communs. Le statut du vélo (bien assuré ou exclu) et la nature du local commun (clos/couvert) restent à vérifier.",
+ "raisonnement": [
+  "Garantie : L'événement est un vol. La garantie applicable est l'Art. 2.5 §2 : « Couvre la disparition, destruction ou détérioration des biens assurés résultant d'un vol, tentative de vol, acte de vandalisme ou de sabotage commis à l'intérieur des locaux assurés par effraction ou escalade ayant laissé des traces apparentes. »",
+  "Conditions : L'assuré déclare que le local n'était pas fermé à clé. L'Art. 2.5 §2 exige une « effraction ou escalade ». Si la porte était simplement ouverte, il n'y a pas d'effraction. L'Art. 2.5 §5 renvoie à l'Art. 4.1 pour les mesures de sécurité, mais l'Art. 4.1 concerne l'absence de l'assuré (fermeture à clé), pas la sécurité du local commun lui-même. L'assuré n'était pas forcément absent de l'immeuble, mais le local était accessible.",
+  "Exclusions : L'Art. 2.5 §4 exclut les « Vols, tentatives de vol, actes de vandalisme ou sabotage commis sur les terrasses, balcons, jardins et locaux non entièrement clos ou couverts, sauf Pack Jardin. » Le local commun est-il un « local non entièrement clos ou couvert » ? Un local commun de vélo est généralement clos et couvert, mais ce n'est pas explicitement défini comme un « local assuré » distinct du local d'habitation. L'Art. 1.1 §3 exclut les « chemins, courts de tennis, vérandas... », mais pas les locaux communs. L'Art. 1.2 §3 exclut les « biens mobiliers dans les dépendances pour la formule Eco ». Un local commun est-il une dépendance ? Non, c'est une partie commune de l'immeuble.",
+  "Statut du vélo : Le vélo est-il un « bien assuré » ? L'Art. 1.2 §3 exclut les « véhicules terrestres à moteur ». Un vélo classique n'est pas à moteur. Cependant, s'il s'agit d'un vélo électrique, il pourrait être exclu. De plus, l'Art. 1.2 §3 exclut les « objets précieux » en formule Eco. Un vélo peut être considéré comme objet courant ou précieux selon sa valeur.",
+  "Conclusion : Le verdict est indéterminé car : (a) il manque la confirmation de l'effraction (si la porte était ouverte, pas d'effraction, donc pas de garantie selon Art. 2.5 §2) ; (b) il manque la confirmation que le local commun est un « local assuré » et non un « local non entièrement clos » exclu par l'Art. 2.5 §4 ; (c) il manque la confirmation que le vélo est un bien assuré (pas un véhicule à moteur, pas un objet précieux exclu)."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 2.5 §2",
+   "page": 28,
+   "citation": "Couvre la disparition, destruction ou détérioration des biens assurés résultant d'un vol, tentative de vol, acte de vandalisme ou de sabotage commis à l'intérieur des locaux assurés par effraction ou escalade ayant laissé des traces apparentes.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 2.5 §4",
+   "page": 28,
+   "citation": "Vols, tentatives de vol, actes de vandalisme ou sabotage commis sur les terrasses, balcons, jardins et locaux non entièrement clos ou couverts, sauf Pack Jardin.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 1.2 §3",
+   "page": 28,
+   "citation": "Exclusion des biens mobiliers dans les dépendances pour la formule Eco, des objets précieux, espèces, matériel pro dans dépendances, timbres, véhicules terrestres à moteur, bateaux > 5,5m, animaux, végétaux, dépréciation de bouteilles, armes illégales",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 2.5 §5",
+   "page": 28,
+   "citation": "Vous devez respecter certaines mesures de sécurité pour bénéficier pleinement de la garantie (voir ART. 4.1).",
+   "role": "condition"
+  }
+ ],
+ "informations_manquantes": [
+  "Y a-t-il eu effraction ou escalade du local commun, ou la porte était-elle simplement ouverte ?",
+  "Le local commun est-il considéré comme un local entièrement clos et couvert (exclusion Art. 2.5 §4) ?",
+  "Le vélo est-il un vélo classique ou un vélo électrique (véhicule à moteur) ?",
+  "Quelle est la formule souscrite (Eco, Confort, Excellence) et le vélo est-il un objet précieux ?",
+  "Le local commun est-il inclus dans les « locaux assurés » selon les conditions particulières ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "Les clauses sont claires sur l'exigence d'effraction et l'exclusion des locaux non clos, mais le statut juridique du « local commun » et du « vélo » dans ce contrat précis nécessite des vérifications supplémentaires (conditions particulières, nature du vélo)."
+}

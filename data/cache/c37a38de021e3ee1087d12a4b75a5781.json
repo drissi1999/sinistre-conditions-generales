@@ -1,0 +1,27 @@
+{
+ "resume": "Un enfant a brisé accidentellement la vitre de la porte-fenêtre du salon en jouant au ballon.",
+ "perils": [
+  "bris_de_glace",
+  "responsabilite_civile",
+  "autre"
+ ],
+ "biens_endommages": [
+  "vitre de la porte-fenêtre du salon"
+ ],
+ "lieu": "interieur_logement",
+ "local_ferme_a_cle": null,
+ "effraction": null,
+ "assure_absent": null,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "jeu au ballon",
+ "termes_cles": [
+  "bris de glace",
+  "porte-fenêtre",
+  "vitre",
+  "accident",
+  "jeu",
+  "ballon",
+  "salon"
+ ]
+}

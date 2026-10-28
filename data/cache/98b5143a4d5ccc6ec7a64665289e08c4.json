@@ -1,0 +1,25 @@
+{
+ "resume": "Une surtension électrique a endommagé le lave-linge de l'assuré.",
+ "perils": [
+  "dommages_electriques",
+  "autre"
+ ],
+ "biens_endommages": [
+  "lave-linge"
+ ],
+ "lieu": "interieur_logement",
+ "local_ferme_a_cle": null,
+ "effraction": null,
+ "assure_absent": null,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "surtension",
+ "termes_cles": [
+  "surtension",
+  "dommages électriques",
+  "appareil électroménager",
+  "court-circuit",
+  "prise de courant",
+  "réseau électrique"
+ ]
+}

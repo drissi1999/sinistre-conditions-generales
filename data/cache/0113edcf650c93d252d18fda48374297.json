@@ -1,0 +1,38 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le vol d'un salon de jardin sur une terrasse est exclu de la garantie Vol standard (Art. 2.5 §4) sauf souscription du Pack Jardin. La couverture dépend donc de l'option souscrite et des conditions de sécurité (hauteur de la terrasse, clôture).",
+ "raisonnement": [
+  "L'événement est un vol de mobilier de jardin situé sur une terrasse (Art. 2.5 §2).",
+  "La garantie Vol standard couvre les biens à l'intérieur des locaux assurés par effraction (Art. 2.5 §2).",
+  "L'exclusion de l'Art. 2.5 §4 écarte les vols commis sur les terrasses, sauf si le Pack Jardin est souscrit.",
+  "Le Pack Jardin (Art. 8 §3) garantit le vol du mobilier de jardin sur les terrasses, à condition que celles-ci soient situées à plus de 2,50 m du sol.",
+  "L'assuré n'a pas précisé si le Pack Jardin est souscrit ni la hauteur de sa terrasse, rendant le verdict indéterminé."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 2.5 §2",
+   "page": 27,
+   "citation": "La garantie couvre la disparition, la destruction ou la détérioration des biens assurés résultant : • d’un vol, • d’une tentative de vol, • d’un acte de vandalisme ou de sabotage, lorsque ces méfaits sont commis à l’intérieur des locaux assurés, par effraction ou escalade de ces locaux et ayant laissé des traces apparentes.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 2.5 §4",
+   "page": 27,
+   "citation": "les vols, tentatives de vol, actes de vandalisme ou actes de sabotage commis sur les terrasses, les balcons, dans les jardins et dans les locaux non entièrement clos ou couverts, sauf si le Pack Jardin est souscrit.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 8 §3",
+   "page": 34,
+   "citation": "les vols, tentatives de vol, actes de vandalisme ou actes de sabotage de votre tondeuse autonome et votre mobilier de jardin défini ci-avant : - entreposé sur les balcons et sur les terrasses situés à plus de 2,50 m du sol,",
+   "role": "garantie"
+  }
+ ],
+ "informations_manquantes": [
+  "Le Pack Jardin est-il souscrit aux conditions particulières ?",
+  "La terrasse est-elle située à plus de 2,50 m du sol ?",
+  "Y a-t-il eu effraction ou escalade apparente sur la terrasse ou un local attenant ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "Le verdict dépend entièrement de la souscription de l'option Pack Jardin et de la hauteur de la terrasse, deux éléments non précisés dans la déclaration."
+}

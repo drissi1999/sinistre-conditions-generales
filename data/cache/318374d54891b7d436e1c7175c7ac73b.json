@@ -1,0 +1,43 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le sinistre (chaleur fondant une bougie et abîmant une table de jardin) ne relève pas clairement de la garantie incendie (pas de flammes) ni de la garantie tempête. La couverture du mobilier de jardin dépend de la souscription du Pack Jardin, et la nature exacte du dommage (chaleur vs incendie) reste à préciser.",
+ "raisonnement": [
+  "Garantie : L'événement est décrit comme une fonte de bougie due à la chaleur, sans mention de flammes. La garantie incendie (Art. 2.1) définit l'incendie comme la 'combustion avec flammes'. Si aucune flamme n'a existé, la garantie incendie ne s'applique pas. Si des flammes étaient présentes, la garantie s'appliquerait, mais le bien (table de jardin) doit être vérifié.",
+  "Conditions/Biens : La table de jardin est un bien meuble situé à l'extérieur. Selon le tableau des packs (p. 16), le 'mobilier de jardin situé à l'extérieur du local d'habitation assuré' est couvert pour l'incendie et les tempêtes uniquement si le 'Pack Jardin' est souscrit. Sans ce pack, le bien n'est pas assuré.",
+  "Exclusions : L'exclusion de l'Art. 2.3 §2 concerne les 'objets en plein air' pour la garantie tempête, sauf si le mobilier de jardin est assuré dans le Pack Jardin. Cette exclusion renforce la nécessité de vérifier la souscription du pack. Pour l'incendie, aucune exclusion spécifique au mobilier de jardin n'est citée dans l'Art. 2.1 §2, mais le bien doit être couvert par le contrat (via le pack).",
+  "Conclusion : Le verdict est indéterminé car deux faits majeurs sont inconnus : (a) la souscription du Pack Jardin (conditionne la couverture du bien), (b) la présence ou non de flammes (conditionne l'application de la garantie incendie). Si c'est purement de la chaleur sans flamme, aucune garantie ne semble viser ce péril spécifique (la chaleur n'est pas listée dans les événements assurés de l'Art. 2.1)."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 2.1",
+   "page": 25,
+   "citation": "l’incendie, c’est-à-dire la combustion avec flammes en dehors d’un foyer normal",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "page": 16,
+   "citation": "Tondeuse autonome, mobilier de jardin situé à l’extérieur du local d’habitation assuré (incendie et événements annexes et tempêtes)",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 2.3 §2",
+   "page": 26,
+   "citation": "les objets en plein air, sauf pour le mobilier de jardin assuré dans le Pack Jardin s’il est souscrit.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 1.1 §5",
+   "page": 24,
+   "citation": "Sont exclus, sauf si vous avez souscrit le Pack Jardin :",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "Le Pack Jardin est-il souscrit aux conditions particulières ?",
+  "Y a-t-il eu des flammes (incendie) ou uniquement une fonte due à la chaleur ?",
+  "La table de jardin est-elle un meuble amovible ou une structure fixe (terrasse) ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "Le raisonnement est solide sur la logique contractuelle (nécessité du Pack Jardin pour le mobilier extérieur), mais le verdict dépend de faits non précisés (présence de flammes, souscription du pack)."
+}

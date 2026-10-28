@@ -1,0 +1,28 @@
+{
+ "resume": "L'assuré a laissé un fer à repasser posé sur un canapé, provoquant la brûlure du tissu sans propagation de flammes.",
+ "perils": [
+  "dommages_electriques",
+  "incendie",
+  "autre"
+ ],
+ "biens_endommages": [
+  "canapé",
+  "tissu"
+ ],
+ "lieu": "interieur_logement",
+ "local_ferme_a_cle": null,
+ "effraction": null,
+ "assure_absent": null,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "fer à repasser posé sur le canapé",
+ "termes_cles": [
+  "fer à repasser",
+  "brûlure",
+  "tissu",
+  "canapé",
+  "dommages électriques",
+  "incendie",
+  "meuble"
+ ]
+}

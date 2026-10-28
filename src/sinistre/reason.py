@@ -29,12 +29,18 @@ Méthode, dans l'ordre :
 4. Conclusion :
    - "couvert" : une garantie s'applique et aucune condition ni exclusion ne l'écarte ;
    - "non couvert" : aucune garantie ne vise l'événement, ou une exclusion / condition l'écarte clairement ;
-   - "indéterminé" : la réponse dépend d'un fait inconnu, d'une option ou formule non connue (conditions
-     particulières), ou le texte est ambigu. Un « indéterminé » bien justifié vaut mieux qu'un verdict fragile.
+   - "indéterminé" : un fait inconnu ou une option conditionne l'application MÊME de la garantie à ce
+     sinistre (ex. « sauf si le Pack Jardin est souscrit », effraction non précisée alors qu'elle est
+     requise), ou le texte est ambigu. Un « indéterminé » bien justifié vaut mieux qu'un verdict fragile.
+   - Ne réponds pas « indéterminé » au seul motif que la formule, les plafonds ou la franchise figurent aux
+     conditions particulières : si la garantie vise l'événement et qu'aucune exclusion ne s'applique,
+     réponds « couvert » et ajoute le point à vérifier dans "informations_manquantes".
 
 Citations (vérifiées automatiquement, une citation inexacte invalide toute la réponse) :
 - "citation" = copier-coller exact d'un passage de la clause, 1 à 2 phrases, sans reformuler ni corriger.
-- "clause_id" exactement comme indiqué entre crochets. Cite au moins la garantie examinée et chaque
+- "clause_id" exactement comme indiqué entre crochets. Ne cite que les clauses dont le texte figure sous
+  « Clauses du contrat » ; la fiche structurée sert seulement à t'orienter, ses descriptions ne sont pas
+  le texte du contrat. Cite au moins la garantie examinée et chaque
   exclusion ou condition déterminante.
 - Chaque étape du raisonnement renvoie à une clause (ex. « Art. 4.7 »).
 

@@ -1,0 +1,46 @@
+{
+ "verdict": "couvert",
+ "resume": "Le vol de l'ordinateur portable et la casse de la serrure suite à une effraction pendant l'absence de l'assuré sont couverts par la garantie Vol (Art. 16-1). Les conditions d'effraction et de plainte sont remplies. La conformité des moyens de fermeture (serrure à 2 points d'ancrage) reste à vérifier pour éviter une réduction de 50%.",
+ "raisonnement": [
+  "La garantie Vol (Art. 16-1) couvre le vol commis par des tiers pénétrant dans les locaux par effraction. L'assuré décrit une effraction de la serrure de la porte d'entrée, ce qui correspond à la définition de la garantie.",
+  "L'effraction est un mode de pénétration requis par la garantie (Art. 16-1). L'assuré était absent (au travail), ce qui est compatible avec la garantie, contrairement au vol par ruse qui exige la présence de l'occupant.",
+  "La condition de dépôt de plainte est remplie : l'assuré a porté plainte (Art. 22-2). Il doit vérifier que cela a été fait dans les 12 heures suivant la constatation.",
+  "L'obligation de fermeture des portes à clé en cas d'absence est remplie puisque la serrure a été forcée, impliquant qu'elle était fermée à clé (Art. 16-3).",
+  "La condition d'existence de moyens de fermeture obligatoires (Art. 16-3) impose une serrure à deux points d'ancrage ou une serrure à un point d'ancrage avec verrou à clé ou système d'alarme. Si cette condition n'est pas remplie, l'indemnité est réduite de 50%, mais le sinistre reste couvert.",
+  "Aucune exclusion de l'Art. 16-4 ne s'applique : le vol a eu lieu à l'intérieur des locaux assurés, et non dans les parties communes ou à l'extérieur. Les clés n'ont pas été laissées dans la boîte aux lettres ou remises à un tiers non assuré.",
+  "La casse de la serrure est couverte par la garantie, qui inclut le remplacement à l'identique des serrures détériorées des portes d'accès (Art. 16-1)."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 16-1",
+   "page": 24,
+   "citation": "Nous garantissons le vol, la tentative de volou l’acte de vandalisme commis par des tiers, lorsqu’ils pénètrent ou tentent de pénétrer dans ces locaux : • par effraction ou usage de fausses clés",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 16-3",
+   "page": 25,
+   "citation": "Si un sinistresurvient en l’absence des moyens de fermeture et de protection exigés ci-avant ou, en leur présence, lorsqu’ils n’ont pas été utilisés, l’indemnité due est réduite de 50 %.",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 22-2",
+   "page": 36,
+   "citation": "En cas de vol Vous devez également aviser les autorités de Police ou de Gendarmerie dans les 12 heures qui suivent la constatation du vol et déposer une plainte.",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 16-4",
+   "page": 26,
+   "citation": "Nous ne garantissons pas le vol, la tentative de volou l’acte de vandalisme : • des biens mobiliers situés à l’extérieur des locaux assurés",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "La serrure de la porte d'entrée est-elle équipée de deux points d'ancrage, ou d'un verrou à clé, ou d'un système d'alarme en fonctionnement ? (Pour éviter la réduction de 50% de l'indemnité).",
+  "La plainte a-t-elle été déposée dans les 12 heures suivant la constatation du vol ?",
+  "La déclaration du sinistre a-t-elle été faite dans les 2 jours ouvrés maximum ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "Le sinistre est clairement couvert par la garantie Vol, mais la conformité de la serrure aux exigences de l'Art. 16-3 (2 points d'ancrage) n'est pas précisée dans la déclaration, ce qui pourrait entraîner une réduction de 50% de l'indemnité. Les délais de plainte et de déclaration sont à vérifier."
+}

@@ -1,0 +1,26 @@
+{
+ "resume": "Vol d'un salon de jardin situé sur la terrasse de l'assuré, survenu pendant la nuit.",
+ "perils": [
+  "vol",
+  "vandalisme",
+  "responsabilite_civile"
+ ],
+ "biens_endommages": [
+  "salon de jardin"
+ ],
+ "lieu": "exterieur_jardin",
+ "local_ferme_a_cle": null,
+ "effraction": null,
+ "assure_absent": null,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "vol nocturne",
+ "termes_cles": [
+  "vol",
+  "salon de jardin",
+  "terrasse",
+  "plein air",
+  "mobilier de jardin",
+  "nuit"
+ ]
+}

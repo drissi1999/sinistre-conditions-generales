@@ -1,0 +1,39 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le vol du vélo dans le local commun n'est pas clairement couvert ni exclu par les clauses fournies. L'application de la garantie Vol dépend de la qualification du local commun (dépendance ou local d'habitation) et de la formule souscrite, éléments non précisés.",
+ "raisonnement": [
+  "La garantie Vol est incluse dans les formules Eco, Confort et Excellence (Art. 11).",
+  "Le vélo est un bien meuble. S'il est considéré comme du 'contenu du local d'habitation', il est assuré. S'il est considéré comme du 'contenu des dépendances', la garantie Vol est exclue en formule Eco et plafonnée en Confort/Excellence (Art. 14).",
+  "Le local commun de l'immeuble n'est pas explicitement défini comme 'dépendance' ou 'local d'habitation' dans les clauses fournies. La qualification juridique du local commun (partie commune vs dépendance privative) est cruciale.",
+  "La condition de sécurité (Art. 4-1) impose la fermeture à clé en cas d'absence. Le local n'était pas fermé à clé. Si l'assuré était absent, l'indemnité serait réduite de 50% si l'introduction a été facilitée. Si l'assuré était présent, la condition ne s'applique pas. L'absence n'est pas précisée.",
+  "La formule souscrite (Eco, Confort ou Excellence) n'est pas indiquée, ce qui conditionne le niveau de couverture pour les dépendances."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "page": 11,
+   "citation": "Vol, tentative de vol, actes de vandalisme et de sabotage X X X",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Tableaux des garanties et plafonds (p. 14)",
+   "page": 14,
+   "citation": "Contenu des dépendances (sauf vol) ... Vol en dépendances ... Non couvert 2 000 € 4 000 €",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 4-1",
+   "page": 31,
+   "citation": "Si vous vous absentez : • moins de 24 heures : les portes doivent être fermées à clé, les fenêtres, portes-fenêtres et autres issues bloquées",
+   "role": "condition"
+  }
+ ],
+ "informations_manquantes": [
+  "Quelle est la formule souscrite (Eco, Confort ou Excellence) ?",
+  "Le local commun est-il qualifié de 'dépendance' ou de 'local d'habitation' dans les conditions particulières ?",
+  "L'assuré était-il présent dans le local commun au moment du vol ou absent ?",
+  "Y a-t-il eu effraction du local commun ou simple ouverture ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie Vol est présente, mais l'application au vélo dans un local commun dépend de la qualification du lieu (dépendance vs habitation) et de la formule, qui ne sont pas précisées dans les faits extraits."
+}

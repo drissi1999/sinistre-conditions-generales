@@ -168,7 +168,66 @@ clairement exclus et réellement ambigus (option non connue, formule, mesure de 
 Verdicts attendus établis à la lecture des clauses, référencées dans chaque cas.
 
 <!-- RESULTS -->
-_Résultats en cours de calcul._
+### Résultats (v2, version actuelle)
+
+Modèle : `qwen/qwen3.8-27b:free` · 16 cas · 0 en erreur
+
+| Indicateur | Résultat |
+|---|---|
+| Verdict exact (verdict attendu) | 81 % (13/16) |
+| Verdict acceptable (attendu ou prudent admis) | 100 % (16/16) |
+| Citations vérifiées mot pour mot | 96 % (49/51) |
+| Clause attendue citée et vérifiée | 94 % (15/16) |
+| « Indéterminé » quand il est attendu | 100 % (2/2) |
+| « Indéterminé » sur un cas clair (prudence excessive) | 23 % (3/13) |
+| Erreurs affirmées (verdict faux, non « indéterminé ») | 0 % (0/16) |
+| Verdicts rétrogradés par la vérification | 0 |
+
+| Cas | Catégorie | Attendu | Obtenu | Citations OK | Clause attendue |
+|---|---|---|---|---|---|
+| `velo_local_commun_altima` | clair_exclu | non couvert | ✅ non couvert | 3/3 | ✅ |
+| `velo_local_commun_macsf` | clair_exclu | non couvert / indéterminé | 🟡 indéterminé | 2/3 | ❌ |
+| `velo_local_commun_matmut` | clair_exclu | non couvert | ✅ non couvert | 2/2 | ✅ |
+| `bougie_jardin_altima` | clair_exclu | non couvert | ✅ non couvert | 4/4 | ✅ |
+| `bougie_jardin_macsf` | clair_exclu | non couvert / indéterminé | 🟡 indéterminé | 4/4 | ✅ |
+| `bougie_jardin_matmut` | clair_exclu | non couvert | ✅ non couvert | 4/4 | ✅ |
+| `cambriolage_effraction_matmut` | clair_couvert | couvert / indéterminé | ✅ couvert | 4/4 | ✅ |
+| `foudre_surtension_matmut` | clair_couvert | couvert | ✅ couvert | 3/3 | ✅ |
+| `fuite_canalisation_altima` | clair_couvert | couvert | ✅ couvert | 4/4 | ✅ |
+| `vitre_ballon_macsf` | clair_couvert | couvert | ✅ couvert | 2/2 | ✅ |
+| `vitre_ballon_altima` | clair_couvert | couvert | ✅ couvert | 2/2 | ✅ |
+| `fer_a_repasser_matmut` | clair_exclu | non couvert | ✅ non couvert | 3/3 | ✅ |
+| `velo_cave_matmut` | clair_exclu | non couvert / indéterminé | 🟡 indéterminé | 4/4 | ✅ |
+| `salon_jardin_vole_macsf` | ambigu | indéterminé / non couvert | ✅ indéterminé | 3/3 | ✅ |
+| `surtension_lave_linge_altima` | ambigu | indéterminé / couvert | ✅ indéterminé | 2/3 | ✅ |
+| `gel_absence_altima` | ambigu | couvert / indéterminé | ✅ couvert | 3/3 | ✅ |
+
+✅ verdict attendu · 🟡 verdict prudent admis · ❌ verdict faux
+
+### Avant / après : ce que la première évaluation a révélé
+
+| Indicateur | v1 | v2 |
+|---|---|---|
+| Verdict exact | 47 % | 81 % |
+| Verdict acceptable | 73 % | 100 % |
+| Citations vérifiées mot pour mot | 72 % | 96 % |
+| « Indéterminé » sur un cas clair | 67 % | 23 % |
+| Erreurs affirmées | 0 % | 0 % |
+
+La v1 ne produisait **aucune erreur affirmée** : quand elle se trompait, elle disait « indéterminé ».
+Mais elle était trop prudente, et 28 % de ses citations étaient rejetées. L'analyse des rejets a montré
+que la vérification faisait son travail : le modèle citait des clauses qu'il ne voyait que dans la fiche
+structurée, en paraphrasant leur description. La cause réelle était l'assemblage du contexte. Sur MACSF
+(~180 lignes de garanties), les articles de garantie secondaires épuisaient le budget avant les
+exclusions décisives (Matmut Art. 16-4 était absent du contexte du cas vélo). Corrections en v2 :
+contexte trié par pertinence, exclusions avant garanties secondaires, fiche limitée aux clauses fournies
+en texte intégral, et règle « indéterminé » resserrée (une formule ou une franchise inconnue ne suffit
+pas : « couvert », avec le point à vérifier dans les questions). Détail v1 : `eval/results_v1.md`.
+
+**Honnêteté sur la mesure** : ces 16 cas ont servi à la fois à trouver ces défauts et à mesurer leur
+correction. Les corrections sont générales (aucune ne vise un cas précis), mais un vrai jeu de test
+indépendant, relu par des gestionnaires sinistre, est la prochaine étape. Modèle gratuit
+(`qwen3.8-27b`) : un modèle plus fort améliorerait surtout les 3 cas restés prudents.
 <!-- /RESULTS -->
 
 Lancer : `python eval/run_eval.py`.

@@ -1,0 +1,33 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le dommage (table de jardin abîmée par la chaleur) est exclu par la clause Art. 4.1 §2 qui exclut les dommages dus à la chaleur sans incendie. De plus, l'exclusion Art. 4.3 §2 écarte les dommages au mobilier situé en plein air, ce qui renforce le caractère non couvert du sinistre.",
+ "raisonnement": [
+  "Garantie : L'événement (chaleur) pourrait théoriquement relever de la garantie Incendie (Art. 4.1) si la chaleur était assimilée à un incendie, ou des Événements Climatiques (Art. 4.3) si c'était un phénomène météo. Or, la cause est la chaleur ambiante sur une bougie, sans flammes ni tempête.",
+  "Exclusions spécifiques : L'Art. 4.1 §2 exclut explicitement les « dommages dus à la chaleur sans qu'il y ait eu incendie ». La bougie a fondu sous l'effet de la chaleur, sans mention d'incendie. C'est l'exclusion déterminante.",
+  "Exclusions complémentaires : L'Art. 4.3 §2 exclut les « dommages causés au mobilier situé en plein air ». La table est dans le jardin (extérieur), ce qui constitue une seconde exclusion solide si l'on considérait une garantie climatique.",
+  "Conclusion : Aucune garantie ne s'applique car l'exclusion spécifique de la chaleur sans incendie (Art. 4.1 §2) écarte le sinistre. Le verdict est non couvert."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.1",
+   "page": 5,
+   "citation": "Les dommages matériels causés aux biens assurés par : - l’incendie, l’explosion, l’implosion, les fumées,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.1 §2",
+   "page": 5,
+   "citation": "Les dommages dus à la chaleur sans qu’il y ait eu incendie, tels que brûlures de cigarettes, de fers à repasser ou dégâts provoqués par les éclairages halogènes ou appareils de chauffage.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 4.3 §2",
+   "page": 6,
+   "citation": "Les dommages causés au mobilier situé en plein air ou dans des bâtiments non entièrement clos ou couverts.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion de la chaleur sans incendie est explicite dans l'Art. 4.1 §2 et correspond parfaitement au fait (bougie fondue par la chaleur). L'exclusion du mobilier en plein air (Art. 4.3 §2) renforce la décision."
+}

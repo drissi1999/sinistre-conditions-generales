@@ -1,0 +1,512 @@
+[
+ {
+  "id": "velo_local_commun_altima",
+  "contract_id": "altima_mrh",
+  "category": "clair_exclu",
+  "claim": "Je me fais voler mon vélo dans le local commun de l'immeuble, qui n'était pas fermé à clé. Suis-je couvert ?",
+  "expected": [
+   "non couvert"
+  ],
+  "expected_clauses": [
+   "Art. 4.7 §2"
+  ],
+  "note": "Exclusion explicite : vol « dans les locaux à usage commun de plusieurs occupants ».",
+  "verdict": "non couvert",
+  "model_verdict": "non couvert",
+  "downgraded": false,
+  "confiance": "élevée",
+  "strict_ok": true,
+  "acceptable_ok": true,
+  "citations": 2,
+  "citations_ok": 2,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 4.7",
+   "Art. 4.7 §2"
+  ],
+  "questions": [],
+  "resume": "Le vol du vélo est exclu car il a eu lieu dans un local à usage commun, lieu expressément visé par l'exclusion de la garantie vol.",
+  "seconds": 8.8
+ },
+ {
+  "id": "velo_local_commun_macsf",
+  "contract_id": "macsf_mh",
+  "category": "clair_exclu",
+  "claim": "Je me fais voler mon vélo dans le local commun de l'immeuble, qui n'était pas fermé à clé. Suis-je couvert ?",
+  "expected": [
+   "non couvert",
+   "indéterminé"
+  ],
+  "expected_clauses": [
+   "Art. 2.5 §2"
+  ],
+  "note": "Garantie limitée au vol « à l'intérieur des locaux assurés, par effraction ou escalade … traces apparentes » : local non fermé, pas d'effraction.",
+  "verdict": "indéterminé",
+  "model_verdict": "indéterminé",
+  "downgraded": false,
+  "confiance": "faible",
+  "strict_ok": false,
+  "acceptable_ok": true,
+  "citations": 4,
+  "citations_ok": 1,
+  "expected_clause_cited": false,
+  "cited": [
+   "Art. 2.5 §5"
+  ],
+  "questions": [
+   "Y a-t-il eu effraction ou escalade du local commun, ou la porte était-elle simplement ouverte ?",
+   "Le local commun est-il considéré comme un local entièrement clos et couvert (exclusion Art. 2.5 §4) ?",
+   "Le vélo est-il un vélo classique ou un vélo électrique (véhicule à moteur) ?",
+   "Quelle est la formule souscrite (Eco, Confort, Excellence) et le vélo est-il un objet précieux ?",
+   "Le local commun est-il inclus dans les « locaux assurés » selon les conditions particulières ?"
+  ],
+  "resume": "Le vol du vélo dans le local commun n'est pas clairement couvert ni exclu par les clauses fournies. La garantie vol exige une effraction ou une escalade (Art. 2.5 §2), ce qui n'est pas le cas ici (porte non fermée). L'exclusion des locaux non entièrement clos (Art. 2.5 §4) vise les terrasses, balcons et jardins, pas explicitement les locaux communs. Le statut du vélo (bien assuré ou exclu) et la nature du local commun (clos/couvert) restent à vérifier.",
+  "seconds": 57.5
+ },
+ {
+  "id": "velo_local_commun_matmut",
+  "contract_id": "matmut_jeunes",
+  "category": "clair_exclu",
+  "claim": "Je me fais voler mon vélo dans le local commun de l'immeuble, qui n'était pas fermé à clé. Suis-je couvert ?",
+  "expected": [
+   "non couvert"
+  ],
+  "expected_clauses": [
+   "Art. 16-4",
+   "Art. 10-4"
+  ],
+  "note": "Exclusion explicite du vol « commis dans les parties communes d'un immeuble collectif ».",
+  "verdict": "indéterminé",
+  "model_verdict": "non couvert",
+  "downgraded": true,
+  "confiance": "faible",
+  "strict_ok": false,
+  "acceptable_ok": false,
+  "citations": 2,
+  "citations_ok": 0,
+  "expected_clause_cited": false,
+  "cited": [],
+  "questions": [],
+  "resume": "Le vol du vélo dans le local commun de l'immeuble est exclu de la garantie Vol par l'article 16-4, qui exclut spécifiquement les vols commis dans les parties communes d'un immeuble collectif.",
+  "seconds": 27.4
+ },
+ {
+  "id": "bougie_jardin_altima",
+  "contract_id": "altima_mrh",
+  "category": "clair_exclu",
+  "claim": "Un assuré laisse une bougie sur la table de son jardin pendant ses vacances. Avec la chaleur, la bougie fond et abîme la table. Est-ce couvert ?",
+  "expected": [
+   "non couvert"
+  ],
+  "expected_clauses": [
+   "Art. 4.1 §2",
+   "Art. 4.3 §2"
+  ],
+  "note": "Exclusion des « dommages dus à la chaleur sans qu'il y ait eu incendie » ; mobilier en plein air exclu.",
+  "verdict": "non couvert",
+  "model_verdict": "non couvert",
+  "downgraded": false,
+  "confiance": "élevée",
+  "strict_ok": true,
+  "acceptable_ok": true,
+  "citations": 3,
+  "citations_ok": 3,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 4.1",
+   "Art. 4.1 §2",
+   "Art. 4.3 §2"
+  ],
+  "questions": [],
+  "resume": "Le dommage (table de jardin abîmée par la chaleur) est exclu par la clause Art. 4.1 §2 qui exclut les dommages dus à la chaleur sans incendie. De plus, l'exclusion Art. 4.3 §2 écarte les dommages au mobilier situé en plein air, ce qui renforce le caractère non couvert du sinistre.",
+  "seconds": 31.6
+ },
+ {
+  "id": "bougie_jardin_macsf",
+  "contract_id": "macsf_mh",
+  "category": "clair_exclu",
+  "claim": "Un assuré laisse une bougie sur la table de son jardin pendant ses vacances. Avec la chaleur, la bougie fond et abîme la table. Est-ce couvert ?",
+  "expected": [
+   "non couvert",
+   "indéterminé"
+  ],
+  "expected_clauses": [
+   "Art. 2.1",
+   "Art. 2.3 §2"
+  ],
+  "note": "Incendie défini comme « combustion avec flammes en dehors d'un foyer normal » : pas de flammes décrites.",
+  "verdict": "indéterminé",
+  "model_verdict": "indéterminé",
+  "downgraded": false,
+  "confiance": "faible",
+  "strict_ok": false,
+  "acceptable_ok": true,
+  "citations": 5,
+  "citations_ok": 3,
+  "expected_clause_cited": false,
+  "cited": [
+   "Art. 1.1 §5",
+   "Art. 1.2 §2",
+   "Art. 8"
+  ],
+  "questions": [
+   "Le Pack Jardin est-il souscrit et mentionné aux conditions particulières ?",
+   "Y a-t-il eu des flammes ou un feu (incendie) ou uniquement de la chaleur (fonte) ?",
+   "La table de jardin est-elle considérée comme un bien meuble ou une installation fixe ?"
+  ],
+  "resume": "Le sinistre concerne une table de jardin abîmée par la fonte d'une bougie sous l'effet de la chaleur. La couverture dépend de la souscription du Pack Jardin (optionnel) et de la qualification de l'événement (chaleur simple vs incendie).",
+  "seconds": 36.9
+ },
+ {
+  "id": "bougie_jardin_matmut",
+  "contract_id": "matmut_jeunes",
+  "category": "clair_exclu",
+  "claim": "Un assuré laisse une bougie sur la table de son jardin pendant ses vacances. Avec la chaleur, la bougie fond et abîme la table. Est-ce couvert ?",
+  "expected": [
+   "non couvert"
+  ],
+  "expected_clauses": [
+   "Art. 14-1 §2",
+   "Art. 10-4"
+  ],
+  "note": "Exclusion des dommages résultant « de la seule action de la chaleur » ; biens mobiliers à l'extérieur non assurés.",
+  "verdict": "non couvert",
+  "model_verdict": "non couvert",
+  "downgraded": false,
+  "confiance": "élevée",
+  "strict_ok": true,
+  "acceptable_ok": true,
+  "citations": 3,
+  "citations_ok": 3,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 10-4",
+   "Art. 14-1",
+   "Art. 14-1 §2"
+  ],
+  "questions": [],
+  "resume": "La table de jardin est située à l'extérieur des locaux d'habitation. L'Article 10-4 exclut expressément les biens mobiliers situés à l'extérieur des locaux d'habitation assurés. De plus, le dommage est causé par la seule action de la chaleur, ce qui est exclu par l'Article 14-1 §2.",
+  "seconds": 30.9
+ },
+ {
+  "id": "cambriolage_effraction_matmut",
+  "contract_id": "matmut_jeunes",
+  "category": "clair_couvert",
+  "claim": "Pendant que j'étais au travail, des cambrioleurs ont forcé la serrure de la porte d'entrée de mon appartement et ont volé mon ordinateur portable. La serrure est cassée et j'ai porté plainte.",
+  "expected": [
+   "couvert",
+   "indéterminé"
+  ],
+  "expected_clauses": [
+   "Art. 16-1"
+  ],
+  "note": "Vol par effraction dans les locaux assurés. Indéterminé acceptable : moyens de fermeture exigés (16-3).",
+  "verdict": "indéterminé",
+  "model_verdict": "indéterminé",
+  "downgraded": false,
+  "confiance": "moyenne",
+  "strict_ok": false,
+  "acceptable_ok": true,
+  "citations": 4,
+  "citations_ok": 4,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 16-1",
+   "Art. 16-3",
+   "Art. 3-2"
+  ],
+  "questions": [
+   "La serrure de la porte d'entrée comportait-elle deux points d'ancrage ou un verrou à clé en plus d'une serrure simple ?",
+   "L'appartement était-il équipé d'un système de surveillance et d'alarme ou de télésurveillance ?",
+   "Si oui, ce système était-il activé au moment de l'absence de l'assuré ?",
+   "Les fenêtres et autres ouvertures donnant sur l'extérieur étaient-elles fermées ou protégées (volets, barreaux, verre feuilleté) ?"
+  ],
+  "resume": "Le vol par effraction de l'ordinateur portable et la casse de la serrure relèvent de la garantie Vol (Art. 16-1). Cependant, la prise en charge dépend de la conformité des moyens de fermeture (serrure à 2 points d'ancrage ou alarme) et de l'activation de l'alarme en cas d'absence, conditions non précisées dans la déclaration. Une réduction de 50% de l'indemnité est possible si ces conditions ne sont pas remplies.",
+  "seconds": 46.8
+ },
+ {
+  "id": "foudre_surtension_matmut",
+  "contract_id": "matmut_jeunes",
+  "category": "clair_couvert",
+  "claim": "Pendant un orage, la foudre est tombée près de chez moi. Depuis, mon réfrigérateur et ma box internet ne fonctionnent plus, le réparateur parle d'une surtension.",
+  "expected": [
+   "couvert"
+  ],
+  "expected_clauses": [
+   "Art. 14-5"
+  ],
+  "note": "Surtension du réseau électrique : dommages aux appareils électriques garantis.",
+  "verdict": "indéterminé",
+  "model_verdict": "couvert",
+  "downgraded": true,
+  "confiance": "faible",
+  "strict_ok": false,
+  "acceptable_ok": false,
+  "citations": 4,
+  "citations_ok": 3,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 14-5",
+   "Art. 14-5 §2",
+   "Art. 22-2"
+  ],
+  "questions": [
+   "La date de déclaration du sinistre (pour vérifier le respect du délai de 5 jours ouvrés de l'Art. 22-2).",
+   "La valeur des biens endommagés (pour vérifier si le plafond de 500 € de l'Art. 3-2 est atteint ou dépassé)."
+  ],
+  "resume": "Les dommages au réfrigérateur et à la box internet, causés par une surtension électrique consécutive à la foudre, relèvent de la garantie Dommages électriques (Art. 14-5). Aucune exclusion spécifique ne s'applique aux biens eux-mêmes, sous réserve du respect du délai de déclaration et du plafond de 500 €.",
+  "seconds": 44.2
+ },
+ {
+  "id": "fuite_canalisation_altima",
+  "contract_id": "altima_mrh",
+  "category": "clair_couvert",
+  "claim": "Une canalisation d'eau dans le mur de la salle de bain a fui et l'eau a abîmé le parquet du salon.",
+  "expected": [
+   "couvert"
+  ],
+  "expected_clauses": [
+   "Art. 4.5"
+  ],
+  "note": "Dommages matériels causés par l'eau aux biens assurés.",
+  "verdict": "indéterminé",
+  "model_verdict": "indéterminé",
+  "downgraded": false,
+  "confiance": "moyenne",
+  "strict_ok": false,
+  "acceptable_ok": false,
+  "citations": 4,
+  "citations_ok": 4,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 4.5",
+   "Art. 4.5 §2",
+   "Art. 4.5 §3"
+  ],
+  "questions": [
+   "La canalisation fuyante est-elle située dans un mur (non enterrée) ou sous le sol (enterrée nécessitant des travaux de terrassement) ?",
+   "Y a-t-il un défaut de réparation ou d'entretien apparent de la canalisation imputable à l'assuré ?",
+   "L'assuré était-il absent plus de 10 jours consécutifs au moment du sinistre sans avoir coupé l'eau ?"
+  ],
+  "resume": "La fuite de canalisation dans le mur de la salle de bain causant des dégâts au parquet du salon relève de la garantie dégâts des eaux (Art. 4.5). Cependant, le verdict dépend de la nature de la canalisation (enterrée ou non) et de l'absence éventuelle de défaut d'entretien apparent, points non précisés dans la déclaration.",
+  "seconds": 35.8
+ },
+ {
+  "id": "vitre_ballon_macsf",
+  "contract_id": "macsf_mh",
+  "category": "clair_couvert",
+  "claim": "Mon fils a cassé accidentellement la vitre de la porte-fenêtre du salon en jouant au ballon.",
+  "expected": [
+   "couvert"
+  ],
+  "expected_clauses": [
+   "Art. 2-7"
+  ],
+  "note": "Bris accidentel des vitrages des portes-fenêtres.",
+  "verdict": "indéterminé",
+  "model_verdict": "indéterminé",
+  "downgraded": false,
+  "confiance": "faible",
+  "strict_ok": false,
+  "acceptable_ok": false,
+  "citations": 4,
+  "citations_ok": 1,
+  "expected_clause_cited": false,
+  "cited": [
+   "Art. 1.1"
+  ],
+  "questions": [
+   "Quelle est la formule souscrite (Eco, Confort ou Excellence) ? Cela détermine les plafonds et franchises applicables au bris de glace.",
+   "Quelle est la franchise applicable à la garantie bris de glace pour cette formule ?"
+  ],
+  "resume": "Le sinistre (bris accidentel d'une vitre de porte-fenêtre par un enfant) relève de la garantie bris de glace (Art. 2-7). Cependant, la couverture dépend de la formule souscrite (Eco, Confort ou Excellence) et de la présence éventuelle d'une franchise, éléments non précisés dans les conditions particulières.",
+  "seconds": 41.5
+ },
+ {
+  "id": "vitre_ballon_altima",
+  "contract_id": "altima_mrh",
+  "category": "clair_couvert",
+  "claim": "Un ballon a cassé la vitre d'une fenêtre de ma maison.",
+  "expected": [
+   "couvert"
+  ],
+  "expected_clauses": [
+   "Art. 4.8"
+  ],
+  "note": "Bris accidentel des vitres faisant partie intégrante des bâtiments assurés.",
+  "verdict": "couvert",
+  "model_verdict": "couvert",
+  "downgraded": false,
+  "confiance": "moyenne",
+  "strict_ok": true,
+  "acceptable_ok": true,
+  "citations": 3,
+  "citations_ok": 3,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 4.8",
+   "Art. 4.8 §2",
+   "Chap. 11"
+  ],
+  "questions": [
+   "Le ballon a-t-il été lancé intentionnellement par l'assuré ou un tiers ? (Si oui, vérifier si l'acte est considéré comme intentionnel au sens de l'Art. 4.8 ou Chap. 11, bien que le bris soit souvent couvert même en cas de choc volontaire si la garantie bris de glace est souscrite, mais le texte dit 'accidentel')."
+  ],
+  "resume": "Le bris de la vitre de fenêtre causé par un ballon relève de la garantie bris de vitres (Art. 4.8). L'événement est accidentel et la vitre fait partie intégrante du bâtiment assuré. Aucune exclusion spécifique ou commune ne s'applique clairement aux faits décrits.",
+  "seconds": 33.8
+ },
+ {
+  "id": "fer_a_repasser_matmut",
+  "contract_id": "matmut_jeunes",
+  "category": "clair_exclu",
+  "claim": "En repassant, j'ai laissé le fer posé sur le canapé : le tissu est brûlé, il n'y a pas eu de flammes.",
+  "expected": [
+   "non couvert"
+  ],
+  "expected_clauses": [
+   "Art. 14-1 §2"
+  ],
+  "note": "Brûlures (« incidents de repassage ») exclues.",
+  "error": "Réponse LLM invalide après 2 essais : 1 validation error for ClaimFacts\nflammes_ou_incendie\n  Input should be a valid boolean, unable to interpret input [type=bool_parsing, input_value='brûlure sans flammes', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/bool_parsing"
+ },
+ {
+  "id": "velo_cave_matmut",
+  "contract_id": "matmut_jeunes",
+  "category": "clair_exclu",
+  "claim": "On m'a volé mon vélo rangé dans ma cave privative, fermée à clé : la porte de la cave a été forcée.",
+  "expected": [
+   "non couvert",
+   "indéterminé"
+  ],
+  "expected_clauses": [
+   "Art. 10-4"
+  ],
+  "note": "Piège : effraction réelle, mais les biens mobiliers « remisés dans les dépendances » ne sont pas assurés par ce contrat.",
+  "verdict": "indéterminé",
+  "model_verdict": "indéterminé",
+  "downgraded": false,
+  "confiance": "moyenne",
+  "strict_ok": false,
+  "acceptable_ok": true,
+  "citations": 4,
+  "citations_ok": 4,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 10-4",
+   "Art. 16-1",
+   "Art. 16-3",
+   "Art. 3-2"
+  ],
+  "questions": [
+   "La cave est-elle qualifiée de « dépendance » ou de « local d'habitation » dans les conditions particulières ou la déclaration de souscription ?",
+   "La porte de la cave est-elle équipée d'une serrure à deux points d'ancrage, ou d'une serrure à un point d'ancrage avec verrou à clé/système d'alarme ?",
+   "Le vélo est-il un vélo à assistance électrique rapide (exclu par Art. 10-4) ou un vélo classique ?"
+  ],
+  "resume": "Le vol du vélo dans la cave privative est potentiellement couvert par la garantie Vol (Art. 16-1), mais l'application de l'exclusion des biens remisés dans les dépendances (Art. 10-4) dépend de la qualification juridique de la cave (dépendance ou local d'habitation). De plus, la conformité des moyens de fermeture (serrure 2 points d'ancrage) n'est pas confirmée.",
+  "seconds": 41.7
+ },
+ {
+  "id": "salon_jardin_vole_macsf",
+  "contract_id": "macsf_mh",
+  "category": "ambigu",
+  "claim": "On m'a volé mon salon de jardin sur ma terrasse pendant la nuit.",
+  "expected": [
+   "indéterminé",
+   "non couvert"
+  ],
+  "expected_clauses": [
+   "Art. 2.5 §4"
+  ],
+  "note": "Exclu « sauf si le Pack Jardin est souscrit » : dépend des conditions particulières.",
+  "verdict": "indéterminé",
+  "model_verdict": "indéterminé",
+  "downgraded": false,
+  "confiance": "faible",
+  "strict_ok": true,
+  "acceptable_ok": true,
+  "citations": 4,
+  "citations_ok": 1,
+  "expected_clause_cited": false,
+  "cited": [
+   "Tableaux des garanties et plafonds (p. 11)"
+  ],
+  "questions": [
+   "L'assuré a-t-il souscrit le Pack Jardin ?",
+   "La terrasse est-elle située à plus de 2,50 m du sol ?",
+   "La propriété est-elle entièrement clôturée ?",
+   "Quelle est la formule souscrite (Eco, Confort ou Excellence) ?"
+  ],
+  "resume": "Le vol d'un salon de jardin sur une terrasse est potentiellement couvert par la garantie Vol (Art. 2.5) ou le Pack Jardin (Art. 8), mais la couverture dépend de la souscription du Pack Jardin, de la hauteur de la terrasse et de la clôture de la propriété, ainsi que de la formule souscrite.",
+  "seconds": 50.3
+ },
+ {
+  "id": "surtension_lave_linge_altima",
+  "contract_id": "altima_mrh",
+  "category": "ambigu",
+  "claim": "Une surtension a grillé mon lave-linge.",
+  "expected": [
+   "indéterminé",
+   "couvert"
+  ],
+  "expected_clauses": [
+   "Art. 4.2",
+   "Art. 4.2 §2"
+  ],
+  "note": "Garantie dommages électriques « lorsque cette garantie est contenue dans la formule » : dépend de la formule.",
+  "verdict": "indéterminé",
+  "model_verdict": "indéterminé",
+  "downgraded": false,
+  "confiance": "faible",
+  "strict_ok": true,
+  "acceptable_ok": true,
+  "citations": 4,
+  "citations_ok": 3,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 10.2 §2",
+   "Art. 4.2 §2",
+   "Art. 4.2 §3"
+  ],
+  "questions": [
+   "La garantie « Dommages électriques » est-elle bien incluse dans la formule souscrite par l'assuré (vérifier les Conditions Particulières) ?",
+   "Quel est l'âge du lave-linge endommagé (est-il de plus de 10 ans) ?",
+   "La surtension est-elle due à un défaut de l'installation électrique du logement (exclusion construction/rénovation) ou à une cause externe (foudre, réseau) ?"
+  ],
+  "resume": "Le sinistre (surtension grillant un lave-linge) relève de la garantie « Dommages électriques » (Art. 4.2). Cependant, cette garantie n'est active que si elle est incluse dans la formule choisie, ce qui n'est pas précisé dans les faits fournis. De plus, l'âge de l'appareil est inconnu, ce qui est déterminant au regard des exclusions.",
+  "seconds": 48.8
+ },
+ {
+  "id": "gel_absence_altima",
+  "contract_id": "altima_mrh",
+  "category": "ambigu",
+  "claim": "Pendant mes trois semaines de vacances en janvier, un tuyau a gelé et éclaté dans ma maison non chauffée. Je n'avais pas coupé l'eau ni vidangé les conduites.",
+  "expected": [
+   "couvert",
+   "indéterminé"
+  ],
+  "expected_clauses": [
+   "Art. 4.5 §3",
+   "Art. 4.5"
+  ],
+  "note": "Garanti, mais 30 % de l'indemnité restent à charge faute de mesures de prévention. Un « non couvert » serait faux.",
+  "verdict": "couvert",
+  "model_verdict": "couvert",
+  "downgraded": false,
+  "confiance": "élevée",
+  "strict_ok": true,
+  "acceptable_ok": true,
+  "citations": 3,
+  "citations_ok": 3,
+  "expected_clause_cited": true,
+  "cited": [
+   "Art. 4.5",
+   "Art. 4.5 §2",
+   "Art. 4.5 §3"
+  ],
+  "questions": [
+   "Les conduites concernées sont-elles enterrées (ce qui exclurait la garantie) ou non enterrées (couvertes) ?",
+   "Les locaux sinistrés sont-ils des pièces d'habitation ou des bâtiments clos et couverts contigus ?"
+  ],
+  "resume": "Le sinistre (gel d'un tuyau) est couvert par la garantie Dégâts des Eaux et Gel, sous réserve d'une retenue de 30 % de l'indemnité due au non-respect des mesures de prévention (absence de vidange et d'interruption de l'eau).",
+  "seconds": 49.0
+ }
+]

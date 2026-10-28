@@ -1,0 +1,31 @@
+{
+ "verdict": "couvert",
+ "resume": "Le bris de la vitre de fenêtre causé par un ballon relève de la garantie bris de glace (Art. 4.8). Le choc accidentel d'un objet (ballon) sur une vitre faisant partie intégrante du bâtiment assuré est couvert, sauf défaut d'entretien apparent ou exclusions communes non précisées.",
+ "raisonnement": [
+  "La garantie applicable est le bris de glace défini à l'Art. 4.8, qui couvre le « bris accidentel des vitres et des miroirs qui font partie intégrante des bâtiments assurés » (Art. 4.8).",
+  "L'événement décrit (un ballon qui casse la vitre) correspond à un bris accidentel d'une vitre de fenêtre, élément faisant partie intégrante du bâtiment (maison), donc dans le périmètre de la garantie (Art. 4.8).",
+  "L'exclusion spécifique de l'Art. 4.8 §2 vise les « dommages dus à un défaut de réparation ou d’entretien apparent qui vous incombe ». Rien n'indique dans les faits que la vitre était déjà fissurée ou mal entretenue avant l'impact du ballon, l'exclusion ne semble donc pas s'appliquer.",
+  "Les exclusions communes à toutes les garanties (Art. 4.8 §2) ne sont pas détaillées dans les clauses fournies, mais aucune ne semble visée par un simple choc de ballon (pas de vol, pas de faute intentionnelle mentionnée).",
+  "La condition de déclaration dans les 5 jours ouvrés (Art. 12.1) est une condition de forme, non une condition de fond de la couverture du risque lui-même."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.8",
+   "page": 7,
+   "citation": "Le bris accidentel des vitres et des miroirs qui font partie intégrante des bâtiments assurés.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.8 §2",
+   "page": 7,
+   "citation": "Les dommages dus à un défaut de réparation ou d’entretien apparent qui vous incombe.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "La vitre était-elle déjà fissurée ou mal entretenue avant l'impact du ballon (défaut d'entretien apparent) ?",
+  "Le sinistre a-t-il été déclaré dans les délais de 5 jours ouvrés (Art. 12.1) ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie vise clairement l'événement, mais l'absence de détail sur l'état antérieur de la vitre (exclusion défaut d'entretien) et les exclusions communes non détaillées laissent une petite zone d'incertitude."
+}

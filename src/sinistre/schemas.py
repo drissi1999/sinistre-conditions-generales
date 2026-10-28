@@ -105,6 +105,23 @@ class ClaimFacts(BaseModel):
     cause: str = ""
     termes_cles: list[str] = Field([], description="Termes contractuels à rechercher (vol, effraction, dépendances…)")
 
+    @field_validator("local_ferme_a_cle", "effraction", "assure_absent", "flammes_ou_incendie", mode="before")
+    @classmethod
+    def _tri(cls, v):
+        # oui / non / inconnu : un texte libre (« brûlure sans flammes ») n'est pas un booléen sûr
+        if isinstance(v, bool) or v is None:
+            return v
+        s = str(v).strip().lower()
+        return {"true": True, "oui": True, "yes": True, "false": False, "non": False, "no": False}.get(s)
+
+    @field_validator("duree_absence_jours", mode="before")
+    @classmethod
+    def _days(cls, v):
+        try:
+            return int(v) if v is not None else None
+        except (TypeError, ValueError):
+            return None
+
     @field_validator("perils", mode="before")
     @classmethod
     def _ps(cls, v):

@@ -1,0 +1,33 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le vol du vélo a eu lieu dans un local commun de l'immeuble. L'exclusion spécifique au vol des objets dans les locaux à usage commun de plusieurs occupants s'applique, écartant la garantie.",
+ "raisonnement": [
+  "La garantie Vol (Art. 4.7) couvre la disparition des biens assurés situés à l'intérieur du bâtiment assuré, résultant d'un vol commis par effraction, escalade ou violences. Le vélo est un bien mobilier assuré (Chap. 3).",
+  "Cependant, l'exclusion prévue à l'Art. 4.7 §2 écarte le vol des objets « dans les locaux à usage commun de plusieurs occupants locataires ou copropriétaires ». Le local commun de l'immeuble correspond à cette définition.",
+  "Bien que le local ne soit pas fermé à clé, ce fait renforce l'argument d'insuffisance de protection ou de non-applicabilité de la garantie, mais c'est l'exclusion liée au lieu (local commun) qui est déterminante.",
+  "Aucune autre garantie (RC, PJ) ne couvre la perte du bien lui-même, seulement les conséquences pécuniaires ou les frais de procès."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.7",
+   "page": 6,
+   "citation": "La disparition, destruction ou détérioration des biens assurés situés à l’intérieur du bâtiment assuré, résultant d’un vol, d’une tentative de vol ou d’un acte de vandalisme commis dans l’une des circonstances suivantes : - par effraction,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.7 §2",
+   "page": 6,
+   "citation": "Le vol des objets déposés ou fixés à l’extérieur des bâtiments assurés, ou dans des bâtiments non entièrement clos et couverts, ou dans les locaux à usage commun de plusieurs occupants locataires ou copropriétaires.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Chap. 3",
+   "page": 5,
+   "citation": "Les biens mobiliers que vous détenez pour un usage privé dans les limites fixées sur les Conditions Particulières pour les objets usuels et les objets de valeur.",
+   "role": "definition"
+  }
+ ],
+ "informations_manquantes": [],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion est explicite et vise directement le lieu du sinistre (local commun de l'immeuble), ce qui écarte clairement la garantie vol."
+}

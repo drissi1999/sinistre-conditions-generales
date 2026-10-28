@@ -1,0 +1,27 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le vol du vélo est exclu car il a eu lieu dans les parties communes de l'immeuble, exclusion spécifique à la garantie Vol (Art. 16-4).",
+ "raisonnement": [
+  "L'événement est un vol de vélo, relevant de la garantie Vol (Art. 16).",
+  "L'Art. 16-4 exclut expressément le vol commis dans les parties communes d'un immeuble collectif. Le local commun est une partie commune.",
+  "L'absence de fermeture à clé du local commun renforce l'exclusion, mais l'exclusion principale est le lieu (parties communes).",
+  "Aucune autre garantie (RC, PJ) ne couvre le vol du bien lui-même."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 16-4",
+   "page": 26,
+   "citation": "Nous ne garantissons pas le vol, la tentative de vol ou l’acte de vandalisme et les détériorations consécutives : • commis dans : - les parties communes d’un immeuble collectif,",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 16-3",
+   "page": 25,
+   "citation": "La mise en jeu des garanties est subordonnée : • à l’existence des moyens de fermeture et de protection des locaux assurés, indiqués ci-après, maintenus en bon état de fonctionnement,",
+   "role": "condition"
+  }
+ ],
+ "informations_manquantes": [],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion des parties communes est explicite et sans ambiguïté dans l'Art. 16-4."
+}

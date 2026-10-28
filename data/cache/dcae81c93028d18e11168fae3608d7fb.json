@@ -1,0 +1,41 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le dommage (table abîmée par la fonte d'une bougie sous l'effet de la chaleur) est exclu par la garantie Incendie car il résulte de la seule action de la chaleur, sans flammes ni incendie. De plus, le bien (table de jardin) est situé à l'extérieur, là où les biens mobiliers ne sont généralement pas garantis, sauf extension spécifique non mentionnée.",
+ "raisonnement": [
+  "Garantie : L'événement (fonte d'une bougie due à la chaleur) pourrait a priori relever de la garantie Incendie (Art. 14-1) si l'on considère la chaleur comme un risque thermique, ou de la garantie Dommages aux biens (Art. 10-1) pour le mobilier. Cependant, la définition de l'incendie exige une \"combustion avec flammes\" (Art. 14-1), ce qui n'est pas le cas ici (la bougie fond, elle ne brûle pas nécessairement avec flammes, et le fait est décrit comme dû à la chaleur).",
+  "Exclusions : L'Art. 14-1 §2 exclut explicitement les dommages \"résultant de la seule action de la chaleur\". Le fait que la bougie ait fondu sous l'effet de la chaleur pendant l'absence de l'assuré correspond exactement à cette exclusion. Il n'y a pas d'incendie (flammes) ni d'explosion.",
+  "Conditions/Biens : L'Art. 10-1 garantit les biens mobiliers \"dans les locaux à usage exclusif d'habitation\". La table est située \"dans son jardin\", donc à l'extérieur. L'Art. 9-3 exclut de la garantie immobilière les \"pergolas, auvents, tonnelles...\" et les équipements extérieurs, mais ne liste pas explicitement le mobilier de jardin. Toutefois, l'Art. 10-1 limite la garantie mobilière à l'intérieur des locaux. Sans option \"Jardin\" ou extension spécifique (non fournie dans les clauses), le bien n'est pas garanti. Même si le bien était garanti, l'exclusion de la chaleur (Art. 14-1 §2) s'applique.",
+  "Conclusion : L'exclusion de la \"seule action de la chaleur\" (Art. 14-1 §2) écarte clairement le sinistre. De plus, la localisation extérieure du bien renforce le caractère non couvert."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 14-1",
+   "page": 21,
+   "citation": "Nous garantissons les dommages provoqués par : • un incendie, c’est-à-dire la combustion avec flammes en dehors d’un foyer normal,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 14-1 §2",
+   "page": 21,
+   "citation": "Outre les exclusions prévues à l’article 20, nous ne garantissons pas les dommages : • résultant : - de brûlures (incidents de repassage, cigarettes, objets jetés ou tombés dans un foyer, contact avec un objet incandescent ou des braises provenant d’un foyer), - de la seule action de la chaleur.",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 10-1",
+   "page": 17,
+   "citation": "Nous garantissons, dans les locaux à usage exclusif d’habitation, vos biens mobiliers dont : • les meubles meublants, y compris ceux des cuisines et salles de bain équipées,",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 9-3",
+   "page": 17,
+   "citation": "Outre les exclusions prévues à l’article 20, nous ne garantissons pas au titre des garanties des Dommages aux biens prévues aux articles 13 à 17 : ... • les pergolas, auvents, tonnelles, gloriettes, serres,",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [
+  "Y a-t-il eu une extension \"Jardin\" ou \"Mobilier de jardin\" souscrite aux conditions particulières ? (L'Art. 10-1 limite la garantie à l'intérieur des locaux, mais une option pourrait l'étendre à l'extérieur)."
+ ],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion de la \"seule action de la chaleur\" est explicite dans l'Art. 14-1 §2 et correspond parfaitement au mécanisme de dommage décrit (fonte de la bougie sans mention de flammes/incendie). La localisation extérieure du bien renforce le verdict, même si une extension spécifique pourrait théoriquement couvrir le bien, l'exclusion de la chaleur s'appliquerait toujours."
+}

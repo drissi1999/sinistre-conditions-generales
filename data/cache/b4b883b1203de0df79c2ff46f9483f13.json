@@ -1,0 +1,25 @@
+{
+ "resume": "Vol d'un vélo stocké dans une cave privative fermée à clé, avec effraction de la porte de la cave.",
+ "perils": [
+  "vol"
+ ],
+ "biens_endommages": [
+  "vélo",
+  "porte de la cave"
+ ],
+ "lieu": "dependance_privative",
+ "local_ferme_a_cle": true,
+ "effraction": true,
+ "assure_absent": null,
+ "duree_absence_jours": null,
+ "flammes_ou_incendie": false,
+ "cause": "effraction de la porte de la cave",
+ "termes_cles": [
+  "vol",
+  "effraction",
+  "cave",
+  "dépendance",
+  "fermé à clé",
+  "vélo"
+ ]
+}
