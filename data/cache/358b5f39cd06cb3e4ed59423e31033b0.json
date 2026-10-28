@@ -1,0 +1,114 @@
+{
+ "guarantees": [
+  {
+   "peril": "protection_juridique",
+   "label": "Extension violences intrafamiliales",
+   "scope": "Couvre le recours de l'assuré victime de violences intrafamiliales (physiques et/ou sexuelles) constitutives d'un délit ou crime, incluant assistance juridique et prise en charge des frais d'avocat pour constitution de partie civile.",
+   "ceiling": "1 500 € TTC",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 19-6",
+   "quote": "participer, dans la limite des montants garantis indiqués à l’Annexe aux présentes Conditions généraleset d’un plafond de 1 500 € TTC, à la prise en charge des frais et honoraires de l’avocat de votre choix"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "protection_juridique",
+   "description": "Frais et honoraires engagés dans le cadre d'une saisine du juge aux affaires familiales.",
+   "clause_id": "Art. 19-6 §2",
+   "quote": "les frais, honoraires et sommes engagés dans le cadre d’une saisine du juge aux affaires familiales"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Frais exposés par la personne citée, convoquée ou assignée du chef de violences intrafamiliales.",
+   "clause_id": "Art. 19-6 §2",
+   "quote": "les frais, honoraires et sommes exposés par la personne citée, convoquée ou assignée du chef de violences intrafamiliales et ce, quelle que soit l’issue de la procédure engagée à son encontre"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Différends ou sinistres relatifs aux faits de violences psychologiques.",
+   "clause_id": "Art. 19-6 §2",
+   "quote": "les différends ou sinistres relatifs aux faits de violences psychologiques"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Différends dont les éléments constitutifs étaient connus antérieurement à la date d'effet du contrat.",
+   "clause_id": "Art. 19-7",
+   "quote": "dont les éléments constitutifs étaient connus de vous antérieurement à la date d’effet du contrat"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Actes volontaires commis ou provoqués par l'assuré, paris ou défis, faute intentionnelle ou dolosive.",
+   "clause_id": "Art. 19-7",
+   "quote": "d’actes volontaires commis ou provoqués par vous ou avec votre complicité, qu’ils fassent ou non l’objet d’une mise en examen, d’une convocation devant le Médiateur pénal ou de poursuites devant les juridictions répressives, ainsi que de paris ou de défis"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Risques exceptionnels tels que guerre civile, guerre étrangère, effets d'explosion, chaleur, irradiation, radioactivité.",
+   "clause_id": "Art. 19-7",
+   "quote": "de risques exceptionnels tels que guerre civile, guerre étrangère, effets directs ou indirects d’explosion, de dégagements de chaleur, d’irradiation, provenant de la radioactivité ou de rayonnements ionisants"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Différends opposant l'assuré à l'assureur, à une entreprise d'assurance ou d'assistance.",
+   "clause_id": "Art. 19-7",
+   "quote": "vous opposant à certaines personnes physiques ou morales : nous-mêmes, toute entreprise d’assurance pour l’exécution des contrats d’assurance vous liant à cette entreprise et toute entreprise d’assistance"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Intérêt financier inférieur à 150 € ou intervention devant les tribunaux pour une somme inférieure à 760 €.",
+   "clause_id": "Art. 19-7",
+   "quote": "ayant un intérêt financier inférieur à 150 € ou nécessitant une intervention devant les tribunaux lorsque la somme, en principal, à récupérer ou que vous êtes susceptible de payer est inférieure à 760 €"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Différends relevant du Conseil d'État ou de la Cour de Cassation avec un intérêt financier inférieur à 3 000 €.",
+   "clause_id": "Art. 19-7",
+   "quote": "relevant du Conseil d’État ou de la Cour de Cassation et ayant un intérêt financier inférieur à 3 000 €"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Différends relevant d'instances communautaires et/ou internationales.",
+   "clause_id": "Art. 19-7",
+   "quote": "relevant d’instances communautaires et/ou internationales"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Questions prioritaires de constitutionnalité.",
+   "clause_id": "Art. 19-7",
+   "quote": "portant sur les questions prioritaires de constitutionnalité"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Accidents de la circulation automobile impliquant un véhicule terrestre à moteur dont l'assuré est conducteur ou gardien.",
+   "clause_id": "Art. 19-7",
+   "quote": "relatifs aux accidentsde la circulation automobile impliquant un véhicule terrestre à moteurdont vous êtes conducteur ou gardien"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "protection_juridique",
+   "condition_type": "preuve_requise",
+   "description": "Qualification des violences intrafamiliales de délits ou de crimes au sens du Code pénal.",
+   "parameter": null,
+   "clause_id": "Art. 19-6",
+   "quote": "la qualification des violences intrafamiliales de délits ou de crimes au sens du Code pénal"
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "preuve_requise",
+   "description": "Réception d'un avis à victime au sens des articles 80-3 ou 391 du Code de procédure pénale.",
+   "parameter": null,
+   "clause_id": "Art. 19-6",
+   "quote": "la réception d’un avis à victime au sens des articles 80-3 ou 391 du Code de procédure pénale"
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration du sinistre par écrit au plus tard dans les 5 jours ouvrés courant à partir de la date de connaissance.",
+   "parameter": "5 jours ouvrés",
+   "clause_id": "Art. 19-10",
+   "quote": "déclarer le sinistre par écrit, au plus tard dans les 5 jours ouvrés courant à partir de la date à laquelle vous en avez eu connaissance"
+  }
+ ]
+}

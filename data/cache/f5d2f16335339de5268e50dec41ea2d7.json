@@ -1,0 +1,108 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Nettoyage du domicile en cas de sinistre",
+   "scope": "Organisation et prise en charge du nettoyage du domicile par une entreprise spécialisée à la suite d'un sinistre.",
+   "ceiling": "750 € TTC",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 34-1",
+   "quote": "À la suite d’un sinistre, nous organisons et prenons en charge le nettoyage du domicile par une entreprise spécialisée jusqu’à 750 € TTC."
+  },
+  {
+   "peril": "assistance",
+   "label": "Diagnostics techniques obligatoires",
+   "scope": "Prise en charge des diagnostics techniques obligatoires en cas de mise en vente ou de mise en location du domicile garanti.",
+   "ceiling": "120 € TTC",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 34-2",
+   "quote": "en cas de mise en vente ou de mise en location du domicile garanti caractérisées par la signature d’un mandat de vente ou la publication d’une annonce, nous prenons en charge les diagnostics techniques obligatoires"
+  },
+  {
+   "peril": "assistance",
+   "label": "Audit d’état général du bien",
+   "scope": "Prise en charge d'un audit d'état général du bien par un prestataire en cas de projet d'acquisition d'un bien immobilier.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 34-2",
+   "quote": "en cas de projet d’acquisition d’un bien immobilier, nous prenons en charge un audit d’état général du bien par un prestataire, avec estimation des travaux éventuels à réaliser"
+  },
+  {
+   "peril": "assistance",
+   "label": "Expertise du bien",
+   "scope": "Prise en charge de l'expertise du bien par un expert immobilier en cas de projet d'acquisition d'un bien immobilier.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 34-2",
+   "quote": "en cas de projet d’acquisition d’un bien immobilier, nous prenons en charge l’expertise du bien par un prestataire, expert immobilier qui examine l’état du bien"
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance au déménagement",
+   "scope": "Mise en relation avec un déménageur, loueur de véhicules ou prestataire pour l'état des lieux, et nettoyage de l'ancien ou nouveau logement avant l'emménagement.",
+   "ceiling": "500 € TTC (pour le nettoyage)",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 34-3",
+   "quote": "pour faciliter l’emménagement dans un nouveau domicile, nous mettons le bénéficiaire en relation avec : - une entreprise de déménagement ou un loueur de véhicule de type utilitaire"
+  },
+  {
+   "peril": "assistance",
+   "label": "Garde des enfants et/ou petits enfants",
+   "scope": "Prise en charge du transport aller-retour d'un proche ou de la garde au domicile des enfants et/ou petits enfants à charge de moins de 16 ans.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 34-3",
+   "quote": "La garde au domicile des enfants et/ou petits enfants à charge de moins de 16 ans pour un maximum de 14 heures à répartir sur 2 jours."
+  },
+  {
+   "peril": "assistance",
+   "label": "Services d’informations administratives et juridiques",
+   "scope": "Communication par téléphone d'informations juridiques, administratives et pratiques relatives au domicile et aux démarches de déménagement.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 34-3",
+   "quote": "sur simple appel téléphonique, du lundi au samedi hors jours fériés de 8h00 à 20h00, nous communiquons, par téléphone, des informations juridiques, administratives, pratiques"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Exclusion des manquements résultant de cas de force majeure, recommandations de l'OMS, actes de sabotage/terrorisme, pandémies, conflits sociaux, catastrophes naturelles et risque nucléaire.",
+   "clause_id": "Art. 35-1",
+   "quote": "Nous ne pourrons être tenus responsables des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou d’évènements listés ci-dessous"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le nouveau logement doit être couvert par un contrat d'assurance habitation souscrit auprès de MACSF assurances pour bénéficier de l'assistance au déménagement.",
+   "parameter": null,
+   "clause_id": "Art. 34-3",
+   "quote": "sous réserve que le nouveau logement soit couvert par un contrat d’assurance habitation souscrit auprès de MACSF assurances"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le domicile doit être alimenté en eau et en électricité au moment de l'intervention pour le nettoyage avant l'emménagement.",
+   "parameter": null,
+   "clause_id": "Art. 34-3",
+   "quote": "Le domicile devra être alimenté en eau et en électricité au moment de l’intervention."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Le bénéficiaire doit fournir tous actes, pièces, factures, certificats de nature à établir la matérialité de l'évènement ou contrôler les conditions de prise en charge.",
+   "parameter": null,
+   "clause_id": "Art. 35-1",
+   "quote": "Nous nous réservons le droit de demander au bénéficiaire, à tout moment, tous actes, pièces, factures, certificats, toutes pièces complémentaires etc, de nature à établir la matérialité de l’évènement"
+  }
+ ]
+}

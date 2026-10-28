@@ -1,0 +1,186 @@
+{
+ "guarantees": [
+  {
+   "peril": "vol",
+   "label": "Vol, tentative de vol, vandalisme et sabotage",
+   "scope": "Couvre la disparition, destruction ou détérioration des biens assurés résultant d'un vol, tentative de vol, acte de vandalisme ou de sabotage commis à l'intérieur des locaux assurés par effraction ou escalade ayant laissé des traces apparentes.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2.5 §2",
+   "quote": "La garantie couvre la disparition, la destruction ou la détérioration des biens assurés résultant : • d’un vol, • d’une tentative de vol, • d’un acte de vandalisme ou de sabotage, lorsque ces méfaits sont commis à l’intérieur des locaux assurés, par effraction ou escalade de ces locaux et ayant laissé des traces apparentes."
+  },
+  {
+   "peril": "vol",
+   "label": "Extension vol par menaces ou fausse qualité",
+   "scope": "Extension de la garantie au vol par menaces physiques, vol à la suite du vol des clés (48h), ou vol à la suite d'une introduction par fausse qualité.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2.5 §2",
+   "quote": "La garantie est étendue, pour autant que vous puissiez en apporter la preuve : • au vol dans les locaux assurés par menaces physiques ou violences physiques sur vous, • au vol à la suite du vol des clés, exclusivement dans les 48 h qui suivent l’heure à laquelle vous avez eu connaissance du vol des clés, • au vol à la suite d’une introduction par fausse qualité dans les locaux assurés."
+  },
+  {
+   "peril": "vol",
+   "label": "Vol de papiers d'identité et carte de crédit",
+   "scope": "Extension aux formules Confort et Excellence couvrant le vol des papiers d'identité, permis, certificat d'immatriculation et carte de crédit, ainsi que les frais de reconstitution et le reste à charge de la carte de crédit.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 2.5 §2",
+   "quote": "Extensions de garantie pour les formules Confort et Excellence. La garantie est étendue : • au vol des papiers d’identité, du permis de conduire, du certificat d’immatriculation (ex. carte grise) et de la carte de crédit, dans l’une des circonstances suivantes : - survenu à l’intérieur des locaux assurés par effraction ou escalade des locaux, menaces physiques, usage des clés du sociétaire dès lors qu’elles ont fait l’objet d’un vol ou introduction par fausse qualité, - en tous lieux de l’Union européenne, du Royaume-Uni de Grande-Bretagne et d’Irlande du Nord."
+  },
+  {
+   "peril": "vol",
+   "label": "Vol des clés et frais de remplacement",
+   "scope": "Extension aux formules Confort et Excellence couvrant le vol des clés du local d'habitation et des frais de remplacement des canons de serrure, verrous et télécommandes.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 2.5 §2",
+   "quote": "• au vol des clés, en tous lieux de l’Union européenne, du Royaume-Uni de Grande-Bretagne et d’Irlande du Nord, de votre local d’habitation et/ou des dépendances assurés dès lors que le dépôt de plainte fait état d’un vol, pour les frais de remplacement à l’identique des canons de serrure, des verrous équipant les locaux assurés ou des télécommandes permettant d’ouvrir ces derniers et leurs portails d’accès."
+  },
+  {
+   "peril": "vol",
+   "label": "Vol d'objets de valeur en résidence secondaire",
+   "scope": "Extension à la formule Excellence couvrant le vol des objets précieux de la résidence principale dans la résidence secondaire lors d'un séjour, sous réserve de l'option « objets de valeur ».",
+   "ceiling": "15 000 €",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 2.5 §3",
+   "quote": "si l’option « objets de valeur » est souscrite, le vol des objets précieux vous appartenant de la résidence principale dans votre résidence secondaire lorsque vous y séjournez. La garantie est accordée dans la limite du capital « objet de valeur » mentionné aux conditions particulières avec un montant maximum de 15 000 € non indexé."
+  },
+  {
+   "peril": "vol",
+   "label": "Vol de clés de véhicule et plaque professionnelle",
+   "scope": "Extension à la formule Excellence couvrant les frais de remplacement des clés de véhicule et le vol de la plaque signalétique professionnelle.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 2.5 §3",
+   "quote": "• les frais de remplacement des clés, barillets, système de télécommande de véhicule en cas de vol des clés de celui-ci en tous lieux de l’Union européenne, du Royaume-Uni de Grande-Bretagne et d’Irlande du Nord, dès lors que le dépôt de plainte fait état d’un vol, • le vol de votre plaque signalétique professionnelle située à l’extérieur de votre local d’habitation."
+  },
+  {
+   "peril": "vandalisme",
+   "label": "Détériorations immobilières",
+   "scope": "Couvre la détérioration des biens immobiliers, piscine, abri de piscine et véranda à la suite d'un acte de vandalisme, tentative de vol ou vol, ainsi que les frais de remplacement des moyens de protection.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2-6",
+   "quote": "La garantie couvre la détérioration de : - vos biens immobiliers, - votre piscine, spa ou jacuzzi (si l’option du Pack Piscine est souscrite), - votre abri de piscine, spa ou jacuzzi (si l’option du Pack Piscine est souscrite), - votre véranda (si l’option est souscrite), à la suite d’un acte de vandalisme, d’une tentative de vol ou d’un vol."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "vol",
+   "description": "Vols, tentatives de vol, actes de vandalisme ou sabotage dont sont auteurs ou complices les membres de la famille ou les préposés pendant leur service, sauf plainte nominative.",
+   "clause_id": "Art. 2.5 §4",
+   "quote": "les vols, tentatives de vol, actes de vandalisme ou actes de sabotage dont seraient auteurs ou complices les membres de votre famille (article 311-12 du Code pénal) ou vos préposés pendant leur service, sauf si une plainte nominative est déposée à leur encontre"
+  },
+  {
+   "peril": "vol",
+   "description": "Vol des clés déposées sans protection à l'extérieur des locaux (boîte à clé, boîte à lettres) et conséquences.",
+   "clause_id": "Art. 2.5 §4",
+   "quote": "les vols des clés déposées, sans protection, à l’extérieur des locaux y compris dans une boîte à clé ou dans une boîte à lettres ainsi que toutes leurs conséquences"
+  },
+  {
+   "peril": "vol",
+   "description": "Vol des objets précieux dans les dépendances.",
+   "clause_id": "Art. 2.5 §4",
+   "quote": "les vols des objets précieux dans les dépendances"
+  },
+  {
+   "peril": "vol",
+   "description": "Vol dans les dépendances si la formule Eco est souscrite.",
+   "clause_id": "Art. 2.5 §4",
+   "quote": "les vols dans les dépendances, si vous avez souscrit la formule Eco"
+  },
+  {
+   "peril": "vol",
+   "description": "Vol des objets d'art et fourrures de valeur supérieure à 2 000 € dans les dépendances et résidences secondaires.",
+   "clause_id": "Art. 2.5 §4",
+   "quote": "les vols des objets d’art et de fourrures - lorsque leur valeur excède 2 000 € - dans les dépendances et les résidences secondaires"
+  },
+  {
+   "peril": "vol",
+   "description": "Vols, tentatives de vol, actes de vandalisme ou sabotage commis sur les terrasses, balcons, jardins et locaux non entièrement clos ou couverts, sauf Pack Jardin.",
+   "clause_id": "Art. 2.5 §4",
+   "quote": "les vols, tentatives de vol, actes de vandalisme ou actes de sabotage commis sur les terrasses, les balcons, dans les jardins et dans les locaux non entièrement clos ou couverts, sauf si le Pack Jardin est souscrit."
+  },
+  {
+   "peril": "vol",
+   "description": "Vol des rampes amovibles d'accès pour personne à mobilité réduite.",
+   "clause_id": "Art. 2.5 §4",
+   "quote": "le vol des rampes amovibles d’accès pour personne à mobilité réduite."
+  },
+  {
+   "peril": "vandalisme",
+   "description": "Vols, tentatives de vol ou actes de vandalisme dont sont auteurs ou complices les membres de la famille ou les préposés pendant leur service, sauf plainte nominative.",
+   "clause_id": "Art. 2-6 §2",
+   "quote": "les vols, tentatives de vol ou actes de vandalisme dont seraient auteurs ou complices les membres de votre famille (article 311-12 du Code pénal) ou vos préposés pendant leur service, sauf si une plainte nominative est déposée à leur encontre"
+  },
+  {
+   "peril": "vandalisme",
+   "description": "Graffitis, tags, pochoirs, inscriptions, affichages, salissures et rayures commis à l'extérieur du local d'habitation et de ses dépendances.",
+   "clause_id": "Art. 2-6 §2",
+   "quote": "les graffitis, tags, pochoirs et inscriptions de toute nature, affichages, salissures, rayures commis à l’extérieur de votre local d’habitation et de ses dépendances"
+  },
+  {
+   "peril": "vandalisme",
+   "description": "Vol des biens immobiliers.",
+   "clause_id": "Art. 2-6 §2",
+   "quote": "le vol des biens immobiliers."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "vol",
+   "condition_type": "preuve_requise",
+   "description": "L'assuré doit réunir tous moyens de preuve quant à la réalité de l'événement dommageable et de l'existence et de la valeur des biens volés ou endommagés.",
+   "parameter": null,
+   "clause_id": "Art. 2.5",
+   "quote": "Il vous appartient de réunir tous moyens de preuve quant à la réalité : - de l’événement dommageable dont vous demandez réparation, - de l’existence et de la valeur des biens volés ou endommagés."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "effraction_requise",
+   "description": "Les méfaits doivent être commis à l'intérieur des locaux assurés par effraction ou escalade ayant laissé des traces apparentes.",
+   "parameter": null,
+   "clause_id": "Art. 2.5 §2",
+   "quote": "lorsque ces méfaits sont commis à l’intérieur des locaux assurés, par effraction ou escalade de ces locaux et ayant laissé des traces apparentes."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "delai_de_declaration",
+   "description": "Le vol à la suite du vol des clés est garanti exclusivement dans les 48 heures qui suivent la connaissance du vol des clés.",
+   "parameter": "48 h",
+   "clause_id": "Art. 2.5 §2",
+   "quote": "au vol à la suite du vol des clés, exclusivement dans les 48 h qui suivent l’heure à laquelle vous avez eu connaissance du vol des clés"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "mesure_de_prevention",
+   "description": "L'assuré doit respecter certaines mesures de sécurité pour bénéficier pleinement de la garantie.",
+   "parameter": null,
+   "clause_id": "Art. 2.5 §5",
+   "quote": "Vous devez respecter certaines mesures de sécurité pour bénéficier pleinement de la garantie (voir ART. 4.1)."
+  },
+  {
+   "peril": "vandalisme",
+   "condition_type": "effraction_requise",
+   "description": "Pour les dommages à l'intérieur de l'habitation ou de ses dépendances, les détériorations doivent être commises à la suite de l'effraction ou de l'escalade des locaux assurés, ayant laissé des traces apparentes.",
+   "parameter": null,
+   "clause_id": "Art. 2-6",
+   "quote": "Si les dommages sont commis à l’intérieur de votre habitation ou de ses dépendances, les détériorations doivent être commises à la suite : - de l’effraction ou de l’escalade des locaux assurés, ayant laissé des traces apparentes,"
+  },
+  {
+   "peril": "vandalisme",
+   "condition_type": "mesure_de_prevention",
+   "description": "L'assuré doit respecter certaines mesures de sécurité pour bénéficier pleinement de la garantie.",
+   "parameter": null,
+   "clause_id": "Art. 2-6 §3",
+   "quote": "Vous devez respecter certaines mesures de sécurité pour bénéficier pleinement de la garantie (voir ART. 4.1)."
+  }
+ ]
+}

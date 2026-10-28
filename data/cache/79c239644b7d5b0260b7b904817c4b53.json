@@ -1,0 +1,162 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Capital en cas d'invalidité permanente",
+   "scope": "Versement d'un capital en cas d'invalidité permanente totale (IPT) ou partielle (IPP) selon un barème indicatif des déficits fonctionnels séquellaires.",
+   "ceiling": "28 800 € (IPT jusqu'à 64 ans), 14 400 € (IPT à partir de 65 ans)",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 17-2",
+   "quote": "28 800 € jusqu’à 64 ans, • 14 400 € à partir de 65 ans."
+  },
+  {
+   "peril": "autre",
+   "label": "Frais dentaires",
+   "scope": "Remboursement des frais de soins ou de prothèse suite à la rupture d'une ou plusieurs dents à la suite d'un accident pour un assuré de moins de 18 ans.",
+   "ceiling": "288 € par dent endommagée",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 17-3",
+   "quote": "les frais de soins ou de prothèse seront remboursés en complément des régimes d’assurance maladie de base et complémentaires dans la limite de 288 € par dent endommagée."
+  },
+  {
+   "peril": "autre",
+   "label": "Limite globale d'indemnisation",
+   "scope": "Plafond global d'indemnisation pour l'ensemble des membres de la même famille concernés par un même événement dommageable.",
+   "ceiling": "57 600 € (dont un maximum de 28 800 € au titre du décès)",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 17-4",
+   "quote": "l’indemnisation ne pourra excéder 57 600 € dont un maximum de 28 800 € au titre du décès."
+  },
+  {
+   "peril": "autre",
+   "label": "Assurance scolaire et extrascolaire",
+   "scope": "Garantie optionnelle couvrant les enfants scolarisés et ceux du conjoint ou concubin, âgés de moins de 26 ans.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Titre Vi",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "autre",
+   "description": "Exclusion des conséquences des hernies, lumbagos, tours de reins, ruptures ou déchirures musculaires et atteintes ostéoarticulaires, sauf si conséquence d'un accident corporel garanti.",
+   "clause_id": "Art. 19 §2",
+   "quote": "des hernies, lumbagos, tours de reins, ruptures ou déchirures musculaires et toutes atteintes ostéoarticulaires à moins qu’ils ne soient la conséquence d’un accident corporel garanti"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des conséquences des hémorragies cérébrales et des crises cardiaques.",
+   "clause_id": "Art. 19 §2",
+   "quote": "des hémorragies cérébrales, des crises cardiaques,"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des états résultant d'un taux d'alcoolémie supérieur à 0,5 g/litre, du refus de dépistage, ou de l'influence de stupéfiants non prescrits.",
+   "clause_id": "Art. 19 §2",
+   "quote": "d’un état résultant d’un taux d’alcoolémie dans le sang supérieur à 0,5 g/litre de sang ou lorsque l’assuré a refusé de se soumettre à un dépistage ou se trouve sous l’influence de stupéfiants non médicalement prescrits pour lui,"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des dommages lors de la conduite d'un véhicule terrestre à moteur si le conducteur n'a pas l'âge requis ou le permis de conduire valide.",
+   "clause_id": "Art. 19 §2",
+   "quote": "des dommages survenus lors de la conduite d’un véhicule terrestre à moteur, lorsqu’au moment du sinistre, le conducteur n’a pas l’âge requis ou ne peut justifier être titulaire du permis de conduire en état de validité exigé par la réglementation en vigueur"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion de la participation de l'assuré à bord d'un véhicule terrestre à moteur en tant que concurrent à des compétitions, matchs, paris, défis, courses et épreuves de vitesse, d'endurance ou à leurs essais préparatoires.",
+   "clause_id": "Art. 19 §2",
+   "quote": "de la participation de l’assuré, à bord d’un véhicule terrestre à moteur et en tant que concurrent à des compétitions, matchs, paris, défis, courses et épreuves de vitesse, d’endurance ou à leurs essais préparatoires,"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion du suicide et de la tentative de suicide.",
+   "clause_id": "Art. 19 §2",
+   "quote": "du suicide et de la tentative de suicide."
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des accidents résultant de la conduite ou de l'usage, même comme simple passager, de véhicules à moteur à 2 ou 3 roues d'une cylindrée supérieure ou égale à 125 cm3.",
+   "clause_id": "Art. 19 §2",
+   "quote": "de la conduite ou de l’usage, même comme simple passager, de véhicules à moteur à 2 ou 3 roues d’une cylindrée supérieure ou égale à 125 cm3,"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion de l'usage d'un appareil de navigation aérienne, sauf en tant que simple passager sur les lignes commerciales de voyageurs agréées.",
+   "clause_id": "Art. 19 §2",
+   "quote": "de l’usage d’un appareil de navigation aérienne, sauf si la personne assurée est transportée en tant que simple passager sur les lignes commerciales de voyageurs exploitées par les sociétés françaises ou étrangères agréées pour le transport public de personnes,"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des dommages subis lors de compétitions et de pratique de sports spécifiques (delta-plane, parapente, vol ascensionnel, ULM, etc.).",
+   "clause_id": "Art. 19 §2",
+   "quote": "les dommages subis lors de compétitions et de pratique de : delta-plane, parapente, vol ascensionnel, d’ULM, d’exhibitions acrobatiques, saut en parachute à ouverture retardée, spéléologie avec plongée sous-marine, d’offshore, scooter des mers, saut à l’élastique, bobsleigh, skeleton, haute montagne sans guide,"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "Exclusion des accidents résultant de tremblements de terre, d'éruptions de volcans, d'inondations, de raz-de-marée ou autres cataclysmes.",
+   "clause_id": "Art. 19 §2",
+   "quote": "les accidents résultant : - de tremblements de terre, d’éruptions de volcans, d’inondations, de raz-de-marée ou autres cataclysmes,"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des dommages résultant d'accidents survenant en dehors des pays de l'Union européenne, du Royaume-Uni de Grande-Bretagne et d'Irlande du Nord, à l'occasion de séjours de plus de 3 mois.",
+   "clause_id": "Art. 19 §2",
+   "quote": "les dommages résultant d’accidents survenant en dehors des pays de l’Union européenne, du Royaume-Uni de Grande-Bretagne et d’Irlande du Nord, à l’occasion de séjours de plus de 3 mois."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "Avis de l'accident par écrit ou par téléphone contre récépissé dans les cinq jours ouvrés suivant la date de l'accident, sous peine de déchéance totale ou partielle.",
+   "parameter": "5 jours ouvrés",
+   "clause_id": "Art. 18",
+   "quote": "Nous en aviser par écrit ou par téléphone au 01 71 25 20 25 contre récépissé dans les cinq jours ouvrés suivant la date de l’accident, sous peine de déchéance totale ou partielle,"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "Relat des circonstances de l'accident (lieu, date, heure, nom et adresse des tiers et témoins).",
+   "parameter": null,
+   "clause_id": "Art. 18",
+   "quote": "Nous relater les circonstances de l’accident en précisant le lieu, la date et l’heure, et si possible, le nom et l’adresse des tiers qui ont pu le provoquer ainsi que ceux des témoins."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "Envoi sous pli confidentiel d'un certificat médical indiquant les causes de l'accident, la nature et la localisation des blessures ou lésions ainsi que leurs conséquences connues ou présumées.",
+   "parameter": null,
+   "clause_id": "Art. 18",
+   "quote": "Adresser sous pli confidentiel au service médical de la société MACSF un certificat médical indiquant les causes de l’accident, la nature et la localisation des blessures ou lésions ainsi que leurs conséquences connues ou présumées."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "Présentation d'un certificat de vie, de l'acte de décès et d'un certificat précisant ses causes pour le paiement du capital décès.",
+   "parameter": null,
+   "clause_id": "Art. 19",
+   "quote": "en cas de décès : au bénéficiaire, sur présentation d’un certificat de vie, de l’acte de décès et d’un certificat précisant ses causes,"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "Réception des pièces établissant qu'il est bien atteint d'une invalidité et que son état est médicalement consolidé pour le paiement du capital invalidité.",
+   "parameter": null,
+   "clause_id": "Art. 19",
+   "quote": "en cas d’invalidité : après notre accord, au bénéficiaire après réception des pièces établissant qu’il est bien atteint d’une invalidité et que son état est médicalement consolidé."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "option_ou_formule",
+   "description": "La garantie assurance scolaire et extrascolaire doit être spécialement mentionnée aux conditions particulières.",
+   "parameter": null,
+   "clause_id": "Titre Vi",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières."
+  }
+ ]
+}

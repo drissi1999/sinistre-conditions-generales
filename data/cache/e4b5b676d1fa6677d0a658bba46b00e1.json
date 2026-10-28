@@ -1,0 +1,103 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC propriétaire envers locataires",
+   "scope": "Conséquences financières de la responsabilité civile du propriétaire à raison des dommages matériels et immatériels consécutifs causés aux biens du locataire suite à un vice de construction ou défaut d'entretien, et des troubles de jouissance consécutifs à des dommages causés par le locataire.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12-1",
+   "quote": "La garantie couvre les conséquences financières de votre responsabilité civile à raison : - des dommages matériels et des dommages immatériels consécutifs causés aux biens de votre locataire à la suite d’un vice de construction ou à la suite d’un défaut d’entretien de l’habitation assurée"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC propriétaire environnement",
+   "scope": "Extension de la garantie aux responsabilités liées à l'environnement du fait d'une atteinte accidentelle à l'environnement ou du préjudice écologique à la suite de dommages causés à l'environnement.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12-1",
+   "quote": "La garantie est étendue aux responsabilités liées à l’environnement : - du fait d’une atteinte accidentelle à l’environnement à la suite de dommages causés à des tiers (dommages corporels, matériels et immatériels), - du fait du préjudice écologique à la suite de dommages causés à l’environnement"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC propriétaire frais dépollution",
+   "scope": "Garantie des frais de dépollution et des frais de prévention pour le préjudice écologique.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12-1 §2",
+   "quote": "Sont également garantis : - les frais de dépollution, - les frais de prévention pour le préjudice écologique, tels que prévus dans « LES DÉFINITIONS »."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC production d'électricité",
+   "scope": "Extension de la garantie aux dommages corporels, matériels et immatériels susceptibles de survenir lors du fonctionnement d’une installation de production d’électricité (photovoltaïque ou éolienne) raccordée au réseau public.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12-1 §2",
+   "quote": "La garantie est également étendue aux dommages corporels, matériels et immatériels susceptibles de survenir lors du fonctionnement d’une installation de production d’électricité (photovoltaïque ou éolienne) raccordée au réseau public de distribution"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC propriétaire envers voisins et tiers",
+   "scope": "Conséquences financières de la responsabilité civile à raison des dommages matériels et immatériels consécutifs subis par les voisins et les tiers à la suite d’un incendie, d’une explosion, d’une venue d’eau ayant pris naissance dans le local d’habitation et/ou des dépendances assurés, ou d'un accident occasionné par l'habitation ou le personnel.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12-1 §2",
+   "quote": "La garantie couvre les conséquences financières de votre responsabilité civile à raison : - des dommages matériels et immatériels consécutifs subis par les voisins et les tiers à la suite d’un incendie, d’une explosion, d’une venue d’eau ayant pris naissance dans le local d’habitation et/ou des dépendances assurés"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC locataire envers propriétaire",
+   "scope": "Conséquences financières de la responsabilité civile de locataire vis-à-vis du propriétaire pour les dommages matériels subis par les biens de celui-ci, les troubles de jouissance, la perte des loyers et la perte d'usage des locaux.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12-2",
+   "quote": "La garantie couvre les conséquences financières de votre responsabilité civile de locataire vis-à-vis de votre propriétaire pour les dommages matériels subis par les biens de celui-ci à raison des articles 1352-1, 1732 à 1735 du Code civil"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC locataire envers voisins et tiers",
+   "scope": "Conséquences financières de la responsabilité civile à raison des dommages matériels et immatériels consécutifs subis par les voisins et les tiers à la suite d’un incendie, d’une explosion, d’une venue d’eau ayant pris naissance dans l’habitation assurée.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12-2 §2",
+   "quote": "La garantie couvre les conséquences financières de votre responsabilité civile à raison des dommages matériels et immatériels consécutifs subis par les voisins et les tiers à la suite d’un incendie, d’une explosion, d’une venue d’eau ayant pris naissance dans l’habitation assurée."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC villégiature",
+   "scope": "Conséquences financières de la responsabilité civile locative et le recours des voisins et des tiers en raison des dommages par incendie, explosion, venue d’eau, détériorations immobilières ou bris de glaces occasionnés à une habitation occupée temporairement pour des séjours d’agrément d’une durée inférieure à 3 mois dans des pays spécifiques.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12-3",
+   "quote": "La garantie couvre les conséquences financières de votre responsabilité civile locative et le recours des voisins et des tiers en raison des dommages par incendie, explosion, venue d’eau, détériorations immobilières ou bris de glaces occasionnés à une habitation que vous occupez temporairement"
+  }
+ ],
+ "exclusions": [],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "La garantie ne couvre pas les dommages subis par l'assuré lui-même, son conjoint ou concubin non séparé, ses ascendants et descendants, ni le personnel de garde ou d'entretien pendant son service.",
+   "parameter": null,
+   "clause_id": "Art. 12-1 §3",
+   "quote": "Toute personne autre que : • vous-même, votre conjoint ou concubin (signataire ou non d’un PACS) non séparé, vos ascendants et descendants, • le personnel de garde ou d’entretien pendant son service."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "Pour la garantie villégiature, l'occupation de l'habitation doit être temporaire pour des séjours d'agrément d'une durée inférieure à 3 mois dans les pays de l'Union européenne, au Royaume-Uni, en Suisse, en Andorre et à Monaco.",
+   "parameter": "3 mois",
+   "clause_id": "Art. 12-3",
+   "quote": "à une habitation que vous occupez temporairement ou dont vous êtes occupant à titre gratuit pour des séjours d’agrément d’une durée inférieure à 3 mois dans les pays de l’Union européenne, au Royaume-Uni de Grande-Bretagne et d’Irlande du Nord, en Suisse et dans les Principautés d’Andorre et de Monaco."
+  }
+ ]
+}

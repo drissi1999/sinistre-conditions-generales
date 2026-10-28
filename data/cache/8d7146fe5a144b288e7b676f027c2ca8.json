@@ -1,0 +1,144 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Garde des enfants",
+   "scope": "Remboursement des frais de garde sur présentation des justificatifs correspondants",
+   "ceiling": "48 heures par évènement",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 35-3",
+   "quote": "nous procéderons au remboursement des frais de garde sur présentation des justificatifs correspondants (CESU, fiche de salaire, copie du chèque ou bordereau de virement de salaire), dans la limite de 48 heures par évènement."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Les demandes de remboursement sans justificatifs",
+   "clause_id": "Art. 35-8",
+   "quote": "les demandes de remboursement sans justificatifs"
+  },
+  {
+   "peril": "assistance",
+   "description": "Les maladies chroniques et l’invalidité permanente, antérieurement avérées ou constituées",
+   "clause_id": "Art. 35-8",
+   "quote": "les maladies chroniques et l’invalidité permanente, antérieurement avérées ou constituées"
+  },
+  {
+   "peril": "assistance",
+   "description": "Les maladies et accidents et leurs conséquences, antérieurs à la date d’effet du contrat",
+   "clause_id": "Art. 35-8",
+   "quote": "les maladies et accidents et leurs conséquences, antérieurs à la date d’effet du contrat"
+  },
+  {
+   "peril": "assistance",
+   "description": "Les maladies psychiques chroniques",
+   "clause_id": "Art. 35-8",
+   "quote": "les maladies psychiques chroniques"
+  },
+  {
+   "peril": "assistance",
+   "description": "Les maladies psychologiques antérieurement avérées, constituées ou en cours de traitement",
+   "clause_id": "Art. 35-8",
+   "quote": "les maladies psychologiques antérieurement avérées, constituées ou en cours de traitement"
+  },
+  {
+   "peril": "assistance",
+   "description": "Les convalescences et les affections (maladie, accident) en cours de traitement non encore consolidées",
+   "clause_id": "Art. 35-8",
+   "quote": "les convalescences et les affections (maladie, accident) en cours de traitement non encore consolidées"
+  },
+  {
+   "peril": "assistance",
+   "description": "Les maladies préexistantes diagnostiquées et/ou traitées ayant fait l’objet d’une hospitalisation dans les six mois précédant la demande d’assistance",
+   "clause_id": "Art. 35-8",
+   "quote": "les maladies préexistantes diagnostiquées et/ou traitées ayant fait l’objet d’une hospitalisation dans les six mois précédant la demande d’assistance"
+  },
+  {
+   "peril": "assistance",
+   "description": "Les états résultant de l’usage de drogues, stupéfiants et produits assimilés non prescrits médicalement, et de l’absorption d’alcool",
+   "clause_id": "Art. 35-8",
+   "quote": "les états résultant de l’usage de drogues, stupéfiants et produits assimilés non prescrits médicalement, et de l’absorption d’alcool"
+  },
+  {
+   "peril": "assistance",
+   "description": "Les conséquences de tentative de suicide",
+   "clause_id": "Art. 35-8",
+   "quote": "les conséquences de tentative de suicide"
+  },
+  {
+   "peril": "assistance",
+   "description": "Les conséquences des risques graves et sériels qui font l’objet d’une mise en quarantaine ou de mesures préventives ou de surveillances spécifiques ou de recommandations de la part des autorités sanitaires",
+   "clause_id": "Art. 35-8",
+   "quote": "les conséquences des risques graves et sériels qui font l’objet d’une mise en quarantaine ou de mesures préventives ou de surveillances spécifiques ou de recommandations de la part des autorités sanitaires internationales ou des autorités sanitaires locales du pays où le bénéficiaire séjourne ou des autorités sanitaires nationales du pays de destination du rapatriement ou du transport sanitaire."
+  },
+  {
+   "peril": null,
+   "description": "Les dommages causés intentionnellement ou frauduleusement par vous ou par un complice, ou résultant de votre ou de sa participation à une action violente ou à une rixe (sauf légitime défense)",
+   "clause_id": "Titre Ix",
+   "quote": "les dommages causés intentionnellement ou frauduleusement par vous ou par un complice, ou résultant de votre ou de sa participation à une action violente ou à une rixe (sauf légitime défense)"
+  },
+  {
+   "peril": null,
+   "description": "Les paiements des amendes auxquelles vous pourriez être condamné",
+   "clause_id": "Titre Ix",
+   "quote": "les paiements des amendes auxquelles vous pourriez être condamné"
+  },
+  {
+   "peril": null,
+   "description": "Les dommages subis par vos biens qui résultent directement d’un défaut de réparation ou d’entretien indispensables vous incombant et dont vous aviez connaissance",
+   "clause_id": "Titre Ix",
+   "quote": "de la garantie des dommages subis par vos biens, ceux qui résultent directement d’un défaut de réparation ou d’entretien indispensables vous incombant et dont vous aviez connaissance"
+  },
+  {
+   "peril": null,
+   "description": "Les dommages causés par les armes détenues illégalement",
+   "clause_id": "Titre Ix",
+   "quote": "les dommages causés par les armes détenues illégalement"
+  },
+  {
+   "peril": null,
+   "description": "Les dommages occasionnés par un tremblement de terre, une éruption volcanique, un raz-de-marée ou cataclysme naturel (exclusion non applicable à la garantie Catastrophes naturelles)",
+   "clause_id": "Titre Ix",
+   "quote": "les dommages occasionnés par un tremblement de terre, une éruption volcanique, un raz-de-marée ou cataclysme naturel. Cette exclusion ne s’applique pas à la garantie « Catastrophes naturelles »"
+  },
+  {
+   "peril": null,
+   "description": "Les dommages résultant de la guerre civile ou étrangère",
+   "clause_id": "Titre Ix",
+   "quote": "de la guerre civile ou étrangère"
+  },
+  {
+   "peril": null,
+   "description": "Les dommages résultant de tout combustible, produit ou déchet radioactif, de tout engin destiné à irradier ou à exploser par modification du noyau de l’atome ainsi que leur décontamination (sauf dommages matériels directs causés par un attentat ou un acte de terrorisme)",
+   "clause_id": "Titre Ix",
+   "quote": "de tout combustible, produit ou déchet radioactif, de tout engin destiné à irradier ou à exploser par modification du noyau de l’atome ainsi que leur décontamination, sauf pour les dommages matériels directs causés par un attentat ou un acte de terrorisme."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Remboursement des frais de garde sur présentation des justificatifs correspondants",
+   "parameter": null,
+   "clause_id": "Art. 35-3",
+   "quote": "nous procéderons au remboursement des frais de garde sur présentation des justificatifs correspondants (CESU, fiche de salaire, copie du chèque ou bordereau de virement de salaire)"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le bénéficiaire se conformera aux consignes transmises par le prestataire notamment les consignes de sécurité",
+   "parameter": null,
+   "clause_id": "Art. 35-5",
+   "quote": "Le bénéficiaire se conformera aux consignes transmises par le prestataire notamment les consignes de sécurité."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "En cas de fausses déclarations, usage de faux justificatifs ou moyens frauduleux, le bénéficiaire est déchu de tout droit à indemnité ou prestations",
+   "parameter": null,
+   "clause_id": "Art. 35-6",
+   "quote": "Si le bénéficiaire fait de fausses déclarations et notamment exagère le montant des dommages, use de faux justificatifs ou de moyens frauduleux, il sera entièrement déchu de tout droit à indemnité ou prestations."
+  }
+ ]
+}

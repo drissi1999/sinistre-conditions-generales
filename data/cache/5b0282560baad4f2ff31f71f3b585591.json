@@ -1,0 +1,28 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le vol du vélo est exclu car il a eu lieu dans un local à usage commun, lieu expressément visé par l'exclusion de la garantie vol.",
+ "raisonnement": [
+  "La garantie applicable est le vol (Art. 4.7), qui couvre la disparition des biens assurés situés à l'intérieur du bâtiment assuré, résultant d'un vol commis par effraction, escalade ou violences.",
+  "L'événement est un vol d'un vélo (bien mobilier) dans un local commun de l'immeuble.",
+  "L'exclusion spécifique à la garantie vol (Art. 4.7 §2) écarte le sinistre : elle exclut le vol des objets déposés dans les 'locaux à usage commun de plusieurs occupants locataires ou copropriétaires'.",
+  "Le fait que le local ne soit pas fermé à clé renforce l'argument d'exclusion, mais c'est la localisation dans un local commun qui est déterminante.",
+  "Aucune autre garantie (RC, PJ) ne couvre le dommage subi au bien de l'assuré lui-même."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 4.7",
+   "page": 6,
+   "citation": "La disparition, destruction ou détérioration des biens assurés situés à l’intérieur du bâtiment assuré, résultant d’un vol, d’une tentative de vol ou d’un acte de vandalisme commis dans l’une des circonstances suivantes : - par effraction, - par escalade lorsque l’ouverture est située à plus de 3 mètres du sol, - avec violences et menaces sur les personnes présentes.",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4.7 §2",
+   "page": 6,
+   "citation": "Le vol des objets déposés ou fixés à l’extérieur des bâtiments assurés, ou dans des bâtiments non entièrement clos et couverts, ou dans les locaux à usage commun de plusieurs occupants locataires ou copropriétaires.",
+   "role": "exclusion"
+  }
+ ],
+ "informations_manquantes": [],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion est explicite et correspond parfaitement au lieu du sinistre (local commun)."
+}

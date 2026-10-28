@@ -1,0 +1,126 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Assistance Multirisque Habitation",
+   "scope": "Garantie optionnelle couvrant les prestations d'assistance liées au domicile garanti et aux bénéficiaires.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 28",
+   "quote": "Titre Viii — ASSISTANCE MULTIRISQUE HABITATION (GARANTIE OPTIONNELLE)"
+  },
+  {
+   "peril": "assistance",
+   "label": "Information documentaire",
+   "scope": "Communication par téléphone des renseignements d'ordre documentaire dans divers domaines (impôts, justice, assurance, etc.).",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 29-1",
+   "quote": "Sur simple appel téléphonique, du lundi au samedi de 8h à 20h, hors jours fériés, nous communiquons au bénéficiaire, par téléphone uniquement, les renseignements d’ordre documentaire dont il a besoin"
+  },
+  {
+   "peril": "assistance",
+   "label": "Dépannage et travaux",
+   "scope": "Mise en relation avec des professionnels du réseau pour le dépannage rapide, l'urgence ou les travaux de réhabilitation et d'entretien du domicile.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 29-2",
+   "quote": "Sur simple appel téléphonique, nous communiquons les coordonnées de professionnels de notre réseau spécialisés dans le dépannage rapide ou d’urgence dans les domaines suivants : chauffage, plomberie, menuiserie, serrurerie, vitrerie, gardiennage, électricité, entreprises de nettoyage, etc."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Exclusion des hospitalisations de jour et des hospitalisations planifiées pour l'hospitalisation imprévue.",
+   "clause_id": "Art. 28",
+   "quote": "à l’exclusion des hospitalisations de jour et des hospitalisations planifiées."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion des soins de médecins ou de chirurgie esthétiques, dentaires ou de ré-hospitalisation pour le même fait générateur que l'hospitalisation initiale.",
+   "clause_id": "Art. 28",
+   "quote": "à l’exclusion de soins de médecins ou de chirurgie esthétiques, dentaires ou de ré-hospitalisation pour le même fait générateur que l’hospitalisation initiale."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion de la responsabilité de l'assureur si le bénéficiaire s'adresse à lui pour un numéro d'urgence au lieu de contacter directement les services concernés.",
+   "clause_id": "Art. 29-1",
+   "quote": "Notre responsabilité ne peut en aucun cas être retenue si à la recherche d’un numéro d’urgence (pompiers, police secours…), le bénéficiaire s’adresse à nous au lieu de contacter directement le ou les services concernés."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion de la responsabilité de l'assureur pour l'interprétation ou l'utilisation des informations communiquées.",
+   "clause_id": "Art. 29-1",
+   "quote": "Nous ne pourrons être tenus responsables ni de l’interprétation ni de l’utilisation des informations communiquées."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "option_ou_formule",
+   "description": "La garantie est une option du contrat Multirisque Habitation.",
+   "parameter": null,
+   "clause_id": "Art. 28",
+   "quote": "la personne physique ayant souscrit un contrat d’assurance « Multirisque Habitation » avec option « Assistance Multirisque Habitation »"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "L'assureur peut demander un bulletin confirmant l'hospitalisation avant de mettre en œuvre les prestations.",
+   "parameter": null,
+   "clause_id": "Art. 28",
+   "quote": "Nous nous réservons le droit de demander un bulletin confirmant l’hospitalisation avant de mettre en œuvre les prestations d’assistance."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "L'assureur peut demander un certificat médical ou un arrêt de travail confirmant l'immobilisation au domicile avant de mettre en œuvre les prestations.",
+   "parameter": null,
+   "clause_id": "Art. 28",
+   "quote": "Nous nous réservons le droit de demander un certificat médical ou un arrêt de travail confirmant l’immobilisation au domicile avant de mettre en œuvre les prestations d’assistance."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'hospitalisation imprévue doit correspondre à une intervention ou acte médical qui ne peut être reporté de plus de 3 mois.",
+   "parameter": "3 mois",
+   "clause_id": "Art. 28",
+   "quote": "L’hospitalisation imprévue doit correspondre à une intervention ou acte médical qui ne peut être reporté de plus de 3 mois"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le domicile garanti doit être situé en France métropolitaine.",
+   "parameter": null,
+   "clause_id": "Art. 28",
+   "quote": "Domicile garanti : lieu de résidence principale ou secondaire, y compris ses dépendances, situé en France métropolitaine"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le bénéfice des prestations est ouvert pour les événements affectant le domicile du bénéficiaire situé en France métropolitaine uniquement.",
+   "parameter": null,
+   "clause_id": "Art. 28",
+   "quote": "le bénéfice des prestations de la présente convention est ouvert pour les événements affectant le domicile du bénéficiaire situé en France métropolitaine uniquement."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Les prestations intrafamiliales sont couvertes uniquement en France métropolitaine.",
+   "parameter": null,
+   "clause_id": "Art. 28",
+   "quote": "Les prestations intrafamiliales sont couvertes uniquement en France métropolitaine."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "L'assureur se réserve le droit de vérifier la qualité d'occupant ou de propriétaire du domicile garanti et la matérialité de l'événement.",
+   "parameter": null,
+   "clause_id": "Art. 30",
+   "quote": "Nous nous réservons le droit, préalablement à toute intervention, de vérifier la qualité d’occupant ou de propriétaire du domicile garanti, ainsi que la matérialité de l’événement ouvrant droit au bénéfice des prestations de la présente convention."
+  }
+ ]
+}

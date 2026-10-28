@@ -1,0 +1,120 @@
+{
+ "guarantees": [
+  {
+   "peril": "evenements_climatiques",
+   "label": "Inondation",
+   "scope": "Dommages causés par une inondation se caractérisant par une submersion temporaire des locaux assurés due aux débordements de cours d'eau, remontées de nappes phréatiques ou eaux de ruissellement.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 15-4",
+   "quote": "Nous garantissons les dommages causés par une inondation, se caractérisant par une submersion temporaire des locaux assurés, due : • aux débordements de cours d’eau, de rivières, de sources, d’étendues d’eau, des réseaux d’assainissement,"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Catastrophes naturelles",
+   "scope": "Dommages matériels directs ayant eu pour cause déterminante l'intensité anormale d'un agent naturel, lorsque les mesures habituelles à prendre pour prévenir ces dommages n'ont pu empêcher leur survenance ou n'ont pu être prises.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 15-4 §2",
+   "quote": "Nous garantissons les dommages matérielsdirects ayant eu pour cause déterminante l’intensité anormale d’un agent naturel, lorsque les mesures habituelles à prendre pour prévenir ces dommages n’ont pu empêcher leur survenance ou n’ont pu être prises."
+  },
+  {
+   "peril": "vol",
+   "label": "Vol à l'intérieur des locaux",
+   "scope": "Vol, tentative de vol ou acte de vandalisme commis par des tiers pénétrant dans les locaux par effraction, fausses clés, clandestinement, ruse ou violence, ainsi que le vol par employés de maison sous réserve de plainte nominative.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 16-1",
+   "quote": "Nous garantissons le vol, la tentative de volou l’acte de vandalisme commis par des tiers, lorsqu’ils pénètrent ou tentent de pénétrer dans ces locaux : • par effraction ou usage de fausses clés, • clandestinement ou par rusealors que l’occupant est présent,"
+  },
+  {
+   "peril": "vandalisme",
+   "label": "Profanation monuments funéraires",
+   "scope": "Dommages consécutifs aux actes de profanation commis sur les caveaux mortuaires et monuments funéraires assurés.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 16-2",
+   "quote": "Nous garantissons les dommages consécutifs aux actes de profanation commis sur les caveaux mortuaires et monuments funéraires assurés."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "evenements_climatiques",
+   "description": "Dommages causés par la seule poussée hydrostatique.",
+   "clause_id": "Art. 15-4 §2",
+   "quote": "nous ne garantissons pas les dommages causés : • par la seule poussée hydrostatique,"
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Dommages causés par l'action des mers et des océans.",
+   "clause_id": "Art. 15-4 §2",
+   "quote": "• par l’action des mers et des océans,"
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Dommages causés par des coulées boueuses consécutives à des glissements, affaissements ou effondrements de terrain.",
+   "clause_id": "Art. 15-4 §2",
+   "quote": "• par des coulées boueuses consécutives à des glissements, affaissements ou effondrements de terrain,"
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Dommages causés par l'absence ou l'insuffisance des systèmes de drainage ou d'étanchéité des biens assurés.",
+   "clause_id": "Art. 15-4 §2",
+   "quote": "• par l’absence ou l’insuffisance des systèmes de drainage ou d’étanchéité des biens assurés,"
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Biens situés sur des terrains couverts par un Plan de Prévention des Risques d'inondation si les travaux de mise en conformité n'ont pas été réalisés dans les délais.",
+   "clause_id": "Art. 15-4 §2",
+   "quote": "aux biens assurés situés sur des terrains couverts par un Plan de Prévention des Risquesd’inondation, si les travaux de mise en conformité édictés par ce plan n’ont pas été réalisés par vous dans les 5 ans de sa mise en application"
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Biens immobiliers construits en violation des dispositions d'un Plan de Prévention des Risques d'inondation en vigueur lors de leur édification.",
+   "clause_id": "Art. 15-4 §2",
+   "quote": "aux biens immobiliers construits par vous en violation des dispositions d’un Plan de Prévention des Risquesd’inondation en vigueur lors de leur édification."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "Bâtiments construits sans permis de construire lorsque ce dernier est requis.",
+   "clause_id": "Art. 15-4 §3",
+   "quote": "les bâtiments construits sans permis de construire lorsque ce dernier est requis en application de l'article L. 421-1 du Code de l'urbanisme,"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "Bâtiments situés dans des zones exposées à la sécheresse construits après le 1er janvier 2024 sans justification du respect des règles de prévention des risques liés aux terrains argileux.",
+   "clause_id": "Art. 15-4 §3",
+   "quote": "les bâtiments situés dans des zones exposées au phénomène de sécheresse (articles L. 132-4 à L. 132-8 du Code de la construction et de l'habitation) et dont le dépôt du permis de construire a été effectué postérieurement au 1er janvier 2024, s'il ne peut être justifié"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "preuve_requise",
+   "description": "Publication au Journal Officiel d'un arrêté interministériel ayant constaté l'état de catastrophe naturelle.",
+   "parameter": null,
+   "clause_id": "Art. 15-4 §2",
+   "quote": "La garantie ne peut être mise en jeu qu’après publication au Journal Officiel de la République Française d’un arrêté interministériel ayant constaté l’état de catastrophe naturelle."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "effraction_requise",
+   "description": "Pénétration par effraction, usage de fausses clés, clandestinement, ruse ou violence.",
+   "parameter": null,
+   "clause_id": "Art. 16-1",
+   "quote": "lorsqu’ils pénètrent ou tentent de pénétrer dans ces locaux : • par effraction ou usage de fausses clés, • clandestinement ou par rusealors que l’occupant est présent, • ou après avoir exercé ou menacé d’exercer des violences sur la personne de l’occupant."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "preuve_requise",
+   "description": "Dépôt d'une plainte nominative pour le vol commis par des employés de maison.",
+   "parameter": null,
+   "clause_id": "Art. 16-1",
+   "quote": "Nous garantissons également le vol des biens assurés commis par vos employés de maison en service sous réserve qu’une plainte nominative soit déposée."
+  }
+ ]
+}

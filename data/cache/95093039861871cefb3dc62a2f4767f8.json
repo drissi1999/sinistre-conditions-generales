@@ -1,0 +1,150 @@
+{
+ "guarantees": [
+  {
+   "peril": "vol",
+   "label": "Conditions d'octroi garanties vol",
+   "scope": "Mise en jeu subordonnée à l'existence et à l'utilisation des moyens de fermeture et de protection obligatoires",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 16-3",
+   "quote": "La mise en jeu des garanties est subordonnée : • à l’existence des moyens de fermeture et de protection des locaux assurés, indiqués ci-après, maintenus en bon état de fonctionnement, • à leur utilisation dans les conditions prévues ci-après."
+  },
+  {
+   "peril": "bris_de_glace",
+   "label": "Bris de glaces",
+   "scope": "Bris accidentel des parties vitrées fixées à demeure sur ou dans les locaux assurés, y compris les plastiques rigides remplissant les mêmes fonctions",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 17",
+   "quote": "Nous garantissons le bris accidentel des parties vitrées fixées à demeure sur ou dans les locaux assurés, y compris le bris des plastiques rigides remplissant les mêmes fonctions que des produits verriers"
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance Urgence après sinistre",
+   "scope": "Intervention en cas de dommages causés aux locaux assurés à la suite d'un sinistre garanti nécessitant une intervention urgente",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 18-1",
+   "quote": "Nous intervenons en cas de dommages causés aux locaux assurés à la suite d’un sinistre garanti : incendie, explosion, chute de la foudre et dommages électriques, événements climatiques, inondation, dégâts des eaux, gel, vol, tentative de volou acte de vandalisme, bris de glaces et les autres événements visés aux articles 13 à 17 et nécessitant une intervention urgente"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "vol",
+   "description": "Biens mobiliers situés à l'extérieur des locaux assurés",
+   "clause_id": "Art. 16-4",
+   "quote": "des biens mobiliers situés à l’extérieur des locaux assurés, sous réserve des dispositions de l’article 10-3 relatives aux fauteuils roulants, aux appareils d’assistance médicale, au matériel informatique adapté au handicap"
+  },
+  {
+   "peril": "vol",
+   "description": "Biens immobiliers situés à l'extérieur des locaux assurés",
+   "clause_id": "Art. 16-4",
+   "quote": "des biens immobiliers situés à l’extérieur des locaux assurés, sous réserve des dispositions de l’article 16-2 relatives aux caveaux mortuaires et monuments funéraires"
+  },
+  {
+   "peril": "vol",
+   "description": "Vol commis dans les parties communes d'un immeuble collectif ou dans les serres",
+   "clause_id": "Art. 16-4",
+   "quote": "commis dans : - les parties communes d’un immeuble collectif, - les serres,"
+  },
+  {
+   "peril": "vol",
+   "description": "Matériaux ou éléments d'équipement entreposés pour la construction ou l'aménagement d'un bien immobilier",
+   "clause_id": "Art. 16-4",
+   "quote": "de matériaux ou d’éléments d’équipement entreposés en vue de servir à la construction ou à l’aménagement d’un bien immobilier,"
+  },
+  {
+   "peril": "vol",
+   "description": "Clés des locaux assurés remises volontairement à une personne n'ayant pas la qualité d'assuré",
+   "clause_id": "Art. 16-4",
+   "quote": "commis alors que les clés des locaux assurés ont été : ‐ remises volontairement à une personne n’ayant pas la qualité d’assuré, sous réserve des dispositions de l’article 16-1 relatives au vol commis par vos employés de maison,"
+  },
+  {
+   "peril": "vol",
+   "description": "Clés des locaux assurés laissées dans la boîte aux lettres",
+   "clause_id": "Art. 16-4",
+   "quote": "‐ laissées dans la boîte aux lettres,"
+  },
+  {
+   "peril": "vol",
+   "description": "Clés des locaux assurés déposées dans un endroit situé dans les limites de la propriété assurée",
+   "clause_id": "Art. 16-4",
+   "quote": "‐ déposées dans un endroit situé dans les limites de la propriété assurée,"
+  },
+  {
+   "peril": "vol",
+   "description": "Clés des locaux assurés déposées dans les parties communes de l'immeuble",
+   "clause_id": "Art. 16-4",
+   "quote": "‐ déposées dans les parties communes de l’immeuble dans lequel se trouve le logement assuré."
+  },
+  {
+   "peril": "vol",
+   "description": "Frais de remise en état des surfaces endommagées par des tags ou graffitis à l'extérieur des locaux assurés",
+   "clause_id": "Art. 16-4",
+   "quote": "Nous ne garantissons pas les frais de remise en état des surfaces endommagées par des tags ou graffitis, ou des projections de substances tachantes intervenus à l’extérieur des locaux assurés"
+  },
+  {
+   "peril": "bris_de_glace",
+   "description": "Dommages aux parties vitrées des appareils électroménagers, des foyers fermés et des meubles meublants",
+   "clause_id": "Art. 17 §2",
+   "quote": "aux parties vitrées des appareils électroménagers, des foyers fermés et des meubles meublants,"
+  },
+  {
+   "peril": "bris_de_glace",
+   "description": "Dommages aux vitraux et aux serres",
+   "clause_id": "Art. 17 §2",
+   "quote": "aux vitraux, aux serres,"
+  },
+  {
+   "peril": "bris_de_glace",
+   "description": "Dommages provenant d'un vice de construction ou du montage des encadrements et soubassements",
+   "clause_id": "Art. 17 §2",
+   "quote": "provenant d’un vice de construction ou du montage des encadrements et soubassements."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "vol",
+   "condition_type": "mesure_de_prevention",
+   "description": "Existence de moyens de fermeture et de protection obligatoires maintenus en bon état de fonctionnement",
+   "parameter": null,
+   "clause_id": "Art. 16-3",
+   "quote": "à l’existence des moyens de fermeture et de protection des locaux assurés, indiqués ci-après, maintenus en bon état de fonctionnement,"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "locaux_fermes_a_cle",
+   "description": "Fermeture des portes à clé, des fenêtres et autres ouvertures non munies de barreaux (partie inférieure < 3m) ou fermeture de leurs volets en cas de présence de nuit ou d'absence",
+   "parameter": null,
+   "clause_id": "Art. 16-3",
+   "quote": "en cas de présence de nuit ou en cas d’absence, quelle qu’en soit la durée, fermer : ‐ les portes à clé, ‐ les fenêtres et autres ouvertures, non munies de barreaux et dont la partie inférieure est située à moins de 3 mètres du sol ou fermer leurs volets,"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "mesure_de_prevention",
+   "description": "Activation du système de surveillance et d'alarme ou de télésurveillance en cas d'absence quelle que soit la durée, s'il constitue un moyen de protection obligatoire",
+   "parameter": null,
+   "clause_id": "Art. 16-3",
+   "quote": "en cas d’absence : ‐ quelle qu’en soit la durée : activer le système de surveillance et d’alarmeou de télésurveillancelorsqu’il constitue l’un des moyens de fermeture et de protection obligatoires au sens de l’article 16-3 A,"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "inoccupation_max",
+   "description": "Fermeture des volets des fenêtres et autres ouvertures visées à l'article 16-3 A en cas d'absence excédant 24 heures, sauf si elles sont munies de verre retardateur, de barreaux ou si l'habitation est équipée d'un système de surveillance en fonctionnement",
+   "parameter": "24 heures",
+   "clause_id": "Art. 16-3",
+   "quote": "excédant 24 heures : fermer les volets des fenêtres et autres ouvertures visées à l’article 16-3 A lorsqu’elles ne sont pas munies de verre retardateur d’effraction de type feuilleté, de barreaux ou lorsque l’habitation n’est pas équipée d’un système de surveillance et d’alarmeou de télésurveillanceen fonctionnement."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "autre",
+   "description": "Réduction de l'indemnité de 50% si le sinistre survient en l'absence des moyens de fermeture et de protection exigés ou s'ils n'ont pas été utilisés",
+   "parameter": "50 %",
+   "clause_id": "Art. 16-3",
+   "quote": "Si un sinistresurvient en l’absence des moyens de fermeture et de protection exigés ci-avant ou, en leur présence, lorsqu’ils n’ont pas été utilisés, l’indemnité due est réduite de 50 %."
+  }
+ ]
+}

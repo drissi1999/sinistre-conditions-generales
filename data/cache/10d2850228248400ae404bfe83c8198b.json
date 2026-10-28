@@ -1,0 +1,198 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Bris, perte ou vol des clés du domicile",
+   "scope": "Intervention d'un serrurier pour ouvrir la porte d'accès en cas de blocage, perte, vol, bris ou clés enfermées.",
+   "ceiling": "180 € TTC",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 33-1",
+   "quote": "nous organisons et prenons en charge l’intervention d’un serrurier pour ouvrir la porte d’accès du domicile, dans la limite de 180 € TTC."
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance plomberie intérieure",
+   "scope": "Réparations urgentes des installations privatives apparentes de plomberie (fuites, engorgements, dysfonctionnements WC).",
+   "ceiling": "150 € TTC",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 33-2",
+   "quote": "nous organisons et prenons en charge, les frais de déplacement d’un prestataire, la main d’œuvre et les pièces nécessaires à la réparation, à concurrence de 150 € TTC maximum."
+  },
+  {
+   "peril": "assistance",
+   "label": "Invasion des nuisibles",
+   "scope": "Traitement des invasions de nuisibles énumérés (fouines, taupes, cafards, etc.) au domicile assuré.",
+   "ceiling": "300 € TTC",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 33-3",
+   "quote": "Le traitement du domicile est pris en charge à concurrence de 300 € TTC."
+  },
+  {
+   "peril": "assistance",
+   "label": "Nuit d'hôtel (invasion nuisibles)",
+   "scope": "Hébergement temporaire en cas d'impossibilité de dormir sur place lors du traitement des nuisibles.",
+   "ceiling": "90 € TTC par nuit et par personne",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 33-3",
+   "quote": "nous organisons et prenons en charge une nuit d’hôtel à concurrence maximum de 90 € TTC par nuit et par bénéficiaire et par personne vivant habituellement sous le même toit."
+  },
+  {
+   "peril": "assistance",
+   "label": "Violences intrafamiliales",
+   "scope": "Hébergement temporaire à l'hôtel et transfert des victimes de violences intrafamiliales et de leurs enfants à charge.",
+   "ceiling": "1 200 € TTC par personne et 3 000 € TTC au total",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 33-4",
+   "quote": "l’hébergement temporaire à l’hôtel du bénéficiaire victime et de ses enfants mineurs ou majeurs fiscalement à charge vivant avec le bénéficiaire dans la limite de 80 € TTC par nuit et par personne (petit déjeuner inclus), dans la limite de 1 200 € TTC par personne et dans la limite totale de 3 000 €"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Exclusion de la recherche de fuites, des appareils de production d'eau chaude/chauffage, radiateurs, circuits de chauffage au sol, appareils ménagers, pompes, réducteurs de pression, piscines, spas, saunas, hammams et jacuzzis.",
+   "clause_id": "Art. 33-2 §2",
+   "quote": "Sont exclus : la recherche de fuites, les appareils de production d’eau chaude ou de chauffage et les radiateurs et circuits de chauffage au sol, les appareils ménagers, les pompes, les réducteurs de pression et les détendeurs, les piscines, spas, saunas, hammams et jacuzzis."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion des travaux complémentaires (main d'œuvre et pièces) entrepris à la suite de l'intervention de serrurerie.",
+   "clause_id": "Art. 33-1",
+   "quote": "Les travaux entrepris éventuellement à la suite de cette intervention (main d’œuvre et pièces) restent à la charge du bénéficiaire."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion des travaux complémentaires (main d'œuvre et pièces) entrepris à la suite de l'intervention de plomberie.",
+   "clause_id": "Art. 33-2",
+   "quote": "Les travaux complémentaires entrepris à la suite de cette intervention (main d’œuvre et pièces) sont à la charge du bénéficiaire."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion des frais de traitement si l'invasion concerne un nuisible non énuméré à l'article 33-3.",
+   "clause_id": "Art. 33-3",
+   "quote": "Si l’invasion concerne un nuisible non énuméré ci-avant le bénéficiaire conservera à sa charge les frais de traitement."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion des prestations en cas de ré-invasion, inaccessibilité ou dangerosité de la zone, non-respect des consignes, contre-indication médicale, ou nuisibles non énumérés.",
+   "clause_id": "Art. 33-3",
+   "quote": "Ces prestations ne peuvent être mises en œuvre dans les cas suivants : • invasion par des nuisibles non énumérés à l’article 33-3, • ré-invasion à la suite d’une première intervention du prestataire couverte par la présente garantie, • inaccessibilité de la zone à traiter, • dangerosité de la zone à traiter en raison de la présence de biens ou de produits incompatibles avec le traitement dans cette zone, • non-respect par le bénéficiaire des consignes préalables transmises par le prestataire, • contre-indication médicale."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion des conséquences directes ou indirectes sur les personnes, animaux et biens résultant de l'exposition à des agents ou du non-respect des consignes lors du traitement des nuisibles.",
+   "clause_id": "Art. 33-3",
+   "quote": "Sont également exclues, les conséquences directes ou indirectes sur les personnes, les animaux, les biens mobiliers et immobiliers résultant : • de l’exposition à des agents biologiques ou chimiques ainsi que de l’utilisation du matériel par le prestataire pour le traitement, • du non-respect des consignes transmises par le prestataire."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "delai_de_declaration",
+   "description": "Remboursement des frais d'intervention de serrurerie en urgence sans appel préalable sur présentation de la facture acquittée.",
+   "parameter": null,
+   "clause_id": "Art. 33-1",
+   "quote": "Lorsque le domicile garanti a fait l’objet d’une intervention en urgence sans appel préalable auprès de nos services, nous remboursons les frais d’intervention dans la limite de 180 € TTC sur présentation de la facture acquittée."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Présentation de la facture acquittée pour le remboursement des frais de serrurerie en urgence.",
+   "parameter": null,
+   "clause_id": "Art. 33-1",
+   "quote": "nous remboursons les frais d’intervention dans la limite de 180 € TTC sur présentation de la facture acquittée."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Limitation de la garantie à 2 interventions par année civile pour la serrurerie.",
+   "parameter": "2 interventions par année civile",
+   "clause_id": "Art. 33-1",
+   "quote": "Cette garantie est limitée à 2 interventions par année civile."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Limitation de la garantie à 2 interventions par année civile pour la plomberie.",
+   "parameter": "2 interventions par année civile",
+   "clause_id": "Art. 33-2",
+   "quote": "Cette prestation est limitée à 2 interventions par année civile."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Garantie des réparations de plomberie (hors débouchages) pour une période de 12 mois.",
+   "parameter": "12 mois",
+   "clause_id": "Art. 33-2",
+   "quote": "Les réparations (hors débouchages) sont garanties pour une période de 12 mois."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Appel préalable du bénéficiaire nécessaire pour la prise en charge de l'invasion des nuisibles.",
+   "parameter": null,
+   "clause_id": "Art. 33-3",
+   "quote": "La prise en charge de cette prestation nécessite que le bénéficiaire nous appelle au préalable."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "local_privatif_requis",
+   "description": "L'invasion doit avoir lieu au domicile assuré du bénéficiaire, y compris sur le terrain, et le nid doit être identifié au domicile ou sur le terrain.",
+   "parameter": null,
+   "clause_id": "Art. 33-3",
+   "quote": "L’invasion doit avoir lieu au domicile assuré du bénéficiaire, y compris sur le terrain du domicile et le nid doit être identifié et au domicile ou sur le terrain du domicile."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "delai_de_declaration",
+   "description": "L'intervention pour les nuisibles aura lieu moins de 72 heures (jours ouvrés) après le premier appel.",
+   "parameter": "72 heures (jours ouvrés)",
+   "clause_id": "Art. 33-3",
+   "quote": "L’intervention chez le bénéficiaire aura lieu moins de 72 heures (jours ouvrés) après le premier appel du bénéficiaire."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Limitation des prestations nuisibles à une intervention par année civile quel que soit le type de nuisible.",
+   "parameter": "1 intervention par année civile",
+   "clause_id": "Art. 33-3",
+   "quote": "Ces prestations sont limitées à une intervention par année civile quel que soit le type de nuisible."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Dépôt d'une plainte préalable ou dans un délai de 48h, avec copie du récépissé, pour les violences intrafamiliales.",
+   "parameter": "48 h",
+   "clause_id": "Art. 33-4",
+   "quote": "déposer une plainte préalable à la mise en place du relogement ou au plus tard dans un délai de 48 h de la demande de prise en charge. Une copie du récépissé du dépôt de plainte sera demandée"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Preuve de l'autorité parentale (livret de famille et/ou titre d'identité) avant le relogement en cas de présence de mineurs.",
+   "parameter": null,
+   "clause_id": "Art. 33-4",
+   "quote": "en cas de présence de mineurs : d’apporter la preuve de l’autorité parentale avant la mise en place du relogement d’urgence (une copie du livret de famille et/ou d’un titre d’identité de ces enfants devra être fournie)."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "option_ou_formule",
+   "description": "Les prestations sont acquises uniquement pour un contrat couvrant la résidence principale.",
+   "parameter": null,
+   "clause_id": "Art. 33-4",
+   "quote": "Ces prestations ne sont acquises que pour un contrat « Assurance Multirisque Habitation » couvrant votre résidence principale."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Limitation des prestations violences intrafamiliales à 2 interventions par année civile.",
+   "parameter": "2 interventions par année civile",
+   "clause_id": "Art. 33-4",
+   "quote": "Ces prestations sont limitées à 2 interventions par année civile."
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "guarantees": [
+  {
+   "peril": "vol",
+   "label": "Vol et vandalisme",
+   "scope": "Disparition, destruction ou détérioration des biens assurés situés à l'intérieur du bâtiment assuré, résultant d'un vol, d'une tentative de vol ou d'un acte de vandalisme commis par effraction, par escalade (ouverture à plus de 3 mètres du sol) ou avec violences et menaces sur les personnes présentes.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 4.7",
+   "quote": "La disparition, destruction ou détérioration des biens assurés situés à l’intérieur du bâtiment assuré, résultant d’un vol, d’une tentative de vol ou d’un acte de vandalisme commis dans l’une des circonstances suivantes : - par effraction, - par escalade lorsque l’ouverture est située à plus de 3 mètres du sol, - avec violences et menaces sur les personnes présentes."
+  },
+  {
+   "peril": "vol",
+   "label": "Détériorations immobilières",
+   "scope": "Détériorations immobilières résultant d'un vol ou d'une tentative de vol, commises pour pénétrer dans votre habitation.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 4.7",
+   "quote": "Les détériorations immobilières résultant d’un vol ou d’une tentative de vol, commises pour pénétrer dans votre habitation."
+  },
+  {
+   "peril": "bris_de_glace",
+   "label": "Bris de vitres",
+   "scope": "Bris accidentel des vitres et des miroirs qui font partie intégrante des bâtiments assurés.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 4.8",
+   "quote": "Le bris accidentel des vitres et des miroirs qui font partie intégrante des bâtiments assurés."
+  },
+  {
+   "peril": "autre",
+   "label": "Frais complémentaires",
+   "scope": "Remboursement sur justificatifs des frais et pertes subis à la suite d'un sinistre garanti, incluant frais de démolition, déblais, prime dommages-ouvrage, perte d'usage des locaux et frais annexes (déplacement, réinstallation, clôture provisoire, mise en conformité).",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Chap. 5",
+   "quote": "Le remboursement sur justificatifs des frais et pertes que vous pouvez subir à la suite d’un sinistre garanti : • Les frais de démolition et de déblais des biens détruits ou endommagés. • Le remboursement de la prime dommages-ouvrage en cas de reconstruction ou de réparation de l’immeuble."
+  },
+  {
+   "peril": "autre",
+   "label": "Prêt immobilier en cours",
+   "scope": "Prise en charge des mensualités du prêt immobilier souscrit avant le sinistre pour financer l'habitation assurée, si les dommages dépassent 20% de la valeur totale des biens assurés, pendant le temps nécessaire à la remise en état (max 4 mois).",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Chap. 6",
+   "quote": "Lorsque les dommages suite à un sinistre garanti dépassent 20% de la valeur totale des biens mobiliers et immobiliers assurés, nous prenons en charge, pendant le temps nécessaire à la remise en état des locaux sinistrés, les mensualités du prêt immobilier que vous avez souscrit avant le sinistre garanti pour financer l’habitation assurée."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "Responsabilité civile",
+   "scope": "Garantie de la responsabilité civile selon le statut de l'assuré (locataire, propriétaire, occupant), couvrant la vie privée, la relation avec le propriétaire, les voisins et tiers, et les séjours.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Chap. 7",
+   "quote": "LA GARANTIE DE VOS RESPONSABILITÉS SELON VOTRE STATUT : Locataire RC Vie Privée OUI RC en tant que locataire ou occupant à l’égard du propriétaire OUI"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "vol",
+   "description": "Vol dont serait auteur ou complice un membre de votre famille, un de vos préposés ou toute personne qui habite sous votre toit.",
+   "clause_id": "Art. 4.7 §2",
+   "quote": "Le vol dont serait auteur ou complice un membre de votre famille, un de vos préposés ou toute personne qui habite sous votre toit."
+  },
+  {
+   "peril": "vol",
+   "description": "Vol commis à l'aide de vos clés si vous les laissez sur la porte ou dans une cachette extérieure, ou si vous ne remplacez pas les serrures à la suite d'un vol ou de la perte de vos clés.",
+   "clause_id": "Art. 4.7 §2",
+   "quote": "Le vol commis à l’aide de vos clés si vous les laissez sur la porte ou dans une cachette extérieure, ou si vous ne remplacez pas les serrures à la suite d’un vol ou de la perte de vos clés."
+  },
+  {
+   "peril": "vol",
+   "description": "Vol des objets déposés ou fixés à l'extérieur des bâtiments assurés, ou dans des bâtiments non entièrement clos et couverts, ou dans les locaux à usage commun de plusieurs occupants locataires ou copropriétaires.",
+   "clause_id": "Art. 4.7 §2",
+   "quote": "Le vol des objets déposés ou fixés à l’extérieur des bâtiments assurés, ou dans des bâtiments non entièrement clos et couverts, ou dans les locaux à usage commun de plusieurs occupants locataires ou copropriétaires."
+  },
+  {
+   "peril": "vol",
+   "description": "Vol des objets de valeur dans les vérandas qui ne sont pas munies des protections demandées pour les locaux d'habitation.",
+   "clause_id": "Art. 4.7 §2",
+   "quote": "Le vol des objets de valeur dans les vérandas qui ne sont pas munies des protections demandées pour les locaux d’habitation."
+  },
+  {
+   "peril": "vandalisme",
+   "description": "Graffitis, salissures et inscriptions sur les parties extérieures des bâtiments ou dans les bâtiments non entièrement clos et couverts.",
+   "clause_id": "Art. 4.7 §2",
+   "quote": "Les graffitis, salissures et inscriptions sur les parties extérieures des bâtiments ou dans les bâtiments non entièrement clos et couverts."
+  },
+  {
+   "peril": null,
+   "description": "Exclusions communes à toutes les garanties.",
+   "clause_id": "Art. 4.7 §2",
+   "quote": "Les exclusions communes à toutes les garanties."
+  },
+  {
+   "peril": "bris_de_glace",
+   "description": "Dommages dus à un défaut de réparation ou d'entretien apparent qui vous incombe.",
+   "clause_id": "Art. 4.8 §2",
+   "quote": "Les dommages dus à un défaut de réparation ou d’entretien apparent qui vous incombe."
+  },
+  {
+   "peril": null,
+   "description": "Exclusions communes à toutes les garanties.",
+   "clause_id": "Art. 4.8 §2",
+   "quote": "Les exclusions communes à toutes les garanties."
+  },
+  {
+   "peril": null,
+   "description": "Frais qui correspondent aux sommes à votre charge résultant de l'application du contrat telles que la franchise, la vétusté ou les conséquences financières d'une absence ou d'une insuffisance de garantie.",
+   "clause_id": "Chap. 5 §2",
+   "quote": "Les frais qui correspondent aux sommes à votre charge résultant de l’application du contrat telles que la franchise, la vétusté ou les conséquences financières d’une absence ou d’une insuffisance de garantie."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "Frais autres que ceux de démolition et de déblais en cas de catastrophes naturelles et technologiques.",
+   "clause_id": "Chap. 5 §2",
+   "quote": "Les frais autres que ceux de démolition et de déblais en cas de catastrophes naturelles et technologiques."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "vol",
+   "condition_type": "effraction_requise",
+   "description": "Le vol doit résulter d'un vol, d'une tentative de vol ou d'un acte de vandalisme commis par effraction, par escalade (ouverture à plus de 3 mètres du sol) ou avec violences et menaces sur les personnes présentes.",
+   "parameter": null,
+   "clause_id": "Art. 4.7",
+   "quote": "résultant d’un vol, d’une tentative de vol ou d’un acte de vandalisme commis dans l’une des circonstances suivantes : - par effraction, - par escalade lorsque l’ouverture est située à plus de 3 mètres du sol, - avec violences et menaces sur les personnes présentes."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "mesure_de_prevention",
+   "description": "L'habitation doit être munie de moyens de protection spécifiques : pour les dépendances et vérandas, portes d'accès pleines munies d'une serrure de sûreté ; pour les locaux d'habitation, le niveau de protection mentionné dans les Conditions Particulières.",
+   "parameter": null,
+   "clause_id": "Art. 4.7 §3",
+   "quote": "La garantie vol n’est acquise que si votre habitation est munie des moyens de protection suivants : - Pour les dépendances et les vérandas : portes d’accès pleines munies d’une serrure de sûreté, - Pour les locaux d’habitation : le niveau de protection contre le vol mentionné dans les Conditions Particulières"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "locaux_fermes_a_cle",
+   "description": "Lors de toute absence, vous devez fermer toutes les ouvertures et utiliser l'ensemble des moyens de protection de votre habitation. La fermeture des volets et persiennes n'est pas exigée pour les absences de moins de 24 heures.",
+   "parameter": "24 heures",
+   "clause_id": "Art. 4.7 §3",
+   "quote": "Lors de toute absence, vous devez fermer toutes les ouvertures et utiliser l’ensemble des moyens de protection de votre habitation. La fermeture des volets et persiennes n’est pas exigée pour les absences de moins de 24 heures."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "biens_a_l_interieur",
+   "description": "Pour toute absence supérieure à 10 jours, vous devez déposer vos bijoux dans un coffre-fort. Si cette condition n'est pas respectée, vous conservez à votre charge 30% du montant de l'indemnité due au titre des bijoux.",
+   "parameter": "10 jours",
+   "clause_id": "Art. 4.7 §3",
+   "quote": "Pour toute absence supérieure à 10 jours, vous devez déposer vos bijoux dans un coffre-fort. Si cette condition de prévention n’était pas respectée, vous conserverez à votre charge 30% du montant de l’indemnité due au titre des bijoux."
+  }
+ ]
+}

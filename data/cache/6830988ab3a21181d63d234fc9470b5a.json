@@ -1,0 +1,164 @@
+{
+ "guarantees": [
+  {
+   "peril": "protection_juridique",
+   "label": "Protection juridique générale",
+   "scope": "Intervention en cas de litige dans la vie privée ou salariée, incluant relations avec l'employeur, résidence, travaux intérieurs, santé, consommation, services publics, voisins, employeur d'assistante maternelle, location saisonnière, navigation de plaisance, bénévolat, successions en ligne directe, incapacités, filiation et violences intrafamiliales.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 22-2",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières. Nous intervenons quand un litige survient dans votre vie privée ou salariée"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "protection_juridique",
+   "description": "Événement préjudiciable ou acte répréhensible porté à connaissance avant la prise d'effet ou après la cessation des effets de la garantie.",
+   "clause_id": "Art. 22-3",
+   "quote": "lorsque l’événement préjudiciable ou l’acte répréhensible à l’origine du litige est porté à votre connaissance avant la prise d’effet ou après la cessation des effets de votre garantie"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Demande juridiquement insoutenable, prescrite ou dont l'enjeu est inférieur au seuil d'intervention.",
+   "clause_id": "Art. 22-3",
+   "quote": "lorsque votre demande est juridiquement insoutenable, prescrite ou lorsque son enjeu est inférieur au seuil d’intervention"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de la responsabilité civile couverte par un contrat d'assurances.",
+   "clause_id": "Art. 22-3",
+   "quote": "lorsque le litige découle de votre responsabilité civile quand elle est couverte par un contrat d’assurances"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant d'une activité professionnelle non salariée ou de l'administration d'une entreprise, collectivité ou association employant des salariés.",
+   "clause_id": "Art. 22-3",
+   "quote": "d’une activité professionnelle non salariée ou de l’administration d’une entreprise, d’une collectivité ou d’une association lorsque cette dernière emploie un ou des salariés"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de la qualité d'employeur n'ayant pas déclaré une assistante maternelle, une femme de ménage ou un employé de maison.",
+   "clause_id": "Art. 22-3",
+   "quote": "de votre qualité d’employeur n’ayant pas déclaré une assistante maternelle, une femme de ménage ou un(e) employé(e) de maison"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de l'application des statuts d'une société ou de l'achat, la vente, la détention de droits sociaux d'une société non cotée officiellement à une Bourse Française de Valeurs.",
+   "clause_id": "Art. 22-3",
+   "quote": "de l’application des statuts d’une société ou de l’achat, la vente, la détention de droits sociaux d’une société non cotée officiellement à une Bourse Française de Valeurs"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant d'un conflit collectif du travail.",
+   "clause_id": "Art. 22-3",
+   "quote": "d’un conflit collectif du travail"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de l'expression par l'assuré d'opinions politiques, syndicales ou religieuses.",
+   "clause_id": "Art. 22-3",
+   "quote": "de l’expression par vous d’opinions politiques, syndicales ou religieuses"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de la propriété ou de l'usufruit de biens immobiliers non destinés exclusivement à l'usage privatif.",
+   "clause_id": "Art. 22-3",
+   "quote": "de la propriété ou de l’usufruit de biens immobiliers non destinés exclusivement à votre usage privatif"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de l'achat, la vente, la propriété, la location, l'entretien, la réparation, la conduite ou l'assurance d'un aéronef.",
+   "clause_id": "Art. 22-3",
+   "quote": "de l’achat, la vente, la propriété, la location, l’entretien, la réparation, la conduite ou l’assurance d’un aéronef"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de travaux immobiliers soumis à permis de construire, démolir ou déclaration préalable, ou soumis à l'obligation d'assurance de l'article L. 242.1 du Code.",
+   "clause_id": "Art. 22-3",
+   "quote": "de travaux immobiliers et de leurs prolongements relatifs à votre résidence, lorsque ces travaux sont soumis à la délivrance d’un permis de construire, de démolir ou de déclaration préalable ou encore lorsqu’ils sont soumis à l’obligation d’assurance édictée par l’article L. 242.1 du Code"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de la protection de brevets, titres de propriété industrielle ou droits d'auteur.",
+   "clause_id": "Art. 22-3",
+   "quote": "de la protection de vos brevets, titres de propriété industrielle ou droits d’auteur"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de la qualité de donneur d'aval, de caution ou cessionnaire de droits.",
+   "clause_id": "Art. 22-3",
+   "quote": "de votre qualité de donneur d’aval, de caution ou cessionnaire de droits"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litige découlant de l'achat, la vente, la propriété, la location (sauf courte durée n'excédant pas deux mois), l'entretien, la réparation, la conduite ou l'assurance d'un véhicule terrestre à moteur (sauf engins de jardinage et jouets télécommandés).",
+   "clause_id": "Art. 22-3",
+   "quote": "de l’achat, la vente, la propriété, la location (sauf pour la location de courte durée n’excédant pas deux mois), l’entretien, la réparation, la conduite ou l’assurance d’un véhicule terrestre à moteur (sauf les engins de jardinage et les jouets télécommandés)"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Poursuites pénales, mesure d'instruction ou réclamation diligentée pour crime, délit impliquant la volonté de causer un dommage, rixe ou injure.",
+   "clause_id": "Art. 22-3",
+   "quote": "de poursuites pénales, mesure d’instruction ou réclamation diligentée à votre encontre pour crime, délit impliquant la volonté de causer un dommage, rixe ou injure"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Application du Livre I du Code civil, excepté les litiges découlant des incapacités et de la filiation.",
+   "clause_id": "Art. 22-3",
+   "quote": "de l’application du Livre I du Code civil, excepté les litiges découlant des incapacités (sauvegarde de justice, tutelle, curatelle) et de la filiation (légitime, naturelle, adoptive)"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Régimes matrimoniaux, successions (excepté en ligne directe), donations entre vifs et legs (excepté en ligne directe).",
+   "clause_id": "Art. 22-3",
+   "quote": "des régimes matrimoniaux, des successions (excepté les litiges découlant des successions en ligne directe), des donations entre vifs et legs (excepté les litiges découlant des donations entre vifs et legs en ligne directe)"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Application de la présente garantie.",
+   "clause_id": "Art. 22-3",
+   "quote": "de l’application de la présente garantie"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "En matière de copropriété, règlement de la quote-part de charges liée aux procédures opposant un (des) tiers au syndicat des copropriétaires.",
+   "clause_id": "Art. 22-3",
+   "quote": "En matière de copropriété, nous n’intervenons jamais dans le règlement de votre quote-part de charges liée aux procédures opposant un (des) tiers au syndicat des copropriétaires"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "protection_juridique",
+   "condition_type": "option_ou_formule",
+   "description": "La garantie doit être spécialement mentionnée aux conditions particulières.",
+   "parameter": null,
+   "clause_id": "Art. 22-2",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières."
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration par écrit dès que l'assuré a connaissance du litige ou du refus opposé à une réclamation.",
+   "parameter": null,
+   "clause_id": "Art. 24-1",
+   "quote": "Vous devrez nous adresser votre déclaration par écrit dès que vous avez connaissance du litige ou du refus opposé à une réclamation dont vous êtes l’auteur ou le destinataire"
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "autre",
+   "description": "Les frais engagés sans accord préalable de l'assureur restent à la charge de l'assuré.",
+   "parameter": null,
+   "clause_id": "Art. 24-2",
+   "quote": "Les frais que vous pourriez engager sans notre accord préalable resteront à votre charge."
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "autre",
+   "description": "Si le tiers est assisté d'un avocat, l'assuré doit également être assisté par un avocat.",
+   "parameter": null,
+   "clause_id": "Art. 24-2",
+   "quote": "Si vous êtes informé que le tiers est assisté d’un avocat, ou si nous en sommes nous-même informés, vous devrez également être assisté par un avocat."
+  }
+ ]
+}

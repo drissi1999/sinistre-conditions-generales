@@ -1,0 +1,22 @@
+{
+ "guarantees": [],
+ "exclusions": [],
+ "conditions": [
+  {
+   "peril": "vol",
+   "condition_type": "autre",
+   "description": "Si les objets sont retrouvés avant le paiement de l'indemnité, l'assuré doit les reprendre.",
+   "parameter": null,
+   "clause_id": "Art. 37-5",
+   "quote": "avant le paiement de l’indemnité, vous devez les reprendre."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "autre",
+   "description": "Si les objets sont retrouvés après le paiement de l'indemnité, l'assuré en fait délaissement, sauf demande de reprise moyennant remboursement de l'indemnité intégrale.",
+   "parameter": null,
+   "clause_id": "Art. 37-5",
+   "quote": "après le paiement de l’indemnité, vous en faites délaissement."
+  }
+ ]
+}

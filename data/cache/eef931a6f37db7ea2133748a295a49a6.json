@@ -1,0 +1,128 @@
+{
+ "guarantees": [
+  {
+   "peril": "bris_de_glace",
+   "label": "Bris de glaces",
+   "scope": "Frais de remplacement des miroirs, glaces, vitrages, parois vitrées, panneaux de signalisation et serres en verre (jusqu'à 5 m2) brisés accidentellement, ainsi que les produits plastiques équivalents, frais de clôture provisoire, dommages par éclats et film occultant.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2-7",
+   "quote": "La garantie couvre, lorsqu’ils sont brisés accidentellement, les frais de remplacement : • des miroirs intérieurs, des glaces équipant les meubles et les aquariums, • des vitrages des portes, portes-fenêtres, baies et fenêtres, y compris en toiture,"
+  },
+  {
+   "peril": "bris_de_glace",
+   "label": "Bris de glace +",
+   "scope": "Extension de la garantie aux plaques vitrocéramiques, induction, vérandas (si option souscrite), vitraux, marquises et appareils sanitaires pour les formules Confort et Excellence.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 2-7",
+   "quote": "La garantie est étendue pour les formules Confort et Excellence aux : • plaques vitrocéramiques, plaques induction, • vérandas ou loggias (si l’option est souscrite), • vitraux, marquises, • appareils sanitaires."
+  },
+  {
+   "peril": "bris_de_glace",
+   "label": "Bris de glace renforcé",
+   "scope": "Extension de la garantie aux survitrages mobiles, vitres d'insert, vitres d'appareils électroménagers, panneaux solaires et photovoltaïques pour la formule Excellence.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 2-7",
+   "quote": "La garantie est étendue pour la formule Excellence aux survitrages mobiles, vitres d’insert, vitres d’appareils électroménagers, ainsi que les panneaux solaires et photovoltaïques en toiture ou montés sur châssis scellés au sol."
+  },
+  {
+   "peril": "dommages_electriques",
+   "label": "Contenu du congélateur et/ou réfrigérateur",
+   "scope": "Pertes ou détériorations des denrées alimentaires contenues dans les congélateurs et/ou réfrigérateurs endommagés à l'occasion d'un sinistre dommages électrique indemnisé, d'une panne électroménager ou d'une coupure électrique accidentelle.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2-8",
+   "quote": "La garantie couvre les pertes ou détériorations causes aux denrées alimentaires contenues dans les congélateurs et/ou réfrigérateurs endommagés à l’occasion d’un sinistre dommages électrique indemnisé (ART 2-2), à la suite d’un sinistre indemnisé au titre de la garantie panne électroménager (TITRE III) ou d’une coupure électrique accidentelle avec justificatif de votre fournisseur d’électricité."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Catastrophes naturelles",
+   "scope": "Dommages matériels directs non assurables ayant pour cause déterminante l'intensité anormale d'un agent naturel, ainsi que les frais de relogement d'urgence si la résidence principale est rendue impropre à l'habitation.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2-9 §2",
+   "quote": "La garantie couvre les dommages matériels directs non assurables ayant eu pour cause déterminante l’intensité anormale d’un agent naturel, lorsque les mesures habituelles à prendre pour prévenir ces dommages n’ont pu empêcher leur survenance ou n’ont pu être prises."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "bris_de_glace",
+   "description": "Les appareils électroménagers ne sont pas garantis, sauf ceux couverts par l'extension « Bris de glace renforcé ».",
+   "clause_id": "Art. 2-7 §2",
+   "quote": "ne sont pas garantis : • les appareils électroménagers, sauf ceux garantis dans le « Bris de glace renforcé » ci-dessus,"
+  },
+  {
+   "peril": "bris_de_glace",
+   "description": "Les serres d'une superficie supérieure à 5 m2 ne sont pas garanties, sauf si le Pack Jardin est souscrit.",
+   "clause_id": "Art. 2-7 §2",
+   "quote": "• les serres d’une superficie de plus de 5 m2, sauf si le Pack Jardin est souscrit,"
+  },
+  {
+   "peril": "bris_de_glace",
+   "description": "Les ébréchures ainsi que les dommages résultant de la vétusté ou de l'impropriété du support ne sont pas garantis.",
+   "clause_id": "Art. 2-7 §2",
+   "quote": "• les ébréchures ainsi que tous dommages résultant de la vétusté ou de l’impropriété du support."
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Les pertes dues à un arrêt de courant électrique causé par une grève, des ordres de services publics ou autorités, ou au fait de l'assuré ne sont pas garanties.",
+   "clause_id": "Art. 2-8 §2",
+   "quote": "• provenant de l’arrêt d’un courant électrique, lorsqu’il est dû : - à une grève du fournisseur, - à des ordres émanant d’un service public ou des autorités civiles ou militaires, - au fait de l’assuré,"
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Les pertes dues à un mauvais entretien ou à une utilisation non conforme du congélateur/réfrigérateur aux instructions du fabricant ne sont pas garanties.",
+   "clause_id": "Art. 2-8 §2",
+   "quote": "• dues à un mauvais entretien ou à une utilisation non conforme du congélateur et/ou réfrigérateur aux instructions du fabricant,"
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Les pertes consécutives à une fuite du liquide frigorigène ne sont pas garanties.",
+   "clause_id": "Art. 2-8 §2",
+   "quote": "• consécutives à une fuite du liquide frigorigène."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "Les biens construits sur des terrains classés inconstructibles par un plan de prévention des risques ne sont pas garantis, à l'exception des biens existants antérieurement à la publication du plan.",
+   "clause_id": "Art. 2-9 §3",
+   "quote": "• les biens assurés construits sur des terrains classés inconstructibles par un plan de prévention des risques à l’exception toutefois des biens existants antérieurement à la publication de ce plan (article L. 125-6 du Code),"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "Les biens immobiliers construits en violation des règles administratives en vigueur lors de leur mise en place ne sont pas garantis.",
+   "clause_id": "Art. 2-9 §3",
+   "quote": "• les biens immobiliers construits en violation des règles administratives en vigueur lors de leur mise en place et tendant à prévenir les dommages causés par une catastrophe naturelle (article L. 125-6 du Code),"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "En cas de mouvements de terrain différentiels consécutifs à la sécheresse, les dommages sur les éléments annexes (remises, garages, terrasses, etc.) ne sont pas garantis sauf s'ils font indissociablement corps avec les ouvrages de viabilité, fondation, ossature, clos ou couvert.",
+   "clause_id": "Art. 2-9 §3",
+   "quote": "• en cas de dommages ayant eu pour cause déterminante les mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols, les dommages survenus sur les constructions constitutives d’éléments annexes aux parties à usage d’habitation, tels que notamment les remises, les garages et parkings, les terrasses, les murs de clôture extérieurs, les serres, les terrains de jeux ou les piscines et leurs éléments architecturaux connexes, sauf lorsque ces éléments font indissociablement corps avec les ouvrages de viabilité, de fondation, d’ossature, de clos ou de couvert (Article R. 125-7 du Code)."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "delai_de_declaration",
+   "description": "La garantie est mise en jeu par une déclaration faite au plus tard trente jours après publication au Journal Officiel d'un arrêté interministériel constatant l'état de catastrophe naturelle.",
+   "parameter": "30 jours",
+   "clause_id": "Art. 2-9 §2",
+   "quote": "La garantie est mise en jeu par une déclaration faite au plus tard trente jours après publication au Journal Officiel d’un arrêté interministériel constatant l’état de catastrophe naturelle."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "preuve_requise",
+   "description": "L'assuré doit informer l'assureur, dans le même délai que la déclaration du sinistre, si d'autres assurances sont concernées par le même événement.",
+   "parameter": null,
+   "clause_id": "Art. 2-9 §2",
+   "quote": "Vous devez également nous faire savoir, dans le même délai, si d’autres assurances sont concernées par le même événement."
+  }
+ ]
+}

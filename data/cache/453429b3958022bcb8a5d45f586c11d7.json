@@ -1,0 +1,128 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Service Informations juridiques et vie pratique",
+   "scope": "Recherche et recensement d'informations à caractère général et documentaire dans les domaines juridiques et de la vie pratique, communiquées par téléphone.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.4",
+   "quote": "Le service apporté par IMA GIE consiste dans la recherche et le recensement, pour le compte des bénéficiaires, d’informations à caractère général et éventuellement documentaire, directement communiquées par téléphone au bénéficiaire"
+  },
+  {
+   "peril": "autre",
+   "label": "Assurance scolaire",
+   "scope": "Couverture des dommages corporels occasionnés par un accident pour les enfants scolarisés du primaire au secondaire lors de leurs activités scolaires et extra-scolaires.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 10.1",
+   "quote": "La garantie est acquise pour les enfants scolarisés du primaire au secondaire pour leurs activités scolaires et extra-scolaires y compris les stages accomplis dans le cadre de leurs études, en cas de dommage corporel occasionné par un accident."
+  },
+  {
+   "peril": "autre",
+   "label": "Décès de l'enfant (Assurance scolaire)",
+   "scope": "Versement d'un capital en cas de décès de l'enfant assuré.",
+   "ceiling": "3 500 €",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 10.1",
+   "quote": "Le décès de l’enfant pour un capital de 3 500 €, dont 1 500 € pour le transport du corps et 1 000 € pour les frais d’obsèques"
+  },
+  {
+   "peril": "autre",
+   "label": "Invalidité permanente (Assurance scolaire)",
+   "scope": "Versement d'un capital en cas d'invalidité permanente supérieure à 4 %.",
+   "ceiling": "50 000 €",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 10.1",
+   "quote": "L’invalidité permanente supérieure à 4 % : Taux d’invalidité Capital versé 5 à 15 % 5 000 € 16 à 35 % 15 000 € 36 à 55 % 25 000 € 56 à 75 % 35 000 € 76 à 100 % 50 000 €"
+  },
+  {
+   "peril": "autre",
+   "label": "Frais médicaux et hospitaliers (Assurance scolaire)",
+   "scope": "Prise en charge des frais médicaux, chirurgicaux, pharmaceutiques, de transport et d'hospitalisation après intervention de la Sécurité sociale.",
+   "ceiling": "750 € (frais médicaux/transport), 50 € par jour (hospitalisation)",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 10.1",
+   "quote": "Les frais médicaux, chirurgicaux et pharmaceutiques ainsi que les frais de transport, dans la limite de 750 €. • Les frais d’hospitalisation en cas de séjour de plus de cinq jours, dans la limite de 50 € par jour et de 60 jours"
+  },
+  {
+   "peril": "autre",
+   "label": "Frais dentaires et optiques (Assurance scolaire)",
+   "scope": "Prise en charge des frais dentaires, lunettes correctrices, lentilles et audioprothèse.",
+   "ceiling": "350 € (dentaire), 80 € (monture), 40 € (verre/lentille), 500 € (audioprothèse)",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 10.1",
+   "quote": "Les frais dentaires, y compris les frais d’appareil ou de prothèse, dans la limite de 350 €. • Les frais de lunettes correctrices et lentilles, dans la limite de 80 € par monture et de 40 € par verre correcteur ou lentille, • Les frais d’audioprothèse, dans la limite de 500 €."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Exclusion de tout conseil, consultation juridique personnalisée, prise en charge de litige ou de frais.",
+   "clause_id": "Art. 9.4 §2",
+   "quote": "Tout conseil • Toute consultation juridique personnalisée ou tout examen de cas particulier • Toute prise en charge de litige • Toute prise en charge de frais, rémunération de services ou de garanties, de même que toute avance de fonds."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion des études comparatives financières et présentation préférentielle de produits.",
+   "clause_id": "Art. 9.4 §2",
+   "quote": "Concernant le domaine particulier des renseignements financiers, IMA GIE ne pourra procéder à aucune étude comparative sur la qualité des contrats, services, taux pratiqués par les établissements financiers, et exclut toute présentation ou exposé préférentiel d’un produit particulier par rapport à un autre."
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des dommages survenus après la fin de l'année scolaire, lors d'activités rémunérées, résultant d'une maladie ou de la conduite d'un engin à moteur.",
+   "clause_id": "Art. 10.1 §2",
+   "quote": "Les dommages intervenus après la fin de l’année scolaire, • Les dommages subis lors de toute activité rémunérée, • Les dommages résultant d’une maladie, • Les dommages résultant de la conduite d’un engin à moteur,"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des frais d'opération esthétique, de l'indemnisation de l'incapacité temporaire de travail et des préjudices personnels.",
+   "clause_id": "Art. 10.1 §2",
+   "quote": "Les frais d’opération esthétique, • L’indemnisation de l’incapacité temporaire de travail (ITT), les préjudices à caractère personnel (douleur, esthétique, agrément…), • L’aggravation à la suite d’un sinistre déjà réglé,"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des dommages corporels résultant de l'usage de stupéfiants sans prescription ou lors d'actes délictueux/criminels.",
+   "clause_id": "Art. 10.1 §2",
+   "quote": "Les dommages corporels résultant de l’usage de stupéfiants sans prescription médicale, • Les dommages corporels intervenus lors de la participation de l’assuré à des actes délictueux ou criminels."
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion de la pratique de sports spécifiques (escalade, spéléologie, sports aériens, etc.).",
+   "clause_id": "Art. 10.1 §2",
+   "quote": "La pratique des sports suivants : acrobatie, escalade, spéléologie, saut à ski, skeleton, bobsleigh, sports aériens, aviation, arts martiaux, sports de combat, chasse, plongée et pêche sous-marine, surf, planche à voile, régate."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Les demandes doivent porter sur le droit français ou des institutions françaises et concerner des prestataires exerçant en France métropolitaine.",
+   "parameter": null,
+   "clause_id": "Art. 9.4",
+   "quote": "Les demandes d’informations doivent porter sur : - des questions qui relèvent du droit français et/ou concernent des institutions, pratiques, services français, - des prestataires et intervenants exerçant leur activité sur le territoire français métropolitain."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "option_ou_formule",
+   "description": "L'assurance scolaire est acquise seulement si elle est mentionnée sur les Conditions Particulières.",
+   "parameter": null,
+   "clause_id": "Chap. 10",
+   "quote": "Les deux options ci-dessous vous sont acquises seulement si elles sont mentionnées sur les Conditions Particulières."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "Le versement des prestations de frais médicaux et hospitaliers s'effectue après intervention de la Sécurité sociale et/ou de tout autre régime de prévoyance.",
+   "parameter": null,
+   "clause_id": "Art. 10.1",
+   "quote": "Le versement des prestations suivantes s’effectue après intervention de la Sécurité sociale et/ou de tout autre régime de prévoyance :"
+  }
+ ]
+}

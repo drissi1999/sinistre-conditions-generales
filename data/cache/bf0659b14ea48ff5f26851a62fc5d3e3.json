@@ -1,0 +1,91 @@
+{
+ "guarantees": [],
+ "exclusions": [
+  {
+   "peril": null,
+   "description": "Déchéance de tout droit à garantie en cas de fausses déclarations, moyens frauduleux, non-déclaration d'autres assurances ou omission de la récupération des biens volés.",
+   "clause_id": "Art. 22-2",
+   "quote": "Vous serez déchu de tout droit à garantie pour le sinistreen cause si vous : • faites de fausses déclarations sur la nature, les circonstances, les causes et les conséquences d’un sinistre, • employez comme justifications des moyens frauduleux ou des documents mensongers, • ne déclarez pas l’existence d’autres assurances portant sur le même risque, • omettez de porter à notre connaissance la récupération des biens volés."
+  },
+  {
+   "peril": "vol",
+   "description": "Déchéance de tout droit à garantie si la plainte déposée pour un vol est retirée sans l'accord de l'assureur.",
+   "clause_id": "Art. 22-2",
+   "quote": "Cette plainte ne doit pas être retirée sans notre accord, sous peine de déchéancede tout droit à garantie."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": null,
+   "condition_type": "mesure_de_prevention",
+   "description": "Prendre immédiatement toutes les mesures nécessaires pour limiter l’importance des dommages et sauvegarder les biens.",
+   "parameter": null,
+   "clause_id": "Art. 22-1",
+   "quote": "En cas de sinistre, vous devez prendre immédiatement toutes les mesures nécessaires pour limiter l’importance des dommages et sauvegarder vos biens."
+  },
+  {
+   "peril": null,
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration écrite (recommandée, en ligne ou verbale) dans un délai de 5 jours ouvrés maximum pour les Responsabilités civiles, Dommages aux biens et Protection Juridique.",
+   "parameter": "5 jours ouvrés maximum",
+   "clause_id": "Art. 22-2",
+   "quote": "Délai 5 jours ouvrés maximum"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration dans un délai de 2 jours ouvrés maximum en cas de vol, tentative de vol ou acte de vandalisme.",
+   "parameter": "2 jours ouvrés maximum",
+   "clause_id": "Art. 22-2",
+   "quote": "Délai 2 jours ouvrés maximum"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration dans un délai de 30 jours maximum suivant la publication de l'arrêté interministériel constatant l'état de catastrophe naturelle.",
+   "parameter": "30 jours maximum",
+   "clause_id": "Art. 22-2",
+   "quote": "Délai 30 jours maximum suivant la publication de l’arrêté interministériel constatant l’état de catastrophe naturelle"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration dans le plus bref délai pour les catastrophes technologiques.",
+   "parameter": "dans le plus bref délai",
+   "clause_id": "Art. 22-2",
+   "quote": "Délai dans le plus bref délai"
+  },
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "Fourniture d'un état estimatif certifié sincère et signé des objets assurés endommagés, détruits, disparus et sauvés dans un délai de 20 jours (5 jours en cas de vol).",
+   "parameter": "20 jours (5 jours en cas de vol)",
+   "clause_id": "Art. 22-2",
+   "quote": "Vous devez nous communiquer tous les documents nécessaires à l’expertise et en particulier nous fournir, dans le délai de 20 jours (5 jours en cas de vol), un état estimatif, certifié sincère et signé par vos soins, des objets assurés endommagés, détruits, disparus et de ceux qui ont été sauvés."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "delai_de_declaration",
+   "description": "Avis aux autorités de Police ou de Gendarmerie et dépôt de plainte dans les 12 heures suivant la constatation du vol.",
+   "parameter": "12 heures",
+   "clause_id": "Art. 22-2",
+   "quote": "Vous devez également aviser les autorités de Police ou de Gendarmerie dans les 12 heures qui suivent la constatation du vol et déposer une plainte."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "delai_de_declaration",
+   "description": "Avertissement de la récupération des biens volés dans les 8 jours par lettre recommandée.",
+   "parameter": "8 jours",
+   "clause_id": "Art. 22-2",
+   "quote": "Lorsque vous êtes informé de la récupération de tout ou partie des biens volés, vous devez nous en avertir dans les 8 jours par lettre recommandée"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "delai_de_declaration",
+   "description": "Demande de reprise de possession des biens volés récupérés après paiement de l'indemnité dans un délai de 30 jours à compter de l'avis de récupération.",
+   "parameter": "30 jours",
+   "clause_id": "Art. 22-2",
+   "quote": "à condition de nous en avoir fait la demande dans un délai de 30 jours à compter de la date à laquelle vous aurez été avisé de la récupération."
+  }
+ ]
+}

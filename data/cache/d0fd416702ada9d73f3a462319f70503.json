@@ -1,0 +1,83 @@
+{
+ "guarantees": [],
+ "exclusions": [
+  {
+   "peril": null,
+   "description": "Déchéance de garantie en cas de déclaration inexacte et de mauvaise foi sur les faits, événements ou la situation à l'origine de la demande.",
+   "clause_id": "Art. 36-1",
+   "quote": "En cas de déclaration inexacte et de mauvaise foi sur les faits, les événements ou la situation qui sont à l’origine de votre demande, de la poursuite, du litige ou plus généralement sur tout élément pouvant servir à sa solution, vous encourez une déchéance de garantie."
+  },
+  {
+   "peril": null,
+   "description": "Déchéance de tout droit à indemnité sur l'ensemble des garanties en cas de fausses déclarations, exagération des dommages, faux justificatifs ou moyens frauduleux.",
+   "clause_id": "Art. 36-2",
+   "quote": "Si vous faites de fausses déclarations et notamment exagérez le montant des dommages, usez de faux justificatifs ou de moyens frauduleux, vous serez entièrement déchu de tout droit à indemnité sur l’ensemble des garanties de votre contrat."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": null,
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration du sinistre par téléphone au plus tard dans un délai de 5 jours ouvrés après en avoir connaissance.",
+   "parameter": "5 jours ouvrés",
+   "clause_id": "Art. 36-1",
+   "quote": "nous déclarer par téléphone à notre siège au 01 71 25 20 25 dès que vous en avez connaissance et au plus tard dans un délai de 5 jours ouvrés"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration du sinistre par téléphone au plus tard dans un délai de 2 jours ouvrés en cas de vol.",
+   "parameter": "2 jours ouvrés",
+   "clause_id": "Art. 36-1",
+   "quote": "2 jours ouvrés en cas de vol"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration du sinistre par téléphone au plus tard dans un délai de 30 jours ouvrés après la publication de l'arrêté de reconnaissance de l'état de catastrophe naturelle.",
+   "parameter": "30 jours ouvrés",
+   "clause_id": "Art. 36-1",
+   "quote": "30 jours ouvrés pour les catastrophes naturelles après la publication de l’arrêté de reconnaissance de l’état de catastrophe naturelle"
+  },
+  {
+   "peril": null,
+   "condition_type": "delai_de_declaration",
+   "description": "Transmission dans les 48 heures de tout avis, lettres, convocations, assignations, actes extrajudiciaires et pièces de procédure reçus.",
+   "parameter": "48 heures",
+   "clause_id": "Art. 36-1",
+   "quote": "nous transmettre dans les 48 heures de leur réception, tout avis, lettres, convocations, assignations, actes extrajudiciaires et pièces de procédure qui vous seraient adressés, remis ou signifiés à vous-même ou à vos préposés"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "preuve_requise",
+   "description": "Porter plainte auprès des autorités locales ou de la gendarmerie et adresser le récépissé à l'assureur.",
+   "parameter": null,
+   "clause_id": "Art. 36-1",
+   "quote": "en cas de vol ou d’actes de vandalisme et au plus tard 48 heures après sa constatation, porter plainte auprès des autorités locales ou de la gendarmerie et nous adresser le récépissé"
+  },
+  {
+   "peril": "vandalisme",
+   "condition_type": "preuve_requise",
+   "description": "Porter plainte auprès des autorités locales ou de la gendarmerie et adresser le récépissé à l'assureur.",
+   "parameter": null,
+   "clause_id": "Art. 36-1",
+   "quote": "en cas de vol ou d’actes de vandalisme et au plus tard 48 heures après sa constatation, porter plainte auprès des autorités locales ou de la gendarmerie et nous adresser le récépissé"
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "delai_de_declaration",
+   "description": "La déclaration doit être adressée au GIE CIVIS avant tout engagement d'action judiciaire et avant toute saisine d'un mandataire, sauf mesures conservatoires urgentes.",
+   "parameter": null,
+   "clause_id": "Art. 36-1",
+   "quote": "En cas de mise en jeu de votre garantie protection juridique générale : votre déclaration devra être adressée au GIE CIVIS avant tout engagement d’action judiciaire et avant toute saisine d’un mandataire (avocat, huissier, expert,…), sauf mesures conservatoires urgentes et appropriées."
+  },
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "L'assuré doit réunir tous moyens de preuve quant à la réalité de l'événement dommageable et justifier l'existence, la propriété et la valeur des biens disparus ou détruits.",
+   "parameter": null,
+   "clause_id": "Art. 37-2",
+   "quote": "Il vous appartient de réunir tous moyens de preuve quant à la réalité de l’événement dommageable dont vous demandez réparation. En cas de sinistre, vous devez justifier l’existence, la propriété et la valeur des biens disparus ou détruits."
+  }
+ ]
+}

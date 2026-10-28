@@ -1,0 +1,172 @@
+{
+ "guarantees": [
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Catastrophes technologiques",
+   "scope": "Couvre les conséquences pécuniaires des dommages aux biens à usage d'habitation résultant de l'état de catastrophe technologique conformément à la loi n°2003-699 du 30 juillet 2003.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2-10",
+   "quote": "La garantie couvre les conséquences pécuniaires des dommages à vos biens à usage d’habitation ou placés dans les locaux à usage d’habitation résultant de l’état de catastrophe technologique conformément à la loi n°2003-699 du 30 juillet 2003."
+  },
+  {
+   "peril": "attentats",
+   "label": "Attentats et actes de terrorisme",
+   "scope": "Couvre les dommages matériels directs (y compris les frais de décontamination), subis sur le territoire national, causés aux biens assurés par un attentat ou un acte de terrorisme tels que définis aux articles 421-1 et 421-2 du Code pénal.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2-11 §2",
+   "quote": "La garantie couvre les dommages matériels directs (y compris les frais de décontamination), subis sur le territoire national, causés aux biens assurés par un attentat ou un acte de terrorisme tels que définis aux articles 421-1 et 421-2 du Code pénal."
+  },
+  {
+   "peril": "autre",
+   "label": "Émeutes et mouvements populaires",
+   "scope": "Couvre, dans les conditions et limites prévues pour chaque garantie si elle est souscrite, les dommages matériels causés aux biens assurés survenant lors d’émeutes ou de mouvements populaires.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2-12",
+   "quote": "La garantie couvre, dans les conditions et limites prévues pour chaque garantie si elle est souscrite, les dommages matériels causés aux biens assurés survenant lors d’émeutes ou de mouvements populaires."
+  },
+  {
+   "peril": "autre",
+   "label": "Intervention des moyens de secours",
+   "scope": "Couvre les dommages matériels occasionnés par l’intervention des services de secours à proximité des locaux assurés à l’occasion d’un événement assuré défini à l’article 2- « Les évènements assurés ».",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2-13",
+   "quote": "La garantie couvre les dommages matériels occasionnés par l’intervention des services de secours à proximité des locaux assurés à l’occasion d’un événement assuré défini à l’article 2- « Les évènements assurés »."
+  },
+  {
+   "peril": "autre",
+   "label": "Frais annexes",
+   "scope": "Couvre les honoraires du maître d’œuvre reconstructeur, du bureau d’étude, du professionnel qui vous a assisté dans l’établissement de votre état de pertes, les frais de déménagement et de garde meubles que vous avez réellement exposés, ainsi que le remboursement de la cotisation dommages ouvrage.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-1",
+   "quote": "La garantie couvre les honoraires du maître d’œuvre reconstructeur, du bureau d’étude, du professionnel qui vous a assisté dans l’établissement de votre état de pertes, les frais de déménagement et de garde meubles que vous avez réellement exposés, ainsi que le remboursement de la cotisation dommages ouvrage."
+  },
+  {
+   "peril": "autre",
+   "label": "Frais de relogement provisoire",
+   "scope": "Couvre les frais de votre relogement provisoire lorsque l’habitation que vous occupez est devenue totalement inhabitable à la suite d’un événement garanti, incluant une aide immédiate pour les frais de relogement provisoire réellement exposés, en cas de nécessité, dans un hôtel.",
+   "ceiling": "valeur locative annuelle de l’habitation",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-2",
+   "quote": "L’indemnité totale ne peut excéder la valeur locative annuelle de l’habitation et elle comprend une aide immédiate pour les frais de relogement provisoire réellement exposés, en cas de nécessité, dans un hôtel."
+  },
+  {
+   "peril": "autre",
+   "label": "Perte de loyers",
+   "scope": "Couvre le montant des loyers dont, en tant que propriétaire, vous vous trouvez privé si votre locataire n’est plus tenu au paiement à la suite d’un événement garanti.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-3",
+   "quote": "La garantie couvre le montant des loyers dont, en tant que propriétaire, vous vous trouvez privé si votre locataire n’est plus tenu au paiement à la suite d’un événement garanti."
+  },
+  {
+   "peril": "autre",
+   "label": "Pertes indirectes",
+   "scope": "Couvre les frais engagés lors du sinistre garanti (déplacements supplémentaires, frais de téléphone, de courrier) si l'indemnité totale excède 8 000 €.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 3-4",
+   "quote": "Si l’indemnité totale excède 8 000 €, nous couvrons les frais que vous avez engagés lors du sinistre garanti (déplacements supplémentaires, frais de téléphone, de courrier)."
+  },
+  {
+   "peril": "autre",
+   "label": "Remboursement de prêt",
+   "scope": "Couvre le remboursement des mensualités d’emprunt de l’habitation principale assurée lorsque celle-ci est devenue inhabitable à la suite d’un événement garanti.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 3-5",
+   "quote": "Nous couvrons le remboursement des mensualités d’emprunt de l’habitation principale assurée lorsque celle-ci est devenue inhabitable à la suite d’un événement garanti."
+  },
+  {
+   "peril": "autre",
+   "label": "Remise à neuf",
+   "scope": "Compense la dépréciation jusqu’à 33 % de la valeur du bien vétusté déduite, versée sur présentation des factures acquittées des travaux de réparation ou de remplacement des objets.",
+   "ceiling": "coût des réparations, de reconstruction ou de remplacement des biens et des objets endommagés ou remplacés",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-6",
+   "quote": "Cette indemnité compense la dépréciation jusqu’à 33 % de la valeur du bien vétusté déduite. Elle est versée sur présentation des factures acquittées des travaux de réparation ou de remplacement des objets."
+  },
+  {
+   "peril": "autre",
+   "label": "Réparation ou rééquipement à neuf",
+   "scope": "Indemnise les dommages occasionnés à vos objets d’usage courant de moins de 10 ans d’âge au jour du sinistre sans application de vétusté, sur la base du coût de remplacement ou de réparation.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 3-7",
+   "quote": "Pour toutes les garanties « Dommages subis par vos biens » (TITRE I), le mobilier de jardin du Pack Jardin (TITRE II) et la garantie « Assurance scolaire » (TITRE VI - ART 20.2 - Instruments et cartables ), les dommages occasionnés à vos objets d’usage courant (tels que définis dans le chapitre « LES DÉFINITIONS ») de moins de 10 ans d’âge au jour du sinistre - si vous souhaitez les remplacer ou les réparer - sont indemnisés (sans application de vétusté)"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "attentats",
+   "description": "Les frais de décontamination des déblais ainsi que leur confinement ne sont pas garantis.",
+   "clause_id": "Art. 2-11 §3",
+   "quote": "ne sont pas garantis : • les frais de décontamination des déblais ainsi que leur confinement."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "autre",
+   "description": "La garantie ne peut être mise en jeu qu’après publication au Journal officiel de la République Française de la décision de l’autorité administrative ayant constaté l’état de catastrophe technologique.",
+   "parameter": null,
+   "clause_id": "Art. 2-10",
+   "quote": "La garantie ne peut être mise en jeu qu’après publication au Journal officiel de la République Française de la décision de l’autorité administrative ayant constaté l’état de catastrophe technologique."
+  },
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "Les frais annexes devront être justifiés par la production de factures ou notes de frais.",
+   "parameter": null,
+   "clause_id": "Art. 3-1",
+   "quote": "Ces frais devront être justifiés par la production de factures ou notes de frais."
+  },
+  {
+   "peril": null,
+   "condition_type": "autre",
+   "description": "La garantie de perte de loyers ne joue que pour les locaux occupés avec un bail de durée, au moment du sinistre.",
+   "parameter": null,
+   "clause_id": "Art. 3-3",
+   "quote": "Elle ne joue que pour les locaux occupés avec un bail de durée, au moment du sinistre."
+  },
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "Les frais de pertes indirectes devront être justifiés par la production de factures ou notes de frais.",
+   "parameter": null,
+   "clause_id": "Art. 3-4",
+   "quote": "Ces frais devront être justifiés par la production de factures ou notes de frais."
+  },
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "L'indemnité de remise à neuf est versée sur présentation des factures acquittées des travaux de réparation ou de remplacement des objets.",
+   "parameter": null,
+   "clause_id": "Art. 3-6",
+   "quote": "Elle est versée sur présentation des factures acquittées des travaux de réparation ou de remplacement des objets."
+  },
+  {
+   "peril": null,
+   "condition_type": "delai_de_declaration",
+   "description": "Si vous ne souhaitez pas faire appel à notre réseau de prestataires agréés, nous vous indemniserons... sur présentation des originaux de facture des frais de réparation ou de remplacement engagés dans les deux ans qui suivent le sinistre.",
+   "parameter": "2 ans",
+   "clause_id": "Art. 3-7",
+   "quote": "Si vous ne souhaitez pas faire appel à notre réseau de prestataires agréés, nous vous indemniserons, dans les limites du rapport d’expertise et comme il est défini ci-avant, sur présentation des originaux de facture des frais de réparation ou de remplacement engagés dans les deux ans qui suivent le sinistre."
+  }
+ ]
+}

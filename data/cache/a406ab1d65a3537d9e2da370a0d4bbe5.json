@@ -1,0 +1,172 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Garde au domicile de l'enfant",
+   "scope": "Garde par du personnel qualifié ou acheminement d'un proche pour un enfant de moins de 16 ans malade ou convalescent immobilisé au domicile.",
+   "ceiling": "40 heures par période d'immobilisation",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-5",
+   "quote": "Cette prestation est mise en œuvre dans la limite des disponibilités locales, pour un maximum de 40 heures par période d’immobilisation."
+  },
+  {
+   "peril": "assistance",
+   "label": "Conduite de l'enfant à l'école",
+   "scope": "Transport par taxi de l'enfant à l'école en cas de difficultés de déplacement et d'indisponibilité des proches.",
+   "ceiling": "300 € TTC maximum par évènement",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-5",
+   "quote": "ce dernier est organisé par taxi et pris en charge à hauteur de 300 € TTC maximum par évènement."
+  },
+  {
+   "peril": "assistance",
+   "label": "Aide pédagogique",
+   "scope": "Intervention d'un répétiteur scolaire en cas d'immobilisation imprévue entraînant une absence scolaire supérieure à 15 jours consécutifs.",
+   "ceiling": "3 000 € TTC",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-5",
+   "quote": "L’aide pédagogique est accordée pour la durée effective de l’année scolaire en cours, pendant les jours normalement scolarisés sauf le samedi, à raison de 15 heures maximum par semaine, tous cours confondu, fractionnables par tranche de 3 heures de cours au minimum dans la journée par matière ou par répétiteur scolaire dans la limite de 3 000 € TTC."
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance psychologique",
+   "scope": "Entretiens téléphoniques et en face-à-face avec un psychologue clinicien en cas de situation difficile affectant psychologiquement le bénéficiaire.",
+   "ceiling": "12 entretiens en face-à-face ; 80 € TTC par séance en cabinet",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-6",
+   "quote": "nous confions à notre prestataire le soin d’organiser et de prendre en charge jusqu’à 5 entretiens téléphoniques avec un psychologue clinicien, et si ce dernier le juge nécessaire, jusqu’à 12 entretiens en face-à-face avec un psychologue clinicien."
+  },
+  {
+   "peril": "assistance",
+   "label": "Remboursement des frais de cantine scolaire",
+   "scope": "Prise en charge des frais de repas de cantine en cas d'interruption scolaire médicalement prescrite d'au moins 15 jours ou de décès.",
+   "ceiling": "160 € TTC par bénéficiaire et par évènement",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-7",
+   "quote": "Les frais de cantine seront remboursés à concurrence maximum de 4 € TTC par jour, à compter du jour qui suit l’évènement générateur, dans la limite de 160 € TTC par bénéficiaire et par évènement sur présentation de la facture acquittée de cantine et d’un justificatif."
+  },
+  {
+   "peril": "assistance",
+   "label": "Frais de recherche et de secours",
+   "scope": "Prise en charge des frais d'intervention d'équipes spécialisées dans un domaine privé ou public, hors frais d'évacuation en traîneau.",
+   "ceiling": "2300 € TTC par évènement et par bénéficiaire",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-7",
+   "quote": "Nécessités par une intervention dans un domaine privé ou public d’équipes spécialisées dotées de tous moyens dans la limite de 2300 € TTC par évènement et par bénéficiaire, hors frais d’évacuation en traîneau."
+  },
+  {
+   "peril": "assistance",
+   "label": "Frais d'évacuation en traîneau",
+   "scope": "Prise en charge des frais d'évacuation en traîneau sur piste de ski.",
+   "ceiling": "250 € TTC par évènement et par bénéficiaire",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-7",
+   "quote": "La prise en charge des frais d’évacuation en traîneau sur piste de ski est limitée à 250 € TTC par évènement et par bénéficiaire."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Prestation de garde non acquise pendant les congés légaux des parents, de la nourrice ou du travailleur familial employé et déclaré.",
+   "clause_id": "Art. 21-5",
+   "quote": "Cette prestation n’est pas acquise : • pendant les congés légaux du ou des parents et de la nourrice ou du travailleur familial employé et déclaré,"
+  },
+  {
+   "peril": "assistance",
+   "description": "Prestation de garde non acquise lorsqu'un membre majeur de la famille vivant au domicile est présent.",
+   "clause_id": "Art. 21-5",
+   "quote": "• lorsqu’un membre majeur de la famille vivant au domicile est présent."
+  },
+  {
+   "peril": "assistance",
+   "description": "Assistance psychologique non prise en charge si l'événement ayant causé le traumatisme n'est pas fortuit.",
+   "clause_id": "Art. 21-6",
+   "quote": "En aucun cas, nous ne prendrons en charge la prestation « Assistance psychologique » dans les situations suivantes : • l’événement ayant causé le traumatisme n’est pas fortuit,"
+  },
+  {
+   "peril": "assistance",
+   "description": "Assistance psychologique non prise en charge si l'événement fortuit n'est pas la cause du traumatisme.",
+   "clause_id": "Art. 21-6",
+   "quote": "• l’événement fortuit n’est pas la cause du traumatisme,"
+  },
+  {
+   "peril": "assistance",
+   "description": "Assistance psychologique non prise en charge en cas de maladies psychiques chroniques.",
+   "clause_id": "Art. 21-6",
+   "quote": "• en cas de maladies psychiques chroniques,"
+  },
+  {
+   "peril": "assistance",
+   "description": "Assistance psychologique non prise en charge en cas de maladie psychologique antérieurement avérée, constituée ou en cours de traitement.",
+   "clause_id": "Art. 21-6",
+   "quote": "• en cas de maladie psychologique antérieurement avérée, constituée ou en cours de traitement,"
+  },
+  {
+   "peril": "assistance",
+   "description": "Assistance psychologique non prise en charge en cas d'état résultant de l'usage de drogues, stupéfiants et produits assimilés non prescrits médicalement et de l'absorption d'alcool.",
+   "clause_id": "Art. 21-6",
+   "quote": "• en cas d’état résultant de l’usage de drogues, stupéfiants et produits assimilés non prescrits médicalement et de l’absorption d’alcool,"
+  },
+  {
+   "peril": "assistance",
+   "description": "Assistance psychologique non prise en charge en cas d'état résultant d'une tentative de suicide.",
+   "clause_id": "Art. 21-6",
+   "quote": "• en cas d’état résultant d’une tentative de suicide,"
+  },
+  {
+   "peril": "assistance",
+   "description": "Assistance psychologique non prise en charge en cas d'événements survenus lors de la participation du bénéficiaire en tant que concurrent à des compétitions sportives, paris, matchs, concours, rallyes ou à leurs essais préparatoires.",
+   "clause_id": "Art. 21-6",
+   "quote": "• en cas d’événements survenus lors de la participation du bénéficiaire en tant que concurrent à des compétitions sportives, paris, matchs, concours, rallyes ou à leurs essais préparatoires."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'immobilisation au domicile doit être prescrite par un médecin et attestée par le bulletin d'hospitalisation ou le certificat médical.",
+   "parameter": null,
+   "clause_id": "Art. 21-5",
+   "quote": "Pendant l’immobilisation au domicile sans hospitalisation ou pour convalescence, prescrite par un médecin et attestée par le bulletin d’hospitalisation ou le certificat médical,"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'immobilisation doit durer plus de 2 jours et aucun proche ne doit être disponible sur place.",
+   "parameter": "2 jours",
+   "clause_id": "Art. 21-5",
+   "quote": "si l’immobilisation doit durer plus de 2 jours et si aucun proche n’est disponible sur place,"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'aide pédagogique est accordée en cas d'immobilisation imprévue entraînant une absence scolaire supérieure à 15 jours consécutifs.",
+   "parameter": "15 jours",
+   "clause_id": "Art. 21-5",
+   "quote": "En cas d’immobilisation imprévue au domicile entraînant une absence scolaire supérieure à 15 jours consécutifs, nous organisons et prenons en charge en charge l’intervention d’un répétiteur scolaire habilité à donner des cours du niveau de la classe du bénéficiaire."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "La demande de remboursement doit être envoyée par mail accompagnée des informations ou documents suivants : nom, prénom, adresse des parents, numéro de dossier, facture acquittée, relevé d'identité bancaire.",
+   "parameter": null,
+   "clause_id": "Art. 21-7",
+   "quote": "La demande de remboursement doit nous être envoyée par mail à infomacsf@opteven.com accompagnée des informations ou documents suivants : • nom, prénom, adresse des parents du bénéficiaire et le numéro de dossier transmis, • facture acquittée par le parent du bénéficiaire, • relevé d’identité bancaire du parent du bénéficiaire à rembourser."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'interruption scolaire doit être médicalement prescrite à la suite d'un accident corporel ou une maladie, d'une durée supérieure ou égale à 15 jours attestée par un certificat médical, ou en cas de décès sur présentation des justificatifs originaux.",
+   "parameter": "15 jours",
+   "clause_id": "Art. 21-7",
+   "quote": "En cas d’interruption scolaire médicalement prescrite à la suite d’un accident corporel ou une maladie d’un bénéficiaire, d’une durée supérieure ou égale à 15 jours attestée par un certificat médical ou en cas de décès du bénéficiaire sur présentation des justificatifs originaux,"
+  }
+ ]
+}

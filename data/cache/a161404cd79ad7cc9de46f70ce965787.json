@@ -1,0 +1,114 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Vie Privée",
+   "scope": "Couvre les conséquences financières de la responsabilité civile des assurés dans le cadre de leur vie privée, résultant d'événements fortuits, du fait de personnes dont ils sont responsables, d'activités bénévoles, de l'utilisation de véhicules spécifiques ou de tondeuses, ainsi que des responsabilités liées à l'environnement.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 13-1",
+   "quote": "La garantie couvre les conséquences financières de la responsabilité civile que les assurés peuvent encourir dans le cadre de leur vie privée, en raison de dommages corporels, matériels et immatériels consécutifs causés aux tiers"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Environnement",
+   "scope": "Garantit les frais de dépollution et les frais de prévention pour le préjudice écologique liés aux responsabilités environnementales.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 13-1 §2",
+   "quote": "Sont également garantis pour ces responsabilités liées à l’environnement : - les frais de dépollution, - les frais de prévention pour le préjudice écologique"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages engageant la responsabilité en qualité de maître d'ouvrage, vendeur, administrateur de biens ou syndic de copropriété",
+   "clause_id": "Art. 12-4",
+   "quote": "les dommages susceptibles d’engager votre responsabilité en qualité de maître d’ouvrage, de vendeur, d’administrateur de biens ou de syndic de copropriété"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Accidents résultant de la non-observation des règlements quant à l'élagage, l'émondage ou le débroussaillage",
+   "clause_id": "Art. 12-4",
+   "quote": "les accidents résultant de la non-observation des règlements et instructions des services publics quant à l’élagage ou l’émondage d’arbres, ou le débroussaillage"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés par des véhicules à moteur soumis à l'assurance automobile obligatoire",
+   "clause_id": "Art. 12-4",
+   "quote": "les dommages de toute nature causés par des véhicules à moteur (y compris les vélos électriques circulant à plus de 25 km/h et les engins de déplacement personnel motorisés) soumis à la législation sur l’assurance automobile obligatoire"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages subis par les biens dont l'assuré a la propriété, la conduite ou la garde",
+   "clause_id": "Art. 12-4",
+   "quote": "les dommages subis par les biens dont vous avez la propriété, la conduite ou la garde"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Acceptations conventionnelles de responsabilité",
+   "clause_id": "Art. 12-4",
+   "quote": "les acceptations conventionnelles de responsabilité"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Terrains d'une superficie supérieure à 10 000 m2 sans mention spéciale",
+   "clause_id": "Art. 12-4",
+   "quote": "les terrains d’une superficie supérieure à 10 000 m2 si une mention spéciale n’est pas portée aux conditions particulières"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dépenses effectuées pour prévenir ou réparer un dommage, ou pour modifier/améliorer un bien ayant causé un sinistre",
+   "clause_id": "Art. 12-4",
+   "quote": "les dépenses effectuées pour prévenir ou réparer un dommage, pour modifier ou améliorer un bien ayant été à l’origine d’un sinistre"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages environnementaux résultant de pollutions lentes, graduelles ou progressives",
+   "clause_id": "Art. 12-4",
+   "quote": "résultant de pollutions lentes, graduelles ou progressives"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages environnementaux résultant de l'absence ou du défaut d'entretien d'une installation",
+   "clause_id": "Art. 12-4",
+   "quote": "résultant de l’absence ou de défaut d’entretien d’une installation, étant entendu que les causes non supprimées d’un précédent sinistre sont considérées automatiquement comme un défaut d’entretien"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages dus aux conséquences d'une pollution résultant d'une contamination virale ou microbienne d'origine animale",
+   "clause_id": "Art. 12-4",
+   "quote": "dus aux conséquences d’une pollution résultant d’une contamination virale ou microbienne d’origine animale"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés directement ou indirectement par des produits phytosanitaires",
+   "clause_id": "Art. 12-4",
+   "quote": "causés directement ou indirectement par des produits phytosanitaires"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés du fait de l'épandage de boues, effluents ou déchets de toute nature",
+   "clause_id": "Art. 12-4",
+   "quote": "causés du fait de l’épandage de boues, effluents ou déchets de toute nature"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés du fait de la non-respect du règlement sanitaire départemental",
+   "clause_id": "Art. 12-4",
+   "quote": "causés du fait de votre non-respect du règlement sanitaire départemental"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "Le fait dommageable doit s'être produit dans les pays de l'Union européenne, au Royaume-Uni, en Suisse, en Andorre et Monaco, ou lors de séjours de moins de 3 mois dans le reste du monde.",
+   "parameter": "3 mois",
+   "clause_id": "Art. 13-1 §2",
+   "quote": "Pour bénéficier de la garantie, le fait dommageable doit s’être produit pendant la période de validité du contrat dans les pays de l’Union européenne, au Royaume-Uni de Grande-Bretagne et d’Irlande du Nord, en Suisse, dans les Principautés d’Andorre et de Monaco, et lors de séjours de moins de 3 mois dans le reste du monde."
+  }
+ ]
+}

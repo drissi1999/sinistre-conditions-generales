@@ -1,0 +1,114 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Frais médicaux et hospitalisation à l'étranger",
+   "scope": "Prise en charge des frais médicaux et d'hospitalisation engagés sur place à l'étranger à la suite d'une maladie ou d'un accident corporel, en complément des prestations des organismes sociaux.",
+   "ceiling": "80 000 € par bénéficiaire",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.3",
+   "quote": "A l’étranger, à la suite d’une maladie ou d’un accident corporel, IMA GIE, en complément des prestations dues par les organismes sociaux, prend en charge les frais médicaux et d’hospitalisation engagés sur place à concurrence de 80 000 € par bénéficiaire"
+  },
+  {
+   "peril": "assistance",
+   "label": "Frais de séjour pour famille (hospitalisation ou décès)",
+   "scope": "Prise en charge des frais de séjour d'un membre de la famille se rendant au chevet d'un bénéficiaire hospitalisé plus de 10 jours ou auprès du corps d'un défunt.",
+   "ceiling": "50 € par jour, jusqu'à 5 jours",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.3",
+   "quote": "IMA GIE prend également en charge les frais de séjour du membre de la famille concerné, à concurrence de 50 € par jour, jusqu’à 5 jours."
+  },
+  {
+   "peril": "assistance",
+   "label": "Frais de secours ski",
+   "scope": "Prise en charge des frais de secours appropriés du lieu de l'accident jusqu'à la structure médicale adaptée en cas d'accident lié à la pratique du ski alpin ou de fond (hors compétition) en France et dans les pays listés au point 2.2.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.3",
+   "quote": "En cas d’accident lié à la pratique du ski alpin ou de fond (hors compétition sportive) en France et dans les pays cités au point 2.2 ci-dessus, IMA GIE prend en charge les frais de secours appropriés du lieu de l’accident jusqu’à la structure médicale adaptée."
+  },
+  {
+   "peril": "assistance",
+   "label": "Avance de fonds",
+   "scope": "Avance de fonds consentie au bénéficiaire pour faire face à une dépense découlant d'une difficulté grave et imprévue survenant à l'étranger, contre reconnaissance de dette.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.3",
+   "quote": "IMA GIE peut, contre reconnaissance de dette, consentir une avance de fonds au bénéficiaire pour lui permettre de faire face à une dépense découlant d’une difficulté grave et de caractère imprévu survenant à l’étranger."
+  },
+  {
+   "peril": "assistance",
+   "label": "Avance de la caution pénale",
+   "scope": "Aide au titre d'une avance de la caution pénale si des procédures pénales sont engagées contre le bénéficiaire à la suite d'un accident corporel survenant à l'étranger.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.3",
+   "quote": "Si, à la suite d’un accident corporel avec ou sans tiers survenant à l’étranger, des procédures pénales sont engagées contre le bénéficiaire, IMA GIE lui vient en aide au titre d’une avance de la caution pénale."
+  },
+  {
+   "peril": "assistance",
+   "label": "Envoi de médicaments et lunettes",
+   "scope": "Organisation et prise en charge de l'envoi de médicaments prescrits ou de lunettes de vue indispensables lorsqu'ils sont introuvables ou sans équivalent sur place à l'étranger.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.3",
+   "quote": "Lorsqu’ils sont introuvables ou sans équivalent sur place, IMA GIE organise et prend en charge l’envoi au bénéficiaire de médicaments médicalement prescrits au bénéficiaire ou de lunettes de vue indispensables au séjour et/ou au retour du bénéficiaire."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Les garanties ne s'appliquent pas si l'événement est directement lié à l'utilisation d'un véhicule terrestre à moteur dont un des bénéficiaires est propriétaire, preneur en location avec option d'achat ou location longue durée.",
+   "clause_id": "Art. 9.3",
+   "quote": "Les garanties ne s’appliquent pas si l’événement donnant lieu à l’application des garanties d’assistance est directement lié à l’utilisation d’un véhicule terrestre à moteur dont un des bénéficiaires désignés ci-dessus est propriétaire, preneur en location avec option d’achat ou location longue durée."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "inoccupation_max",
+   "description": "Les garanties s'appliquent à l'occasion d'un déplacement d'une durée inférieure à 3 mois pour les déplacements professionnels.",
+   "parameter": "3 mois",
+   "clause_id": "Art. 9.3",
+   "quote": "Les garanties s’appliquent à l’occasion d’un déplacement d’une durée inférieure à 3 mois pour les déplacements professionnels"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "inoccupation_max",
+   "description": "Les garanties s'appliquent à l'occasion d'un déplacement d'une durée inférieure à un an pour les déplacements touristiques.",
+   "parameter": "1 an",
+   "clause_id": "Art. 9.3",
+   "quote": "et à un an pour les déplacements touristiques."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "En France, l'ensemble des garanties est accordé à condition que l'événement se produise à plus de 50 km du domicile du bénéficiaire.",
+   "parameter": "50 km",
+   "clause_id": "Art. 9.3",
+   "quote": "L’ensemble des garanties est accordé à condition que l’événement se produise à plus de 50 km du domicile du bénéficiaire."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Pour les frais médicaux à l'étranger, le bénéficiaire doit avoir la qualité d'assuré auprès d'un organisme d'assurance maladie.",
+   "parameter": null,
+   "clause_id": "Art. 9.3",
+   "quote": "sous réserve que celui-ci ait la qualité d’assuré auprès d’un organisme d’assurance maladie."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Le bénéficiaire s'engage à effectuer toute démarche nécessaire au recouvrement des frais auprès des organismes sociaux et à transmettre les décomptes originaux justifiant les remboursements obtenus.",
+   "parameter": null,
+   "clause_id": "Art. 9.3",
+   "quote": "Le bénéficiaire s’engage à effectuer, dès son retour en France, toute démarche nécessaire au recouvrement de ces frais auprès des organismes concernés, et à transmettre à IMA GIE les décomptes originaux justifiant les remboursements obtenus des organismes sociaux."
+  }
+ ]
+}

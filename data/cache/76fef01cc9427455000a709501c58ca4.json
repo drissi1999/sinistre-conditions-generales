@@ -1,0 +1,100 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Plafonds des garanties dommages aux biens",
+   "scope": "Les biens immobiliers sont garantis dans la limite du coût de la remise en état ou de la valeur de reconstruction à l'identique, et les biens mobiliers à concurrence d'un capital mobilier de 6 000 €.",
+   "ceiling": "6 000 € (biens mobiliers)",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-2",
+   "quote": "Ces biens sont garantis à concurrence d’un capital mobilier de 6 000 € et, pour les biens suivants dans leur ensemble et la garantie suivante, dans la limite de :"
+  },
+  {
+   "peril": "vol",
+   "label": "Plafond vol, tentative de vol ou acte de vandalisme",
+   "scope": "Le vol, la tentative de vol ou l'acte de vandalisme sur les biens mobiliers est garanti dans la limite de 1 000 €.",
+   "ceiling": "1 000 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-2",
+   "quote": "Vol, tentative de volet acte de vandalisme 1 000 €"
+  },
+  {
+   "peril": "dommages_electriques",
+   "label": "Plafond chute de la foudre et dommages électriques",
+   "scope": "La chute de la foudre et les dommages électriques sont garantis dans la limite de 500 €.",
+   "ceiling": "500 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-2",
+   "quote": "Chute de la foudre et dommages électriques 500 € (2)"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Plafond frais de recherche de fuites",
+   "scope": "Les frais de recherche de fuites à l'intérieur des locaux et de réparation des canalisations intérieures encastrées sont garantis dans la limite de 500 € par événement.",
+   "ceiling": "500 € par événement",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-2",
+   "quote": "Frais de recherche de fuites à l’intérieur des locaux, frais de réparation des canalisations intérieures encastrées(3) et réparation des dégradations résultant des travaux de recherche de fuites 500 € par événement"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Plafond frais de réparation radiateurs et canalisations gelés",
+   "scope": "Les frais de réparation ou de remplacement des radiateurs à circulation d'eau et des canalisations détériorés par le gel sont garantis dans la limite de 1 000 € par événement.",
+   "ceiling": "1 000 € par événement",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-2",
+   "quote": "Frais de réparation ou de remplacement des radiateurs à circulation d’eau, des canalisations, détériorés par le gel, situés à l’intérieur des locaux assurés 1 000 € par événement"
+  },
+  {
+   "peril": "assistance",
+   "label": "Plafond frais d'hébergement d'urgence",
+   "scope": "Les frais d'hébergement d'urgence en hôtel de type 2 étoiles sont garantis dans la limite de 80 € par nuit et par personne, et dans la limite de 20 nuits.",
+   "ceiling": "80 € par nuit et par personne, 20 nuits",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-2",
+   "quote": "Hôtel de type « 2 étoiles » dans la limite de 80 € par nuit d’hôtel et par personne et dans la limite de 20 nuits"
+  },
+  {
+   "peril": "protection_juridique",
+   "label": "Seuils de déclenchement protection juridique",
+   "scope": "La garantie protection juridique suite à accident est déclenchée à partir de 150 € à l'amiable, 760 € devant les Tribunaux et Cours d'Appel, et 3 000 € devant le Conseil d'État ou la Cour de Cassation.",
+   "ceiling": null,
+   "deductible": "150 € (amiable), 760 € (contentieux bas), 3 000 € (contentieux haut)",
+   "optional": false,
+   "clause_id": "Art. 3-3",
+   "quote": "à l’amiable : 150 € • au contentieux : ‐ 760 € devant les Tribunaux et les Cours d’Appel, ‐ 3 000 € devant le Conseil d’État ou la Cour de Cassation."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "vol",
+   "description": "Pour les biens pris en location sur le lieu de villégiature, les garanties Vol, tentative de vol ou acte de vandalisme ne sont pas acquises.",
+   "clause_id": "Art. 3-2",
+   "quote": "Pour les biens pris en location sur le lieu de villégiature, les garanties Vol, tentative de volet acte de vandalisme ne sont pas acquises."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": null,
+   "condition_type": "autre",
+   "description": "Le souscripteur, son conjoint et les colocataires doivent être âgés de moins de 28 ans et être sans enfants au jour de la souscription.",
+   "parameter": "moins de 28 ans",
+   "clause_id": "Art. 4-1",
+   "quote": "le souscripteur, son conjoint, les colocataires nommément désignés à l’annexe spéciale colocationainsi que leur conjointdoivent être âgés de moins de 28 ans et être sans enfants."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "Le conjoint a la qualité d'assuré au titre des garanties RC et dommages aux biens uniquement s'il vit en permanence sous le toit de la résidence principale.",
+   "parameter": null,
+   "clause_id": "Art. 4-1",
+   "quote": "son conjointlorsqu’il vit en permanence sous le toit de sa résidence principale."
+  }
+ ]
+}

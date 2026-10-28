@@ -1,0 +1,156 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Piscine enterrée, spa et jacuzzi",
+   "scope": "Dommages matériels causés à la structure, aménagements, machinerie et matériel d'entretien de la piscine, spa ou jacuzzi par divers événements (incendie, tempête, etc.)",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 6-1 §2",
+   "quote": "La garantie couvre les dommages matériels causés : • à la structure immobilière de soutènement de la piscine, • aux aménagements immobiliers conçus pour son utilisation, sa sécurité, sa décoration et ses accès,"
+  },
+  {
+   "peril": "vol",
+   "label": "Vol sans effraction et vandalisme piscine",
+   "scope": "Extension de la garantie au vol sans effraction et au vandalisme des éléments de protection et de sécurité de la piscine, spa ou jacuzzi",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 6-1 §2",
+   "quote": "La garantie est étendue au vol sans effraction et au vandalisme des éléments de protection et de sécurité."
+  },
+  {
+   "peril": "autre",
+   "label": "Abri de Piscine, spa et jacuzzi",
+   "scope": "Dommages matériels causés à l'abri de piscine, spa ou jacuzzi (structure en métal, bois ou plastique avec panneaux en verre) par divers événements",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 6-2 §2",
+   "quote": "La garantie couvre les dommages matériels causés à l’abri de piscine, d’un spa ou jacuzzi résultant : • d’un incendie et événements annexes, • d’un dommage électrique, • d’une tempête, de la grêle, du poids de la neige, d’une avalanche,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Canalisations enterrées",
+   "scope": "Frais de réparation, recherche de fuite et surconsommation d'eau suite à une fuite ou rupture sur les canalisations extérieures enterrées d'alimentation et d'évacuation d'eau",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 7 §2",
+   "quote": "La garantie couvre les frais listés ci-après à la suite des dommages matériels provenant d’une fuite ou d’une rupture sur les canalisations extérieures enterrées d’alimentation et d’évacuation d’eau de votre local d’habitation et/ou de ses dépendances"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "autre",
+   "description": "Piscines hors-sol ou semi-enterrées",
+   "clause_id": "Art. 6-1 §3",
+   "quote": "les piscines hors-sol ou semi-enterrées,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages résultant de la rupture de canalisations enterrées et frais de recherche de fuites",
+   "clause_id": "Art. 6-1 §3",
+   "quote": "les dommages résultant de la rupture de canalisations enterrées et les frais de recherche de fuites,"
+  },
+  {
+   "peril": "autre",
+   "description": "Dommages sur les abris de piscine, spa ou jacuzzi (indemnisés au titre de l'option spécifique si souscrite)",
+   "clause_id": "Art. 6-1 §3",
+   "quote": "les dommages sur les abris de piscine, spa ou jacuzzi, ces dommages sont indemnisés au titre de l’option «Abri de piscine » si elle est souscrite,"
+  },
+  {
+   "peril": "autre",
+   "description": "Le gel, sauf pour la machinerie située dans les locaux isolés thermiquement",
+   "clause_id": "Art. 6-1 §3",
+   "quote": "le gel, sauf pour la machinerie située dans les locaux isolés thermiquement,"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "Dommages sur les constructions constitutives d'éléments annexes aux parties à usage d'habitation en cas de mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols, sauf si indissociablement liés aux ouvrages de viabilité, fondation, ossature, clos ou couvert",
+   "clause_id": "Art. 6-1 §3",
+   "quote": "en cas de dommages ayant eu pour cause déterminante les mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols, les dommages survenus sur les constructions constitutives d’éléments annexes aux parties à usage d’habitation, sauf lorsque ces éléments font indissociablement corps avec les ouvrages de viabilité, de fondation, d’ossature, de clos ou de couvert (Article R. 125-7 du Code)."
+  },
+  {
+   "peril": "autre",
+   "description": "Abri gonflable de piscine, de spa ou de jacuzzi",
+   "clause_id": "Art. 6-2 §3",
+   "quote": "l’abri gonflable de piscine, de spa ou de jacuzzi,"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "Dommages sur les constructions constitutives d'éléments annexes aux parties à usage d'habitation en cas de mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols, sauf si indissociablement liés aux ouvrages de viabilité, fondation, ossature, clos ou couvert",
+   "clause_id": "Art. 6-2 §3",
+   "quote": "en cas de dommages ayant eu pour cause déterminante les mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols, les dommages survenus sur les constructions constitutives d’éléments annexes aux parties à usage d’habitation, sauf lorsque ces éléments font indissociablement corps avec les ouvrages de viabilité, de fondation, d’ossature, de clos ou de couvert (Article R. 125-7 du Code)."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages sur les canalisations dont le diamètre de sortie de compteur est supérieur ou égal à 40 millimètres",
+   "clause_id": "Art. 7 §3",
+   "quote": "les dommages sur les canalisations dont le diamètre de sortie de compteur est supérieur ou égal à 40 millimètres,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Frais sur les circuits des piscines ou sur les circuits d'arrosage",
+   "clause_id": "Art. 7 §3",
+   "quote": "les frais sur les circuits des piscines ou sur les circuits d’arrosage,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Canalisations communes à plusieurs locaux d'habitation",
+   "clause_id": "Art. 7 §3",
+   "quote": "les canalisations communes à plusieurs locaux d’habitation,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Réseau d'épandage",
+   "clause_id": "Art. 7 §3",
+   "quote": "le réseau d’épandage,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dysfonctionnements causés par l'organisme ou la société en charge de la distribution d'eau ainsi que le gestionnaire du réseau d'assainissement",
+   "clause_id": "Art. 7 §3",
+   "quote": "les dysfonctionnements causés par l’organisme ou la société en charge de la distribution d’eau ainsi que le gestionnaire du réseau d’assainissement,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Canalisations déboîtées",
+   "clause_id": "Art. 7 §3",
+   "quote": "les canalisations déboîtées,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Fuites et dommages provenant des fosses septiques, des puits perdus, des pompes de relevage, des cuves de récupération",
+   "clause_id": "Art. 7 §3",
+   "quote": "les fuites et dommages provenant des fosses septiques, des puits perdus, des pompes de relevage, des cuves de récupération."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "autre",
+   "condition_type": "option_ou_formule",
+   "description": "L'option piscine enterrée, spa et jacuzzi doit être spécialement mentionnée aux conditions particulières",
+   "parameter": null,
+   "clause_id": "Art. 6-1",
+   "quote": "Cette option doit être spécialement mentionnée aux conditions particulières."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "option_ou_formule",
+   "description": "L'option abri de piscine, spa et jacuzzi doit être spécialement mentionnée aux conditions particulières",
+   "parameter": null,
+   "clause_id": "Art. 6-2",
+   "quote": "Cette option doit être spécialement mentionnée aux conditions particulières."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "delai_de_declaration",
+   "description": "La garantie ne peut être mise en œuvre qu'après un délai de carence de 30 jours après la souscription du Pack Canalisations enterrées",
+   "parameter": "30 jours",
+   "clause_id": "Art. 7",
+   "quote": "La garantie ne peut être mise en œuvre qu’après un délai de carence de 30 jours après la souscription du Pack Canalisations enterrées."
+  }
+ ]
+}

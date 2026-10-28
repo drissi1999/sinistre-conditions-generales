@@ -1,0 +1,86 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Panne électroménager",
+   "scope": "Couverture des pannes d'appareils électroménagers garantis, incluant diagnostic, réparation, prêt de remplacement ou indemnisation selon la valeur vénale et la réparabilité.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 10",
+   "quote": "Panne d’un appareil garanti dont la valeur vénale est de plus de 150 € TTC économiquement ou techniquement réparable"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "autre",
+   "description": "Pour les appareils de la catégorie « Autres », seule la réparation en atelier est proposée, excluant la réparation à domicile.",
+   "clause_id": "Art. 10",
+   "quote": "Pour les appareils électroménagers de la catégorie « Autres», seule la réparation en atelier sera proposée."
+  },
+  {
+   "peril": "autre",
+   "description": "Le prêt d'un appareil de remplacement n'est éligible que pour les réfrigérateurs, congélateurs, lave-linges ou téléviseurs.",
+   "clause_id": "Art. 10",
+   "quote": "Cette prestation est éligible uniquement pour les réfrigérateurs, congélateurs, lave-linges ou téléviseurs."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "Le prêt d'un appareil de remplacement est soumis à la remise d'un chèque de caution de 300 € non encaissé.",
+   "parameter": "300 €",
+   "clause_id": "Art. 10",
+   "quote": "Le prêt d’un appareil de remplacement est soumis à la remise par le bénéficiaire d’un chèque de caution de 300 €, non encaissé"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "inoccupation_max",
+   "description": "La durée du prêt d'un appareil de remplacement ne peut excéder 30 jours consécutifs.",
+   "parameter": "30 jours",
+   "clause_id": "Art. 10",
+   "quote": "ne peut excéder un délai de 30 jours consécutifs et cesse en tout état de cause immédiatement en cas de réparation de l’appareil."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "Le prestataire contacte le bénéficiaire sous un délai maximum de 48h (jours ouvrés) pour le diagnostic téléphonique.",
+   "parameter": "48h",
+   "clause_id": "Art. 10",
+   "quote": "Le prestataire contacte le bénéficiaire sous un délai maximum de 48h (jours ouvrés) du lundi au samedi de 9h à 18h."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "Le réparateur qualifié intervient dans les 3 jours ouvrés après le diagnostic à distance.",
+   "parameter": "3 jours ouvrés",
+   "clause_id": "Art. 10",
+   "quote": "le réparateur qualifié intervient dans les 3 jours ouvrés après le diagnostic à distance et sous réserve de disponibilité du bénéficiaire."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "Le prêt de remplacement est accordé si la durée prévisible d'indisponibilité excède 4 jours pour les réfrigérateurs/congélateurs et 8 jours pour les lave-linges/téléviseurs.",
+   "parameter": "4 jours / 8 jours",
+   "clause_id": "Art. 10",
+   "quote": "la durée prévisible de l’indisponibilité de l’appareil excède 4 jours pour les réfrigérateurs ou congélateurs, et 8 jours pour les lave-linges et les téléviseurs."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "L'indemnisation est due si le délai d'obtention des pièces est supérieur à 22 jours.",
+   "parameter": "22 jours",
+   "clause_id": "Art. 10",
+   "quote": "ou que le délai d’obtention des pièces est supérieur à 22 jours,"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "Le virement de l'indemnisation est effectué sous 10 jours ouvrés après réception du RIB et du numéro de dossier.",
+   "parameter": "10 jours ouvrés",
+   "clause_id": "Art. 10",
+   "quote": "Nous évaluons l’indemnisation due sur la base de la valeur vénale de l’appareil et procédons au virement sous 10 jours ouvrés après réception du RIB accompagné du n° de dossier."
+  }
+ ]
+}

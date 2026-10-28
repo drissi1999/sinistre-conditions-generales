@@ -1,0 +1,164 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Multirisque piscine",
+   "scope": "Dommages matériels causés à la piscine, ses aménagements immobiliers, équipements de pompage, chauffage, filtrage, rideaux protecteurs et dômes.",
+   "ceiling": "75 000 € pour la piscine et aménagements immobiliers ; 15 000 € pour les dômes et éléments de protection ; 10 000 € pour les équipements et installations électriques ou électroniques ; 5 000 € pour les éléments mobiliers d'équipement ou d'entretien",
+   "deductible": "5 % des dommages, avec un minimum correspondant au montant prévu pour la garantie mise en jeu",
+   "optional": true,
+   "clause_id": "Art. 10.2",
+   "quote": "Les garanties de votre formule sont étendues aux dommages matériels causés à : - la piscine, y compris les aménagements immobiliers conçus pour son utilisation, sa protection ou sa décoration"
+  },
+  {
+   "peril": "dommages_electriques",
+   "label": "Dommages électriques piscine",
+   "scope": "Dommages électriques couverts seulement si cette garantie est contenue dans la formule choisie.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 10.2",
+   "quote": "Cependant, les dommages électriques sont couverts seulement si cette garantie est contenue dans la formule que vous avez choisie."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC piscine",
+   "scope": "Conséquences pécuniaires de la responsabilité encourue vis-à-vis des voisins et des tiers pour les dommages (matériels et immatériels consécutifs) subis en raison de la piscine.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 10.2",
+   "quote": "Les conséquences pécuniaires de la responsabilité que vous pouvez encourir vis-à-vis des voisins et des tiers pour les dommages (matériels et immatériels consécutifs) qu’ils subissent en raison de votre piscine."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "autre",
+   "description": "Piscines hors sol ou gonflables à membranes souples ou démontables.",
+   "clause_id": "Art. 10.2 §2",
+   "quote": "Les piscines hors sol ou gonflables à membranes souples ou démontables."
+  },
+  {
+   "peril": "vol",
+   "description": "Vol des éléments mobiliers d'équipement ou d'entretien de la piscine lorsqu'ils se trouvent à l'extérieur des bâtiments assurés.",
+   "clause_id": "Art. 10.2 §2",
+   "quote": "Le vol ou le vandalisme des éléments mobiliers d’équipement ou d’entretien de votre piscine lorsqu’ils se trouvent à l’extérieur des bâtiments assurés."
+  },
+  {
+   "peril": "vandalisme",
+   "description": "Vandalisme des éléments mobiliers d'équipement ou d'entretien de la piscine lorsqu'ils se trouvent à l'extérieur des bâtiments assurés.",
+   "clause_id": "Art. 10.2 §2",
+   "quote": "Le vol ou le vandalisme des éléments mobiliers d’équipement ou d’entretien de votre piscine lorsqu’ils se trouvent à l’extérieur des bâtiments assurés."
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Dommages d'origine électrique subis par les appareils électriques ou électroniques de plus de 10 ans ou par les résistances chauffantes.",
+   "clause_id": "Art. 10.2 §2",
+   "quote": "Les dommages d’origine électrique subis par les appareils électriques ou électroniques de plus de 10 ans ou par les résistances chauffantes."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Coût de la surconsommation d'eau due à une fuite.",
+   "clause_id": "Art. 10.2 §2",
+   "quote": "Le coût de la surconsommation d’eau due à une fuite."
+  },
+  {
+   "peril": null,
+   "description": "Dommages intentionnellement causés ou provoqués par l'assuré ou avec sa complicité (sauf acte intentionnel d'un enfant mineur dont il a la garde).",
+   "clause_id": "Chap. 11",
+   "quote": "intentionnellement causés ou provoqués par vous ou avec votre complicité. Toutefois les garanties s’appliquent à votre profit s’il s’agit d’un dommage causé ou provoqué par l’acte intentionnel d’un de vos enfants mineurs dont vous avez la garde."
+  },
+  {
+   "peril": null,
+   "description": "Dommages relevant de la législation sur la construction ou la rénovation des bâtiments.",
+   "clause_id": "Chap. 11",
+   "quote": "relevant de la législation sur la construction ou la rénovation des bâtiments,"
+  },
+  {
+   "peril": null,
+   "description": "Dommages résultant de la guerre étrangère ou de la guerre civile.",
+   "clause_id": "Chap. 11",
+   "quote": "résultant de la guerre étrangère ou de la guerre civile,"
+  },
+  {
+   "peril": null,
+   "description": "Dommages dus à un tremblement de terre, un raz de marée, une éruption volcanique ou autres cataclysmes, sauf dans le cadre de l'indemnisation des catastrophes naturelles.",
+   "clause_id": "Chap. 11",
+   "quote": "dus à un tremblement de terre, un raz de marée, une éruption volcanique ou autres cataclysmes, sauf dans le cadre de l’indemnisation des catastrophes naturelles (loi N°82-600 du 13 juillet 1982),"
+  },
+  {
+   "peril": null,
+   "description": "Dommages causés ou aggravés par le rayonnement nucléaire ou par toute autre source de rayonnements ionisants.",
+   "clause_id": "Chap. 11",
+   "quote": "causés ou aggravés par le rayonnement nucléaire ou par toute autre source de rayonnements ionisants,"
+  },
+  {
+   "peril": null,
+   "description": "Dommages subis par les biens assurés en cours de transport.",
+   "clause_id": "Chap. 11",
+   "quote": "subis par les biens assurés en cours de transport,"
+  },
+  {
+   "peril": null,
+   "description": "Dommages causés ou subis par les véhicules terrestres à moteur et leur remorque, les caravanes et les résidences mobiles dont l'assuré a la propriété, l'usage ou la garde.",
+   "clause_id": "Chap. 11",
+   "quote": "causés ou subis par les véhicules terrestres à moteur et leur remorque, les caravanes et les résidences mobiles dont vous avez la propriété, l’usage ou la garde."
+  },
+  {
+   "peril": null,
+   "description": "Dommages causés aux denrées alimentaires.",
+   "clause_id": "Chap. 11",
+   "quote": "causés aux denrées alimentaires."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "autre",
+   "condition_type": "mesure_de_prevention",
+   "description": "Vidanger les équipements et circuits de distribution et de chauffage alimentant la piscine du 1er novembre au 1er avril, sauf s'ils sont protégés par un produit antigel. Sinon, l'assuré conserve à sa charge 30 % de l'indemnité.",
+   "parameter": "30 %",
+   "clause_id": "Art. 10.2",
+   "quote": "Pendant la période du 1er novembre au 1er avril, vous devez vidanger les équipements et les circuits de distribution et de chauffage alimentant votre piscine, sauf s’ils sont protégés par un produit antigel. Si vous ne respectez pas ces mesures de prévention et qu’un sinistre survient ou est aggravé de ce fait, vous conserverez à votre charge 30 % de l’indemnité."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration du sinistre dans les 2 jours ouvrés en cas de vol.",
+   "parameter": "2 jours ouvrés",
+   "clause_id": "Art. 12.1",
+   "quote": "dans les 2 jours ouvrés en cas de vol,"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration dans les 10 jours suivant la publication de l'arrêté interministériel constatant l'état de catastrophe naturelle.",
+   "parameter": "10 jours",
+   "clause_id": "Art. 12.1",
+   "quote": "dans les 10 jours suivant la publication de l’arrêté interministériel constatant l’état de catastrophe naturelle s’il s’agit d’un sinistre de cette nature,"
+  },
+  {
+   "peril": null,
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration dans les 5 jours ouvrés pour les autres sinistres.",
+   "parameter": "5 jours ouvrés",
+   "clause_id": "Art. 12.1",
+   "quote": "dans les 5 jours ouvrés pour les autres sinistres."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "preuve_requise",
+   "description": "Dépôt d'une plainte auprès des forces de police locales dans un délai de 48 heures et transmission du récépissé, engagement de ne pas retirer la plainte.",
+   "parameter": "48 heures",
+   "clause_id": "Art. 12.1",
+   "quote": "s’il s’agit d’un vol, vous devez déposer dans un délai de 48 heures auprès des forces de police locales une plainte que vous vous engagez à ne pas retirer ultérieurement, et nous faire parvenir le récépissé qui vous sera délivré."
+  },
+  {
+   "peril": "attentats",
+   "condition_type": "preuve_requise",
+   "description": "Déclaration auprès des autorités compétentes dans les 48 heures et transmission du récépissé en cas d'attentat.",
+   "parameter": "48 heures",
+   "clause_id": "Art. 12.1",
+   "quote": "s’il s’agit d’un attentat, vous devez faire dans les 48 heures une déclaration auprès des autorités compétentes et nous faire parvenir le récépissé qui vous sera délivré."
+  }
+ ]
+}

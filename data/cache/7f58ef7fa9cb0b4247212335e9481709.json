@@ -1,0 +1,102 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Admission à l'hôpital",
+   "scope": "Recherche et réservation d'une place hospitalière, transport aller-retour par ambulance, et information de la famille sur prescription médicale.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 31-1",
+   "quote": "Si le bénéficiaire le souhaite, et sur prescription médicale uniquement, nous organisons et prenons en charge : • La recherche et la réservation d’une place en milieu hospitalier public ou privé"
+  },
+  {
+   "peril": "assistance",
+   "label": "Présence d'un proche et séjour hôtel",
+   "scope": "Transport aller-retour d'un proche et prise en charge de son séjour à l'hôtel pendant l'hospitalisation ou immobilisation de plus de 24 heures.",
+   "ceiling": "80 € TTC par nuit, maximum 480 € TTC sur la durée totale du séjour",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 31-2",
+   "quote": "Le séjour à l’hôtel de la personne désignée au paragraphe « Présence d’un proche au chevet du bénéficiaire » dans la limite de 80 € TTC par nuit, et avec un maximum 480 € TTC sur la durée totale du séjour."
+  },
+  {
+   "peril": "assistance",
+   "label": "Garde des enfants",
+   "scope": "Garde au domicile, présence d'un proche ou transfert chez un proche pour les enfants de moins de 16 ans pendant l'hospitalisation.",
+   "ceiling": "48 heures par période d'hospitalisation pour la garde au domicile ; 75 € TTC maximum par événement pour les frais de taxi",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 31-2",
+   "quote": "La garde au domicile dans la limite des disponibilités locales, pour un maximum de 48 heures par période d’hospitalisation."
+  },
+  {
+   "peril": "assistance",
+   "label": "Garde des animaux de compagnie",
+   "scope": "Transfert et garde de chiens et chats (2 maximum) dans un centre agréé ou chez un proche pendant l'hospitalisation.",
+   "ceiling": "Durée maximum de 30 jours",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 31-2",
+   "quote": "Les frais de transfert et de garde sont pris en charge pendant l’hospitalisation et pour une durée maximum de 30 jours."
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance psychologique",
+   "scope": "Entretiens téléphoniques avec un psychologue clinicien et entretiens en face-à-face en cas de situation difficile affectant psychologiquement le bénéficiaire.",
+   "ceiling": "5 entretiens téléphoniques ; 12 entretiens en face-à-face ; 80 € TTC par séance en cabinet",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 32",
+   "quote": "nous confions à notre prestataire le soin d’organiser et de prendre en charge jusqu’à 5 entretiens téléphoniques avec un psychologue clinicien, et si ce dernier le juge nécessaire, jusqu’à 12 entretiens en face-à-face"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Exclusion des chiens susceptibles d'être dangereux (1ère et 2ème catégories du code rural) pour la garde des animaux.",
+   "clause_id": "Art. 31-2 §2",
+   "quote": "Sont exclus : les chiens susceptibles d’être dangereux au sens des articles L. 211-11 et L. 211-12 du code rural (1ère catégorie : chien d’attaque ; 2ème catégorie : chiens de garde et de défense)."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion de l'assistance psychologique si l'événement n'est pas fortuit, n'est pas la cause du traumatisme, ou en cas de maladies psychiques chroniques/antérieures, usage de drogues/alcool, tentative de suicide ou événements sportifs.",
+   "clause_id": "Art. 32",
+   "quote": "En aucun cas, nous ne prendrons en charge la prestation « Assistance psychologique » dans les situations suivantes : • l’événement ayant causé le traumatisme n’est pas fortuit, • l’événement fortuit n’est pas la cause du traumatisme"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "L'admission à l'hôpital est soumise à une prescription médicale.",
+   "parameter": null,
+   "clause_id": "Art. 31-1",
+   "quote": "Si le bénéficiaire le souhaite, et sur prescription médicale uniquement, nous organisons et prenons en charge"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "L'hospitalisation ou immobilisation doit être attestée par un bulletin d'hospitalisation ou un certificat médical et durer plus de 24 heures.",
+   "parameter": "24 heures",
+   "clause_id": "Art. 31-2",
+   "quote": "Pendant l’hospitalisation, l’immobilisation ou la convalescence du bénéficiaire de plus de 24 heures, attestée par le bulletin d’hospitalisation ou un certificat médical"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "La présence d'un proche est accordée si aucun proche parent ne se trouve dans un rayon de 50 km du domicile.",
+   "parameter": "50 km",
+   "clause_id": "Art. 31-2",
+   "quote": "Cette garantie est accordée si aucun proche parent du bénéficiaire ne se trouve dans un rayon de 50 km de son lieu de domicile."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "L'animal concerné pour la garde doit avoir reçu toutes les vaccinations obligatoires et la cage de transport doit être fournie par le bénéficiaire.",
+   "parameter": null,
+   "clause_id": "Art. 31-2",
+   "quote": "L’animal concerné doit avoir reçu toutes les vaccinations obligatoires. La cage de transport de l’animal devra être fournie par le bénéficiaire."
+  }
+ ]
+}

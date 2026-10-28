@@ -1,0 +1,88 @@
+{
+ "guarantees": [
+  {
+   "peril": "degats_des_eaux",
+   "label": "Venues d'eau et gel",
+   "scope": "Dommages résultant d'eaux de ruissellement, refoulement des égouts, infiltrations par toitures/murs, fuites de conduites non enterrées, gel des conduites, débordements de récipients, et recherche de fuite.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2.4",
+   "quote": "La garantie couvre les dommages résultant : • d’eaux de ruissellement à la surface du sol, • du refoulement des égouts, • d’infiltrations par les toitures, ciels vitrés, terrasses formant toiture,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Recherche de fuite",
+   "scope": "Recherche de fuite destructrice ou non destructrice et détériorations immobilières nécessaires à cette recherche dans les locaux assurés.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2.4",
+   "quote": "Sont prises en charge au titre de la recherche de fuite : • la recherche de fuite destructrice ou non destructrice à l’intérieur dans des locaux assurés,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Formule Excellence - Cuves et surconsommation",
+   "scope": "Dommages par débordement accidentel des cuves de combustible intérieures et frais de surconsommation d'eau justifiés par factures.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 2.4 §2",
+   "quote": "Sont également garantis : • les dommages résultant du débordement accidentel des cuves situées à l’intérieur des bâtiments principaux d’habitation et de leurs dépendances"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages consécutifs à des fuites d'eau ou débordements provenant des canalisations enterrées.",
+   "clause_id": "Art. 2.4 §3",
+   "quote": "ne sont pas garantis : • les dommages consécutifs à des fuites d’eau ou débordements provenant des canalisations enterrées,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages sur les canalisations enterrées.",
+   "clause_id": "Art. 2.4 §3",
+   "quote": "• les dommages sur les canalisations enterrées,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages par infiltrations à travers les murs et façades extérieurs lorsque la garantie décennale du constructeur s'applique.",
+   "clause_id": "Art. 2.4 §3",
+   "quote": "• les dommages résultant d’infiltrations à travers les murs et façades extérieurs lorsque la garantie décennale du constructeur doit s’appliquer,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages relevant de la garantie Catastrophes naturelles.",
+   "clause_id": "Art. 2.4 §3",
+   "quote": "• les dommages relevant de la garantie Catastrophes naturelles,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages dus à l'humidité et/ou à la condensation.",
+   "clause_id": "Art. 2.4 §3",
+   "quote": "• les dommages dus à l’humidité et/ou à la condensation,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Frais de réparation ou de remplacement de l'élément à l'origine du dommage, sauf si le dommage résulte du gel.",
+   "clause_id": "Art. 2.4 §4",
+   "quote": "• les frais de réparation ou de remplacement de l’élément à l’origine du dommage couvert par le contrat. Cette exclusion ne s’applique pas lorsque le dommage résulte du gel,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Coût du combustible perdu en cas de débordement accidentel des cuves.",
+   "clause_id": "Art. 2.4 §4",
+   "quote": "• le coût du combustible perdu, en cas de débordement accidentel des cuves."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "mesure_de_prevention",
+   "description": "Respect de certaines mesures de sécurité pour bénéficier pleinement de la garantie.",
+   "parameter": null,
+   "clause_id": "Art. 2.4 §5",
+   "quote": "Vous devez respecter certaines mesures de sécurité pour bénéficier pleinement de la garantie (voir ART. 4.2)."
+  }
+ ]
+}

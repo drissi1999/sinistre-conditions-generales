@@ -1,0 +1,174 @@
+{
+ "guarantees": [
+  {
+   "peril": "incendie",
+   "label": "Incendie, explosion, implosion",
+   "scope": "Dommages provoqués par un incendie, une explosion, une implosion ou les fumées qui en résultent.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 14-1",
+   "quote": "Nous garantissons les dommages provoqués par : • un incendie, c’est-à-dire la combustion avec flammes en dehors d’un foyer normal, • une explosion ou une implosion"
+  },
+  {
+   "peril": "incendie",
+   "label": "Enfumage",
+   "scope": "Dommages provoqués par l’émission soudaine de fumées provenant d’un incendie extérieur ou dégagées accidentellement par un appareil raccordé à un conduit de fumée.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 14-2",
+   "quote": "Nous garantissons les dommages provoqués par l’émission soudaine de fumées : • provenant d’un incendie ayant pris naissance à l’extérieur des locaux assurés"
+  },
+  {
+   "peril": "attentats",
+   "label": "Attentat ou acte de terrorisme",
+   "scope": "Dommages matériels directs et immatériels consécutifs à un attentat ou un acte de terrorisme, y compris frais de décontamination des locaux.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 14-3",
+   "quote": "Nous garantissons les dommages matériels directs consécutifs à un attentat ou un acte de terrorisme tel que défini par les articles 421-1 et 421-2 du Code pénal"
+  },
+  {
+   "peril": "attentats",
+   "label": "Émeute ou mouvement populaire",
+   "scope": "Dommages matériels directs d’incendie, d’explosion ou de bris de glaces consécutifs à une émeute ou un mouvement populaire.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 14-4",
+   "quote": "Nous garantissons les dommages matériels directs d’incendie, d’explosion ou de bris de glaces consécutifs à une émeute ou un mouvement populaire"
+  },
+  {
+   "peril": "dommages_electriques",
+   "label": "Chute de la foudre et dommages électriques",
+   "scope": "Dommages provoqués par la chute directe de la foudre ou par le mauvais fonctionnement électrique, la surtension ou la rupture de tension du réseau.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 14-5",
+   "quote": "Nous garantissons les dommages : • provoqués par la chute directe de la foudre sur les biens assurés, • occasionnés par le mauvais fonctionnement électrique d’un appareil électrique"
+  },
+  {
+   "peril": "autre",
+   "label": "Choc d'un véhicule terrestre, chute d'arbre, aéronef",
+   "scope": "Dommages consécutifs au choc d'un véhicule terrestre tiers, à la chute d'arbre ou de construction voisine, ou à la chute d'un aéronef et au franchissement du mur du son.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 14-6",
+   "quote": "Nous garantissons les dommages consécutifs : • au choc, contre les biens immobiliers garantis, d’un véhicule terrestre appartenant à un tiers et conduit par une personne autre que vous-même"
+  },
+  {
+   "peril": "autre",
+   "label": "Catastrophes technologiques",
+   "scope": "Dommages causés par un accident tel que défini à l’article L. 128-1 du Code des assurances, sous réserve de la publication d'un arrêté interministériel.",
+   "ceiling": "plafonds prévus à l’article 3-2",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 14-6",
+   "quote": "Nous garantissons les dommages causés par un accident tel que défini à l’article L. 128-1 du Code des assurances."
+  },
+  {
+   "peril": "evenements_climatiques",
+   "label": "Tempête, ouragan, grêle, poids de la neige",
+   "scope": "Dommages causés par l’action directe du vent (détruisant des bâtiments ou vitesse > 100 km/h), l’action mécanique des grêlons, ou le poids de la neige/glace sur toitures et gouttières.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 15-1",
+   "quote": "Nous garantissons les dommages causés par : • l’action directe du vent ou le choc d’un arbre ou d’un objet renversé ou projeté lorsque, au moment du sinistre: ‐ la violence de ce vent est telle qu’il détruit ou endommage des bâtiments de bonne construction"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages engageant la responsabilité civile du fait des terrains non débroussaillés conformément à la réglementation en vigueur.",
+   "clause_id": "Art. 12-3",
+   "quote": "nous ne garantissons pas les dommages engageant votre responsabilité civile du fait des terrains non débroussaillés conformément à la réglementation en vigueur"
+  },
+  {
+   "peril": "incendie",
+   "description": "Dommages résultant de brûlures (incidents de repassage, cigarettes, objets jetés dans un foyer, contact avec un objet incandescent) ou de la seule action de la chaleur.",
+   "clause_id": "Art. 14-1 §2",
+   "quote": "de brûlures (incidents de repassage, cigarettes, objets jetés ou tombés dans un foyer, contact avec un objet incandescent ou des braises provenant d’un foyer), - de la seule action de la chaleur."
+  },
+  {
+   "peril": "incendie",
+   "description": "Dommages occasionnés aux appareils de chauffage à la suite d’une surchauffe interne ou d’une usure.",
+   "clause_id": "Art. 14-1 §2",
+   "quote": "occasionnés aux appareils de chauffage à la suite d’une surchauffe interne ou d’une usure"
+  },
+  {
+   "peril": "incendie",
+   "description": "Dommages dus aux explosifs, sauf preuve qu'ils ont été introduits à l'insu de l'assuré ou placés par des tiers.",
+   "clause_id": "Art. 14-1 §2",
+   "quote": "dus aux explosifs, sauf si vous établissez qu’ils ont été introduits à votre insu dans les locaux assurés ou placés par des tiers aux alentours."
+  },
+  {
+   "peril": "attentats",
+   "description": "Frais de décontamination des déblais et leur confinement.",
+   "clause_id": "Art. 14-3 §2",
+   "quote": "nous ne garantissons pas les frais de décontamination des déblais et leur confinement."
+  },
+  {
+   "peril": "attentats",
+   "description": "Frais de décontamination des déblais et leur confinement.",
+   "clause_id": "Art. 14-4 §2",
+   "quote": "nous ne garantissons pas les frais de décontamination des déblais et leur confinement."
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Dommages causés au contenu des appareils électriques (y compris denrées conservées dans les congélateurs et/ou réfrigérateurs).",
+   "clause_id": "Art. 14-5 §2",
+   "quote": "les dommages causés au contenu des appareils électriques (y compris les denrées conservées dans les congélateurs et/ou réfrigérateurs)"
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Frais de remise en état des détériorations immobilières nécessaires à la réparation des conducteurs électriques.",
+   "clause_id": "Art. 14-5 §2",
+   "quote": "les frais de remise en état des détériorations immobilières nécessaires à la réparation des conducteurs électriques."
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Installations qui ne sont pas fixées à demeure sur les bâtiments assurés.",
+   "clause_id": "Art. 15-1 §2",
+   "quote": "nous ne garantissons pas les installations qui ne sont pas fixées à demeure sur les bâtiments assurés."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "attentats",
+   "condition_type": "autre",
+   "description": "L'assuré ne doit pas prendre personnellement part aux actes d'attentat ou de terrorisme.",
+   "parameter": null,
+   "clause_id": "Art. 14-3",
+   "quote": "sous réserve que vous ne preniez pas personnellement part à ces actes."
+  },
+  {
+   "peril": "attentats",
+   "condition_type": "autre",
+   "description": "L'assuré ne doit pas prendre personnellement part aux actes d'émeute ou de mouvement populaire.",
+   "parameter": null,
+   "clause_id": "Art. 14-4",
+   "quote": "sous réserve que vous ne preniez pas personnellement part à ces actes."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "Mise en jeu de la garantie après publication au Journal Officiel d'un arrêté interministériel constatant l'état de catastrophe technologique.",
+   "parameter": null,
+   "clause_id": "Art. 14-6",
+   "quote": "La garantie ne peut être mise en jeu qu’après publication au Journal Officiel de la République Française d’un arrêté interministériel constatant l’état de catastrophe technologique."
+  },
+  {
+   "peril": "evenements_climatiques",
+   "condition_type": "delai_de_declaration",
+   "description": "Les dégâts survenus dans les 72 heures qui suivent le moment où les biens assurés ont subi les premiers dommages relèvent du même sinistre.",
+   "parameter": "72 heures",
+   "clause_id": "Art. 15-1",
+   "quote": "Nous considérons que les dégâts survenus dans les 72 heures qui suivent le moment où les biens assurés ont subi les premiers dommages relèvent du même sinistre."
+  }
+ ]
+}

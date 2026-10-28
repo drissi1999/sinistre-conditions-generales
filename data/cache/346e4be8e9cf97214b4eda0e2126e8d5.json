@@ -1,0 +1,60 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Définitions et validité territoriale",
+   "scope": "Définitions des termes clés (accident, bénéficiaire, hospitalisation) et délimitation géographique des prestations d'assistance (monde entier pour voyage, France métropolitaine pour prestations spéciales).",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-1",
+   "quote": "Les prestations d’assistance s’exercent dans le monde entier pour les événements suivants : - en cas de maladie ou d’accident corporel au cours d’un voyage,"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Exclusion des hospitalisations de jour et des hospitalisations planifiées de la définition d'hospitalisation imprévue.",
+   "clause_id": "Art. 21-1",
+   "quote": "à l’exclusion des hospitalisations de jour et des hospitalisations planifiées."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion des soins de médecines ou de chirurgie esthétiques, dentaires ou de ré-hospitalisation pour le même fait générateur.",
+   "clause_id": "Art. 21-1",
+   "quote": "à l’exclusion de soins de médecines ou de chirurgie esthétiques, dentaires ou de ré-hospitalisation pour le même fait générateur que l’hospitalisation initiale."
+  },
+  {
+   "peril": "assistance",
+   "description": "Exclusion de l'assimilation à un accident de la survenance brutale d'une maladie (accident vasculaire cérébral, infarctus, etc.).",
+   "clause_id": "Art. 21-1",
+   "quote": "La survenance brutale d’une maladie (accident vasculaire cérébral, infarctus du myocarde, ruptures d’anévrisme, épilepsie, hémorragie cérébrale, …) ne peut être assimilée à un accident."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "inoccupation_max",
+   "description": "Durée maximale d'un déplacement en dehors de la France métropolitaine à titre privé.",
+   "parameter": "90 jours consécutifs",
+   "clause_id": "Art. 21-1",
+   "quote": "la durée de chaque déplacement en dehors de la France métropolitaine à titre privé, ne peut excéder 90 jours consécutifs"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Présentation d'un bulletin confirmant l'hospitalisation avant mise en œuvre des prestations.",
+   "parameter": null,
+   "clause_id": "Art. 21-1",
+   "quote": "Nous nous réservons le droit de demander un bulletin confirmant l’hospitalisation avant de mettre en œuvre les prestations d’assistance."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Présentation d'un certificat médical ou arrêt de travail confirmant l'immobilisation au domicile.",
+   "parameter": null,
+   "clause_id": "Art. 21-1",
+   "quote": "Nous nous réservons le droit de demander un certificat médical ou un arrêt de travail confirmant l’immobilisation au domicile avant de mettre en œuvre les prestations d’assistance."
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Panne électroménager",
+   "scope": "Couvre l'organisation et la prise en charge des frais de réparation ou l'indemnisation des appareils électroménagers définis (cuisson, TV, lavage, froid, autres) résultant d'un dysfonctionnement électrique, électronique ou mécanique interne d'origine aléatoire.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9",
+   "quote": "La garantie couvre l’organisation et la prise en charge des frais de réparation (pièces, main d’œuvre, déplacement du technicien, livraison en atelier, prêt et enlèvement de l’appareil de remplacement) ou l’indemnisation des appareils définis ci-après résultant d’un dysfonctionnement électrique, électronique ou mécanique interne ayant pour origine un phénomène aléatoire et dûment constaté par notre technicien réparateur."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "autre",
+   "description": "Pannes survenues antérieurement à la date de prise d'effet de la garantie.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les pannes survenues antérieurement à la date de prise d’effet de la garantie « panne électroménager »"
+  },
+  {
+   "peril": "autre",
+   "description": "Pannes affectant des appareils autres que ceux définis dans la liste des catégories couvertes.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les pannes affectant des appareils autres que ceux définis précédemment"
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Dommages relevant de la garantie « Dommages électriques ».",
+   "clause_id": "Art. 9 §2",
+   "quote": "les dommages relevant de la garantie « Dommages électriques » (ART 2.2 du TITRE I)"
+  },
+  {
+   "peril": "autre",
+   "description": "Dommages relevant de la garantie légale de conformité et des vices cachés.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les dommages relevant de la garantie légale de conformité (article L. 217-3 et suivants du Code de la consommation) et des vices cachés (article 1641 et suivants du Code civil)"
+  },
+  {
+   "peril": "autre",
+   "description": "Dommages résultant du non-respect des prescriptions du constructeur, d'une utilisation non conforme ou commerciale, ou de l'utilisation de périphériques inadaptés.",
+   "clause_id": "Art. 9 §2",
+   "quote": "résultant du non-respect des prescriptions et préconisations du constructeur définies dans la notice d’utilisation remise par le vendeur lors de l’achat, - résultant d’une utilisation non conforme aux directives du constructeur, et/ou d’une utilisation à caractère commercial, professionnel ou collectif, ou de l’utilisation de périphériques, d’accessoires ou de consommables inadaptés"
+  },
+  {
+   "peril": "autre",
+   "description": "Dommages résultant d'une réparation de fortune ou provisoire et leurs aggravations.",
+   "clause_id": "Art. 9 §2",
+   "quote": "résultant d’une réparation de fortune ou provisoire et des éventuelles aggravations du dommage initial pouvant en résulter"
+  },
+  {
+   "peril": "autre",
+   "description": "Dommages engageant la responsabilité d'un tiers ou résultant d'une faute accidentelle, dolosive ou intentionnelle.",
+   "clause_id": "Art. 9 §2",
+   "quote": "engageant la responsabilité d’un tiers pouvant être tenu pour responsable du dommage (fabricant, fournisseur, prestataire ou tout autre personne) ou résultant d’une faute accidentelle, dolosive ou intentionnelle"
+  },
+  {
+   "peril": "autre",
+   "description": "Dommages ayant pour origine un élément extérieur à l'appareil (foudre, choc, gel, incendie, etc.).",
+   "clause_id": "Art. 9 §2",
+   "quote": "ayant pour origine un élément extérieur à l’appareil (foudre, choc, chute, gel, incendie, explosion, inondations, fluctuation du courant, humidité, chaleur excessive...)"
+  },
+  {
+   "peril": "autre",
+   "description": "Dommages ayant pour origine la corrosion, l'usure, la détérioration graduelle, la casse.",
+   "clause_id": "Art. 9 §2",
+   "quote": "ayant pour origine la corrosion, l’usure et/ou la détérioration graduelle de l’appareil et de ses composants, la casse"
+  },
+  {
+   "peril": "autre",
+   "description": "Dommages d'ordre esthétique n'entrant pas dans le bon fonctionnement de l'appareil.",
+   "clause_id": "Art. 9 §2",
+   "quote": "d’ordre esthétique n’entrant pas dans le bon fonctionnement de l’appareil, sauf si lesdits dommages sont la conséquence d’une panne garantie"
+  },
+  {
+   "peril": "autre",
+   "description": "Pertes ou dommages au contenu (périssable ou non) de l'appareil endommagé.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les pertes ou dommages au contenu (périssable ou non) de l’appareil qui aurait été endommagé"
+  },
+  {
+   "peril": "autre",
+   "description": "Frais relatifs à un événement non garanti, une panne non constatée par un technicien agréé, ou une prestation organisée sans accord préalable.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les frais (pièces, main d’œuvre, déplacement et transport) et conséquences relatifs à un évènement non garanti, ou à une panne non constatée par un technicien agréé par nos soins, ou encore à une prestation organisée sans notre accord préalable"
+  },
+  {
+   "peril": "autre",
+   "description": "Parties extérieures telles que l'émail, le vernis, la laque ou la peinture.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les parties extérieures telles que l’émail, le vernis, la laque ou la peinture"
+  },
+  {
+   "peril": "autre",
+   "description": "Frais de réglage accessibles à l'utilisateur sans démontage de l'appareil.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les frais de réglage accessibles à l’utilisateur sans démontage de l’appareil"
+  },
+  {
+   "peril": "autre",
+   "description": "Vérifications, nettoyages, réglages et essais non-consécutifs à une panne garantie.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les vérifications, nettoyages, réglages et essais non-consécutifs à une panne garantie"
+  },
+  {
+   "peril": "autre",
+   "description": "Accessoires et périphériques (antennes, câbles, casques, membranes, pièces en caoutchouc, verre, plastique, paniers, manchettes, moufle de four, chapeaux de brûleur, télécommandes).",
+   "clause_id": "Art. 9 §2",
+   "quote": "les accessoires et périphériques tels que antennes, câbles, casques, membranes d’enceinte, pièces en caoutchouc, en verre ou en plastique, les paniers de lave-vaisselle, les manchettes, les accessoires et le moufle de four, les chapeaux de brûleur, les télécommandes"
+  },
+  {
+   "peril": "autre",
+   "description": "Conséquences des modifications ou améliorations apportées par le constructeur.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les conséquences des modifications ou améliorations apportées par le constructeur"
+  },
+  {
+   "peril": "autre",
+   "description": "Biens consomptibles (piles, accus, fusibles, lampes, filtres, joints, courroies, tuyaux, flexibles, saphirs, diamants, cellules, têtes de lecture, blocs laser/optique, chargeurs).",
+   "clause_id": "Art. 9 §2",
+   "quote": "les biens consomptibles tels que piles et accus, fusibles, lampes, filtres, joints de porte, courroies, tuyaux de vidange, flexibles, saphirs, diamants, cellules ou têtes de lecture et/ou d’enregistrement, d’effacement ou de pré magnétisation, bloc laser, bloc optique, chargeur de batterie"
+  },
+  {
+   "peril": "autre",
+   "description": "Appareils pour lesquels la facture d'achat ne peut pas être présentée lors de chaque intervention, ou est raturée/illisible.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les appareils pour lesquels la facture d’achat ne peut pas être présentée lors de chaque intervention, ou encore lorsque ce document est raturé et/ou illisible"
+  },
+  {
+   "peril": "autre",
+   "description": "Appareils dont le numéro et/ou les références sont enlevés ou modifiés.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les appareils dont le numéro (et/ou les références) est enlevé ou modifié"
+  },
+  {
+   "peril": "autre",
+   "description": "Conséquences des risques graves et sériels faisant l'objet de mesures spécifiques ou de recommandations des autorités sanitaires.",
+   "clause_id": "Art. 9 §2",
+   "quote": "les conséquences des risques graves et sériels qui font l’objet d’une mise en quarantaine ou de mesures préventives ou de surveillances spécifiques ou de recommandations de la part des autorités sanitaires internationales ou des autorités sanitaires locales du pays où le bénéficiaire séjourne ou des autorités sanitaires nationales du pays de destination du rapatriement ou du transport sanitaire"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "autre",
+   "condition_type": "local_privatif_requis",
+   "description": "L'appareil doit être installé au domicile du bénéficiaire.",
+   "parameter": null,
+   "clause_id": "Art. 9",
+   "quote": "l’appareil doit être installé au domicile du bénéficiaire"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "L'appareil ne doit pas être couvert par une garantie du fabricant, du distributeur ou une extension de garantie au moment de l'événement.",
+   "parameter": null,
+   "clause_id": "Art. 9",
+   "quote": "l’appareil ne doit pas être couvert au moment de l’événement par une garantie du fabricant ou du distributeur ou par une extension de garantie"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "La valeur neuve de l'appareil doit être égale ou supérieure à 150 € TTC.",
+   "parameter": "150 € TTC",
+   "clause_id": "Art. 9",
+   "quote": "sa valeur neuve doit être égale ou supérieure à 150 € TTC"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "L'appareil doit être âgé de moins de 5 ans au jour de la panne.",
+   "parameter": "5 ans",
+   "clause_id": "Art. 9",
+   "quote": "l’appareil doit être âgé de moins de 5 ans au jour de la panne"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "La facture de l'appareil acheté neuf ou reconditionné doit être au nom du bénéficiaire ou de son conjoint et doit être fournie.",
+   "parameter": null,
+   "clause_id": "Art. 9",
+   "quote": "la facture de l’appareil acheté neuf ou reconditionné doit être au nom du bénéficiaire ou de son conjoint et doit nous être fournie"
+  }
+ ]
+}

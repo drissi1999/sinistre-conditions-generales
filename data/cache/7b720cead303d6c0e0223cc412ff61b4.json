@@ -1,0 +1,106 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "Responsabilité civile fêtes familiales",
+   "scope": "Couvre les conséquences financières de la responsabilité civile encourue à l'égard des tiers lors de l'organisation privée et sans but lucratif de manifestations familiales ou privées (fêtes, mariages, etc.) d'un maximum de 150 personnes, suite à un accident, incendie, explosion ou dégât des eaux.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 13-2 §2",
+   "quote": "La garantie couvre les conséquences financières de la responsabilité civile que vous pouvez encourir à l’égard des tiers lorsque vous louez ou occupez un local en tant qu’organisateur à titre privé et sans but lucratif de manifestations familiales ou privées (fêtes, réceptions, mariage, communions…) d’un maximum de 150 personnes"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "Responsabilité civile loueur de chambres d’hôtes",
+   "scope": "Couvre les conséquences financières de la responsabilité civile encourue du fait de l'exploitation de chambres d'hôtes dans le local d'habitation assuré, incluant les dommages aux locataires et le vol avec effraction des biens déposés.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 13-2 §4",
+   "quote": "La garantie couvre les conséquences financières de la responsabilité civile que vous pouvez encourir du fait de l’exploitation de chambre(s) d’hôtes dans le local d’habitation assuré en raison : • de dommages corporels, matériels et immatériels consécutifs causés aux locataires de la chambre d’hôtes"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion du vol ou de la disparition des vêtements et objets personnels des participants, des objets précieux, billets de banque, espèces et titres lors des fêtes familiales.",
+   "clause_id": "Art. 13-2 §3",
+   "quote": "le vol ou la disparition des vêtements et objets personnels des participants, des objets précieux, billets de banque, espèces et titres"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion des manifestations ayant lieu dans un château ou dans un bâtiment faisant l'objet d'un classement ou d'une inscription auprès des monuments historiques.",
+   "clause_id": "Art. 13-2 §3",
+   "quote": "les manifestations ayant lieu dans un château ou dans un bâtiment faisant l’objet d’un classement ou d’une inscription auprès des monuments historiques"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion des dommages subis par toute personne ayant la qualité d'assuré, ses préposés et salariés dans l'exercice de leur fonction (sauf recours de la Sécurité Sociale ou faute inexcusable/intentionnelle).",
+   "clause_id": "Art. 13-2 §3",
+   "quote": "les dommages subis par toute personne ayant la qualité d’assuré, ses préposés et salariés dans l’exercice de leur fonction"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion des dommages subis par les personnes responsables du sinistre.",
+   "clause_id": "Art. 13-2 §3",
+   "quote": "les dommages subis par les personnes responsables du sinistre"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion des dommages résultant de l'exercice de la profession, ou de toute fonction publique ou politique.",
+   "clause_id": "Art. 13-2 §3",
+   "quote": "les dommages résultant de l’exercice de votre profession, ou de toute fonction publique ou politique"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion des dommages causés aux bâtiments et locaux non construits et/ou non couverts en dur (tentes, chapiteaux, structures gonflables).",
+   "clause_id": "Art. 13-2 §3",
+   "quote": "les dommages causés aux bâtiments et locaux non construits et/ou non couverts en dur (tentes, chapiteaux, structures gonflables)"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion du vol ou de la tentative de vol du véhicule des locataires dans le cadre de la garantie chambres d'hôtes.",
+   "clause_id": "Art. 13-2 §5",
+   "quote": "le vol ou la tentative de vol du véhicule des locataires"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion du vol des espèces, titres et valeurs, des animaux des locataires dans le cadre de la garantie chambres d'hôtes.",
+   "clause_id": "Art. 13-2 §5",
+   "quote": "le vol des espèces, titres et valeurs, des animaux des locataires"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion de la location de gîtes dans le cadre de la garantie chambres d'hôtes.",
+   "clause_id": "Art. 13-2 §5",
+   "quote": "la location de gîtes"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "La garantie prend effet au moment de la remise des clés du local et prend fin à la restitution des clés, pour une durée maximum de trois jours.",
+   "parameter": "3 jours",
+   "clause_id": "Art. 13-2 §2",
+   "quote": "La garantie prend effet au moment de la remise des clés du local et prend fin à la restitution des clés et ce pour une durée maximum de trois jours."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "Le fait dommageable doit s'être produit en France métropolitaine pendant la période de validité du contrat.",
+   "parameter": null,
+   "clause_id": "Art. 13-2 §2",
+   "quote": "Pour bénéficier de la garantie, le fait dommageable doit s’être produit en France métropolitaine pendant la période de validité du contrat."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "option_ou_formule",
+   "description": "La garantie responsabilité civile loueur de chambres d'hôtes doit être spécialement mentionnée aux conditions particulières.",
+   "parameter": null,
+   "clause_id": "Art. 13-2 §3",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières."
+  }
+ ]
+}

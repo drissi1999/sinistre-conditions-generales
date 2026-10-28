@@ -1,0 +1,104 @@
+{
+ "guarantees": [
+  {
+   "peril": "degats_des_eaux",
+   "label": "Dégâts des eaux et gel",
+   "scope": "Dommages occasionnés par l'eau (infiltrations, ruptures, fuites, engorgements) et par le gel aux appareils et installations dans les locaux assurés.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 15-2",
+   "quote": "Nous garantissons les dommages occasionnés par l’eau, dans les locaux assurés, en cas de survenance : • d’infiltrations à travers les murs, toitures, terrasses, balcons couvrants formant toiture, carrelages, portes, fenêtres, portes-fenêtres, soupiraux."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Recherche de fuites et réparation canalisations",
+   "scope": "Frais de recherche de fuites accidentelles dans les canalisations encastrées et frais de réparation des canalisations privatives encastrées pour les propriétaires, si dommages aux embellissements.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 15-2",
+   "quote": "Nous prenons en charge : • les frais engagés pour rechercher les fuites accidentelles provenant des canalisations encastrées à l’intérieur des locaux assurés, si elles occasionnent des dommages aux embellissements,"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion des frais de réparation ou de remplacement des appareils à l'origine du sinistre.",
+   "clause_id": "Art. 15-2 §2",
+   "quote": "des appareils à l’origine du sinistre,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion des frais de réparation ou de remplacement des canalisations intérieures privatives pour les locataires.",
+   "clause_id": "Art. 15-2 §2",
+   "quote": "des canalisations intérieures privatives, encastrées ou non, pour les locataires,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion des frais de réparation des biens à l'origine des infiltrations (murs, toitures, etc.).",
+   "clause_id": "Art. 15-2 §2",
+   "quote": "des biens suivants à l’origine des infiltrations : murs, façades, toitures, terrasses, puits de lumière, balcons couvrants formant toiture, soupiraux, chéneaux, gouttières, carrelages, portes, fenêtres et portes-fenêtres,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion des frais de recherche, réparation ou remplacement des canalisations situées à l'extérieur des locaux.",
+   "clause_id": "Art. 15-2 §2",
+   "quote": "des canalisations ou parties de canalisations, enterrées ou non, situées à l’extérieur des locaux,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion des canalisations servant à l'usage des piscines, bassins, puits, fontaines, systèmes d'arrosage et équipements de développement durable.",
+   "clause_id": "Art. 15-2 §2",
+   "quote": "des canalisations servant à l’usage : › des piscines, › des bassins, des puits, des fontaines, des systèmes d’arrosage intégrés, › des équipements de développement durable,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion des dommages résultant d'un processus de dégradation ayant débuté avant la prise d'effet du contrat.",
+   "clause_id": "Art. 15-2 §2",
+   "quote": "les dommages résultant d’un processus de dégradation ayant débuté avant la date de prise d’effet du contrat,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion des canalisations d'épandage.",
+   "clause_id": "Art. 15-2 §2",
+   "quote": "les canalisations d’épandage quelle que soit la nature du réseau d’assainissement,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion du coût de la mise en conformité des réseaux d'alimentation et d'évacuation.",
+   "clause_id": "Art. 15-2 §2",
+   "quote": "le coût de la mise en conformité des réseaux d’alimentation et d’évacuation de toutes eaux,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion du coût de la surconsommation d'eau.",
+   "clause_id": "Art. 15-2 §2",
+   "quote": "le coût de la surconsommation d’eau."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Exclusion des dommages provenant des eaux de ruissellement, des marées, de l'humidité naturelle, des remontées capillaires, de la condensation, de la porosité ou du bistrage.",
+   "clause_id": "Art. 15-2 §3",
+   "quote": "des eaux de ruissellement des cours et jardins, des voies publiques ou privées, des marées, sauf application des dispositions relatives aux garanties Inondation et Catastrophes naturelles prévues aux articles 15-4 et 15-5,"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "preuve_requise",
+   "description": "Preuve que les infiltrations proviennent du voisinage/parties communes ou ont un caractère accidentel sans dommages antérieurs non traités.",
+   "parameter": null,
+   "clause_id": "Art. 15-2",
+   "quote": "Vous devez, pour être garanti, apporter la preuve que ces infiltrations : ‐ soit proviennent du voisinage ou des parties communes de l’immeuble, ‐ soit ont un caractère accidentel et ne résultent pas de dommages constatés antérieurement pour lesquels vous n’avez pas procédé aux actions de nature à interrompre les désordres."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "mesure_de_prevention",
+   "description": "En cas d'absence supérieure à 30 jours : arrêter l'alimentation en eau et maintenir le chauffage en position hors gel ou vidanger les canalisations/réservoirs/chaudières. Sinon, indemnité réduite de 50%.",
+   "parameter": "30 jours",
+   "clause_id": "Art. 15-2",
+   "quote": "Vous devez, pour être garanti, respecter les mesures de prévention suivantes en cas d’absence supérieure à 30 jours : ‐ arrêter l’alimentation en eau et ‐ maintenir le chauffage au minimum en position hors gel ou vidanger les canalisations, les réservoirs et les chaudières."
+  }
+ ]
+}

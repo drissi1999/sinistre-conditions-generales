@@ -1,0 +1,122 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Envoi de prestataires",
+   "scope": "Déplacement de prestataires (chauffage, maçonnerie, plomberie, etc.) et prise en charge de la première heure de main d'œuvre en cas d'urgence.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "IMA GIE organise et prend en charge le déplacement, dans les meilleurs délais, de prestataires dans les secteurs d’activité suivants : - chauffage - maçonnerie - plomberie - couverture - menuiserie - serrurerie - électricité - nettoyage - vitrerie La première heure de main d’œuvre des prestataires ainsi envoyés au domicile de l’assuré est également prise en charge par IMA GIE."
+  },
+  {
+   "peril": "assistance",
+   "label": "Gardiennage",
+   "scope": "Gardiennage du domicile pour préserver l'habitation ou les biens contre le vol à la suite de vandalisme ou de dommages importants.",
+   "ceiling": "48 heures",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "Afin de préserver l’habitation ou les biens du bénéficiaire contre le vol à la suite de vandalisme ou de dommages importants, IMA GIE organise et prend en charge le gardiennage du domicile dans la limite de 48 heures."
+  },
+  {
+   "peril": "assistance",
+   "label": "Vêtements et objets de première nécessité",
+   "scope": "Remplacement des effets de première nécessité détruits.",
+   "ceiling": "765 € par famille",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "IMA GIE permet aux bénéficiaires dont les effets de première nécessité auraient été détruits de s’en procurer de nouveaux, à concurrence de 765 € par famille."
+  },
+  {
+   "peril": "assistance",
+   "label": "Hébergement provisoire",
+   "scope": "Frais d'hébergement provisoire et de petit-déjeuner dans un hôtel deux étoiles si le domicile est inhabitable.",
+   "ceiling": "5 nuits",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "Lorsque le domicile est devenu inhabitable à la suite d’un sinistre, IMA GIE réserve les chambres et prend en charge les frais d’hébergement provisoire et de petit-déjeuner des bénéficiaires, à hauteur de 5 nuits, dans un hôtel de confort équivalant à la norme «deux étoiles»."
+  },
+  {
+   "peril": "assistance",
+   "label": "Transfert provisoire du mobilier",
+   "scope": "Transfert du mobilier dans un garde-meuble et prise en charge du gardiennage.",
+   "ceiling": "1 mois",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "IMA GIE organise et prend en charge le transfert de ces meubles dans un garde-meuble ainsi que leur retour au domicile. IMA GIE prend en charge leur gardiennage pendant une période d’un mois."
+  },
+  {
+   "peril": "assistance",
+   "label": "Déménagement",
+   "scope": "Déménagement du mobilier jusqu'au nouveau lieu de résidence en France métropolitaine et Monaco.",
+   "ceiling": "1 mois",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "Lorsque le domicile assuré est devenu inhabitable, IMA GIE organise et prend en charge le déménagement du mobilier jusqu’au nouveau lieu de résidence en France métropolitaine et dans la Principauté de Monaco, dans une période d’un mois suivant le sinistre."
+  },
+  {
+   "peril": "assistance",
+   "label": "Avance de fonds",
+   "scope": "Avance de fonds remboursable contre signature d'une reconnaissance de dette.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "Lorsque les bénéficiaires sont démunis de moyens financiers immédiats, IMA GIE peut leur consentir, contre signature d’une reconnaissance de dette, une avance de fonds remboursable dans un délai de 30 jours."
+  },
+  {
+   "peril": "assistance",
+   "label": "Prise en charge des enfants",
+   "scope": "Voyage aller et retour des enfants de moins de 16 ans et d'un adulte accompagnant auprès de proches.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "En cas de nécessité, IMA GIE organise et prend en charge le voyage aller et retour en France métropolitaine et dans la Principauté de Monaco des enfants de moins de 16 ans, ainsi que celui d’un adulte les accompagnant, auprès de proches susceptibles de les accueillir"
+  },
+  {
+   "peril": "assistance",
+   "label": "Animaux domestiques",
+   "scope": "Transport et garde des animaux domestiques familiers.",
+   "ceiling": "1 mois",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "Dès lors que le sinistre survenu à l’habitation ne permet plus le maintien sur place des animaux domestiques, IMA GIE organise et prend en charge le transport et la garde de ces animaux à concurrence d’un mois."
+  },
+  {
+   "peril": "assistance",
+   "label": "Incidents domestiques",
+   "scope": "Déplacement de prestataires pour événements perturbateurs sérieux non garantis, prise en charge de la première heure de main d'œuvre.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.1",
+   "quote": "En cas d’événement perturbateur sérieux non garanti par Altima, survenant inopinément au domicile de l’assuré et nécessitant une intervention dans les meilleurs délais... IMA GIE organise et prend en charge le déplacement de l’un de ses prestataires agréés au domicile de l’assuré. La première heure de main d’œuvre du prestataire ainsi envoyé est également prise en charge par IMA GIE."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Les interventions relatives à l'électroménager et aux appareils audiovisuels ne sont pas garanties.",
+   "clause_id": "Art. 9.1",
+   "quote": "Les interventions relatives à l’électroménager et aux appareils audiovisuels ne sont pas garanties par IMA GIE."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "L'avance de fonds est consentie contre signature d'une reconnaissance de dette.",
+   "parameter": null,
+   "clause_id": "Art. 9.1",
+   "quote": "Lorsque les bénéficiaires sont démunis de moyens financiers immédiats, IMA GIE peut leur consentir, contre signature d’une reconnaissance de dette, une avance de fonds remboursable dans un délai de 30 jours."
+  }
+ ]
+}

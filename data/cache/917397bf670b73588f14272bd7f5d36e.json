@@ -1,0 +1,84 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Biens immobiliers",
+   "scope": "Couvre les dommages matériels subis par les biens immobiliers assurés (local d'habitation, embellissements, installations fixes, dépendances, etc.)",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 1.1",
+   "quote": "Ce que nous garantissons : • votre local d’habitation, c’est-à-dire les parties immobilières des bâtiments principaux d’habitation destinées à un usage privé,"
+  },
+  {
+   "peril": "autre",
+   "label": "Panneaux solaires (Excellence)",
+   "scope": "Assurance des panneaux solaires et photovoltaïques en toiture ou montés sur châssis scellés au sol",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 1.1 §2",
+   "quote": "Sont également assurés les panneaux solaires et photovoltaïques en toiture ou montés sur châssis scellés au sol."
+  },
+  {
+   "peril": "autre",
+   "label": "Biens mobiliers",
+   "scope": "Couvre les objets d'usage courant, vêtements et autres biens contenus à l'intérieur du local d'habitation et des dépendances assurées",
+   "ceiling": "limite globale par sinistre fixée dans vos conditions particulières et jusqu'aux montants maximum indiqués dans le tableau 2.3",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 1.2 §2",
+   "quote": "Tous les objets d’usage courant et les vêtements vous appartenant ou qui vous sont confiés ou appartenant à toute personne résidant avec vous ou en simple visite, contenus à l’intérieur du local d’habitation et des dépendances assurés."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": null,
+   "description": "Exclusion des chemins, courts de tennis, vérandas (sauf mention), locaux inoccupés depuis plus de 12 mois, appareils électroménagers, panneaux solaires (formules Eco/Confort) et éoliennes",
+   "clause_id": "Art. 1.1 §3",
+   "quote": "ne sont pas garantis : • les chemins, les courts de tennis, • les vérandas, sauf mention aux conditions particulières, • les locaux inoccupés ou inutilisés depuis plus de 12 mois consécutifs,"
+  },
+  {
+   "peril": null,
+   "description": "Exclusion des piscines, spas, jacuzzi et abris associés sauf souscription du Pack Piscine",
+   "clause_id": "Art. 1.1 §4",
+   "quote": "Sont exclus, sauf si vous avez souscrit les options du Pack Piscine : • les piscines, spas et jacuzzi, • les abris de piscine, spas et jacuzzi."
+  },
+  {
+   "peril": null,
+   "description": "Exclusion des aires cimentées, plantations, clôtures végétales et serres de plus de 5 m2 sauf souscription du Pack Jardin",
+   "clause_id": "Art. 1.1 §5",
+   "quote": "Sont exclus, sauf si vous avez souscrit le Pack Jardin : • les aires cimentées, goudronnées, dallées ou gravillonnées • les plantations, • les clôtures végétales, • les serres d’une superficie de plus de 5 m2."
+  },
+  {
+   "peril": null,
+   "description": "Exclusion des biens mobiliers dans les dépendances pour la formule Eco, des objets précieux, espèces, matériel pro dans dépendances, timbres, véhicules terrestres à moteur, bateaux > 5,5m, animaux, végétaux, dépréciation de bouteilles, armes illégales",
+   "clause_id": "Art. 1.2 §3",
+   "quote": "ne sont pas garantis : • les biens mobiliers se trouvant dans les dépendances si vous avez souscrit la formule Eco, • les objets précieux, les espèces, titres et valeurs, les objets de valeur désignés,"
+  },
+  {
+   "peril": null,
+   "description": "Exclusions spécifiques au fauteuil roulant : vols par famille/préposés sans plainte, panne, dommages légaux/contractuels, défauts connus, usure, interventions non professionnelles, humidité, rayures sans influence sur le fonctionnement",
+   "clause_id": "Art. 1.2 §4",
+   "quote": "Sont exclus pour le fauteuil roulant automoteur ou non : • les vols, tentatives de vol ou actes de vandalisme dont seraient auteurs ou complices les membres de votre famille (article 311-12 du Code pénal) ou vos préposés pendant leur service,"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "Déclaration du nombre de pièces principales et/ou de la surface développée des locaux non professionnels",
+   "parameter": null,
+   "clause_id": "Art. 1.1",
+   "quote": "Vous devez : • déclarer le nombre de pièces principales et/ou la surface développée de la totalité des locaux non professionnels faisant partie de l’habitation assurée,"
+  },
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "Présentation d'un livre de cave régulièrement tenu à jour en cas de sinistre pour les vins, alcools et spiritueux",
+   "parameter": null,
+   "clause_id": "Art. 1.2 §2",
+   "quote": "Un livre de cave régulièrement tenu à jour, enregistrant les entrées et les sorties, devra être présenté en cas de sinistre."
+  }
+ ]
+}

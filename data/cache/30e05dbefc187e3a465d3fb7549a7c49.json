@@ -1,0 +1,106 @@
+{
+ "guarantees": [
+  {
+   "peril": "vol",
+   "label": "Indemnisation en cas de récupération des biens volés",
+   "scope": "Si l'indemnité n'a pas été versée, les biens récupérés restent la propriété de l'assuré et l'assureur prend en charge les détériorations et frais de récupération.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12.2",
+   "quote": "Si l’indemnité ne vous a pas été versée, les biens récupérés restent votre propriété. Nous prenons en charge les détériorations éventuellement subies par les biens ainsi que les frais exposés pour les récupérer."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "Frais de procès",
+   "scope": "L'assureur prend en charge les frais de procès, de quittance et autres frais de paiement, sauf si les dommages-intérêts excèdent le montant de la garantie.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12.2",
+   "quote": "Nous prenons en charge les frais de procès, de quittance et autres frais de paiement. Toutefois, lorsque les dommages-intérêts auxquels vous êtes condamné sont d’un montant supérieur à celui de la garantie, chacun de nous supporte ces frais dans la proportion de l’indemnité à sa charge."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Aucune reconnaissance de responsabilité ou transaction n'est opposable à l'assureur si elle intervient sans son accord préalable.",
+   "clause_id": "Art. 12.2",
+   "quote": "Aucune reconnaissance de responsabilité, aucune transaction intervenant sans notre accord ne nous est opposable."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "L'évaluation des dommages est basée sur les demandes de l'assuré et les pièces justificatives apportées.",
+   "parameter": null,
+   "clause_id": "Art. 12.2",
+   "quote": "L’évaluation de vos dommages sera déterminée entre vous et nous, de gré à gré, sur la base des demandes que vous formulez et des pièces justificatives que vous nous apporterez pour nous permettre d’estimer l’importance des dommages subis."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "Pour les bâtiments construits sur le terrain d'autrui, les travaux doivent être entrepris dans un délai de 2 ans à compter de l'accord sur le montant de l'indemnité.",
+   "parameter": "2 ans",
+   "clause_id": "Art. 12.2",
+   "quote": "Si les bâtiments sont construits sur le terrain d’autrui, l’indemnité vous est versée au fur et à mesure de l’exécution des travaux, s’ils sont entrepris sur les lieux loués dans un délai de 2 ans à compter de notre accord réciproque sur son montant."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "L'indemnité complémentaire « valeur à neuf » est subordonnée à une reconstruction ou réparation dans un délai de 2 ans.",
+   "parameter": "2 ans",
+   "clause_id": "Art. 12.2",
+   "quote": "Sauf impossibilité absolue, elle est subordonnée à une reconstruction ou une réparation : - dans un délai de 2 ans à compter de notre accord réciproque sur le montant de l’indemnité,"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "option_ou_formule",
+   "description": "L'indemnisation à neuf des biens mobiliers n'est applicable que si la formule « Indemnisation à neuf » a été souscrite.",
+   "parameter": null,
+   "clause_id": "Art. 12.2",
+   "quote": "Si la formule «Indemnisation à neuf» a été souscrite Pour toutes les garanties dommages aux biens :"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "Pour bénéficier de l'indemnisation à neuf, les biens endommagés doivent être en état de fonctionnement et couramment utilisés lors du sinistre.",
+   "parameter": null,
+   "clause_id": "Art. 12.2",
+   "quote": "d’une part, les biens endommagés sont en état de fonctionnement et couramment utilisés lors du sinistre,"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "Pour bénéficier de l'indemnisation à neuf, l'assuré doit remplacer ou réparer les biens endommagés dans les meilleurs délais.",
+   "parameter": null,
+   "clause_id": "Art. 12.2",
+   "quote": "d’autre part, vous remplacez ou réparez les biens endommagés dans les meilleurs délais."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "preuve_requise",
+   "description": "L'assuré doit aviser l'assureur de la récupération des biens volés.",
+   "parameter": null,
+   "clause_id": "Art. 12.2",
+   "quote": "Vous devez nous aviser de la récupération des biens volés."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "L'assuré ne doit pas transiger avec les personnes lésées sans l'accord de l'assureur.",
+   "parameter": null,
+   "clause_id": "Art. 12.2",
+   "quote": "Vous ou la personne assurée ne devez pas transiger avec les personnes lésées ou leurs ayants droit sans notre accord."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "En cas de manquement aux obligations, l'assureur conserve la faculté d'exercer une action en remboursement contre l'assuré.",
+   "parameter": null,
+   "clause_id": "Art. 12.2 §2",
+   "quote": "Nous conservons néanmoins la faculté d’exercer contre vous une action en remboursement de toutes les sommes que nous aurions ainsi payées à votre place."
+  }
+ ]
+}

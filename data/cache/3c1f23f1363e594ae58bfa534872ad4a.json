@@ -1,0 +1,240 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Présence d'un proche",
+   "scope": "Déplacement aller-retour d'un proche et hébergement pour 2 nuits en cas d'hospitalisation de plus de 2 jours ou d'immobilisation au domicile de plus de 5 jours.",
+   "ceiling": "92 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE organise et prend en charge en France métropolitaine le déplacement aller - retour d’un proche désigné par l’assuré, en train 1ère classe ou avion de ligne, classe économique, à compter du premier jour."
+  },
+  {
+   "peril": "assistance",
+   "label": "Aide-ménagère",
+   "scope": "Mise à disposition d'une aide-ménagère en cas d'hospitalisation de plus de 2 jours ou d'immobilisation au domicile de plus de 5 jours.",
+   "ceiling": "30 heures",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE prend en charge le coût de cette garantie pour un minimum journalier de 2 heures par jour d’immobilisation, dans la limite de 30 heures, réparties sur une période maximale d’un mois selon la situation."
+  },
+  {
+   "peril": "assistance",
+   "label": "Séjour prolongé en maternité",
+   "scope": "Application des garanties d'aide ménagère et de prise en charge des enfants en cas de séjour de plus de 8 jours en maternité.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "En cas de séjour de plus de 8 jours en maternité, la mère, assurée ou conjointe de l’assuré bénéficie des garanties d’aide ménagère et de prise en charge des enfants."
+  },
+  {
+   "peril": "assistance",
+   "label": "Radiothérapie ou chimiothérapie",
+   "scope": "Mise à disposition d'une aide ménagère pendant la durée du traitement de radiothérapie ou de chimiothérapie.",
+   "ceiling": "30 heures",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "Cette garantie est accordée pendant la durée du traitement, dans la limite de 30 heures, selon la situation."
+  },
+  {
+   "peril": "assistance",
+   "label": "Prise en charge des ascendants",
+   "scope": "Organisation du déplacement et de la garde d'un proche pour s'occuper des ascendants vivant au domicile en cas d'hospitalisation ou d'immobilisation de l'assuré.",
+   "ceiling": "30 heures",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "de leur garde à domicile dans la limite de 30 heures, réparties sur un mois à compter de la date d’hospitalisation."
+  },
+  {
+   "peril": "assistance",
+   "label": "Prise en charge des enfants et petits-enfants",
+   "scope": "Organisation du déplacement, du transfert, de la conduite à l'école ou de la garde des enfants et petits-enfants de moins de 16 ans en cas d'hospitalisation ou d'immobilisation de l'assuré.",
+   "ceiling": "30 heures",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "le transfert et la garde des enfants ou petits-enfants chez une assistante maternelle dans la limite de 30 heures réparties sur un mois à compter de la date de l’événement"
+  },
+  {
+   "peril": "assistance",
+   "label": "Garde des enfants ou petits-enfants malades",
+   "scope": "Organisation du déplacement d'un proche ou de la garde des enfants ou petits-enfants malades en cas d'immobilisation de plus de 2 jours au domicile.",
+   "ceiling": "30 heures",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "la garde des enfants ou petits-enfants malades, dans la limite de 30 heures réparties sur un mois à compter de la date de la maladie, selon la situation."
+  },
+  {
+   "peril": "assistance",
+   "label": "École à domicile",
+   "scope": "Prise en charge du soutien pédagogique à domicile pour un enfant ou petit-enfant immobilisé plus de 2 semaines à la suite d'un accident ou d'une maladie imprévue.",
+   "ceiling": "3 heures par jour ouvrable",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "Il s’agit de cours particuliers donnés au domicile de l’enfant, jusqu’à 3 heures par jour ouvrable, hors vacances scolaires."
+  },
+  {
+   "peril": "assistance",
+   "label": "Transfert et garde d'animaux domestiques",
+   "scope": "Organisation du transport et/ou de l'hébergement des animaux domestiques en cas d'hospitalisation de plus de 2 jours ou d'immobilisation de plus de 5 jours.",
+   "ceiling": "1 mois",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE organise et prend en charge le transport et/ ou l’hébergement des animaux vivant au domicile de l’assuré, dans la limite d’un mois à compter du 1er jour de l’événement"
+  },
+  {
+   "peril": "assistance",
+   "label": "Transmission de messages urgents",
+   "scope": "Transmission de messages urgents à la famille de l'assuré en cas de nécessité.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "En cas de nécessité, IMA GIE se charge de transmettre des messages urgents à la famille de l’assuré."
+  },
+  {
+   "peril": "assistance",
+   "label": "Conseils médicaux",
+   "scope": "Conseils médicaux prodigués par les médecins d'IMA GIE hors urgence et en l'absence du médecin traitant, liés à un accident ou une maladie à domicile.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "Hors urgence médicale et en l’absence du médecin traitant, des conseils médicaux, liés à un accident corporel ou à une maladie à domicile, peuvent être prodigués par les médecins d’IMA GIE"
+  },
+  {
+   "peril": "assistance",
+   "label": "Recherche d'un médecin",
+   "scope": "Aide à la recherche d'un médecin en cas d'absence ou d'indisponibilité du médecin traitant et hors urgence.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "En cas d’absence ou d’indisponibilité du médecin traitant, et dès lors que l’événement ne relève pas de l’urgence, IMA GIE peut aider l’assuré ou son conjoint à rechercher un médecin."
+  },
+  {
+   "peril": "assistance",
+   "label": "Recherche d'une infirmière",
+   "scope": "Aide à la recherche d'une infirmière sur prescription médicale.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "De la même façon IMA GIE peut, sur prescription médicale, aider l’assuré ou son conjoint à rechercher une infirmière."
+  },
+  {
+   "peril": "assistance",
+   "label": "Recherche d'intervenants paramédicaux",
+   "scope": "Assistance dans la recherche d'intervenants paramédicaux en dehors des heures d'ouverture des cabinets et officines.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "En dehors des heures d’ouverture des cabinets et officines, IMA peut assister l’assuré ou son conjoint en difficulté dans sa recherche d’intervenants paramédicaux."
+  },
+  {
+   "peril": "assistance",
+   "label": "Transport en ambulance",
+   "scope": "Organisation du transport par ambulance ou véhicule sanitaire léger entre le domicile et un établissement de soins, hors urgence et sur prescription médicale.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "Hors urgence médicale, IMA GIE organise, sur prescription médicale, le transport de l’assuré ou de son conjoint par ambulance ou véhicule sanitaire léger entre son domicile et un établissement de soins de son choix"
+  },
+  {
+   "peril": "assistance",
+   "label": "Livraison de médicaments",
+   "scope": "Recherche et livraison des médicaments prescrits par le médecin traitant à la pharmacie la plus proche du domicile.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "Lorsque ni le patient adhérent ni l’un de ses proches ne sont en mesure de rechercher les médicaments prescrits par le médecin traitant, IMA GIE se charge de les rechercher à la pharmacie la plus proche du domicile du patient et de le lui livrer."
+  },
+  {
+   "peril": "assistance",
+   "label": "Démarches administratives et sociales",
+   "scope": "Orientation vers les services appropriés et communication d'informations sur les organismes sociaux, employeur, caisses d'allocation familiale, aide sociale et aux handicapés.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "A la suite d’une maladie ou d’un accident corporel survenus à l’assuré ou à son conjoint, et sur simple appel téléphonique de son domicile, IMA GIE s’efforce d’orienter les appelants vers les services appropriés"
+  },
+  {
+   "peril": "assistance",
+   "label": "Obsèques",
+   "scope": "Assistance dans l'organisation des obsèques et avance des frais y afférents en cas de décès d'un bénéficiaire.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "En cas de décès de l’un des bénéficiaires, IMA GIE peut assister la famille dans l’organisation des obsèques et faire l’avance des frais y afférents."
+  },
+  {
+   "peril": "assistance",
+   "label": "Informations post-décès",
+   "scope": "Fourniture d'informations utiles aux proches vivants au domicile concernant les dispositions à prendre, dons d'organes, crémation et succession.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9.2",
+   "quote": "A la suite du décès d’un bénéficiaire, IMA GIE peut apporter toutes les informations utiles aux proches vivants au domicile (dispositions à prendre, démarches relatives aux dons d’organes, à la crémation, à la succession …)"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Les garanties ne s'appliquent pas si l'événement est directement lié à l'utilisation d'un véhicule terrestre à moteur dont un des bénéficiaires est propriétaire, preneur en location avec option d'achat ou location longue durée.",
+   "clause_id": "Art. 9.2",
+   "quote": "Les garanties ne s’appliquent pas si l’événement donnant lieu à l’application des garanties d’assistance est directement lié à l’utilisation d’un véhicule terrestre à moteur dont un des bénéficiaires désignés ci-dessus est propriétaire, preneur en location avec option d’achat ou location longue durée."
+  },
+  {
+   "peril": "assistance",
+   "description": "IMA GIE ne sera pas tenu responsable des manquements ou contretemps résultant de cas de force majeure ou d'événements tels que guerre, révolution, émeute, grève, piraterie, explosion, effets nucléaires ou radioactifs, empêchements climatiques.",
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE ne sera pas tenu responsable des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou d’événements tels que guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques."
+  },
+  {
+   "peril": "assistance",
+   "description": "IMA GIE ne sera pas tenu d'intervenir si l'assuré a commis de façon volontaire des infractions à la législation en vigueur.",
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE ne sera pas tenu d’intervenir dans les cas où l’assuré aurait commis de façon volontaire des infractions à la législation en vigueur."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "IMA GIE se réserve le droit de demander la justification médicale de l'événement générant la mise en œuvre des garanties (certificat médical, bulletin d'hospitalisation, certificat de décès...).",
+   "parameter": null,
+   "clause_id": "Art. 9.2",
+   "quote": "IMA GIE se réserve le droit de demander la justification médicale de l’événement générant la mise en œuvre des garanties (certificat médical, bulletin d’hospitalisation, certificat de décès...)"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "IMA GIE pourra demander à l'assuré l'envoi d'une attestation de son entreprise mentionnant l'épuisement des droits de garde d'enfants malades ou l'absence de tels accords.",
+   "parameter": null,
+   "clause_id": "Art. 9.2",
+   "quote": "De la même façon, IMA GIE pourra demander à l’assuré l’envoi d’une attestation de son entreprise mentionnant que le salarié a épuisé ses droits de garde d’enfants malades au domicile, ou qu’il n’est pas bénéficiaire de tels accords."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Les garanties d'assistance sont mises en œuvre par IMA GIE ou en accord préalable avec lui.",
+   "parameter": null,
+   "clause_id": "Art. 9.2",
+   "quote": "Les garanties d’assistance sont mises en œuvre par IMA GIE ou en accord préalable avec lui."
+  }
+ ]
+}

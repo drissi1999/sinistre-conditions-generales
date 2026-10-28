@@ -1,0 +1,27 @@
+{
+ "guarantees": [],
+ "exclusions": [
+  {
+   "peril": null,
+   "description": "Manquements ou contretemps résultant de cas de force majeure, guerre, révolutions, mouvements populaires, émeutes, grèves, saisies, interdictions officielles, pirateries, explosions, effets nucléaires, empêchements climatiques graves ou événements naturels imprévisibles.",
+   "clause_id": "Art. 11.2",
+   "quote": "Nous ne serons pas tenus responsables des manquements ou contretemps à l’exécution de nos obligations qui résulteraient de cas de force majeure ou d’évènements tels que guerre civile ou étrangère, révolutions, mouvements populaires, émeutes, grèves, saisies ou contraintes par la force publique, interdictions officielles, pirateries, explosions d’engins, effets nucléaires ou radioactifs, empêchements climatiques graves et les évènements imprévisibles d’origine naturelle."
+  },
+  {
+   "peril": null,
+   "description": "Déchéance de tout droit à indemnité en cas de fausses déclarations, exagération des dommages, usage de faux justificatifs ou moyens frauduleux.",
+   "clause_id": "Art. 11.2",
+   "quote": "Si le bénéficiaire fait de fausses déclarations et notamment exagère le montant des dommages, use de faux justificatifs ou de moyens frauduleux, il sera entièrement déchu de tout droit à indemnité ou prestations."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "Le bénéficiaire doit fournir des justificatifs appropriés concurremment à la demande écrite ou dans les 5 jours suivant l'appel.",
+   "parameter": "5 jours",
+   "clause_id": "Art. 11.2",
+   "quote": "Par le seul fait qu’il réclame le bénéfice d’une assistance, le bénéficiaire s’engage à nous fournir les justificatifs appropriés, soit concurremment à la demande écrite, soit dans les 5 jours suivant l’appel, sauf cas fortuit ou de force majeure."
+  }
+ ]
+}

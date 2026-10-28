@@ -1,0 +1,62 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Immeuble",
+   "scope": "Responsabilité civile pour dommages corporels, matériels, immatériels et préjudice écologique consécutifs à un accident ou à un événement défini aux articles 13 à 17, occasionnés par les biens immobiliers assurés.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12",
+   "quote": "Nous garantissons la responsabilité civile que vous encourez en cas de dommages corporels, matériels, immatériels consécutifs et de préjudice écologique lorsqu’ils ont été occasionnés, rendus possibles ou aggravés en raison de l’existence des biens immobiliers assurés"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Locative",
+   "scope": "Responsabilité civile du locataire ou occupant à titre gratuit à l'égard du propriétaire, couvrant les dommages à l'immeuble, les pertes de loyers et la privation de jouissance.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 12-2",
+   "quote": "Nous garantissons votre responsabilité civile à l’égard du propriétaire ou du nu-propriétaire de l’immeuble sinistré sur le fondement des articles 605, 1351, 1732 à 1735 du Code civil et de l’article 7c de la loi n° 89-462 du 6 juillet 1989"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": null,
+   "description": "Véhicules terrestres à moteur, vélos électriques rapides, biens situés à l'extérieur, biens remisés ou emportés en villégiature, collections, titres financiers, métaux précieux, vins, bijoux, aéronefs, embarcations, armes interdites, marchandises professionnelles, animaux, biens prêtés.",
+   "clause_id": "Art. 10-4",
+   "quote": "Outre les exclusions prévues à l’article 20, nous ne garantissons pas au titre des garanties des Dommages aux biens prévues aux articles 13 à 17 : • les véhicules terrestres à moteur, leurs clés, leurs cartes ou badges à télécommande, leurs remorques"
+  },
+  {
+   "peril": null,
+   "description": "Local servant temporairement de garde-meuble, biens mobiliers laissés en dépôt ou remisés dans un local, biens mobiliers transportés dans un véhicule à l'occasion d'un déménagement.",
+   "clause_id": "Art. 11-3",
+   "quote": "Outre les exclusions prévues à l’article 20 et celles citées aux articles 9-3 et 10-4, nous ne garantissons pas : • le local servant temporairement de garde-meuble, • les biens mobiliers laissés en dépôt ou remisés dans un local"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Responsabilité civile sur le fondement des articles 1719, 1721 ou 1891 du Code civil à l'égard du tiers locataire ou occupant pour la location de chambres, de la résidence principale ou d'un emplacement de garage.",
+   "clause_id": "Art. 12-1 §2",
+   "quote": "Outre les exclusions prévues à l’article 20, nous ne garantissons pas votre responsabilité civile sur le fondement des articles 1719, 1721 ou 1891 du Code civil à l’égard du tiers locataire ou occupant"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": null,
+   "condition_type": "option_ou_formule",
+   "description": "La précédente résidence principale doit avoir été assurée par l'assureur et l'assurance de la nouvelle résidence principale doit lui être confiée.",
+   "parameter": null,
+   "clause_id": "Art. 11",
+   "quote": "À l’occasion de votre déménagement, vous bénéficiez, sans déclaration préalable, des extensions de garanties ci-après sous réserve que : • votre précédente résidence principale ait été assurée par nos soins, et • que l’assurance de votre nouvelle résidence principale nous soit confiée."
+  },
+  {
+   "peril": null,
+   "condition_type": "inoccupation_max",
+   "description": "Maintien de la garantie sur l'ancienne résidence principale pendant 30 jours, prolongé de 60 jours si propriétaire ou locataire non occupant.",
+   "parameter": "30 jours",
+   "clause_id": "Art. 11-1",
+   "quote": "nous continuons à assurer, pendant 30 jours à compter de la date du transfert des garanties de votre contrat sur votre nouvelle résidence principale, votre ancienne résidence principale précédemment désignée aux Conditions particulières"
+  }
+ ]
+}

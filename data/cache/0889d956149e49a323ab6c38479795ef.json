@@ -1,0 +1,88 @@
+{
+ "guarantees": [
+  {
+   "peril": "protection_juridique",
+   "label": "Service d'accompagnement",
+   "scope": "Accompagnement pour les litiges relevant de la vie privée et professionnelle ne bénéficiant pas de la garantie protection juridique, limité à deux litiges par année.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 24-4",
+   "quote": "Nous vous accompagnons pour vos litiges relevant de votre vie privée et de votre vie professionnelle qui ne pourraient bénéficier de la garantie protection juridique (voir ART 22-3). ... Il est limité à deux litiges par année."
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance Multirisque Habitation",
+   "scope": "Prestations d'assistance au bénéficiaire dans les circonstances et conditions prévues, garantie optionnelle devant être mentionnée aux conditions particulières.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Titre Viii",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières. ... Nous garantissons, dans la limite des montants prévus dans le tableau 8 « Assistance Habitation », les prestations d’assistance au bénéficiaire dans les circonstances et conditions suivantes :"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "protection_juridique",
+   "description": "Le service d'accompagnement est exclusif de toute prise en charge financière.",
+   "clause_id": "Art. 24-4",
+   "quote": "Ce service est exclusif de toute prise en charge financière."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Le service d'accompagnement n'est pas applicable postérieurement à la résiliation du contrat ou si l'assuré fait l'objet de poursuites pénales.",
+   "clause_id": "Art. 24-4",
+   "quote": "Il ne sera pas applicable postérieurement à la résiliation du présent contrat ou si vous faites l’objet de poursuites pénales."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "protection_juridique",
+   "condition_type": "autre",
+   "description": "Accord préalable de l'assureur nécessaire sur la prise en charge des frais et honoraires liés aux actions ou voies de recours, ainsi que pour l'acceptation d'une transaction.",
+   "parameter": null,
+   "clause_id": "Art. 24-3",
+   "quote": "Dans tous les cas, il sera nécessaire d’obtenir notre accord préalable sur la prise en charge des frais et honoraires liés aux actions ou voies de recours que vous entendrez exercer afin de nous permettre au travers de la communication de toutes pièces utiles d’en examiner le bien fondé et l’opportunité."
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "preuve_requise",
+   "description": "Communication de toutes pièces utiles pour examiner le bien fondé et l'opportunité des frais.",
+   "parameter": null,
+   "clause_id": "Art. 24-3",
+   "quote": "afin de nous permettre au travers de la communication de toutes pièces utiles d’en examiner le bien fondé et l’opportunité."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "option_ou_formule",
+   "description": "La garantie assistance doit être spécialement mentionnée aux conditions particulières.",
+   "parameter": null,
+   "clause_id": "Titre Viii",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "delai_de_declaration",
+   "description": "Demande de mise en œuvre obligatoire formulée directement par le bénéficiaire ou ses proches via les moyens spécifiés (téléphone, mail).",
+   "parameter": null,
+   "clause_id": "Titre Viii",
+   "quote": "Toute demande de mise en œuvre de l’une des prestations de la présente convention doit obligatoirement nous être formulée directement par le bénéficiaire ou ses proches par l’un des moyens suivants"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Accord préalable des services de l'assureur requis pour le remboursement des dépenses engagées directement par l'assuré.",
+   "parameter": null,
+   "clause_id": "Titre Viii",
+   "quote": "À défaut d’une demande et d’un accord préalable de nos services, aucune dépense engagée directement par vous ne sera remboursée."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Joindre toutes pièces de nature à établir la matérialité de l'événement et des débours pour toute demande de remboursement.",
+   "parameter": null,
+   "clause_id": "Titre Viii",
+   "quote": "Sans omettre de préciser le numéro de contrat et de joindre toutes pièces de nature à établir la matérialité tant de l’événement que de ses débours."
+  }
+ ]
+}

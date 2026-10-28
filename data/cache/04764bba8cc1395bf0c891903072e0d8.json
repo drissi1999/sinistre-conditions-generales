@@ -1,0 +1,142 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Retour prématuré",
+   "scope": "Organisation et prise en charge du retour du bénéficiaire et des enfants mineurs, du voyage pour poursuivre le séjour ou ramener le véhicule, et des frais de taxi en cas de sinistre garanti affectant le domicile.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 30-1",
+   "quote": "Si le bénéficiaire est en déplacement au moment d’un sinistre garanti affectant le domicile et que sa présence est indispensable sur place pour accomplir les formalités nécessaires, nous organisons et prenons en charge :"
+  },
+  {
+   "peril": "assistance",
+   "label": "Préservation du domicile sinistré",
+   "scope": "Mise en place de gardiennage, mise en sécurité provisoire, mise à disposition d'un véhicule de location ou transfert provisoire du mobilier si le domicile ne présente plus les conditions de sécurité ou est inhabitable.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 30-2",
+   "quote": "Si, à la suite du sinistre garanti, le domicile ne présente plus les conditions de fermeture ou de sécurité requises ou est devenu inhabitable, nous mettons en place à la demande du bénéficiaire l’une des prestations suivantes :"
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance au relogement temporaire",
+   "scope": "Organisation et prise en charge de l'hébergement à l'hôtel, de la garde des enfants, du remboursement des effets personnels et d'une avance complémentaire si le domicile est temporairement inhabitable.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 30-3",
+   "quote": "Si, à la suite d’un sinistre garanti, le domicile du bénéficiaire est temporairement inhabitable, nous organisons et/ou prenons en charge à la demande du bénéficiaire les prestations ci-après :"
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance au déménagement",
+   "scope": "Organisation et prise en charge du déménagement vers un nouveau domicile si l'ancien est inhabitable à la suite d'un sinistre garanti.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 30-4",
+   "quote": "Si à la suite du sinistre garanti le domicile du bénéficiaire est inhabitable, pour faciliter l’emménagement dans un nouveau domicile, nous assistons le bénéficiaire et sa famille en organisant et en prenant en charge le déménagement vers le nouveau domicile."
+  },
+  {
+   "peril": "assistance",
+   "label": "Maladie ou accident au domicile",
+   "scope": "Communication des coordonnées des services publics de secours et possibilité de demander des justificatifs médicaux pour la mise en œuvre des prestations d'assistance.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 31",
+   "quote": "Nous ne pouvons en aucun cas nous substituer aux organismes locaux de secours d’urgence."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Aucun remboursement ne sera effectué pour des effets vestimentaires de marque de luxe.",
+   "clause_id": "Art. 30-3",
+   "quote": "Aucun remboursement ne sera effectué pour des effets vestimentaires de marque de luxe."
+  },
+  {
+   "peril": "assistance",
+   "description": "L'assurance qui couvre les biens et les effets personnels du bénéficiaire pendant le déménagement reste à la charge du bénéficiaire.",
+   "clause_id": "Art. 30-4",
+   "quote": "L’assurance qui couvre les biens et les effets personnels du bénéficiaire pendant le déménagement reste à la charge du bénéficiaire."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "delai_de_declaration",
+   "description": "Le gardiennage du domicile sinistré par un agent de sécurité est limité à une durée maximum de 72 heures consécutives suivant la survenance du sinistre.",
+   "parameter": "72 heures",
+   "clause_id": "Art. 30-2",
+   "quote": "Le gardiennage du domicile sinistré par un agent de sécurité : pendant une durée maximum de 72 heures consécutives suivant la survenance du sinistre."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "La mise à disposition d'un véhicule de location est limitée à 310 € TTC pour déplacer temporairement le mobilier.",
+   "parameter": "310 € TTC",
+   "clause_id": "Art. 30-2",
+   "quote": "La mise à disposition d’un véhicule de location : de type « utilitaire » se conduisant avec un permis B, dans la limite de 310 € TTC pour déplacer temporairement le mobilier et les objets restés dans l’habitation sinistrée."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le transfert provisoire du mobilier est limité à 750 € TTC.",
+   "parameter": "750 € TTC",
+   "clause_id": "Art. 30-2",
+   "quote": "Le transfert provisoire du mobilier : par une entreprise de déménagement proche du domicile garanti vers un autre lieu désigné par le bénéficiaire, dans la limite de 750 € TTC."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'hébergement à l'hôtel est limité à 80 € TTC par nuit et par personne, et à 400 € TTC par personne au total.",
+   "parameter": "80 € TTC par nuit et 400 € TTC par personne",
+   "clause_id": "Art. 30-3",
+   "quote": "L’hébergement à l’hôtel du bénéficiaire et des personnes vivant habituellement sous le même toit, dans la limite de 80 € TTC par nuit et par personne (petit déjeuner inclus), et dans la limite totale de 400 € TTC par personne."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "La garde au domicile des enfants est limitée à 48 heures par sinistre.",
+   "parameter": "48 heures",
+   "clause_id": "Art. 30-3",
+   "quote": "La garde au domicile des enfants et/ou petits enfants à charge de moins de 16 ans dans la limite des disponibilités locales, pour un maximum de 48 heures par sinistre."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le remboursement des effets personnels est limité à 1 000 € TTC pour un foyer fiscal.",
+   "parameter": "1 000 € TTC",
+   "clause_id": "Art. 30-3",
+   "quote": "Le remboursement des effets personnels du bénéficiaire et de sa famille, dans la limite de 1 000 € TTC pour un foyer fiscal, si les effets vestimentaires et de première nécessité personnels ont été détruits dans le sinistre."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'avance complémentaire est limitée à 400 € TTC et remboursable dans un délai de 30 jours.",
+   "parameter": "400 € TTC et 30 jours",
+   "clause_id": "Art. 30-3",
+   "quote": "Une avance complémentaire pour permettre au bénéficiaire de faire face aux premières dépenses urgentes dans la limite de 400 € TTC, remboursable dans un délai de 30 jours à compter du jour de l’avance."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "delai_de_declaration",
+   "description": "La prise en charge du déménagement est limitée au coût d'un déménagement dans un rayon de 50 km et doit intervenir dans les 60 jours qui suivent le sinistre.",
+   "parameter": "60 jours et 50 km",
+   "clause_id": "Art. 30-4",
+   "quote": "La prise en charge de la prestation, à condition que le déménagement intervienne dans les 60 jours qui suivent le sinistre, est limitée au coût d’un déménagement dans un rayon de 50 km de l’habitation sinistrée."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "L'assureur se réserve le droit de demander tout justificatif de nature à établir la matérialité de l’événement générant la demande d'assistance.",
+   "parameter": null,
+   "clause_id": "Art. 31",
+   "quote": "Nous nous réservons le droit de demander, préalablement à la mise en œuvre des prestations, tout justificatif de nature à établir la matérialité de l’événement générant la demande d’assistance (ex : certificat médical, bulletin d’hospitalisation)."
+  }
+ ]
+}

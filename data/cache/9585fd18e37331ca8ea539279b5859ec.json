@@ -1,0 +1,68 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Frais de relogement",
+   "scope": "Frais de relogement temporaire (loyer, frais d'agence, transfert d'abonnements) en cas d'impossibilité d'occuper les locaux.",
+   "ceiling": "12 mois (sauf Inondation/Catastrophes naturelles : 6 mois pour les locataires)",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 27",
+   "quote": "Les frais de relogement sont constitués par : l’indemnité d’occupation ou le loyer mensuel que vous devez engager pour vous reloger en raison de l’impossibilité d’occuper vos locaux d’habitation"
+  },
+  {
+   "peril": "autre",
+   "label": "Frais de secours et préservation",
+   "scope": "Coût des recharges d'extincteurs, remise en état des détériorations causées par les pompiers, déplacement/gardiennage des biens mobiliers, moyens provisoires de fermeture.",
+   "ceiling": "12 mois",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 27",
+   "quote": "Coût des recharges d’extincteurs utilisées pour combattre l’incendie • Remise en état des détériorations immobilières, indispensables pour vous porter secours"
+  },
+  {
+   "peril": "autre",
+   "label": "Frais de reconstruction",
+   "scope": "Démontage, démolition, mise en conformité et honoraires d'architecte justifiés en cas de reconstruction.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 27",
+   "quote": "démontage, démolition et déblaiement des décombres, • mise en conformité des lieux avec la législation en matière de construction, • honoraires justifiés de l’architecte"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": null,
+   "description": "Aucun délaissement des biens garantis ; les biens épargnés ou partiellement endommagés restent la propriété de l'assuré.",
+   "clause_id": "Art. 26-4",
+   "quote": "Vous ne pouvez faire aucun délaissement des biens garantis. Les biens épargnés par le sinistre ou partiellement endommagés restent votre propriété"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": null,
+   "condition_type": "delai_de_declaration",
+   "description": "Les travaux de remise en état ou reconstruction doivent être achevés dans les deux ans suivant la proposition d'indemnisation pour remboursement de la TVA et de la vétusté non déductible.",
+   "parameter": "2 ans",
+   "clause_id": "Art. 26-3",
+   "quote": "La TVA et la vétusté non déductible ne donnent lieu à remboursement que pour les travaux achevés dans les deux ans suivant la date de notre proposition d’indemnisation."
+  },
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "Le paiement des frais de relogement et de reconstruction est conditionné à la production des factures correspondantes.",
+   "parameter": null,
+   "clause_id": "Art. 27",
+   "quote": "Sur production des factures correspondantes : • démontage, démolition et déblaiement des décombres"
+  },
+  {
+   "peril": null,
+   "condition_type": "autre",
+   "description": "L'indemnité pour les biens immobiliers est réglée après déduction de la vétusté et de la TVA, puis sur présentation des factures au fur et à mesure des travaux.",
+   "parameter": null,
+   "clause_id": "Art. 26-3",
+   "quote": "dans un premier temps nous vous indemnisons du coût de la remise en état ou de la reconstruction, après expertise le cas échéant, déduction faite de la vétusté et de la TVA"
+  }
+ ]
+}

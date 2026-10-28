@@ -1,0 +1,124 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Assistance scolaire et extrascolaire",
+   "scope": "Prestations d'assistance accordées exclusivement pendant la durée de validité du contrat d'assurance « Multirisque Habitation » et de l'accord liant MACSF assurances et OPTEVEN Services.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-8",
+   "quote": "Les prestations d’assistance sont accordées exclusivement pendant la durée de validité du contrat d’assurance « Multirisque Habitation » et de l’accord liant MACSF assurances et OPTEVEN Services pour la délivrance de ces prestations."
+  },
+  {
+   "peril": "protection_juridique",
+   "label": "Défense pénale et recours suite à accident",
+   "scope": "Moyens juridiques et financiers pour réclamer amiablement et au besoin judiciairement la réparation pécuniaire des dommages subis par vous, ou causés aux biens assurés par le contrat, lorsque ces dommages résultent d’un accident survenu au cours de votre vie privée, engagent la responsabilité d’une personne n’ayant pas la qualité d’assuré au titre du contrat, et ne peuvent être indemnisés au titre d’une garantie du présent contrat, ainsi que pour vous défendre devant les juridictions répressives et les commissions administratives.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 22-1",
+   "quote": "pour réclamer amiablement et au besoin judiciairement la réparation pécuniaire des dommages subis par vous, ou causés aux biens assurés par le contrat, lorsque ces dommages résultent d’un accident survenu au cours de votre vie privée, engagent la responsabilité d’une personne n’ayant pas la qualité d’assuré au titre du contrat, et ne peuvent être indemnisés au titre d’une garantie du présent contrat"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Manquements ou contretemps résultant de cas de force majeure, recommandations de l'OMS, actes de sabotage ou terrorisme, pandémies, conflits sociaux, catastrophes naturelles ou risque nucléaire.",
+   "clause_id": "Art. 21-8",
+   "quote": "Nous ne pourrons être tenus responsables des manquements ou contretemps à l’exécution de ses obligations qui résulteraient de cas de force majeure ou d’évènements listés ci-dessous"
+  },
+  {
+   "peril": "assistance",
+   "description": "Conséquences directes ou indirectes des retards, empêchements ou faits dommageables commis par l'intervenant ou le prestataire.",
+   "clause_id": "Art. 21-8",
+   "quote": "Nous ne pourrons pas être tenus responsables des conséquences directes ou indirectes des retards, empêchements ou faits dommageables commis par l’intervenant ou le prestataire."
+  },
+  {
+   "peril": "assistance",
+   "description": "Demandes de remboursement sans présentation de justificatifs.",
+   "clause_id": "Art. 21-10",
+   "quote": "les demandes de remboursement sans présentation de justificatifs"
+  },
+  {
+   "peril": "assistance",
+   "description": "Maladies chroniques et invalidité permanente antérieurement avérées ou constituées.",
+   "clause_id": "Art. 21-10",
+   "quote": "les maladies chroniques et l’invalidité permanente, antérieurement avérées ou constituées"
+  },
+  {
+   "peril": "assistance",
+   "description": "Maladies et accidents et leurs conséquences antérieurs à la date d'effet du contrat.",
+   "clause_id": "Art. 21-10",
+   "quote": "les maladies et accidents et leurs conséquences, antérieurs à la date d’effet du contrat"
+  },
+  {
+   "peril": "assistance",
+   "description": "Convalescences et affections en cours de traitement non encore consolidées.",
+   "clause_id": "Art. 21-10",
+   "quote": "les convalescences et les affections (maladie, accident) en cours de traitement non encore consolidées"
+  },
+  {
+   "peril": "assistance",
+   "description": "Maladies préexistantes diagnostiquées et/ou traitées ayant fait l'objet d'une hospitalisation dans les six mois précédant la demande d'assistance.",
+   "clause_id": "Art. 21-10",
+   "quote": "les maladies préexistantes diagnostiquées et/ou traitées ayant fait l’objet d’une hospitalisation dans les six mois précédant la demande d’assistance"
+  },
+  {
+   "peril": "assistance",
+   "description": "États résultant de l'usage de drogues, stupéfiants et produits assimilés non prescrits médicalement, et de l'absorption d'alcool.",
+   "clause_id": "Art. 21-10",
+   "quote": "les états résultant de l’usage de drogues, stupéfiants et produits assimilés non prescrits médicalement, et de l’absorption d’alcool"
+  },
+  {
+   "peril": "assistance",
+   "description": "Conséquences de tentative de suicide.",
+   "clause_id": "Art. 21-10",
+   "quote": "les conséquences de tentative de suicide"
+  },
+  {
+   "peril": "assistance",
+   "description": "Plongée sous-marine si le bénéficiaire ne pratique pas ce sport dans une structure adaptée et reconnue par le CMAS et si en cas d'accident, le bénéficiaire n'a pas été pris en charge par un centre de traitement hyperbare.",
+   "clause_id": "Art. 21-10",
+   "quote": "la plongée sous-marine si le bénéficiaire ne pratique pas ce sport dans une structure adaptée et reconnue par le CMAS (Confédération Mondiale des Activités Subaquatiques) et si en cas d’accident, le bénéficiaire n’a pas été pris en charge par un centre de traitement hyperbare"
+  },
+  {
+   "peril": "assistance",
+   "description": "Conséquences des risques graves et sériels qui font l'objet d'une mise en quarantaine ou de mesures préventives ou de surveillances spécifiques ou de recommandations de la part des autorités sanitaires.",
+   "clause_id": "Art. 21-10",
+   "quote": "les conséquences des risques graves et sériels qui font l’objet d’une mise en quarantaine ou de mesures préventives ou de surveillances spécifiques ou de recommandations de la part des autorités sanitaires internationales ou des autorités sanitaires locales du pays où le bénéficiaire séjourne ou des autorités sanitaires nationales du pays de destination du rapatriement ou du transport sanitaire"
+  },
+  {
+   "peril": "assistance",
+   "description": "Conséquences de l'exposition à des agents biologiques infectants, de l'exposition à des agents chimiques type gaz de combat, de l'exposition à des agents incapacitants.",
+   "clause_id": "Art. 21-10",
+   "quote": "les conséquences de l’exposition à des agents biologiques infectants, de l’exposition à des agents chimiques type gaz de combat, de l’exposition à des agents incapacitants"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "Le bénéficiaire doit fournir tous actes, pièces, factures, certificats, toutes pièces complémentaires etc, de nature à établir la matérialité de l’évènement ouvrant droit au bénéfice des prestations d’assistance ou de contrôler le respect des conditions de prise en charge.",
+   "parameter": null,
+   "clause_id": "Art. 21-8",
+   "quote": "Nous nous réservons le droit de demander au bénéficiaire, à tout moment, tous actes, pièces, factures, certificats, toutes pièces complémentaires etc, de nature à établir la matérialité de l’évènement ouvrant droit au bénéfice des prestations d’assistance ou de contrôler le respect des conditions de prise en charge."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le bénéficiaire doit faire des déclarations sincères ; en cas de fausses déclarations, exagération des dommages, usage de faux justificatifs ou de moyens frauduleux, il est déchu de tout droit à indemnité ou prestations et doit rembourser les sommes déjà réglées.",
+   "parameter": null,
+   "clause_id": "Art. 21-8",
+   "quote": "Si le bénéficiaire fait de fausses déclarations et notamment exagère le montant des dommages, use de faux justificatifs ou de moyens frauduleux, il sera entièrement déchu de tout droit à indemnité ou prestations."
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "delai_de_declaration",
+   "description": "Le souscripteur doit contacter le GIE CIVIS avant tout engagement d'action judiciaire et avant toute saisine d'un mandataire (avocat, huissier, expert), sauf mesures conservatoires urgentes et appropriées, sous peine de non prise en charge des frais et honoraires engagés sans accord préalable.",
+   "parameter": null,
+   "clause_id": "Titre Vii",
+   "quote": "vous devez avant tout engagement d’action judiciaire et avant toute saisine d’un mandataire (avocat, huissier, expert,…), sauf mesures conservatoires urgentes et appropriées, nous contacter au ou adresser votre déclaration par écrit au GIE CIVIS"
+  }
+ ]
+}

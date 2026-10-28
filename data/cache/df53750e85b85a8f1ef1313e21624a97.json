@@ -1,0 +1,174 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "Définition du sinistre et déclenchement",
+   "scope": "Les garanties sont déclenchées par le fait dommageable et couvrent les conséquences pécuniaires des sinistres dès lors que le fait dommageable survient entre la prise d'effet et la résiliation.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 14-2",
+   "quote": "Les garanties sont déclenchées par le fait dommageable. Elles couvrent l’assuré contre les conséquences pécuniaires des sinistres, dès lors que le fait dommageable survient entre la prise d’effet initiale de la garantie et sa date de résiliation ou d’expiration"
+  },
+  {
+   "peril": "autre",
+   "label": "Capital décès accident corporel",
+   "scope": "Paiement d'un capital en cas d'accident corporel entraînant le décès de l'assuré.",
+   "ceiling": "14 400 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 17-1",
+   "quote": "14 400 € par assuré. Cependant, cette somme est réduite à 7 200 € pour les assurés de moins de 18 ans ou de 70 ans ou plus."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages consécutifs à un incendie, une explosion ou une venue d'eau dans un local dont l'assuré est propriétaire, locataire ou occupant, sauf garantie fêtes familiales.",
+   "clause_id": "Art. 13-3",
+   "quote": "les dommages matériels et immatériels consécutifs à un incendie, une explosion, une venue d’eau ayant pris naissance dans un local dont vous êtes propriétaire, locataire ou occupant à titre gratuit"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés par les animaux autres que les animaux de compagnie.",
+   "clause_id": "Art. 13-3",
+   "quote": "les dommages causés par tous les animaux (y compris les chevaux) autres que les animaux de compagnie"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés par les chiens lorsque l'assuré en garde habituellement plus de quatre adultes.",
+   "clause_id": "Art. 13-3",
+   "quote": "les chiens lorsque vous en gardez habituellement plus de quatre adultes"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés par les chiens de première et deuxième catégorie soumis à l'obligation d'assurance.",
+   "clause_id": "Art. 13-3",
+   "quote": "les dommages causés par les chiens de première catégorie (chiens d’attaque) et deuxième catégorie (chiens de garde et de défense) tels que définis dans la loi n°99-5 du 6 janvier 1999"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Conséquences de la responsabilité pour dommages causés par des biens ou animaux vendus par les assurés.",
+   "clause_id": "Art. 13-3",
+   "quote": "les conséquences de la responsabilité que les assurés peuvent encourir du fait de dommages corporels matériels et immatériels causés par tous biens et animaux qu’ils auraient vendus"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Vols commis par une personne dont l'assuré est civilement responsable, en l'absence de plainte nominative.",
+   "clause_id": "Art. 13-3",
+   "quote": "les vols commis par une personne dont vous êtes civilement responsable, en l’absence de plainte nominative"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Conséquences pécuniaires des responsabilités résultant de l'exécution, mauvaise exécution ou inexécution d'un contrat, sauf activités bénévoles.",
+   "clause_id": "Art. 13-3",
+   "quote": "les conséquences pécuniaires des responsabilités résultant de l’exécution, de la mauvaise exécution et de l’inexécution d’un contrat, sauf lors de vos activités bénévoles"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages relevant d'un régime de réparation des accidents du travail et du fait des préposés non déclarés.",
+   "clause_id": "Art. 13-3",
+   "quote": "les dommages relevant d’un régime de réparation des accidents du travail et du fait des préposés non déclarés"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages résultant de la prescription et/ou de la pratique d'actes ou d'une activité de recherche lors de stages médicaux ou paramédicaux ou activités bénévoles.",
+   "clause_id": "Art. 13-3",
+   "quote": "les dommages résultant de la prescription et/ou de la pratique d’actes ou d’une activité de recherche, lors de stages dans le domaine médical ou paramédical ou lors de vos activités bénévoles"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dépenses effectuées pour prévenir un dommage et pour réparer, modifier ou améliorer tout bien ayant été à l'origine d'un sinistre.",
+   "clause_id": "Art. 13-3",
+   "quote": "les dépenses effectuées pour prévenir un dommage et pour réparer, modifier ou améliorer tout bien ayant été à l’origine d’un sinistre"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés par tous véhicules terrestres à moteur soumis à l'obligation d'assurance et leurs remorques.",
+   "clause_id": "Art. 13-3",
+   "quote": "tous véhicules terrestres à moteur (y compris les vélos électriques circulant à plus de 25 km/h et les engins de déplacement personnel motorisés) soumis à l’obligation d’assurance et leurs remorques ou matériels attelés"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés par un appareil de déplacement aérien, une embarcation à rame ou à voile de plus de 5,5 mètres ou à moteur de plus de 6 CV.",
+   "clause_id": "Art. 13-3",
+   "quote": "un appareil de déplacement aérien, par toute embarcation à rame ou à voile de plus de 5,5 mètres de long ou à moteur de plus de 6 CV, dont vous avez la conduite, la propriété ou la garde"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés par la pratique du ball-trap, de la chasse, des sports aériens, de tout sport à titre professionnel.",
+   "clause_id": "Art. 13-3",
+   "quote": "la pratique du ball-trap, de la chasse, y compris les faits des chiens en action de chasse, des sports aériens, de tout sport à titre professionnel"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Participation à toutes épreuves, courses ou compétitions sportives soumises à une obligation d'assurance légale.",
+   "clause_id": "Art. 13-3",
+   "quote": "votre participation à toutes épreuves, courses ou compétitions sportives, soumises à une obligation d’assurance légale, ainsi qu’à leurs essais préparatoires"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Activité physique ou sportive exercée en tant que membre d'un club ou groupement sportif agréé, sauf absence ou insuffisance d'assurance du club.",
+   "clause_id": "Art. 13-3",
+   "quote": "toute activité physique ou sportive que vous exercez en tant que membre d’un club ou d’un groupement sportif agréé conformément à la loi du 29 octobre 1975"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés par tout bien immobilier dont l'assuré est propriétaire ou copropriétaire.",
+   "clause_id": "Art. 13-3",
+   "quote": "tout bien immobilier dont vous êtes propriétaire ou copropriétaire"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages causés par l'assuré en tant qu'organisateur de kermesses, rallyes, réunions ou fêtes dans un lieu dont il n'est pas propriétaire, locataire habituel, sauf extension fêtes familiales.",
+   "clause_id": "Art. 13-3",
+   "quote": "vous en tant qu’organisateur, même bénévole, de kermesses, rallyes, réunions ou fêtes dans tout lieu dont vous n’êtes pas propriétaire, ni copropriétaire, ni locataire habituel"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages environnementaux résultant de pollutions lentes, graduelles ou progressives.",
+   "clause_id": "Art. 13-3",
+   "quote": "résultant de pollutions lentes, graduelles ou progressives"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages environnementaux résultant de l'absence ou du défaut d'entretien d'une installation.",
+   "clause_id": "Art. 13-3",
+   "quote": "résultant de l’absence ou de défaut d’entretien d’une installation, étant entendu que les causes non supprimées d’un précédent sinistre sont considérées automatiquement comme un défaut d’entretien"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages environnementaux dus aux conséquences d'une pollution résultant d'une contamination virale ou microbienne d'origine animale.",
+   "clause_id": "Art. 13-3",
+   "quote": "dus aux conséquences d’une pollution résultant d’une contamination virale ou microbienne d’origine animale"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages environnementaux causés directement ou indirectement par des produits phytosanitaires.",
+   "clause_id": "Art. 13-3",
+   "quote": "causés directement ou indirectement par des produits phytosanitaires"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages environnementaux causés du fait de l'épandage de boues, effluents ou déchets de toute nature.",
+   "clause_id": "Art. 13-3",
+   "quote": "causés du fait de l’épandage de boues, effluents ou déchets de toute nature"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages environnementaux causés du fait du non-respect du règlement sanitaire départemental.",
+   "clause_id": "Art. 13-3",
+   "quote": "causés du fait de votre non-respect du règlement sanitaire départemental"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "preuve_requise",
+   "description": "En l'absence de plainte nominative, les vols commis par une personne dont l'assuré est civilement responsable sont exclus.",
+   "parameter": null,
+   "clause_id": "Art. 13-3",
+   "quote": "les vols commis par une personne dont vous êtes civilement responsable, en l’absence de plainte nominative"
+  }
+ ]
+}

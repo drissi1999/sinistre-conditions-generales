@@ -1,0 +1,41 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Objet du contrat",
+   "scope": "Garantie des biens désignés contre les dommages résultant des événements assurés, des responsabilités civiles, de la défense pénale et de la protection juridique, et des prestations d'assistance selon la formule souscrite.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Préambule (p. 3)",
+   "quote": "CE CONTRAT A POUR OBJET DE GARANTIR : • les biens désignés aux conditions particulières contre les dommages résultant des événements assurés, • les responsabilités civiles, • votre défense pénale et recours suite à accident et votre protection juridique, • les prestations d’assistance, selon la formule souscrite"
+  }
+ ],
+ "exclusions": [],
+ "conditions": [
+  {
+   "peril": "vol",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration du vol ou de la tentative de vol sous 2 jours ouvrés et dépôt de plainte auprès des forces de l'ordre.",
+   "parameter": "2 jours ouvrés",
+   "clause_id": "Préambule (p. 3)",
+   "quote": "En cas de vol ou de tentative de vol : nous vous demandons de le déclarer sous 2 jours ouvrés, de déposer plainte auprès des forces de l’ordre (commissariat ou gendarmerie)."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "delai_de_declaration",
+   "description": "Déclaration des dommages consécutifs à un événement naturel sans attendre la parution d'un éventuel arrêté constatant l'état de catastrophes naturelles.",
+   "parameter": null,
+   "clause_id": "Préambule (p. 3)",
+   "quote": "Pour les dommages consécutifs à un événement naturel : nous vous demandons de le déclarer sans attendre la parution d’un éventuel arrêté constatant l’état de catastrophes naturelles."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "En cas de mise en cause de la responsabilité civile, ne signer aucune reconnaissance écrite de responsabilité et ne rien payer.",
+   "parameter": null,
+   "clause_id": "Préambule (p. 3)",
+   "quote": "Si votre responsabilité civile est mise en cause : nous vous invitons à ne signer aucune reconnaissance écrite de responsabilité, ne payez rien, nous nous chargeons de l’intégralité des démarches à effectuer."
+  }
+ ]
+}

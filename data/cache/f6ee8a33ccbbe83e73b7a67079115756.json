@@ -1,0 +1,110 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Biens immobiliers à adresse différente",
+   "scope": "Résidence temporaire de vacances (max 400 m², occupation ≤ 3 mois), local pour manifestation familiale (max 4 jours, 400 invités, ≤ 400 m²), logement en école de la Fonction Publique, caveaux mortuaires.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9-2",
+   "quote": "la résidence temporaire de vacances d’une surface totale ne dépassant pas 400 m² dont vous êtes locataire ou occupant pour une durée inférieure ou égale à 3 mois"
+  },
+  {
+   "peril": "autre",
+   "label": "Biens mobiliers à la résidence principale",
+   "scope": "Meubles, vaisselle, vêtements, objets de décoration, matériel de sport, appareils électroménagers et informatiques, instruments de musique dans les locaux à usage exclusif d'habitation.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 10-1",
+   "quote": "les meubles meublants, y compris ceux des cuisines et salles de bain équipées, la vaisselle, les vêtements, le linge de maison, les objets de décoration, les jouets, les livres"
+  },
+  {
+   "peril": "autre",
+   "label": "Biens mobiliers en villégiature",
+   "scope": "Biens mobiliers pris en location sur le lieu de villégiature, sauf en cas de vol, tentative de vol ou vandalisme.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 10-2",
+   "quote": "Nous garantissons les biens mobiliers pris en location sur votre lieu de villégiature, sauf en cas de vol, de tentative de vol ou d’acte de vandalisme."
+  },
+  {
+   "peril": "autre",
+   "label": "Biens mobiliers en tout lieu (handicap)",
+   "scope": "Fauteuils roulants, appareils d'assistance médicale et matériel informatique adapté au handicap, en cas d'accident ou de vol, en tout lieu.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 10-3",
+   "quote": "Par extension aux garanties des Dommages aux biens (articles 13 à 17), nous garantissons, en cas d’accident ou de vol, en tout lieu, les biens suivants vous appartenant : le fauteuil roulant non motorisé"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "autre",
+   "description": "Exclusion des bâtiments situés à une adresse différente de la résidence principale, des bâtiments menaçant ruine, des bâtiments à usage professionnel, des végétaux, piscines, équipements de développement durable, clôtures, portails, etc.",
+   "clause_id": "Art. 9-3",
+   "quote": "les bâtiments de toute nature situés à une adresse différente de votre résidence principale, les bâtiments menaçant ruine ou en cours de démolition ou de construction, les bâtiments à usage professionnel"
+  },
+  {
+   "peril": "autre",
+   "description": "Exclusion des décorations funéraires.",
+   "clause_id": "Art. 9-2",
+   "quote": "Nous ne garantissons pas les décorations funéraires."
+  },
+  {
+   "peril": "vol",
+   "description": "Exclusion du vol, de la tentative de vol et du vandalisme pour les biens mobiliers pris en location sur le lieu de villégiature.",
+   "clause_id": "Art. 10-2",
+   "quote": "sauf en cas de vol, de tentative de vol ou d’acte de vandalisme."
+  },
+  {
+   "peril": "bris_de_glace",
+   "description": "Exclusion des prothèses optiques, auditives, dentaires ou orthopédiques en cas de bris accidentel à l'intérieur ou à l'extérieur des locaux assurés.",
+   "clause_id": "Art. 10-3",
+   "quote": "Nous ne garantissons pas les prothèses optiques (lunettes et lentilles), auditives, dentaires ou orthopédiques : en cas de bris accidentel à l’intérieur ou à l’extérieur des locaux assurés"
+  },
+  {
+   "peril": "vol",
+   "description": "Exclusion du vol pour les prothèses optiques, auditives, dentaires ou orthopédiques à l'extérieur des locaux assurés.",
+   "clause_id": "Art. 10-3",
+   "quote": "en cas de vol à l’extérieur des locaux assurés."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "La résidence temporaire de vacances doit être d'une surface totale ne dépassant pas 400 m² et occupée pour une durée inférieure ou égale à 3 mois.",
+   "parameter": "400 m² / 3 mois",
+   "clause_id": "Art. 9-2",
+   "quote": "la résidence temporaire de vacances d’une surface totale ne dépassant pas 400 m² dont vous êtes locataire ou occupant pour une durée inférieure ou égale à 3 mois"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "Pour les manifestations familiales, la location ou occupation doit durer au maximum 4 jours consécutifs, réunir 400 invités au maximum et concerner des locaux de 400 m² maximum.",
+   "parameter": "4 jours / 400 invités / 400 m²",
+   "clause_id": "Art. 9-2",
+   "quote": "dure au maximum 4 jours consécutifs, réunit simultanément 400 invités au maximum, ne dormant pas dans les locaux pris en location ou occupés temporairement, a lieu dans des locaux d’une surface totale inférieure ou égale à 400 m²"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "Les garanties pour les biens pris en location n'interviennent qu'en cas d'absence ou d'insuffisance de garantie du contrat d'assurance souscrit par le propriétaire.",
+   "parameter": null,
+   "clause_id": "Art. 10-1",
+   "quote": "Nos garanties interviennent uniquement en cas d’absence ou d’insuffisance de garantie du contrat d’assurance souscrit par le propriétaire de ces biens."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "L'indemnisation des biens spécifiques (handicap) est effectuée déduction faite des sommes allouées par les organismes sociaux et complémentaires.",
+   "parameter": null,
+   "clause_id": "Art. 10-3",
+   "quote": "L’indemnisation des dommages causés à ces biens est effectuée déduction faite des sommes allouées par les organismes sociaux au titre de la solidarité nationale ainsi que celles versées par les organismes complémentaires."
+  }
+ ]
+}

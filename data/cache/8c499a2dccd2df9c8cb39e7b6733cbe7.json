@@ -1,0 +1,94 @@
+{
+ "guarantees": [
+  {
+   "peril": "incendie",
+   "label": "Incendie et événements assimilés",
+   "scope": "Dommages matériels causés par l'incendie, l'explosion, l'implosion, les fumées, la foudre, la chute d'appareils aériens, le choc d'un véhicule terrestre identifié et les dommages électriques aux installations immobilières.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 4.1",
+   "quote": "Les dommages matériels causés aux biens assurés par : - l’incendie, l’explosion, l’implosion, les fumées, - la chute directe de la foudre lorsqu’elle cause des dommages aux bâtiments, - la chute de tout ou partie d’appareils aériens ou spatiaux, - l’ébranlement dû au franchissement du mur du son, - le choc d’un véhicule terrestre identifié."
+  },
+  {
+   "peril": "dommages_electriques",
+   "label": "Dommages électriques",
+   "scope": "Extension des garanties aux dommages d'origine électrique causés aux appareils ménagers.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 4.2 §2",
+   "quote": "Les garanties qui sont déjà accordées par le contrat sont étendues aux dommages d’origine électrique, causés aux appareils ménagers."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "incendie",
+   "description": "Choc d'un véhicule conduit par l'assuré ou une personne dont il est civilement responsable.",
+   "clause_id": "Art. 4.1 §2",
+   "quote": "Le choc d’un véhicule conduit par vous-même ou une personne dont vous êtes civilement responsable."
+  },
+  {
+   "peril": "incendie",
+   "description": "Dommages dus à la chaleur sans incendie (brûlures de cigarettes, fers à repasser, éclairages halogènes, appareils de chauffage).",
+   "clause_id": "Art. 4.1 §2",
+   "quote": "Les dommages dus à la chaleur sans qu’il y ait eu incendie, tels que brûlures de cigarettes, de fers à repasser ou dégâts provoqués par les éclairages halogènes ou appareils de chauffage."
+  },
+  {
+   "peril": "incendie",
+   "description": "Dommages causés par l'électricité aux appareils électriques si la formule Indemnisation à neuf n'est pas souscrite.",
+   "clause_id": "Art. 4.1 §2",
+   "quote": "Les dommages causés par l’électricité aux appareils électriques lorsque la formule Indemnisation à neuf n’est pas souscrite."
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Pannes dues à l'usure, au mauvais entretien ou à une utilisation non appropriée des appareils.",
+   "clause_id": "Art. 4.2 §3",
+   "quote": "Les pannes subies par les appareils dues à leur usure, leur mauvais entretien ou une utilisation non appropriée."
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Reconstitution des fichiers informatiques endommagés.",
+   "clause_id": "Art. 4.2 §3",
+   "quote": "La reconstitution des fichiers informatiques endommagés."
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Dommages au contenu des appareils électroménagers.",
+   "clause_id": "Art. 4.2 §3",
+   "quote": "Les dommages au contenu de tous les appareils électroménagers."
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Dommages causés aux jouets à moteurs et aux matériels de jardin automoteurs.",
+   "clause_id": "Art. 4.2 §3",
+   "quote": "Les dommages causés aux jouets à moteurs ainsi qu’aux matériels de jardin automoteurs."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "mesure_de_prevention",
+   "description": "Respect de mesures de prévention et de protection pour réduire les risques de dégâts des eaux.",
+   "parameter": null,
+   "clause_id": "Chap. 1",
+   "quote": "Afin de réduire vos risques de dégâts des eaux et de vol, nous vous demandons d’être vigilants et de respecter quelques mesures de prévention et de protection pour votre habitation."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "mesure_de_prevention",
+   "description": "Respect de mesures de prévention et de protection pour réduire les risques de vol.",
+   "parameter": null,
+   "clause_id": "Chap. 1",
+   "quote": "Afin de réduire vos risques de dégâts des eaux et de vol, nous vous demandons d’être vigilants et de respecter quelques mesures de prévention et de protection pour votre habitation."
+  },
+  {
+   "peril": null,
+   "condition_type": "delai_de_declaration",
+   "description": "Respect des délais de déclaration en cas de sinistre.",
+   "parameter": null,
+   "clause_id": "Chap. 1 §2",
+   "quote": "Votre contrat vous indique les délais de déclaration à respecter en cas de sinistre."
+  }
+ ]
+}

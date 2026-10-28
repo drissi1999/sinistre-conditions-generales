@@ -1,0 +1,56 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Vie privée non liée à un contrat",
+   "scope": "Responsabilité civile en qualité de simple particulier et en dehors de toute activité professionnelle, couvrant les dommages corporels, matériels et immatériels consécutifs ainsi que le préjudice écologique.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 6",
+   "quote": "La garantie est acquise pour votre responsabilité civile en qualité de simple particulier et en dehors de toute activité professionnelle."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés par le bétail (équidés, bovins, ovins, porcins, caprins).",
+   "clause_id": "Art. 6",
+   "quote": "Nous ne garantissons pas les dommages occasionnés par : • le bétail (équidés, bovins, ovins, porcins, caprins),"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés par les animaux sauvages, même apprivoisés.",
+   "clause_id": "Art. 6",
+   "quote": "les animaux : ‐ sauvages, même apprivoisés,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés par les animaux élevés dans le cadre d’une activité commerciale ou agricole.",
+   "clause_id": "Art. 6",
+   "quote": "‐ élevés dans le cadre d’une activité commerciale ou agricole,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés par les animaux qui participent à des courses ou à des concours.",
+   "clause_id": "Art. 6",
+   "quote": "‐ qui participent à des courses ou à des concours, soumis ou non à l’autorisation des Pouvoirs Publics."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion des frais d’évaluation comportementale prévus à l’article L. 211-14-1 du Code rural et de la pêche maritime en cas de morsure ou griffure.",
+   "clause_id": "Art. 6",
+   "quote": "à l’exclusion des frais d’évaluation comportementale prévus à l’article L. 211-14-1 du Code rural et de la pêche maritime qui restent à la charge du propriétaire de l’animal."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "Intervention uniquement en cas d’absence ou d’insuffisance de garantie du contrat d’assurance souscrit par le propriétaire pour les biens mobiliers non appartenant à l'assuré.",
+   "parameter": null,
+   "clause_id": "Art. 6",
+   "quote": "Lorsque ces biens ne vous appartiennent pas, nous intervenons uniquement en cas d’absence ou d’insuffisance de garantie du contrat d’assurance souscrit par leur propriétaire."
+  }
+ ]
+}

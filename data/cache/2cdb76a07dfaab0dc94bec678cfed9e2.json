@@ -1,0 +1,291 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Indemnisation objets d'art et valeur",
+   "scope": "Les objets d’art, fourrures, objets de valeur non désignés ou désignés en valeur déclarée, vins, alcools et spiritueux en bouteilles sont estimés selon le cours moyen en vente publique.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "Les objets d’art, les fourrures, les objets de valeur non désignés ou désignés en valeur déclarée, les vins, alcools et spiritueux en bouteilles sont estimés selon le cours moyen en vente publique"
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation objets valeur expertisée",
+   "scope": "Les objets de valeur désignés en valeur expertisée sont indemnisés sur la base de la valeur fixée par expertise pendant les 5 premières années suivant l’expertise.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "Les objets de valeur désignés en valeur expertisée sont indemnisés sur la base de la valeur fixée par expertise pendant les 5 premières années suivant l’expertise."
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation objets usage courant",
+   "scope": "Les objets d’usage courant, le fauteuil roulant automoteur ou non, les vêtements, les bagages et les instruments de musique sont estimés à leur coût de remplacement par des objets d’âge, d’état, d’usage et de qualité analogues.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "Les objets d’usage courant, le fauteuil roulant automoteur ou non, les vêtements, les bagages et les instruments de musique sont estimés à leur coût de remplacement par des objets d’âge, d’état, d’usage et de qualité analogues"
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation tablettes/ordinateurs scolaires",
+   "scope": "Les tablettes et ordinateurs confiés par un établissement scolaire sont indemnisés sur la base de la valeur indiquée sur la facture d’achat originale, déduction faite d’un taux de vétusté fixé à 1 % par mois.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "Les tablettes et ordinateurs confiés par un établissement scolaire sont indemnisés sur la base de la valeur indiquée sur la facture d’achat originale, déduction faite d’un taux de vétusté fixé à 1 % par mois"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Indemnisation contenu congélateur/réfrigérateur",
+   "scope": "Les denrées alimentaires pour la garantie « Contenu du congélateur et/ou réfrigérateur » sont indemnisées à concurrence des montants indiqués au tableau 2.3 « Les limites particulières ».",
+   "ceiling": "montants indiqués au tableau 2.3",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "Les denrées alimentaires pour la garantie « Contenu du congélateur et/ou réfrigérateur » sont indemnisées à concurrence des montants indiqués au tableau 2.3 « Les limites particulières »."
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation biens immobiliers",
+   "scope": "L’indemnisation des biens immobiliers et vérandas se fait sur la base du coût de remise en état ou de reconstruction pour des travaux de qualité analogue avec des matériaux et des procédés contemporains au jour du sinistre, dépréciation déduite.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "L’indemnisation des biens immobiliers et vérandas se fait sur la base du coût de remise en état ou de reconstruction pour des travaux de qualité analogue avec des matériaux et des procédés contemporains au jour du sinistre, dépréciation déduite."
+  },
+  {
+   "peril": "attentats",
+   "label": "Indemnisation décontamination attentat",
+   "scope": "Lorsqu’il est nécessaire à la suite d’un attentat ou d’un acte de terrorisme de décontaminer un bien immobilier, l’indemnisation des dommages, y compris les frais de décontamination, ne peut excéder la valeur vénale du bien contaminé.",
+   "ceiling": "valeur vénale du bien contaminé",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "Lorsqu’il est nécessaire à la suite d’un attentat ou d’un acte de terrorisme de décontaminer un bien immobilier, l’indemnisation des dommages, y compris les frais de décontamination, ne peut excéder la valeur vénale du bien contaminé."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Indemnisation mouvements de terrain",
+   "scope": "Les indemnisations dues au titre des sinistres liés aux mouvements de terrain différentiels consécutifs à la sécheresse-réhydratation des sols couvrent les travaux permettant un arrêt des désordres existants.",
+   "ceiling": "montant de la valeur de la chose assurée au moment du sinistre",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "Dans la limite du montant de la valeur de la chose assurée au moment du sinistre, les indemnisations qui vous sont dues au titre des sinistres liés aux mouvements de terrain différentiels consécutifs à la sécheresse-réhydratation des sols couvrent les travaux permettant un arrêt des désordres existants"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Frais relogement urgence",
+   "scope": "Les frais de relogement d’urgence y compris ceux rendus strictement nécessaires par les travaux de réparation des dommages causés par une catastrophe naturelle sont pris en charge.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "les frais de relogement d’urgence y compris ceux rendus strictement nécessaires par les travaux de réparation des dommages causés par une catastrophe naturelle au sens de l’article L. 125-1 du Code sur justificatifs."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Indemnisation relogement propriétaires",
+   "scope": "Pour les propriétaires assurés occupant leur habitation principale, l’indemnisation s’applique à concurrence de la valeur locative de l’habitation sinistrée.",
+   "ceiling": "valeur locative de l’habitation sinistrée",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "1° Les propriétaires assurés occupant leur habitation principale, l’indemnisation s’applique à concurrence de la valeur locative de l’habitation sinistrée, déterminée si nécessaire par un rapport d’expert."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Indemnisation relogement locataires",
+   "scope": "Pour les locataires et les occupants à titre gratuit, l’indemnisation est fixée à concurrence du montant des loyers payés charges incluses ou, à défaut, de la valeur locative de l’habitation sinistrée.",
+   "ceiling": "montant des loyers payés charges incluses ou valeur locative",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "2° Les locataires et les occupants à titre gratuit ayant souscrit un contrat d’assurance couvrant l’habitation principale, l’indemnisation est fixée à concurrence du montant des loyers payés charges incluses ou, à défaut, de la valeur locative de l’habitation sinistrée"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Indemnisation relogement locataires bail terminé",
+   "scope": "Pour les locataires dont le bail a pris fin suite au sinistre, l’assureur prend en charge le surcoût engendré par le relogement de l’assuré dans des conditions comparables.",
+   "ceiling": "surcoût engendré par le relogement... dans la limite de trois mois",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "3° Les locataires dont le bail a pris fin suite au sinistre, l’assureur prend en charge le surcoût engendré par le relogement de l’assuré dans des conditions comparables, par rapport au montant des loyers charges incluses payés au titre de l’habitation sinistrée et dans la limite de trois mois."
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation catastrophe technologique",
+   "scope": "La garantie de catastrophe technologique couvre la réparation intégrale des dommages subis par votre local à usage d’habitation, ses embellissements et aménagements, les installations fixes de chauffage et de climatisation.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "La garantie de catastrophe technologique couvre : - la réparation intégrale des dommages subis par votre local à usage d’habitation, ses embellissements et aménagements, les installations fixes de chauffage et de climatisation"
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation catastrophe technologique mobiliers",
+   "scope": "La garantie de catastrophe technologique couvre les dommages de vos biens mobiliers (bagages, contenu de votre habitation, et si l’option est souscrite, les objets de valeur) dans la limite des valeurs déclarées ou des capitaux assurés au contrat.",
+   "ceiling": "valeurs déclarées ou des capitaux assurés au contrat",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "les dommages de vos biens mobiliers (bagages, contenu de votre habitation, et si l’option est souscrite, les objets de valeur) dans la limite des valeurs déclarées ou des capitaux assurés au contrat,"
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation catastrophe technologique frais",
+   "scope": "La garantie de catastrophe technologique couvre le remboursement total des frais de démolition, de déblais, pompage, désinfection, décontamination et nettoyage rendus nécessaires à l’habitabilité de votre logement et des frais annexes.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 37-4",
+   "quote": "le remboursement total des frais de démolition, de déblais, pompage, désinfection, décontamination et nettoyage rendus nécessaires à l’habitabilité de votre logement et des frais annexes."
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation Pack Piscine",
+   "scope": "Les piscines, spa et jacuzzi sont indemnisés selon les modalités des « biens immobiliers ».",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 37-4",
+   "quote": "Les piscines, spa et jacuzzi sont indemnisés selon les modalités des « biens immobiliers »."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Indemnisation Pack Canalisations enterrées",
+   "scope": "Les frais de réparation ou de désengorgement des canalisations sont indemnisés dans la limite prévue au tableau 2.4 « Limites de garanties » sur présentation de la facture détaillée du professionnel qui est intervenu.",
+   "ceiling": "limite prévue au tableau 2.4 « Limites de garanties »",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 37-4",
+   "quote": "Les frais de réparation ou de désengorgement des canalisations sont indemnisés dans la limite prévue au tableau 2.4 « Limites de garanties » sur présentation de la facture détaillée du professionnel qui est intervenu."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Indemnisation surconsommation eau",
+   "scope": "Les frais de surconsommation d’eau sont calculés sur la base de deux fois la consommation moyenne mensuelle observée sur la dernière année et sont limités au montant indiqué dans le tableau 2.4 « Limites de garanties ».",
+   "ceiling": "montant indiqué dans le tableau 2.4 « Limites de garanties »",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 37-4",
+   "quote": "Les frais de surconsommation d’eau sont calculés sur la base de deux fois la consommation moyenne mensuelle observée sur la dernière année et sont limités au montant indiqué dans le tableau 2.4 « Limites de garanties »."
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation Pack Numérique",
+   "scope": "Les appareils numériques sont indemnisés sur la base de la valeur indiquée sur la facture d’achat originale, déduction faite d’un taux de vétusté fixé à 1 % par mois à compter de leur date d’achat.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 37-4",
+   "quote": "Les appareils numériques sont indemnisés sur la base de la valeur indiquée sur la facture d’achat originale, déduction faite d’un taux de vétusté fixé à 1 % par mois à compter de leur date d’achat."
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation Pack Jardin",
+   "scope": "Les serres, pergolas, auvents, gazebos, carports, terrasses, aires goudronnées, cimentées, dallées ou gravillonnées, les balançoires et portiques sont indemnisés selon les modalités des « biens immobiliers ».",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 37-4",
+   "quote": "Les serres, pergolas, auvents, gazebos, carports, terrasses, aires goudronnées, cimentées, dallées ou gravillonnées, les balançoires et portiques sont indemnisés selon les modalités des « biens immobiliers »."
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation Pack Jardin végétaux",
+   "scope": "Les clôtures végétales, arbres ou arbustes en pot, arbres et végétaux sont indemnisés selon le coût de remplacement, de mise en terre et de transport pour des arbres et végétaux de même essence.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 37-4",
+   "quote": "Les clôtures végétales, arbres ou arbustes en pot, arbres et végétaux sont indemnisés selon le coût de remplacement, de mise en terre et de transport pour des arbres et végétaux de même essence."
+  },
+  {
+   "peril": "autre",
+   "label": "Indemnisation Pack Jardin tondeuses",
+   "scope": "Les tondeuses autonomes, le mobilier de jardin sont indemnisés selon les modalités des « objets d’usage courant ».",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 37-4",
+   "quote": "Les tondeuses autonomes, le mobilier de jardin sont indemnisés selon les modalités des « objets d’usage courant »."
+  }
+ ],
+ "exclusions": [],
+ "conditions": [
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "L’indemnité de remise à neuf vous sera versée, sur justificatifs, pour les objets effectivement remplacés dans un délai de 2 ans après la date du sinistre.",
+   "parameter": "2 ans",
+   "clause_id": "Art. 37-4",
+   "quote": "L’indemnité de remise à neuf vous sera versée, sur justificatifs, pour les objets effectivement remplacés dans un délai de 2 ans après la date du sinistre."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "Si vous faites remettre en état ou reconstruire les bâtiments au même endroit ou à proximité immédiate, pour un usage identique et dans un délai de 2 ans, l’indemnisation initiale sera complétée.",
+   "parameter": "2 ans",
+   "clause_id": "Art. 37-4",
+   "quote": "Si vous faites remettre en état ou reconstruire les bâtiments au même endroit ou à proximité immédiate, pour un usage identique et dans un délai de 2 ans, l’indemnisation initiale sera complétée"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "En cas de reconstruction dans le délai d’un an à partir de la clôture de l’expertise, l’indemnité est versée au fur et à mesure de l’exécution des travaux.",
+   "parameter": "1 an",
+   "clause_id": "Art. 37-4",
+   "quote": "En cas de reconstruction dans le délai d’un an à partir de la clôture de l’expertise, l’indemnité est versée au fur et à mesure de l’exécution des travaux."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "delai_de_declaration",
+   "description": "Ces frais [de relogement] sont indemnisés pendant 6 mois dans les limites mentionnées ci-après.",
+   "parameter": "6 mois",
+   "clause_id": "Art. 37-4",
+   "quote": "Ces frais sont indemnisés pendant 6 mois dans les limites mentionnées ci-après"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "delai_de_declaration",
+   "description": "Si, dans un délai de vingt-quatre mois après son accord sur la proposition d’indemnisation, éventuellement prorogé de douze mois lorsque les délais d’obtention des autorisations administratives ou ceux de réalisation des études préalables à l’engagement des travaux le nécessitent, vous n’avez pas engagé les travaux vous permettant de vous conformer à l’obligation d’utilisation, nous pouvons vous mettre en demeure.",
+   "parameter": "24 mois (prorogeable de 12 mois)",
+   "clause_id": "Art. 37-4",
+   "quote": "Si, dans un délai de vingt-quatre mois après son accord sur la proposition d’indemnisation, éventuellement prorogé de douze mois lorsque les délais d’obtention des autorisations administratives ou ceux de réalisation des études préalables à l’engagement des travaux le nécessitent, vous n’avez pas engagé les travaux vous permettant de vous conformer à l’obligation d’utilisation"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "preuve_requise",
+   "description": "Dans le cas où cette obligation s’applique et que nous ne missionnons pas l’entreprise de réparation, vous nous transmettez les factures justifiant la réalisation des travaux de réparation consécutifs aux dommages matériels directs imputables aux mouvements de terrain différentiels.",
+   "parameter": null,
+   "clause_id": "Art. 37-4",
+   "quote": "Dans le cas où cette obligation s’applique et que nous ne missionnons pas l’entreprise de réparation, vous nous transmettez les factures justifiant la réalisation des travaux de réparation consécutifs aux dommages matériels directs imputables aux mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "preuve_requise",
+   "description": "Les frais de réparation ou de désengorgement des canalisations sont indemnisés... sur présentation de la facture détaillée du professionnel qui est intervenu.",
+   "parameter": null,
+   "clause_id": "Art. 37-4",
+   "quote": "Les frais de réparation ou de désengorgement des canalisations sont indemnisés dans la limite prévue au tableau 2.4 « Limites de garanties » sur présentation de la facture détaillée du professionnel qui est intervenu."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "preuve_requise",
+   "description": "Les frais de surconsommation d’eau... seront indemnisés après réception de la facture du distributeur d’eau faisant état de cette surconsommation.",
+   "parameter": null,
+   "clause_id": "Art. 37-4",
+   "quote": "Ils seront indemnisés après réception de la facture du distributeur d’eau faisant état de cette surconsommation."
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "guarantees": [],
+ "exclusions": [],
+ "conditions": [
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "delai_de_declaration",
+   "description": "L'indemnité est versée dans un délai de 3 mois à compter de la remise de l'état estimatif des biens endommagés ou de la date de publication de l'arrêté interministériel constatant l'état de catastrophe naturelle si cette date est postérieure.",
+   "parameter": "3 mois",
+   "clause_id": "Art. 12.4",
+   "quote": "nous vous versons l’indemnité dans un délai de 3 mois à compter de la remise par vous de l’état estimatif des biens endommagés ou de la date de publication de l’arrêté interministériel"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "guarantees": [],
+ "exclusions": [],
+ "conditions": [
+  {
+   "peril": null,
+   "condition_type": "preuve_requise",
+   "description": "L'assuré doit justifier de l'existence et de la valeur de ses biens ainsi que de l'importance du dommage par tous moyens et documents.",
+   "parameter": null,
+   "clause_id": "Art. 26-1",
+   "quote": "Il vous appartient par conséquent de justifier de l’existence et de la valeur de vos biens, ainsi que de l’importance de votre dommage par tous moyens et documents"
+  },
+  {
+   "peril": null,
+   "condition_type": "autre",
+   "description": "L'indemnisation est réduite par des abattements en cas de non-respect des prescriptions du contrat (mesures de prévention contre le gel et moyens de fermeture et de protection des locaux).",
+   "parameter": null,
+   "clause_id": "Art. 26-1",
+   "quote": "déduction faite des franchises applicables et des éventuels abattements en cas de non-respect des prescriptions prévues au contrat (mesures de prévention contre le gel visées à l’article 15-2 et moyens de fermeture et de protection des locaux assurés visés à l’article 16-3)"
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "guarantees": [
+  {
+   "peril": "protection_juridique",
+   "label": "Recours amiables et judiciaires",
+   "scope": "Exercice à frais de la société d'interventions amiables ou actions judiciaires pour défendre l'assuré ou réclamer réparation du préjudice garanti par le contrat.",
+   "ceiling": "plafond figurant aux Conditions Particulières",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Chap. 8",
+   "quote": "La société s’engage à exercer à ses frais toutes interventions amiables ou actions judiciaires en vue : - de vous défendre devant les tribunaux en cas d’action mettant en cause une responsabilité assurée par le présent contrat,"
+  },
+  {
+   "peril": "protection_juridique",
+   "label": "Choix du défenseur",
+   "scope": "Possibilité de choisir librement un avocat ou une personne qualifiée, avec prise en charge des honoraires dans la limite du plafond.",
+   "ceiling": "plafond figurant aux Conditions Particulières",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Chap. 8",
+   "quote": "Si cela s’avère nécessaire, vous avez la possibilité de choisir librement un avocat ou toute autre personne qualifiée pour vous représenter ou défendre vos intérêts."
+  },
+  {
+   "peril": "protection_juridique",
+   "label": "Remboursement frais de procès",
+   "scope": "Remboursement des sommes allouées pour frais de procès si le procès a été conseillé par l'assureur et confié à l'un de ses avocats.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Chap. 8 §2",
+   "quote": "Si nous vous avons conseillé d’engager ce procès et que votre dossier a été confié à l’un de nos avocats, nous vous remboursons cette somme."
+  },
+  {
+   "peril": "protection_juridique",
+   "label": "Plafond de garantie",
+   "scope": "Prise en charge des frais, honoraires et sommes allouées dans la limite du plafond prévu aux Conditions Particulières.",
+   "ceiling": "plafond de garantie prévu dans les Conditions Particulières",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Chap. 8 §2",
+   "quote": "Les frais, honoraires et sommes allouées décrits ci-dessus sont pris en charge dans la limite du plafond de garantie prévu dans les Conditions Particulières."
+  },
+  {
+   "peril": "assistance",
+   "label": "Retour d'urgence au domicile sinistré",
+   "scope": "Organisation et prise en charge du retour au domicile sinistré en train 1ère classe, avion classe économique ou tout autre moyen approprié en cas de sinistre rendant l'habitation indémorable.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Chap. 9",
+   "quote": "IMA GIE organise et prend en charge son retour au domicile sinistré en train 1ère classe, avion classe économique, ou par tout autre moyen approprié ;"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "protection_juridique",
+   "description": "Litiges ou différends dans lesquels l'assuré engage une procédure sans l'accord préalable de l'assureur.",
+   "clause_id": "Chap. 8 §2",
+   "quote": "Sont exclus les litiges ou différends dans lesquels vous engagez une procédure sans notre accord préalable."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Remboursement des amendes, de toutes sanctions pénales et des condamnations.",
+   "clause_id": "Chap. 8 §3",
+   "quote": "Le remboursement des amendes, de toutes sanctions pénales et des condamnations."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Recours contre les personnes ayant la qualité d'assuré au titre de la garantie de responsabilité civile.",
+   "clause_id": "Chap. 8 §3",
+   "quote": "Les recours contre les personnes ayant la qualité d’assuré au titre de la garantie de responsabilité civile."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Recours en cas de dommages corporels ou matériels subis par une personne assurée lorsqu'elle conduit un véhicule terrestre à moteur.",
+   "clause_id": "Chap. 8 §3",
+   "quote": "Le recours en cas de dommages corporels ou matériels subis par une personne assurée lorsqu’elle conduit un véhicule terrestre à moteur."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Réclamations relatives aux dommages matériels fondées sur l'inexécution ou la mauvaise exécution d'une obligation contractuelle du responsable, sauf pour les dommages d'incendie, d'explosion ou provenant des eaux survenant dans les bâtiments.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "Les réclamations relatives aux dommages matériels fondées sur l’inexécution ou la mauvaise exécution d’une obligation contractuelle du responsable. Toutefois, cette exclusion ne s’applique pas aux dommages d’incendie, d’explosion ou provenant des eaux survenant dans vos bâtiments."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Litiges dont l'origine n'est pas un risque couvert par le présent contrat.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "Les litiges dont l’origine n’est pas un risque couvert par le présent contrat."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Exercice d'un recours judiciaire lorsque les indemnités à obtenir sont inférieures au plancher figurant dans les Conditions Particulières.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "L’exercice d’un recours judiciaire lorsque les indemnités à obtenir sont inférieures au plancher figurant dans les Conditions Particulières."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Frais de déplacement et vacations correspondantes lorsque l'avocat se déplace en dehors du ressort de la Cour d'Appel dont dépend son ordre, ainsi que les honoraires de résultat et les consignations en cas de constitution de partie civile.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "Les frais de déplacement et vacations correspondantes lorsque votre avocat est amené à se déplacer en dehors du ressort de la Cour d’Appel dont dépend son ordre, ainsi que les honoraires de résultat et les consignations en cas de constitution de partie civile."
+  },
+  {
+   "peril": null,
+   "description": "Exclusions communes à toutes les garanties.",
+   "clause_id": "Chap. 8 §4",
+   "quote": "Les exclusions communes à toutes les garanties."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "protection_juridique",
+   "condition_type": "autre",
+   "description": "Les frais de constitution du dossier sont pris en charge sous réserve qu'ils soient exposés avec l'accord de l'assureur.",
+   "parameter": null,
+   "clause_id": "Chap. 8",
+   "quote": "Nous prenons en charge les frais de constitution de votre dossier, sous réserve qu’ils soient exposés avec notre accord."
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "autre",
+   "description": "L'assureur peut mettre un avocat à disposition sur simple demande écrite de l'assuré.",
+   "parameter": null,
+   "clause_id": "Chap. 8 §2",
+   "quote": "Nous pouvons également, sur simple demande écrite de votre part, mettre un avocat à votre disposition."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'assistance est mise en œuvre par Inter Mutuelles Assistance GIE.",
+   "parameter": null,
+   "clause_id": "Chap. 9",
+   "quote": "Les garanties que nous vous accordons sont mises en œuvre par Inter Mutuelles Assistance GIE - 118 avenue de Paris - CS 40 000 - 79033 NIORT CEDEX 9."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Pour bénéficier des prestations d'assistance, il faut appeler le numéro indiqué (09 69 32 06 22 depuis la France ou 33 9 69 32 06 22 depuis l'étranger).",
+   "parameter": null,
+   "clause_id": "Chap. 9",
+   "quote": "Pour bénéficier des prestations d’assistance, appelez le : 09 69 32 06 22 depuis la France (appel gratuit) 33 9 69 32 06 22 depuis l’étranger"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'assistance s'applique en cas de dommages causés à l'habitation à la suite d'un incendie, d'une explosion, de la foudre, d'un accident électrique, d'une fuite d'eau, de gel, d'inondation, de bris de vitres, de tempête, de grêle, de vol ou de vandalisme, ne permettant pas aux bénéficiaires d'y demeurer décemment.",
+   "parameter": null,
+   "clause_id": "Chap. 9",
+   "quote": "En cas de dommages causés à l’habitation de l’assuré à la suite d’un incendie, d’une explosion, de la foudre, d’un accident électrique, d’une fuite d’eau, de gel, d’inondation, de bris de vitres, de tempête, de grêle, de vol ou de vandalisme, ne permettant pas aux bénéficiaires d’y demeurer décemment :"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'intervention d'IMA GIE est limitée aux dépenses engagées de sa propre initiative par le bénéficiaire.",
+   "parameter": null,
+   "clause_id": "Chap. 9 §2",
+   "quote": "IMA GIE ne participe pas après coup aux dépenses que le bénéficiaire a engagées de sa propre initiative."
+  }
+ ]
+}

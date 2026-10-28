@@ -1,0 +1,48 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "Plafonds Responsabilité Civile Personnelle",
+   "scope": "Dommages engageant la responsabilité civile personnelle (corporels, matériels, immatériels, préjudice écologique) avec plafonds spécifiques selon l'origine du dommage.",
+   "ceiling": "100 000 000 € (tous dommages confondus), 5 000 000 € (intoxication alimentaire/pollution accidentelle), 15 000 000 € (autres dommages matériels/immatériels), 1 300 000 € (préjudice écologique)",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-1",
+   "quote": "Montant maximum garanti par sinistre : Tous dommages confondus (dommages corporels, matériels, immatériels consécutifs et préjudice écologique) 100 000 000 €"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "Plafonds Responsabilité Civile Immeuble",
+   "scope": "Responsabilité civile locative ou d'occupant et recours des voisins/tiers, avec exclusions spécifiques pour les dégâts des eaux et les résidences à l'étranger.",
+   "ceiling": "30 000 000 € (RC locative), 5 000 000 € (recours locataires/voisins), 1 000 000 € (perte de loyers)",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 3-1",
+   "quote": "Responsabilité civile locative ou d’occupant SAUF : • dommages à la suite de dégâts des eaux • quel que soit l’événement dommageable : résidence temporaire de vacances située à l’étranger (1) dont perte de loyers ou privation de jouissance par le propriétaire des locaux assurés 30 000 000 €"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion des dommages à la suite de dégâts des eaux pour la responsabilité civile locative ou d'occupant.",
+   "clause_id": "Art. 3-1",
+   "quote": "SAUF : • dommages à la suite de dégâts des eaux"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Exclusion de la responsabilité civile locative ou d'occupant pour les résidences temporaires de vacances situées à l'étranger.",
+   "clause_id": "Art. 3-1",
+   "quote": "quel que soit l’événement dommageable : résidence temporaire de vacances située à l’étranger (1)"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "Les plafonds des garanties de responsabilité civile personnelle et relative aux biens immobiliers ne sont pas cumulables en cas de sinistre unique.",
+   "parameter": null,
+   "clause_id": "Art. 3-1",
+   "quote": "Les plafonds applicables aux garanties Responsabilité civile personnelle et Responsabilité civile relative aux biens immobiliers assurés ne sont en aucun cas cumulés en cas de sinistre."
+  }
+ ]
+}

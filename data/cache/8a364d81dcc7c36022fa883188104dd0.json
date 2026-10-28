@@ -1,0 +1,67 @@
+{
+ "guarantees": [
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Franchise Catastrophes naturelles",
+   "scope": "Le montant de la franchise est fixé par l'article A. 125-6 du Code des assurances.",
+   "ceiling": null,
+   "deductible": "fixé par l'article A. 125-6 du Code des assurances",
+   "optional": false,
+   "clause_id": "Art. 28-1",
+   "quote": "Pour la garantie des Catastrophes naturelles, le montant de cette franchise est fixé par l’article A. 125-6 du Code des assurances."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Franchise Inondation",
+   "scope": "Le montant de la franchise est celui prévu par la réglementation sur les Catastrophes naturelles pour les événements autres que les mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols.",
+   "ceiling": null,
+   "deductible": "prévu par la réglementation sur les Catastrophes naturelles",
+   "optional": false,
+   "clause_id": "Art. 28-1",
+   "quote": "Pour la garantie Inondation, le montant de la franchise est celui prévu par la réglementation sur les Catastrophes naturelles pour les événements autres que les mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols."
+  }
+ ],
+ "exclusions": [],
+ "conditions": [
+  {
+   "peril": null,
+   "condition_type": "autre",
+   "description": "Aucune indemnité n'est versée si les dommages n'atteignent pas le montant de la franchise.",
+   "parameter": null,
+   "clause_id": "Art. 28-1",
+   "quote": "Aucune indemnité n’est versée si les dommages n’atteignent pas le montant de la franchise; s’ils l’excèdent, le règlement est effectué après déduction du montant de la franchise."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "Aucune franchise n'est déduite du montant de l'indemnité due aux tiers au titre des garanties de Responsabilité civile en réparation d'un dommage corporel.",
+   "parameter": null,
+   "clause_id": "Art. 28-2",
+   "quote": "aux tiers au titre des garanties de Responsabilité civile en réparation d’un dommage corporel,"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "condition_type": "autre",
+   "description": "Aucune franchise n'est déduite du montant de l'indemnité due au titre de la garantie Catastrophes technologiques.",
+   "parameter": null,
+   "clause_id": "Art. 28-2",
+   "quote": "au titre de la garantie Catastrophes technologiques,"
+  },
+  {
+   "peril": "incendie",
+   "condition_type": "autre",
+   "description": "Aucune franchise n'est déduite du montant de l'indemnité due au titre de la garantie Incendie en cas d'utilisation d'un extincteur.",
+   "parameter": null,
+   "clause_id": "Art. 28-2",
+   "quote": "au titre de la garantie Incendie en cas d’utilisation d’un extincteur,"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "autre",
+   "description": "Aucune franchise n'est déduite du montant de l'indemnité due au titre de la garantie Vol, tentative de vol ou acte de vandalisme lorsque le déclenchement du système de télésurveillance a permis de limiter les conséquences du sinistre.",
+   "parameter": null,
+   "clause_id": "Art. 28-2",
+   "quote": "au titre de la garantie Vol, tentative de volou acte de vandalisme lorsque le déclenchement du système de télésurveillancea permis de limiter les conséquences du sinistre."
+  }
+ ]
+}

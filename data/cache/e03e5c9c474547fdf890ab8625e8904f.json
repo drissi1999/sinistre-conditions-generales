@@ -1,0 +1,132 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Transport sanitaire ou rapatriement",
+   "scope": "Organisation et prise en charge du transport sanitaire ou du rapatriement du bénéficiaire vers le centre hospitalier le mieux adapté, ainsi que le transport d'un proche accompagnateur si justifié.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-2",
+   "quote": "Si l’état du bénéficiaire nécessite des soins médicaux ou examens spécifiques ne pouvant être réalisés sur place, nous organisons et prenons en charge, après avis de notre médecin : • Le transport sanitaire ou le rapatriement du bénéficiaire"
+  },
+  {
+   "peril": "assistance",
+   "label": "Séjour d'un proche en cas d'hospitalisation",
+   "scope": "Prise en charge du séjour à l'hôtel d'une personne restée au chevet du bénéficiaire hospitalisé ou immobilisé plus de 7 jours, ainsi que le voyage aller-retour d'un proche depuis la France métropolitaine.",
+   "ceiling": "800 € TTC",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-2",
+   "quote": "Le séjour à l’hôtel d’une personne déjà présente sur place et restée au chevet du bénéficiaire dans la limite de 80 € TTC par nuit avec un maximum de 800 € TTC (chambre et petit déjeuner inclus)."
+  },
+  {
+   "peril": "assistance",
+   "label": "Avance de frais médicaux à l'étranger",
+   "scope": "Avance des frais médicaux prescrits par une autorité médicale à l'étranger consécutifs à une atteinte corporelle survenue et constatée à l'étranger.",
+   "ceiling": "15 000 € TTC par évènement et par bénéficiaire",
+   "deductible": "15 € TTC",
+   "optional": true,
+   "clause_id": "Art. 21-2",
+   "quote": "Le plafond de la garantie est fixé à 15 000 € TTC par évènement et par bénéficiaire. Dans tous les cas, il n’est pas effectué de remboursement de frais d’un montant inférieur ou égal à 15 € TTC."
+  },
+  {
+   "peril": "assistance",
+   "label": "Rapatriement de corps",
+   "scope": "Organisation et prise en charge du rapatriement du corps ou de l'urne funéraire du bénéficiaire décédé jusqu'au lieu d'inhumation en France métropolitaine, incluant les frais de cercueil.",
+   "ceiling": "850 € TTC pour les frais de cercueil",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-3",
+   "quote": "En cas de décès du bénéficiaire, nous organisons et prenons en charge le rapatriement du corps du bénéficiaire ou de ses cendres du lieu du décès jusqu’au lieu d’inhumation en France métropolitaine."
+  },
+  {
+   "peril": "assistance",
+   "label": "Présence d'un membre de la famille en cas de décès",
+   "scope": "Transport aller-retour et séjour à l'hôtel d'un membre de la famille ou d'un proche indispensable pour la reconnaissance du corps et les formalités de rapatriement ou d'inhumation sur place.",
+   "ceiling": "240 € TTC",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-3",
+   "quote": "Séjour à l’hôtel du membre de la famille ou d’un proche désigné ci-dessus dans la limite de 80 € TTC par nuit avec un maximum de 240 € TTC (chambre et petit déjeuner inclus)."
+  },
+  {
+   "peril": "assistance",
+   "label": "Retour prématuré",
+   "scope": "Organisation et prise en charge du transport du bénéficiaire auprès de la personne accidentée, malade ou décédée en France métropolitaine en cas d'interruption du voyage pour cause d'accident grave, maladie imprévisible et grave ou décès d'un proche.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-4",
+   "quote": "Lorsque le bénéficiaire doit interrompre son voyage en raison d’un accident grave, d’une maladie imprévisible et grave ou du décès d’un membre de sa famille (ascendant ou descendant direct, frère ou sœur), nous organisons et prenons en charge le transport du bénéficiaire"
+  },
+  {
+   "peril": "assistance",
+   "label": "Envoi d'objets indispensables",
+   "scope": "Prise en charge des frais d'envoi d'objets indispensables (médicaments, lunettes, papiers d'identité, clefs) oubliés ou introuvables sur place, sous réserve de la disponibilité des liaisons postales.",
+   "ceiling": "75 € TTC par envoi",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21-4",
+   "quote": "Nous prenons en charge les frais d’envoi dans la limite de 75 € TTC par envoi."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Les frais d'obsèques, de cérémonie, de convois locaux, d'exhumation, d'inhumation ou d'incinération ne sont pas pris en charge et restent à la charge de la famille.",
+   "clause_id": "Art. 21-3",
+   "quote": "Nous ne prenons pas en charge les frais d’obsèques, de cérémonie, de convois locaux, d’exhumation, d’inhumation ou d’incinération. Ces frais restent à la charge de la famille du bénéficiaire."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "preuve_requise",
+   "description": "L'avance de frais médicaux est acquise uniquement si le bénéficiaire est affilié à un régime obligatoire de sécurité sociale et à une assurance complémentaire santé garantissant le remboursement des frais médicaux et chirurgicaux.",
+   "parameter": null,
+   "clause_id": "Art. 21-2",
+   "quote": "la garantie est acquise uniquement lorsque le bénéficiaire est affilié à un régime obligatoire de sécurité sociale ou un régime obligatoire ainsi qu’à une assurance complémentaire santé le garantissant pour le remboursement des frais médicaux et chirurgicaux."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "L'avance de frais médicaux cesse automatiquement en cas de rapatriement du bénéficiaire.",
+   "parameter": null,
+   "clause_id": "Art. 21-2",
+   "quote": "la garantie cesse automatiquement en cas de rapatriement, à la date de ce dernier"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le bénéficiaire doit accepter tout changement de centre hospitalier préconisé par les services de l'assureur pour que l'avance de frais soit acquise.",
+   "parameter": null,
+   "clause_id": "Art. 21-2",
+   "quote": "le bénéficiaire accepte tout changement de centre hospitalier préconisé par nos services"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le médecin de l'assureur doit avoir libre accès au dossier médical du bénéficiaire pour que l'avance de frais soit acquise.",
+   "parameter": null,
+   "clause_id": "Art. 21-2",
+   "quote": "dans tous les cas, notre médecin doit avoir libre accès au dossier médical du bénéficiaire dans le respect le plus strict des règles déontologiques"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "La prise en charge du voyage d'un proche pour un enfant mineur est acquise uniquement en l'absence sur place d'un des représentants légaux du bénéficiaire.",
+   "parameter": null,
+   "clause_id": "Art. 21-2",
+   "quote": "Cette garantie n’est acquise qu’en l’absence, sur place, d’un des représentants légaux du bénéficiaire."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Pour l'envoi d'objets indispensables, un proche désigné par le bénéficiaire doit pouvoir tenir les objets à disposition et les liaisons postales doivent fonctionner.",
+   "parameter": null,
+   "clause_id": "Art. 21-4",
+   "quote": "sous réserve qu’un proche désigné par le bénéficiaire puisse tenir ces objets à la disposition du correspondant mandaté par nos soins et que les liaisons postales fonctionnent."
+  }
+ ]
+}

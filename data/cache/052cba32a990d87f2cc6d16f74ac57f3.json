@@ -1,0 +1,224 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "Exception aéromodèles et drones",
+   "scope": "Responsabilité civile du fait de l'utilisation, à titre de loisir (hors compétition), des aéromodèles, y compris des drones, dont la masse est inférieure ou égale à 800 g, lorsqu'ils évoluent dans le respect de la réglementation relative à leur utilisation et dans les zones autorisées",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 20",
+   "quote": "Par exception, la responsabilité civile du fait de l'utilisation, à titre de loisir (hors compétition), des aéromodèles, y compris des drones, dont la masse est inférieure ou égale à 800 g, est garantie"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": null,
+   "description": "Dommages provenant de la faute intentionnelle ou dolosive de l'assuré",
+   "clause_id": "Art. 20",
+   "quote": "provenant de votre faute intentionnelle ou dolosive"
+  },
+  {
+   "peril": null,
+   "description": "Dommages intentionnellement causés ou provoqués avec la complicité de l'assuré",
+   "clause_id": "Art. 20",
+   "quote": "intentionnellement causés ou provoqués avec votre complicité"
+  },
+  {
+   "peril": null,
+   "description": "Dommages résultant de la participation à des paris ou à des défis",
+   "clause_id": "Art. 20",
+   "quote": "résultant de votre participation à des paris ou à des défis"
+  },
+  {
+   "peril": null,
+   "description": "Dommages occasionnés et/ou subis par les remorques, résidences mobiles de loisirs, habitations légères de loisirs",
+   "clause_id": "Art. 20",
+   "quote": "occasionnés et/ou subis par les remorques, les résidences mobiles de loisirs (mobile-homes), les habitations légères de loisirs (bungalows, chalets sans fondations ancrées dans le sol, roulottes, caravanes ou tiny-houses)"
+  },
+  {
+   "peril": null,
+   "description": "Dommages occasionnés aux données informatiques",
+   "clause_id": "Art. 20",
+   "quote": "occasionnés aux données informatiques"
+  },
+  {
+   "peril": null,
+   "description": "Dommages dus aux virus informatiques ainsi qu'au piratage informatique",
+   "clause_id": "Art. 20",
+   "quote": "dus aux virus informatiquesainsi qu'au piratage informatique"
+  },
+  {
+   "peril": null,
+   "description": "Dommages immatériels non consécutifs à un dommage corporel ou matériel garanti",
+   "clause_id": "Art. 20",
+   "quote": "immateriels: - non consécutifsà un dommage corporelou matériel"
+  },
+  {
+   "peril": null,
+   "description": "Dommages immatériels consécutifs à un dommage corporel ou matériel non garanti",
+   "clause_id": "Art. 20",
+   "quote": "consécutifs à un dommage corporel ou matériel non garanti"
+  },
+  {
+   "peril": null,
+   "description": "Dommages provoqués par des glissements, effondrements ou affaissements de terrain, avalanches, tremblements de terre, éruptions volcaniques, raz de marée ou tsunamis",
+   "clause_id": "Art. 20",
+   "quote": "provoqués par des glissements, effondrements ou affaissements de terrain, des avalanches, des tremblements de terre terre, des éruptions volcaniques, des raz de marée ou des tsunamis"
+  },
+  {
+   "peril": null,
+   "description": "Dommages occasionnés par des travaux de terrassement, d'excavation, de forage ou de décaissement réalisés par l'assuré ou pour son compte par un non-professionnel",
+   "clause_id": "Art. 20",
+   "quote": "occasionnés par des travaux de terrassement, d'excavation, de forage ou de décaissement réalisés : - soit par vous, - soit pour votre compte par un non-professionnel"
+  },
+  {
+   "peril": null,
+   "description": "Dommages dus aux creusements ou à l'existence d'un tunnel, à l'édification, l'existence ou la rupture d'un barrage ou d'une retenue d'eau",
+   "clause_id": "Art. 20",
+   "quote": "dus aux creusements ou à l'existence d'un tunnel, à l'édification, l'existence ou la rupture d'un barrage ou d'une retenue d'eau"
+  },
+  {
+   "peril": null,
+   "description": "Dommages occasionnés par la guerre civile ou étrangère",
+   "clause_id": "Art. 20",
+   "quote": "occasionnés par la guerre civile ou étrangère"
+  },
+  {
+   "peril": null,
+   "description": "Dommages occasionnés par un acte de sabotage",
+   "clause_id": "Art. 20",
+   "quote": "occasionnés par un acte de sabotage"
+  },
+  {
+   "peril": null,
+   "description": "Dommages causés par les parasites des matériaux de construction (insectes xylophages et champignons lignivores), par leur traitement et par les travaux nécessaires",
+   "clause_id": "Art. 20",
+   "quote": "causés par les parasites des matériaux de construction (insectes xylophages et champignons lignivores), par leur traitement et par les travaux nécessaires à ce traitement"
+  },
+  {
+   "peril": null,
+   "description": "Dommages dus aux effets directs ou indirects de l'amiante, du plomb",
+   "clause_id": "Art. 20",
+   "quote": "dus aux effets directs ou indirects de l'amiante, du plomb"
+  },
+  {
+   "peril": null,
+   "description": "Aggravation des dommages causée par des armes ou engins destinés à exploser par modification de structure du noyau de l'atome, tout combustible nucléaire, produit ou déchet radioactif ou par toute source de rayonnement ionisant",
+   "clause_id": "Art. 20",
+   "quote": "l'aggravation des dommages causés par : - des armes ou engins destinés à exploser par modification de structure du noyau de l'atome, - tout combustible nucléaire, produit ou déchet radioactif ou par toute source de rayonnement ionisant"
+  },
+  {
+   "peril": null,
+   "description": "Dommages causés par les forces de l'ordre à l'occasion d'une perquisition ou d'une interpellation",
+   "clause_id": "Art. 20",
+   "quote": "causés par les forces de l'ordre à l'occasion d'une perquisition ou d'une interpellation"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages subis par les personnes n'ayant pas la qualité de tiers",
+   "clause_id": "Art. 20",
+   "quote": "subis par les personnes n'ayant pas la qualité de tiers"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages résultant d'atteintes à la vie privée par la divulgation de données confidentielles ou d'atteintes à la réputation de tiers sur internet",
+   "clause_id": "Art. 20",
+   "quote": "résultant d'atteintes à la vie privée par la divulgation de données confidentielles ou d'atteintes à la réputation de tiers sur internet"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages atteignant les biens mobiliers ou les animaux lorsque l'assuré en est emprunteur, locataire ou dépositaire",
+   "clause_id": "Art. 20",
+   "quote": "atteignant les biens mobiliers ou les animaux lorsque vous en êtes emprunteur, locataire ou dépositaire"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages résultant de l'utilisation d'explosifs (y compris les pétards)",
+   "clause_id": "Art. 20",
+   "quote": "de l'utilisation d'explosifs (y compris les pétards)"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages résultant de l'organisation de son et lumières, feux d'artifice dont la mise en œuvre requiert une personne titulaire d'un certificat de qualification et/ou agréée",
+   "clause_id": "Art. 20",
+   "quote": "de l'organisation de son et lumières, feux d'artifice dont la mise en œuvre requiert une personne titulaire d'un certificat de qualification et/ou agréée"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés par l'incendie s'étant propagé à la suite d'un lâcher de lanternes célestes en contravention avec une interdiction municipale ou préfectorale",
+   "clause_id": "Art. 20",
+   "quote": "à la suite d'un lâcher de lanternes célestes en contravention avec une interdiction municipale ou préfectorale"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés par l'incendie s'étant propagé à partir d'un feu allumé à l'extérieur des locaux d'habitation, volontairement et en méconnaissance du Règlement Sanitaire Départemental Type",
+   "clause_id": "Art. 20",
+   "quote": "à partir d'un feu allumé à l'extérieur des locaux d'habitation, volontairement et en méconnaissance du Règlement Sanitaire Départemental Type"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages du fait de la conduite, de la garde ou de la propriété d'un véhicule terrestre à moteur",
+   "clause_id": "Art. 20",
+   "quote": "du fait de la conduite, de la garde ou de la propriété : - d'un véhicule terrestre à moteur"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages du fait de la conduite, de la garde ou de la propriété d'un vélo à assistance électrique dit rapide dont les caractéristiques techniques excèdent celles d'un cycle à pédalage assisté",
+   "clause_id": "Art. 20",
+   "quote": "d'un vélo à assistance électrique dit rapide dont les caractéristiques techniques excèdent celles d'un cycle à pédalage assisté"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages du fait de la conduite, de la garde ou de la propriété d'un appareil de locomotion aérienne, y compris d'un aéronef civil qui circule sans personne à bord",
+   "clause_id": "Art. 20",
+   "quote": "d'un appareil de locomotion aérienne, y compris d'un aéronef civil qui circule sans personne à bord"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages du fait de la conduite, de la garde ou de la propriété d'une embarcation à moteur ou à voile (sauf planche à voile ou kitesurf)",
+   "clause_id": "Art. 20",
+   "quote": "d'une embarcation à moteur ou à voile (sauf planche à voile ou kitesurf)"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages en qualité de syndic de copropriété",
+   "clause_id": "Art. 20",
+   "quote": "en qualité de syndic de copropriété"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages en qualité de représentant légal, de dirigeant, d'administrateur rémunéré ou non, d'associé, d'actionnaire ou de caution d'une personne morale",
+   "clause_id": "Art. 20",
+   "quote": "en qualité de représentant légal, de dirigeant, d'administrateur rémunéré ou non, d'associé, d'actionnaire ou de caution d'une personne morale"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages du fait de la participation à une manifestation en qualité de représentant du personnel ou d'un syndicat",
+   "clause_id": "Art. 20",
+   "quote": "du fait de la participation à une manifestation en qualité de représentant du personnel ou d'un syndicat"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages du fait de l'occupation, de la garde ou de la propriété d'un bien immobilier que l'assureur n'assure pas",
+   "clause_id": "Art. 20",
+   "quote": "du fait de l'occupation, de la garde ou de la propriété d'un bien immobilier que nous n'assurons pas"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages sur le fondement des articles 1792 à 1792-7 du Code civil, responsabilité soumise aux obligations d'assurance décennale et dommages-ouvrage",
+   "clause_id": "Art. 20",
+   "quote": "sur le fondement des articles 1792 à 1792-7 du Code civil, responsabilité soumise aux obligations d'assurance décennale et dommages-ouvrage"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "Pour les aéromodèles et drones de moins de 800g, l'évolution doit se faire dans le respect de la réglementation relative à leur utilisation et dans les zones autorisées, hors zones spécifiques (centrales, gares, ports, etc.)",
+   "parameter": "800 g",
+   "clause_id": "Art. 20",
+   "quote": "lorsqu'ils évoluent dans le respect de la réglementation relative à leur utilisation et dans les zones autorisées et, hors des zones suivantes"
+  }
+ ]
+}

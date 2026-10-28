@@ -1,0 +1,50 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "Défense civile",
+   "scope": "Assurance de la défense devant les juridictions civiles, commerciales ou administratives, et action civile devant les juridictions pénales.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 24-1",
+   "quote": "nous assumons votre défense devant les juridictions civiles, commerciales ou administratives, dans la limite de notre garantie"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "Période de garantie RC",
+   "scope": "Couverture des conséquences pécuniaires si le fait dommageable survient entre la prise d'effet et la résiliation/expiration du contrat.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 24-4",
+   "quote": "Ces garanties de Responsabilité civile vous couvrent contre les conséquences pécuniaires d’un sinistre, dès lors que le fait dommageable... survient entre la prise d’effet initiale du contrat et celle de sa résiliation ou de son expiration"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Aucune reconnaissance de responsabilité ou transaction en dehors de l'assureur n'est opposable, sauf aveu de fait matériel ou secours urgent.",
+   "clause_id": "Art. 24-2",
+   "quote": "Aucune reconnaissance de responsabilité, aucune transaction intervenant en dehors de nous ne nous est opposable"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "L'assuré doit saisir l'assureur de toute réclamation sans prendre d'engagement personnel.",
+   "parameter": null,
+   "clause_id": "Art. 24-2",
+   "quote": "Vous vous engagez à nous saisir de toute réclamation susceptible d’engager votre responsabilité, sans prendre vous-même aucun engagement."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "L'exercice des voies de recours par l'assureur nécessite l'accord de l'assuré si celui-ci est cité comme prévenu, sauf pourvoi en cassation limité aux intérêts civils.",
+   "parameter": null,
+   "clause_id": "Art. 24-1",
+   "quote": "Nous ne pouvons exercer les voies de recours qu’avec votre accord si vous avez été cité comme prévenu, exception faite du pourvoi en cassation lorsqu’il est limité aux intérêts civils."
+  }
+ ]
+}

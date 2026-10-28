@@ -1,0 +1,226 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Pack Jardin",
+   "scope": "Dommages matériels causés aux serres, arbres, végétaux, clôtures, pergolas, terrasses, aires, tondeuse autonome et mobilier de jardin situés à l'extérieur du local d'habitation.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8",
+   "quote": "Ce Pack doit être spécialement mentionné aux conditions particulières."
+  },
+  {
+   "peril": "incendie",
+   "label": "Pack Jardin - Incendie",
+   "scope": "Dommages matériels causés aux biens du jardin par un incendie et événements annexes.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §2",
+   "quote": "résultant : • d’un incendie et événements annexes,"
+  },
+  {
+   "peril": "dommages_electriques",
+   "label": "Pack Jardin - Dommages électriques",
+   "scope": "Dommages matériels causés aux biens du jardin par un dommage électrique.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §2",
+   "quote": "• d’un dommage électrique,"
+  },
+  {
+   "peril": "evenements_climatiques",
+   "label": "Pack Jardin - Tempête et neige",
+   "scope": "Dommages matériels causés aux biens du jardin par une tempête, du poids de la neige, d’une avalanche.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §2",
+   "quote": "• d’une tempête, du poids de la neige, d’une avalanche,"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Pack Jardin - Venue d'eau",
+   "scope": "Dommages matériels causés aux biens du jardin par une venue d’eau.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §2",
+   "quote": "• d’une venue d’eau,"
+  },
+  {
+   "peril": "bris_de_glace",
+   "label": "Pack Jardin - Bris de glace",
+   "scope": "Dommages matériels causés aux biens du jardin par un bris de glaces.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §2",
+   "quote": "• d’un bris de glaces,"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Pack Jardin - Catastrophes naturelles",
+   "scope": "Dommages matériels causés aux biens du jardin par une catastrophe naturelle, y compris mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §2",
+   "quote": "• d’une catastrophe naturelle, y compris pour des mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols dans les conditions de l’article R. 125-7 du Code,"
+  },
+  {
+   "peril": "attentats",
+   "label": "Pack Jardin - Attentats",
+   "scope": "Dommages matériels causés aux biens du jardin par un attentat ou un acte de terrorisme.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §2",
+   "quote": "• d’un attentat ou d’un acte de terrorisme,"
+  },
+  {
+   "peril": "autre",
+   "label": "Pack Jardin - Détérioration immobilière",
+   "scope": "Dommages matériels causés aux biens du jardin par une détérioration immobilière.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §2",
+   "quote": "• d’une détérioration immobilière,"
+  },
+  {
+   "peril": "autre",
+   "label": "Pack Jardin - Frais de déblais",
+   "scope": "Frais de déblais des arbres et végétaux (tronçonnage, dessouchage, évacuation).",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §3",
+   "quote": "les frais de déblais des arbres et végétaux, c’est-à-dire les frais de tronçonnage, de dessouchage et d’évacuation des arbres et végétaux,"
+  },
+  {
+   "peril": "evenements_climatiques",
+   "label": "Pack Jardin - Grêle",
+   "scope": "Dommages causés par la grêle sur les serres, pergolas, auvents, gazebos, carports, balançoires et portiques.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §3",
+   "quote": "la grêle sur les serres, pergolas, auvents, gazebos, carports, balançoires et portiques définis ci-avant,"
+  },
+  {
+   "peril": "vol",
+   "label": "Pack Jardin - Vol mobilier",
+   "scope": "Vols, tentatives de vol, actes de vandalisme ou actes de sabotage de la tondeuse autonome et du mobilier de jardin.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §3",
+   "quote": "les vols, tentatives de vol, actes de vandalisme ou actes de sabotage de votre tondeuse autonome et votre mobilier de jardin défini ci-avant :"
+  },
+  {
+   "peril": "vandalisme",
+   "label": "Pack Jardin - Vandalisme mobilier",
+   "scope": "Actes de vandalisme ou actes de sabotage de la tondeuse autonome et du mobilier de jardin.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 8 §3",
+   "quote": "les vols, tentatives de vol, actes de vandalisme ou actes de sabotage de votre tondeuse autonome et votre mobilier de jardin défini ci-avant :"
+  },
+  {
+   "peril": "autre",
+   "label": "Panne électroménager",
+   "scope": "Garantie panne électroménager commercialisée par MACSF assurances et souscrite auprès de MACSF Libéa.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Titre Iii",
+   "quote": "La garantie « Panne électroménager » est commercialisée par MACSF assurances et souscrite auprès de MACSF Libéa"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "autre",
+   "description": "Le gel n'est pas garanti.",
+   "clause_id": "Art. 8 §4",
+   "quote": "ne sont pas garantis : • le gel,"
+  },
+  {
+   "peril": "autre",
+   "description": "Les arbres et végétaux exploités à des fins professionnelles ou commerciales ne sont pas garantis.",
+   "clause_id": "Art. 8 §4",
+   "quote": "les arbres et végétaux exploités à des fins professionnelles ou commerciales,"
+  },
+  {
+   "peril": "autre",
+   "description": "Les cours de tennis ne sont pas garantis.",
+   "clause_id": "Art. 8 §4",
+   "quote": "les cours de tennis,"
+  },
+  {
+   "peril": "autre",
+   "description": "Les chemins non goudronnés, cimentés ou dallés ne sont pas garantis.",
+   "clause_id": "Art. 8 §4",
+   "quote": "les chemins non goudronnés, cimentés ou dallés,"
+  },
+  {
+   "peril": "incendie",
+   "description": "Les dommages causés par les incendies allumés par l'assuré ou ses préposés ne sont pas garantis.",
+   "clause_id": "Art. 8 §4",
+   "quote": "les dommages causés par les incendies allumés par vous ou vos préposés,"
+  },
+  {
+   "peril": "autre",
+   "description": "Les serres utilisées à titre professionnel ou commercial ne sont pas garanties.",
+   "clause_id": "Art. 8 §4",
+   "quote": "les serres utilisées à titre professionnel ou commercial,"
+  },
+  {
+   "peril": "autre",
+   "description": "Les rayures, écaillements et égratignures sans influence sur le fonctionnement du bien ne sont pas garantis.",
+   "clause_id": "Art. 8 §4",
+   "quote": "les rayures, les écaillements, les égratignures lorsqu’elles sont sans influence sur le fonctionnement du bien,"
+  },
+  {
+   "peril": "autre",
+   "description": "L'outillage de jardin et les véhicules terrestres à moteur y compris les tondeuses autoportées ne sont pas garantis (sauf RC vie privée pour les tondeuses autoportées).",
+   "clause_id": "Art. 8 §4",
+   "quote": "l’outillage de jardin, les véhicules terrestres à moteur y compris les tondeuses autoportées. La garantie de « Responsabilité civile vie privée » est, toutefois, acquise pour les tondeuses autoportées,"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "description": "En cas de mouvements de terrain différentiels consécutifs à la sécheresse, les dommages sur les éléments annexes non indissociablement liés aux ouvrages de viabilité ne sont pas garantis.",
+   "clause_id": "Art. 8 §4",
+   "quote": "en cas de dommages ayant eu pour cause déterminante les mouvements de terrain différentiels consécutifs à la sécheresse et à la réhydratation des sols, les dommages survenus sur les constructions constitutives d’éléments annexes aux parties à usage d’habitation, sauf lorsque ces éléments font indissociablement corps avec les ouvrages de viabilité, de fondation, d’ossature, de clos ou de couvert"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "vol",
+   "condition_type": "locaux_fermes_a_cle",
+   "description": "Pour le vol de la tondeuse et du mobilier de jardin dans les locaux non entièrement clos ou couverts et jardins, la propriété doit être entièrement clôturée.",
+   "parameter": null,
+   "clause_id": "Art. 8 §3",
+   "quote": "dans les locaux non entièrement clos ou couverts et dans les jardins de maison à la condition que la propriété soit entièrement clôturée."
+  },
+  {
+   "peril": "vol",
+   "condition_type": "autre",
+   "description": "Pour le vol de la tondeuse et du mobilier de jardin sur les balcons et terrasses, ceux-ci doivent être situés à plus de 2,50 m du sol.",
+   "parameter": "2,50 m",
+   "clause_id": "Art. 8 §3",
+   "quote": "entreposé sur les balcons et sur les terrasses situés à plus de 2,50 m du sol,"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "Pour la garantie panne électroménager, l'accord préalable des services est requis, sinon aucune dépense engagée directement par le bénéficiaire ne sera remboursée.",
+   "parameter": null,
+   "clause_id": "Titre Iii",
+   "quote": "À défaut d’un accord préalable de nos services, aucune dépense engagée directement par le bénéficiaire ne sera remboursée."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "verdict": "indéterminé",
+ "resume": "Le vol du vélo dans le local commun n'est pas clairement couvert car le local n'était pas fermé à clé. La couverture dépend de la qualification du local (dépendance ou local d'habitation) et de la présence d'une effraction, qui ne sont pas précisées dans les faits.",
+ "raisonnement": [
+  "Garantie : La garantie 'Vol, tentative de vol, actes de vandalisme et de sabotage' est incluse dans les formules (Art. 11). Le vélo est un bien du contenu, assuré pour le vol (Art. 12).",
+  "Conditions : L'Art. 4-1 impose que les portes soient fermées à clé en cas d'absence. Ici, le local commun n'était pas fermé à clé. Cependant, l'Art. 4-1 §2 précise que pour les 'dépendances', les portes doivent être en bois/métal avec serrures de sûreté. Si le local commun est considéré comme une dépendance, la non-fermeture à clé est une non-conformité. Si c'est le local d'habitation, l'absence de clé est une non-conformité aux mesures de sécurité.",
+  "Exclusions/Conditions : L'Art. 4-1 indique que si l'introduction est facilitée par la non-conformité des moyens de fermeture, l'indemnité est réduite de 50%. Si l'introduction n'est pas en relation avec cette non-conformité, la garantie est acquise. Le fait que le local soit 'commun' et non fermé à clé suggère une absence de mesure de sécurité, mais il faut vérifier si une effraction a eu lieu (porte forcée) ou si le voleur est entré par une porte ouverte. De plus, il faut savoir si le vélo est considéré comme un 'objet courant' (plafond 10 000 €) ou un 'objet de valeur' (plafonds plus bas, Art. 14).",
+  "Conclusion : Le verdict est indéterminé car la qualification du local (dépendance vs local d'habitation) et la nature de l'introduction (effraction ou non) sont inconnues. Ces éléments déterminent si la garantie est acquise, réduite ou exclue."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "page": 11,
+   "citation": "Vol, tentative de vol, actes de vandalisme et de sabotage",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Tableaux des garanties et plafonds (p. 12)",
+   "page": 12,
+   "citation": "Vol, tentative de vol, actes de vandalisme",
+   "role": "garantie"
+  },
+  {
+   "clause_id": "Art. 4-1",
+   "page": 31,
+   "citation": "Si vous vous absentez : • moins de 24 heures : les portes doivent être fermées à clé, les fenêtres, portes-fenêtres et autres issues bloquées",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 4-1",
+   "page": 31,
+   "citation": "Si l’introduction a été facilitée ou aggravée par la non-conformité ou l’absence de mise en œuvre des moyens de protection et/ou de fermeture exigés aux conditions particulières, l’indemnité sera réduite de 50 %.",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Art. 4-1 §2",
+   "page": 31,
+   "citation": "Dépendances Les portes d’accès aux dépendances doivent être en bois plein ou en métal munies d’une ou plusieurs serrures de sûreté (cadenas exclu).",
+   "role": "condition"
+  },
+  {
+   "clause_id": "Tableaux des garanties et plafonds (p. 14)",
+   "page": 14,
+   "citation": "Contenu du local d’habitation : • objet courant, fauteuil roulant automoteur ou non et vêtement autre que les objets d’art et les fourrures (maximum par objet) 10 000 €",
+   "role": "autre"
+  }
+ ],
+ "informations_manquantes": [
+  "Le local commun est-il qualifié de 'dépendance' ou de 'local d'habitation' dans les conditions particulières ?",
+  "Y a-t-il eu une effraction (porte forcée) ou le voleur est-il entré par une porte ouverte ?",
+  "Le vélo est-il un objet courant ou un objet de valeur (marque, prix) ?",
+  "Quelle est la formule souscrite (Eco, Confort, Excellence) ?"
+ ],
+ "confiance": "moyenne",
+ "raison_confiance": "La garantie vol est présente, mais l'application des conditions de sécurité (fermeture à clé) et la qualification du local (dépendance) sont ambiguës sans les conditions particulières. La réduction de 50% est probable si le local est une dépendance non conforme, mais l'effraction est un fait inconnu."
+}

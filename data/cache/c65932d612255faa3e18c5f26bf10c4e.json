@@ -1,0 +1,86 @@
+{
+ "guarantees": [
+  {
+   "peril": "protection_juridique",
+   "label": "Défense et recours suite à accident",
+   "scope": "Couvre la défense pénale, la défense en cas de réclamation d'un tiers, et le recours pour l'indemnisation des dommages corporels, matériels et immatériels consécutifs résultant d'accidents, incendies, explosions ou dégâts des eaux.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 19-2",
+   "quote": "Nous pourvoyons à la défense de vos intérêts, lorsque les victimes ont été désintéressées, en raison des poursuites pénales engagées à votre encontre, motivées par un événement couvert au titre des garanties de Responsabilité civile du présent contrat."
+  },
+  {
+   "peril": "protection_juridique",
+   "label": "Prise en charge des frais et honoraires",
+   "scope": "Prise en charge des frais et honoraires de l'avocat ou de la personne qualifiée, ainsi que des dépens, dans la limite des plafonds indiqués à l'Annexe.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 19-5",
+   "quote": "Nous couvrons, dans la limite des plafond, sous-plafonds et montants indiqués à l’Annexe aux présentes Conditions générales: • pour défendre et faire valoir vos droits à l’amiable : ‐ les frais relatifs aux avis et services que nous vous fournissons,"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "protection_juridique",
+   "description": "Exclusion des frais engagés avant la déclaration du sinistre, sauf mesure conservatoire d'urgence.",
+   "clause_id": "Art. 19-5",
+   "quote": "les frais, honoraires et sommes engagés avant la déclaration du sinistre, sauf s’ils ont été rendus nécessaires par une mesure conservatoire d’urgence,"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Exclusion des cautions, consignations pénales, dommages et intérêts, amendes et frais de recouvrement.",
+   "clause_id": "Art. 19-5",
+   "quote": "les cautions et consignations pénales, les dommages et intérêts, les amendes, leurs accessoires et majorations ainsi que les frais de recouvrement auxquels vous pourriez être condamné,"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Exclusion des frais irrépétibles.",
+   "clause_id": "Art. 19-5",
+   "quote": "les frais irrépétibles, tels que définis à l’article 19-1 D auxquels vous pourriez être condamné,"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Exclusion des frais destinés à apporter les éléments de preuve de la réalité du préjudice ou de la matérialité du sinistre.",
+   "clause_id": "Art. 19-5",
+   "quote": "les frais destinés à apporter les éléments de preuve de la réalité de votre préjudice ou de la matérialité du sinistre,"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Exclusion des frais de saisie immobilière, de nantissement de parts sociales ou de fonds de commerce pour les créances inférieures à 10 000 €.",
+   "clause_id": "Art. 19-5",
+   "quote": "les frais de saisie immobilière, de nantissement de parts sociales ou de fonds de commerce pour les créances inférieures à 10 000 €."
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Exclusion des sommes acceptées de supporter dans le cadre d'une transaction.",
+   "clause_id": "Art. 19-5",
+   "quote": "les sommes que vous avez accepté de supporter dans le cadre d’une transaction,"
+  },
+  {
+   "peril": "protection_juridique",
+   "description": "Exclusion des honoraires de résultat de l'avocat ou de la personne qualifiée.",
+   "clause_id": "Art. 19-5",
+   "quote": "les honoraires de résultat de l’avocat ou de la personne qualifiée en charge de vos intérêts."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "protection_juridique",
+   "condition_type": "delai_de_declaration",
+   "description": "Obligation de respecter la déclaration du sinistre prévue à l'article 19-10.",
+   "parameter": null,
+   "clause_id": "Art. 19-3",
+   "quote": "Dans tous les cas, vous êtes tenu de respecter l’obligation de déclaration du sinistre prévue à l’article 19-10."
+  },
+  {
+   "peril": "protection_juridique",
+   "condition_type": "preuve_requise",
+   "description": "Obligation de communiquer tous les éléments permettant d'apprécier le bien-fondé du procès et des voies de recours.",
+   "parameter": null,
+   "clause_id": "Art. 19-3",
+   "quote": "vous devez nous communiquer tous les éléments nous permettant d’apprécier préalablement le bien-fondé de ce procès et des voies de recours utilisées."
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "guarantees": [
+  {
+   "peril": "assistance",
+   "label": "Retour d'urgence de l'assuré",
+   "scope": "Organisation et prise en charge des frais liés au train 1ère classe, avion classe économique ou tout autre moyen de transport approprié pour le retour d'urgence de l'assuré au domicile sinistré.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 18-2",
+   "quote": "Organisation et prise en charge des frais liés au train 1ère classe, avion classe économique ou tout autre moyen de transport approprié"
+  },
+  {
+   "peril": "assistance",
+   "label": "Hébergement d'urgence",
+   "scope": "Organisation et prise en charge des frais d'hébergement d'urgence et des petits-déjeuners ainsi que, en cas de besoin, du premier transport des assurés vers l'hôtel.",
+   "ceiling": "80 € par nuit d'hôtel et par personne et dans la limite de 20 nuits",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 18-2",
+   "quote": "Hôtel de type « 2 étoiles » dans la limite de 80 € par nuit d'hôtel et par personne et dans la limite de 20 nuits"
+  },
+  {
+   "peril": "assistance",
+   "label": "Envoi d'un professionnel",
+   "scope": "Organisation et prise en charge du déplacement d'un professionnel en plomberie, chauffage, serrurerie, électricité, menuiserie, vitrerie, maçonnerie, couverture ou nettoyage.",
+   "ceiling": "Prise en charge du déplacement et de la 1ère heure de main-d’œuvre",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 18-2",
+   "quote": "Prise en charge du déplacement et de la 1ère heure de main-d’œuvre (remboursement possible du coût de la main-d’œuvre au-delà de la 1ère heure et des fournitures dans les limites et conditions prévues au titre des autres garanties du contrat)"
+  },
+  {
+   "peril": "assistance",
+   "label": "Gardiennage du domicile",
+   "scope": "Organisation et prise en charge du gardiennage du domicile sinistré.",
+   "ceiling": "Dans la limite de 48 heures",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 18-2",
+   "quote": "Dans la limite de 48 heures"
+  },
+  {
+   "peril": "assistance",
+   "label": "Déménagement ou transfert provisoire",
+   "scope": "Organisation et prise en charge du déménagement du mobilier jusqu'au nouveau domicile ou des frais de transfert provisoire du mobilier dans un garde-meubles.",
+   "ceiling": "Déménagement du mobilier jusqu'au nouveau domicile situé en France métropolitaine, dans le mois suivant la date du sinistre ou Frais de gardiennage dans la limite d'un mois",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 18-2",
+   "quote": "Déménagement du mobilier jusqu'au nouveau domicile situé en France métropolitaine, dans le mois suivant la date du sinistre ou Frais de gardiennage dans la limite d'un mois"
+  },
+  {
+   "peril": "assistance",
+   "label": "Remplacement des effets personnels",
+   "scope": "Prise en charge du remplacement des effets personnels de première nécessité détruits.",
+   "ceiling": "1 000 € pour l'ensemble des assurés",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 18-2",
+   "quote": "Dans la limite de 1 000 € pour l'ensemble des assurés"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "assistance",
+   "description": "Non prise en charge des dépenses engagées de la propre initiative de l'assuré ou qui auraient été engagées normalement en l'absence de l'événement ayant justifié l'intervention.",
+   "clause_id": "Art. 18-4",
+   "quote": "nous ne prenons pas en charge les dépenses que vous avez engagées de votre propre initiative ou auriez engagées normalement en l'absence de l'événement ayant justifié notre intervention"
+  },
+  {
+   "peril": "assistance",
+   "description": "Non prise en charge des frais des secours d'urgence auxquels l'assuré doit faire appel en priorité, et intervention limitée aux accords donnés par les autorités locales.",
+   "clause_id": "Art. 18-4",
+   "quote": "nous ne pouvons remplacer les secours d'urgence auxquels vous devez faire appel en priorité, ni prendre en charge leurs frais et n'intervenons que dans la limite des accords donnés par les autorités locales"
+  },
+  {
+   "peril": "assistance",
+   "description": "Non garantie des interventions relatives à l'électroménager, aux appareils audio-visuels et de micro-informatique.",
+   "clause_id": "Art. 18-4",
+   "quote": "nous ne garantissons pas les interventions relatives à l'électroménager, aux appareils audio-visuels et de micro-informatique"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Présence immédiate et indispensable de l'assuré et impossibilité d'intervention de l'entourage pour le retour d'urgence.",
+   "parameter": null,
+   "clause_id": "Art. 18-2",
+   "quote": "Présence immédiate et indispensable de l'assuré • Impossibilité d'intervention de l'entourage"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le domicile doit être inhabitable pour bénéficier de l'hébergement d'urgence.",
+   "parameter": null,
+   "clause_id": "Art. 18-2",
+   "quote": "Domicile inhabitable"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Le domicile doit être exposé au vol à la suite de vandalisme ou de dommages importants pour bénéficier du gardiennage.",
+   "parameter": null,
+   "clause_id": "Art. 18-2",
+   "quote": "Domicile exposé au vol à la suite de vandalisme ou de dommages importants"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Les effets personnels doivent être détruits pour bénéficier du remplacement.",
+   "parameter": null,
+   "clause_id": "Art. 18-2",
+   "quote": "Effets personnels détruits"
+  }
+ ]
+}

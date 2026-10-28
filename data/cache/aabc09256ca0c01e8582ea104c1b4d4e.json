@@ -1,0 +1,136 @@
+{
+ "guarantees": [
+  {
+   "peril": "vol",
+   "label": "Pack Numérique",
+   "scope": "Réparation ou indemnisation du matériel numérique (ordinateurs, tablettes, appareils de poche, image et vidéo) acheté neuf de moins de 5 ans, contre les bris, dommages accidentels, vol et tentative de vol par agression ou menaces physiques.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 5 §2",
+   "quote": "La garantie couvre la réparation ou l'indemnisation du matériel numérique défini ci-après, acheté neuf de moins de cinq ans au jour du sinistre pour lequel vous possédez une facture originale au nom d'une personne de votre foyer"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "vol",
+   "description": "Vols, tentatives de vol ou actes de vandalisme dont sont auteurs ou complices les membres de la famille ou les préposés, sauf plainte nominative.",
+   "clause_id": "Art. 5 §3",
+   "quote": "les vols, tentatives de vol ou actes de vandalisme dont seraient auteurs ou complices les membres de votre famille (article 311-12 du Code pénal) ou vos préposés pendant leur service, sauf si une plainte nominative est déposée à leur encontre"
+  },
+  {
+   "peril": "autre",
+   "description": "Appareils d'astronomie et d'observation non garantis.",
+   "clause_id": "Art. 5 §3",
+   "quote": "les appareils d'astronomie et d'observation"
+  },
+  {
+   "peril": "autre",
+   "description": "Dommages dus à l'usure, au défaut d'entretien, à l'humidité, à la condensation, aux virus informatiques ou à des défauts existants connus.",
+   "clause_id": "Art. 5 §3",
+   "quote": "dus à des défauts existants et connus de vous au moment de la souscription, dus à une utilisation non conforme aux prescriptions du constructeur, causés par l'usure, le défaut d'entretien"
+  },
+  {
+   "peril": "autre",
+   "description": "Rayures, écaillements et égratignures sans influence sur le fonctionnement des appareils.",
+   "clause_id": "Art. 5 §3",
+   "quote": "les rayures, les écaillements, les égratignures lorsqu'elles sont sans influence sur le fonctionnement des appareils"
+  },
+  {
+   "peril": "autre",
+   "description": "Pertes indirectes (privation de jouissance, pertes de bénéfices, etc.) et frais de reconstitution des informations.",
+   "clause_id": "Art. 5 §3",
+   "quote": "toutes pertes indirectes, notamment privation de jouissance, pertes de bénéfices, chômage, indemnités de retard, les frais de remplacement des supports d'information, les frais de reconstitution des informations"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "vol",
+   "condition_type": "locaux_fermes_a_cle",
+   "description": "En cas d'absence de moins de 24 heures, les portes doivent être fermées à clé et les fenêtres/issues bloquées.",
+   "parameter": "24 heures",
+   "clause_id": "Art. 4-1",
+   "quote": "moins de 24 heures : les portes doivent être fermées à clé, les fenêtres, portes-fenêtres et autres issues bloquées"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "mesure_de_prevention",
+   "description": "En cas d'absence de plus de 24 heures, tous les moyens de fermeture et de protection décrits aux conditions particulières doivent être mis en action.",
+   "parameter": "24 heures",
+   "clause_id": "Art. 4-1",
+   "quote": "plus de 24 heures : tous les moyens de fermeture et de protection décrits aux conditions particulières doivent être mis en action"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "inoccupation_max",
+   "description": "Franchise de 30% appliquée dès le 11ème jour d'inoccupation excédant 10 jours consécutifs pour le vol d'objets précieux, sauf s'ils sont enfermés dans un coffre-fort ou des caches aménagées.",
+   "parameter": "10 jours",
+   "clause_id": "Art. 4-1 §2",
+   "quote": "une franchise de 30 % du montant du sinistre est appliquée dès le 11ème jour d'une période d'inoccupation qui excède 10 jours consécutifs"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "inoccupation_max",
+   "description": "La garantie Vol des objets de valeur et du contenu est suspendue dès le 46ème jour d'inoccupation.",
+   "parameter": "46 jours",
+   "clause_id": "Art. 4-1 §2",
+   "quote": "La garantie Vol des objets de valeur et du contenu est suspendue dès le 46ème jour d'inoccupation jusqu'au retour des occupants autorisés"
+  },
+  {
+   "peril": "vol",
+   "condition_type": "inoccupation_max",
+   "description": "Pour les objets précieux de la résidence principale volés dans la résidence secondaire, la garantie est suspendue dès le 2ème jour d'inoccupation de la résidence secondaire.",
+   "parameter": "2 jours",
+   "clause_id": "Art. 4-1 §2",
+   "quote": "la garantie Vol des objets précieux est suspendue dès le 2ème jour d'inoccupation de la résidence secondaire"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "mesure_de_prevention",
+   "description": "Fermeture de l'arrivée d'eau requise lorsque l'habitation est quittée plus de quinze jours consécutifs.",
+   "parameter": "15 jours",
+   "clause_id": "Art. 4-2",
+   "quote": "vous devez fermer l'arrivée d'eau lorsque vous quittez votre habitation plus de quinze jours consécutifs"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "mesure_de_prevention",
+   "description": "Maintien des installations hors gel en période de gel (température extérieure inférieure à 0°C pendant plus de 24 heures consécutives).",
+   "parameter": "24 heures",
+   "clause_id": "Art. 4-2",
+   "quote": "en période de gel (c'est-à-dire lorsque la température extérieure est inférieure à 0°C pendant plus de 24 heures consécutives), les installations doivent être maintenues hors gel"
+  },
+  {
+   "peril": "incendie",
+   "condition_type": "preuve_requise",
+   "description": "Production d'un justificatif de ramonage par un professionnel datant de moins de deux ans au jour du sinistre.",
+   "parameter": "2 ans",
+   "clause_id": "Art. 4-3",
+   "quote": "Si vous ne pouvez produire de justificatif établi par ce professionnel datant de moins de deux ans au jour du sinistre, l'indemnisation des dommages subis par le seul conduit de fumée sera réduite de 50 %"
+  },
+  {
+   "peril": "incendie",
+   "condition_type": "mesure_de_prevention",
+   "description": "Conformité aux instructions du service public concernant le débroussaillage.",
+   "parameter": null,
+   "clause_id": "Art. 4-3",
+   "quote": "Vous devez également vous conformer aux instructions du service public concernant le débroussaillage, à défaut de quoi l'indemnisation sera réduite de 50 %"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "delai_de_declaration",
+   "description": "Délai de carence de 30 jours après la souscription du Pack Numérique avant que la garantie ne puisse être mise en œuvre.",
+   "parameter": "30 jours",
+   "clause_id": "Art. 5",
+   "quote": "La garantie ne peut être mise en œuvre qu'après un délai de carence de 30 jours après la souscription du Pack Numérique"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "preuve_requise",
+   "description": "Pour un sinistre survenu à l'étranger, transmission d'une copie des pièces de procédure (dépôt de plainte) et rapatriement de l'appareil endommagé.",
+   "parameter": null,
+   "clause_id": "Art. 5 §2",
+   "quote": "En cas de sinistre survenu à l'étranger, vous devez nous transmettre une copie des pièces de procédure, notamment le dépôt de plainte, et rapatrier l'appareil endommagé en vue d'une expertise éventuelle"
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Vie privée - Stages",
+   "scope": "Dommages causés aux tiers lors d'un stage en milieu professionnel d'une durée n'excédant pas 12 mois, conventionné ou conseillé par un établissement d'enseignement, Pôle emploi ou organisme de formation.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7",
+   "quote": "Lorsque vous suivez un stage, pour une durée n’excédant pas 12 mois, en milieu professionnel, conventionné ou conseillé par un établissement d’enseignement, par Pôle emploi ou tout organisme de formation, nous garantissons les dommages causés aux tiers au cours de ce stage."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Vie privée - Baby-sitting",
+   "scope": "Dommages causés accidentellement à l'enfant gardé occasionnellement (s'il est tiers) ou dommages occasionnés par cet enfant aux tiers si la responsabilité de l'assuré est engagée.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7",
+   "quote": "Lorsque vous gardez occasionnellement un enfant, nous garantissons les dommages que : • vous pouvez lui causer accidentellement, s’il a la qualité de tiers, • cet enfant peut occasionner aux tiers, si votre responsabilité est engagée."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Vie privée - Aide bénévole",
+   "scope": "Responsabilité de l'assuré en cas de dommages causés aux tiers par une personne apportant une aide bénévole (garde d'animaux, déménagement) ou subis par cette personne si elle est tierce.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7",
+   "quote": "Lorsqu’une personne vous apporte bénévolement assistance (garde de vos animaux, déménagement…), nous garantissons, du fait de cette aide bénévole, votre responsabilité en cas de dommages : • causés aux tiers par cette personne, • subis par elle, si elle a la qualité de tiers."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Vie privée - Emploi à domicile",
+   "scope": "Dommages causés aux tiers par des préposés employés pour les besoins de la vie privée si la responsabilité d'employeur de l'assuré est engagée.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7",
+   "quote": "Lorsque vous employez des préposés pour vos besoins de la vie privée, nous garantissons les dommages qu’ils peuvent causer aux tiers si votre responsabilité d’employeur est engagée."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Vie privée - Télétravail",
+   "scope": "Responsabilité civile Vie privée pour les dommages occasionnés aux tiers pendant les périodes de télétravail à domicile dans un local n'accueillant pas de public, sous réserve que la responsabilité de l'employeur ne soit pas engagée.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7",
+   "quote": "Lorsque vous exercez une activité de télétravail à domicile dans un local qui n’accueille pas de public, nous garantissons votre responsabilité civile Vie privée à raison des dommages que vous pouvez occasionner aux tiers pendant les périodes de télétravail, sous réserve que l’événement n’engage pas la responsabilité civile de votre employeur sur le fondement de l’article 1242 alinéa 5 du Code civil."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Vie privée - Wwoofing",
+   "scope": "Responsabilité civile pour les dommages occasionnés aux tiers lors de la participation bénévole aux activités d'une ferme en échange du gîte et du couvert.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7",
+   "quote": "Lorsque vous participez bénévolement, en échange du gîte et du couvert, aux activités d’une ferme, nous garantissons votre responsabilité civile à raison des dommages que vous pouvez occasionner aux tiers au cours de ces activités."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Immeuble - Propriétaire",
+   "scope": "Garantie de Responsabilité civile à l’égard des tiers et garanties des Dommages aux biens pour les biens immobiliers si l'assuré est propriétaire ou nu-propriétaire.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9",
+   "quote": "si vous êtes propriétaire ou nu-propriétaire : vous bénéficiez de la garantie de Responsabilité civile à l’égard des tiers (article 12-1) et des garanties des Dommages aux biens (articles 13 à 17)"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Immeuble - Locataire/Occupant",
+   "scope": "Garantie de Responsabilité civile locative ou d’occupant à titre gratuit à l’égard du propriétaire et Responsabilité civile à l’égard des tiers pour les locataires, colocataires, occupants à titre gratuit ou usufruitiers.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9",
+   "quote": "si vous êtes locataire, colocataire nommément désigné à l’annexe spéciale colocation, occupant à titre gratuit ou usufruitier : vous bénéficiez de la garantie de Responsabilité civile locative ou d’occupant à titre gratuit à l’égard du propriétaire (article 12-2 A), de la Responsabilité civile à l’égard des tiers (article 12-2 B)"
+  },
+  {
+   "peril": "autre",
+   "label": "Biens immobiliers assurés - Résidence principale",
+   "scope": "Locaux à usage d’habitation n’excédant pas 66m² et 2 pièces principales, leurs dépendances (superficie totale n'excédant pas 50m²), embellissements et équipements de chauffage, éclairage et eau situés à l'intérieur.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 9-1",
+   "quote": "Nous garantissons : • vos locaux à usage d’habitation n’excédant pas 66m² et 2 pièces principales, désignés aux Conditions particulières, • leurs dépendances (garage, cave …), situées à l’adresse de votre résidence principale, dont la superficie totale, tous niveaux confondus, n’excède pas 50m², • leurs embellissements, • leurs équipements permettant le chauffage, l’éclairage, l’alimentation en eau situés à l’intérieur des locaux assurés."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés par vol, vandalisme ou agression commis par l'assuré ou avec sa complicité.",
+   "clause_id": "Art. 8 §2",
+   "quote": "occasionnés par vol, vandalisme ou agression commis par vous ou avec votre complicité"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages résultant de la pratique d'un sport à titre professionnel ou de la participation à des courses, épreuves, compétitions soumises à autorisation des Pouvoirs Publics et/ou à obligation d'assurance.",
+   "clause_id": "Art. 8 §2",
+   "quote": "résultant de la pratique d’un sport à titre professionnel, ainsi que de la participation en tant qu’amateur ou professionnel à des courses, épreuves, compétitions ou leurs essais, soumis par la réglementation en vigueur à l’autorisation des Pouvoirs Publics et/ou à l’obligation d’assurance"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages résultant de l'organisation ou de la pratique de la chasse.",
+   "clause_id": "Art. 8 §2",
+   "quote": "résultant de l’organisation ou de la pratique de la chasse"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés par l'assuré en tant que passager d'un véhicule terrestre à moteur.",
+   "clause_id": "Art. 8 §2",
+   "quote": "occasionnés par vous en tant que passager d’un véhicule terrestre à moteur"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages engageant la responsabilité professionnelle, y compris activités d'assistant maternel, assistant familial ou accueillant familial.",
+   "clause_id": "Art. 8 §2",
+   "quote": "engageant votre responsabilité professionnelle, y compris celle relative aux activités d’assistant maternel et d’assistant familial (articles L. 421-1 à L. 421-18 et L. 423-17 du Code de l’Action Sociale et des Familles) et à celle d’accueillant familial (articles L. 441-1 à L. 443-10 du Code de l’Action Sociale et des Familles)"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages engageant la responsabilité en qualité de producteur d'électricité.",
+   "clause_id": "Art. 8 §2",
+   "quote": "engageant votre responsabilité en qualité de producteur d’électricité"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages engageant la responsabilité du fait des dommages causés par les descendants de l'assuré.",
+   "clause_id": "Art. 8 §2",
+   "quote": "engageant votre responsabilité du fait des dommages causés par vos descendants"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages engageant la responsabilité civile personnelle des colocataires, qu'ils soient ou non nommément désignés à l'annexe spéciale colocation.",
+   "clause_id": "Art. 8 §2",
+   "quote": "engageant la responsabilité civile personnelle des colocataires qu’ils soient ou non nommément désignés à l’annexe spéciale colocation"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages engageant la responsabilité de l'assuré, de son conjoint et de ses colocataires du fait de l'occupation, de la garde ou de la propriété d'un bien immobilier (relevant de la RC Immeuble).",
+   "clause_id": "Art. 8 §2",
+   "quote": "engageant votre responsabilité, celle de votre conjointet de vos colocataires, nommément désignés à l’annexe spéciale colocation, du fait de l’occupation, de la garde ou de la propriété d’un bien immobilier, cette responsabilité relevant des garanties de Responsabilité civile Immeuble visées à l’article 12"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages matériels (y compris lunettes et prothèses) subis par les ascendants, descendants, collatéraux et leur conjoint.",
+   "clause_id": "Art. 8 §2",
+   "quote": "matériels (y compris aux lunettes et aux prothèses) subis par vos ascendants, descendants et collatéraux, leur conjoint"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages immatériels consécutifs subis par les ascendants, descendants, collatéraux et leur conjoint.",
+   "clause_id": "Art. 8 §2",
+   "quote": "immatériels consécutifs subis par vos ascendants, descendants et collatéraux, leur conjoint"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés lors de l'accomplissement d'actes médicaux effectués dans le cadre des études de médecine, en tant qu'interne ou remplaçant (exclusion spécifique au stage).",
+   "clause_id": "Art. 7",
+   "quote": "Nous ne garantissons pas les dommages occasionnés lors de l'accomplissement d’actes médicaux, effectués dans le cadre des études de médecine, en tant qu’interne ou remplaçant."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Dommages occasionnés au matériel professionnel lors du télétravail.",
+   "clause_id": "Art. 7",
+   "quote": "Nous ne garantissons pas les dommages que vous pouvez occasionner au matériel professionnel."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "L'extension de garantie pour les stages intervient uniquement en cas d'absence ou d'insuffisance de garantie du contrat d'assurance souscrit par l'établissement, Pôle emploi, l'organisme de formation, l'entreprise ou le maître de stage.",
+   "parameter": null,
+   "clause_id": "Art. 7",
+   "quote": "Cette extension intervient uniquement en cas d’absence ou d’insuffisance de garantie du contrat d’assurance souscrit par l’établissement d’enseignement, Pôle emploi, l’organisme de formation, l’entreprise accueillant le stagiaire ou le maître de stage."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "L'extension de garantie pour l'aide bénévole intervient uniquement en cas d'absence ou d'insuffisance de garantie du contrat d'assurance souscrit par la personne procurant l'aide.",
+   "parameter": null,
+   "clause_id": "Art. 7",
+   "quote": "Cette extension intervient uniquement en cas d’absence ou d’insuffisance de garantie du contrat d’assurance souscrit par la personne vous procurant cette aide."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "L'extension de garantie pour le wwoofing intervient uniquement en cas d'absence ou d'insuffisance de garantie du contrat d'assurance souscrit par le bénéficiaire de l'aide bénévole.",
+   "parameter": null,
+   "clause_id": "Art. 7",
+   "quote": "Cette extension intervient uniquement en cas d’absence ou d’insuffisance de garantie du contrat d’assurance souscrit par le bénéficiaire de votre aide bénévole."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "autre",
+   "description": "Pour le télétravail, l'événement ne doit pas engager la responsabilité civile de l'employeur sur le fondement de l'article 1242 alinéa 5 du Code civil.",
+   "parameter": null,
+   "clause_id": "Art. 7",
+   "quote": "sous réserve que l’événement n’engage pas la responsabilité civile de votre employeur sur le fondement de l’article 1242 alinéa 5 du Code civil"
+  },
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "Pour les copropriétaires, les garanties des Dommages aux biens interviennent pour les parties communes uniquement en cas d'absence ou d'insuffisance de garantie du contrat d'assurance souscrit par la copropriété.",
+   "parameter": null,
+   "clause_id": "Art. 9-1",
+   "quote": "Pour ces dernières, elles interviennent uniquement en cas d’absence ou d’insuffisance de garantie du contrat d’assurance souscrit par la copropriété."
+  }
+ ]
+}

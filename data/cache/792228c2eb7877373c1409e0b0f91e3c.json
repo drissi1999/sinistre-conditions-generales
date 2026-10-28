@@ -1,0 +1,162 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Accidents corporels",
+   "scope": "Conséquences d'accidents corporels survenant lors d'activités scolaires obligatoires ou facultatives, du trajet domicile-école, ou de la vie extrascolaire.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 20-2",
+   "quote": "Nous garantissons les conséquences d’accidents corporels dont serait victime l’enfant assuré, lorsque cet accident survient : • au cours de ses activités obligatoires ou facultatives directement liées à sa scolarisation"
+  },
+  {
+   "peril": "vol",
+   "label": "Vol du cartable",
+   "scope": "Vol du cartable, des fournitures et/ou manuels scolaires dans l’enceinte de l’établissement après dépôt de plainte.",
+   "ceiling": "montants prévus dans le tableau 5",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 20-2",
+   "quote": "le vol du cartable, des fournitures et/ou manuels scolaires dans l’enceinte de l’établissement et après dépôt de plainte auprès des autorités de police ou de gendarmerie."
+  },
+  {
+   "peril": "autre",
+   "label": "Dommages instrument de musique",
+   "scope": "Dommages accidentels à l'instrument de musique et son étui protecteur, en tous lieux, à l'exclusion du vol.",
+   "ceiling": "montants prévus dans le tableau 5",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 20-2",
+   "quote": "l’instrument de musique et son étui protecteur en cas de dommages accidentel, en tous lieux, à l’exclusion du vol,"
+  },
+  {
+   "peril": "vol",
+   "label": "Vol tablettes et ordinateurs",
+   "scope": "Vol des tablettes et ordinateurs confiés par l'établissement scolaire à l'enfant.",
+   "ceiling": "montants prévus dans le tableau 5",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 20-2",
+   "quote": "les tablettes et ordinateurs confiés par ce dernier à votre enfant en cas de dommages accidentels et de vol."
+  },
+  {
+   "peril": "autre",
+   "label": "Capital décès",
+   "scope": "Versement d'un capital en cas de décès de l'enfant assuré dans le délai d'un an après l'accident.",
+   "ceiling": "capital indiqué dans le tableau 5",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 20-4",
+   "quote": "En cas de décès de l’enfant assuré dans le délai d’un an après la survenance de l’accident, nous vous versons le capital indiqué dans le tableau 5"
+  },
+  {
+   "peril": "autre",
+   "label": "Capital invalidité",
+   "scope": "Indemnité en cas d'invalidité permanente consécutive à l'accident, calculée selon le taux d'invalidité reconnu.",
+   "ceiling": "capital indiqué dans le tableau 5",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 20-4",
+   "quote": "En cas d’invalidité permanente de l’enfant assuré consécutive à l’accident, nous vous paierons une indemnité calculée comme suit : • si le taux d’invalidité est compris entre 5 % et 65 %"
+  },
+  {
+   "peril": "autre",
+   "label": "Frais de soins",
+   "scope": "Remboursement des frais de soins exposés à la suite de l'accident corporel garanti, en complément des régimes d'assurance maladie.",
+   "ceiling": "montants prévus dans le tableau 5",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 20-4",
+   "quote": "Nous vous remboursons dans la limite des montants prévus dans le tableau 5 « Garanties Assurance scolaire et extrascolaire », les frais de soins que vous aurez exposés à la suite de l’accident corporel garanti"
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance scolaire et extrascolaire",
+   "scope": "Prestations d'assistance à l'enfant assuré dans les circonstances et conditions définies par la convention avec OPTEVEN Services.",
+   "ceiling": "montants prévus dans le tableau 6",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 21",
+   "quote": "Nous garantissons, dans la limite des montants prévus dans le tableau 6 « Assistance scolaire et extrascolaire », les prestations d’assistance à l’enfant assuré"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "autre",
+   "description": "Hernies, lumbagos, tours de reins, ruptures ou déchirures musculaires et atteintes ostéoarticulaires, sauf si conséquence d'un accident garanti.",
+   "clause_id": "Art. 20-5",
+   "quote": "des hernies, lumbagos, tours de reins, ruptures ou déchirures musculaires et toutes atteintes ostéoarticulaires à moins qu’ils ne soient la conséquence d’un accident garanti,"
+  },
+  {
+   "peril": "autre",
+   "description": "Accidents résultant de la conduite de motocyclettes, tricycles ou quadricycles à moteur de plus de 125 cm3 ou d'autres véhicules terrestres à moteur soumis à l'assurance automobile.",
+   "clause_id": "Art. 20-5",
+   "quote": "d’accidents résultant de la conduite de motocyclettes, tricycles ou quadricycles à moteur d’une cylindrée supérieure à 125 cm3 ainsi que les accidents résultant de la conduite d’autres véhicules terrestres à moteur soumis à l’obligation d’assurance automobile,"
+  },
+  {
+   "peril": "autre",
+   "description": "État résultant d'un taux d'alcoolémie supérieur à 0,5 g/litre, refus de dépistage, ou influence de stupéfiants non prescrits.",
+   "clause_id": "Art. 20-5",
+   "quote": "d’un état résultant d’un taux d’alcoolémie dans le sang supérieur à 0,5 g/litre de sang ou lorsque l’assuré a refusé de se soumettre à un dépistage ou se trouve sous l’influence de stupéfiants non médicalement prescrits pour lui,"
+  },
+  {
+   "peril": "autre",
+   "description": "Participation à bord d'un véhicule terrestre à moteur en tant que concurrent à des compétitions, matchs, paris, défis, courses et épreuves de vitesse, d'endurance ou à leurs essais préparatoires.",
+   "clause_id": "Art. 20-5",
+   "quote": "de la participation de l’enfant assuré à bord d’un véhicule terrestre à moteur et en tant que concurrent à des compétitions, matchs, paris, défis, courses et épreuves de vitesse, d’endurance ou à leurs essais préparatoires,"
+  },
+  {
+   "peril": "autre",
+   "description": "Compétitions et pratique de deltaplane, parapente, vol ascensionnel, ULM, exhibitions acrobatiques, saut en parachute à ouverture retardée, spéléologie avec plongée, offshore, scooter des mers, saut à l'élastique, bobsleigh, skeleton, haute montagne sans guide.",
+   "clause_id": "Art. 20-5",
+   "quote": "de compétitions et de la pratique de : deltaplane, parapente, vol ascensionnel, d’ULM, d’exhibitions acrobatiques, saut en parachute à ouverture retardée, spéléologie avec plongée sous-marine, d’offshore, scooter des mers, saut à l’élastique, bobsleigh, skeleton, haute montagne sans guide,"
+  },
+  {
+   "peril": "autre",
+   "description": "Frais de secours d'urgence et frais de transports primaires.",
+   "clause_id": "Art. 20-5",
+   "quote": "les frais de secours d’urgence, les frais de transports primaires."
+  },
+  {
+   "peril": "autre",
+   "description": "Invalidités inférieures à 5 %.",
+   "clause_id": "Art. 20-4",
+   "quote": "Ne seront pas indemnisées les invalidités inférieures à 5 %."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "vol",
+   "condition_type": "preuve_requise",
+   "description": "Dépôt de plainte auprès des autorités de police ou de gendarmerie pour le vol du cartable.",
+   "parameter": null,
+   "clause_id": "Art. 20-2",
+   "quote": "le vol du cartable, des fournitures et/ou manuels scolaires dans l’enceinte de l’établissement et après dépôt de plainte auprès des autorités de police ou de gendarmerie."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "autre",
+   "description": "Le sinistre doit s'être produit dans les pays de l'Union européenne, du Royaume-Uni, en Suisse, en Andorre et Monaco, ou lors de séjours de moins de 3 mois dans le reste du monde.",
+   "parameter": "3 mois",
+   "clause_id": "Art. 20-3",
+   "quote": "Pour bénéficier de ces garanties, le sinistre doit s’être produit pendant la période de validité du contrat dans les pays de l’Union européenne, du Royaume-Uni de Grande-Bretagne et d’Irlande du Nord, en Suisse et dans les Principauté d’Andorre et de Monaco et lors de séjours de moins de 3 mois dans le reste du monde."
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "delai_de_declaration",
+   "description": "Demande de mise en œuvre obligatoire formulée directement par le bénéficiaire ou ses proches avant engagement des dépenses.",
+   "parameter": null,
+   "clause_id": "Art. 21",
+   "quote": "Toute demande de mise en œuvre de l’une des prestations de la présente convention doit obligatoirement nous être formulée directement par le bénéficiaire ou ses proches"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "autre",
+   "description": "Accord préalable des services requis pour le remboursement des dépenses engagées directement.",
+   "parameter": null,
+   "clause_id": "Art. 21",
+   "quote": "À défaut d’une demande et d’un accord préalable de nos services, aucune dépense engagée directement par vous ne sera remboursée."
+  }
+ ]
+}

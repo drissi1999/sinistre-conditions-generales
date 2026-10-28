@@ -1,0 +1,154 @@
+{
+ "guarantees": [
+  {
+   "peril": "evenements_climatiques",
+   "label": "Dommages climatiques",
+   "scope": "Dommages matériels causés par la tempête, la grêle, le poids de la neige ou de la glace, les eaux de ruissellement, les refoulements d'égouts, les inondations et les débordements, ainsi que les dommages causés par la pluie, la grêle ou la neige pénétrant à l'intérieur des bâtiments pendant les 72 heures suivant leur destruction.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 4.3",
+   "quote": "Les dommages matériels causés aux biens assurés par : - l’action de la tempête (c’est-à-dire l’action du vent soufflant à une vitesse supérieure à 100 km/h) : - sur les bâtiments entièrement clos et couverts, leur contenu et les murs de clôture, - sur les bâtiments non entièrement clos ou couverts qui sont adossés à l’habitation et dont les éléments porteurs sont ancrés dans une dalle de béton ou des fondations maçonnées, - la grêle, - le poids de la neige ou de la glace accumulée sur les toitures, - les eaux de ruissellement au sol et les refoulements d’égouts consécutifs à la pluie ou la grêle, - les inondations, débordements de cours et d’étendues d’eau."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Catastrophes naturelles",
+   "scope": "Dommages matériels directs causés aux biens assurés par l’intensité anormale d’un agent naturel, après publication d’un arrêté interministériel constatant l’état de catastrophe naturelle.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 4.4",
+   "quote": "Les dommages matériels directs causés aux biens assurés par l’intensité anormale d’un agent naturel. La garantie ne peut cependant être mise en jeu qu’après la publication au Journal Officiel d’un arrêté interministériel qui constate l’état de catastrophe naturelle."
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Catastrophes technologiques",
+   "scope": "Dommages aux biens en cas de décision de reconnaissance par l’autorité administrative d’une catastrophe technologique, conformément aux articles L 128-1 et suivants du code des assurances.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 4.4",
+   "quote": "Nous garantissons les biens en cas de décision de reconnaissance par l’autorité administrative d’une catastrophe technologique, en conformité avec les articles L 128-1 et suivants du code des assurances."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Dégâts des eaux et gel",
+   "scope": "Dommages matériels causés par l’eau aux biens assurés, dommages causés par le gel aux canalisations et appareils raccordés à l'intérieur des pièces d'habitation ou bâtiments clos et couverts contigus, et frais de recherche de fuite et de réparation des conduites non enterrées à l'origine du dégât.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 4.5",
+   "quote": "Les dommages matériels causés par l’eau aux biens assurés. • A l’intérieur des pièces d’habitation ou des bâtiments clos et couverts qui leurs sont contigus, les dommages causés par le gel aux canalisations et aux appareils qui leur sont raccordés. • Les frais de recherche de fuite et de réparation des conduites non enterrées à l’origine du dégât d’eau."
+  },
+  {
+   "peril": "attentats",
+   "label": "Attentats et émeutes",
+   "scope": "Dommages matériels causés aux biens assurés par des attentats, actes de terrorisme ou de sabotage, émeutes ou manifestations populaires.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 4.6",
+   "quote": "Les dommages matériels causés aux biens assurés par des attentats, actes de terrorisme ou de sabotage, émeutes ou manifestations populaires."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "evenements_climatiques",
+   "description": "Dommages subis par les bâtiments et biens situés dans une zone inondable en dessous de la hauteur minimale légale.",
+   "clause_id": "Art. 4.3 §2",
+   "quote": "Les dommages subis par les bâtiments et biens situés dans une zone inondable en dessous de la hauteur minimale légale."
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Dommages dus à un défaut de réparation ou d’entretien apparent qui vous incombe.",
+   "clause_id": "Art. 4.3 §2",
+   "quote": "Les dommages dus à un défaut de réparation ou d’entretien apparent qui vous incombe."
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Dommages aux bâtiments dont la couverture comporte des matériaux non fixés à la charpente par des vis ou des tire-fond (sauf matériaux durs).",
+   "clause_id": "Art. 4.3 §2",
+   "quote": "Les dommages aux bâtiments dont la couverture comporte des matériaux qui ne sont pas fixés à la charpente par des vis ou des tire-fond. En revanche, sont garantis les matériaux durs tels que définis dans le lexique."
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Dommages causés au mobilier situé en plein air ou dans des bâtiments non entièrement clos ou couverts.",
+   "clause_id": "Art. 4.3 §2",
+   "quote": "Les dommages causés au mobilier situé en plein air ou dans des bâtiments non entièrement clos ou couverts."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages dus à un défaut de réparation ou d’entretien apparent qui vous incombe.",
+   "clause_id": "Art. 4.5 §2",
+   "quote": "Les dommages dus à un défaut de réparation ou d’entretien apparent qui vous incombe."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Frais de réparation des biens à l’origine du sinistre.",
+   "clause_id": "Art. 4.5 §2",
+   "quote": "Les frais de réparation des biens à l’origine du sinistre."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages causés aux objets situés en plein air ou dans des bâtiments non entièrement clos ou couverts.",
+   "clause_id": "Art. 4.5 §2",
+   "quote": "Les dommages causés aux objets situés en plein air ou dans des bâtiments non entièrement clos ou couverts."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Infiltrations par les fenêtres et toutes ouvertures verticales, ou à travers les murs extérieurs.",
+   "clause_id": "Art. 4.5 §2",
+   "quote": "Les infiltrations par les fenêtres et toutes ouvertures verticales, ou à travers les murs extérieurs."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages dus à l’humidité ou à la condensation lorsqu’ils ne sont pas la conséquence directe d’un événement garanti.",
+   "clause_id": "Art. 4.5 §2",
+   "quote": "Les dommages dus à l’humidité ou à la condensation lorsqu’ils ne sont pas la conséquence directe d’un événement garanti."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages causés par les eaux de ruissellement au sol, les refoulements d’égouts, les inondations, débordements de cours et d’étendues d’eau (couverts par la garantie événements climatiques).",
+   "clause_id": "Art. 4.5 §2",
+   "quote": "Les dommages causés par les eaux de ruissellement au sol, les refoulements d’égouts, les inondations, débordements de cours et d’étendues d’eau, ceux-ci étant prévus au titre de la garantie événements climatiques."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Dommages dus à des fuites ou ruptures de conduites enterrées (celles dont l’accès nécessite des travaux de terrassement et de fouille).",
+   "clause_id": "Art. 4.5 §2",
+   "quote": "Les dommages dus à des fuites ou ruptures de conduites enterrées (celles dont l’accès nécessite des travaux de terrassement et de fouille)."
+  },
+  {
+   "peril": "attentats",
+   "description": "Graffitis, salissures et inscriptions sur les parties extérieures des bâtiments.",
+   "clause_id": "Art. 4.6 §2",
+   "quote": "Les graffitis, salissures et inscriptions sur les parties extérieures des bâtiments."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "inoccupation_max",
+   "description": "Lorsque vous vous absentez de votre habitation plus de 10 jours consécutifs, vous devez interrompre la distribution d’eau.",
+   "parameter": "10 jours",
+   "clause_id": "Art. 4.5 §3",
+   "quote": "Lorsque vous vous absentez de votre habitation plus de 10 jours consécutifs, vous devez interrompre la distribution d’eau."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "mesure_de_prevention",
+   "description": "Pendant la période du 1er novembre au 1er avril, si les locaux ne sont pas chauffés, vous devez vidanger les conduites, réservoirs et installations de chauffage non pourvus d’antigel.",
+   "parameter": null,
+   "clause_id": "Art. 4.5 §3",
+   "quote": "Pendant la période du 1er novembre au 1er avril, si les locaux ne sont pas chauffés, vous devez vidanger les conduites, réservoirs et installations de chauffage non pourvus d’antigel."
+  },
+  {
+   "peril": "degats_des_eaux",
+   "condition_type": "autre",
+   "description": "Si vous ne respectez pas ces mesures de prévention et qu’un sinistre survient ou est aggravé de ce fait, vous conserverez à votre charge 30 % de l’indemnité.",
+   "parameter": "30 %",
+   "clause_id": "Art. 4.5 §3",
+   "quote": "Si vous ne respectez pas ces mesures de prévention et qu’un sinistre survient ou est aggravé de ce fait, vous conserverez à votre charge 30 % de l’indemnité."
+  }
+ ]
+}

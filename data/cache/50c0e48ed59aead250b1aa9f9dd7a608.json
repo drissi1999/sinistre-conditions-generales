@@ -1,0 +1,144 @@
+{
+ "guarantees": [
+  {
+   "peril": "autre",
+   "label": "Objets de valeur",
+   "scope": "Couvre les objets précieux, espèces, titres, valeurs, objets d'art, fourrures, timbres et collections, désignés ou non, dans la limite globale par sinistre fixée aux conditions particulières.",
+   "ceiling": "limite globale par sinistre fixée dans vos conditions particulières",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 1.3",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières."
+  },
+  {
+   "peril": "autre",
+   "label": "Véranda",
+   "scope": "Couvre une construction totalement ou partiellement vitrée, entièrement close et couverte, adjacente au local d'habitation ou à ses dépendances.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 1.4",
+   "quote": "Il s’agit d’une construction totalement ou partiellement vitrée entièrement close et couverte, adjacente au local d’habitation ou à ses dépendances."
+  },
+  {
+   "peril": "autre",
+   "label": "Bagages",
+   "scope": "Couvre les objets emportés avec vous dans les locaux d'habitation occupés lors de voyages ou de vacances dans l'UE, le Royaume-Uni, Andorre et Monaco.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 1.5",
+   "quote": "Les objets que vous emportez avec vous dans les différents locaux d’habitation, y compris les chambres d’hôtel, que vous occupez lors de voyages ou de vacances dans les pays de l’Union européenne, au Royaume-Uni de Grande-Bretagne et d’Irlande du Nord, dans les principautés d’Andorre et de Monaco."
+  },
+  {
+   "peril": "incendie",
+   "label": "Incendie et événements annexes",
+   "scope": "Couvre les dommages matériels causés par l'incendie, l'explosion, l'enfumage accidentel, la chute de la foudre, le choc d'un véhicule, la chute d'engins volants et le mur du son.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2.1",
+   "quote": "La garantie couvre les dommages matériels causés par : • l’incendie, c’est-à-dire la combustion avec flammes en dehors d’un foyer normal, y compris ceux occasionnés par la fumée et les émanations qui s’en dégagent, ainsi que par l’intervention des services de secours à cette occasion,"
+  },
+  {
+   "peril": "dommages_electriques",
+   "label": "Dommages électriques",
+   "scope": "Couvre les dommages matériels causés par les effets d'une surtension, d'une sous-tension ou d'une surintensité accidentelle, y compris du fait de la foudre, aux installations ou aux appareils électriques.",
+   "ceiling": "valeur de remplacement, vétusté déduite au taux de 1 % par mois, du bien mobilier endommagé, avec un maximum de 80 %",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Art. 2.2 §2",
+   "quote": "La garantie couvre les dommages matériels causés par les effets d’une surtension, d’une sous-tension ou d’une surintensité accidentelle, y compris du fait de la foudre, aux installations ou aux appareils électriques."
+  },
+  {
+   "peril": "evenements_climatiques",
+   "label": "Tempête, grêle, avalanche, neige sur les toitures",
+   "scope": "Couvre les dommages matériels causés par l'action directe du vent, des avalanches, de la grêle sur les toitures et façades, et du poids de la neige ou de la glace sur les toitures et piscines (si option souscrite).",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 2.3",
+   "quote": "La garantie couvre les dommages matériels causés aux biens assurés par l’action directe : • du vent ou du choc d’un objet renversé ou projeté par le vent (garantie tempête), • des avalanches de toutes natures,"
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "autre",
+   "description": "Les serres et les dommages résultant de la vétusté de la véranda ne sont pas garantis.",
+   "clause_id": "Art. 1.4 §2",
+   "quote": "ne sont pas garantis : • les serres, • les dommages résultant de la vétusté de la véranda."
+  },
+  {
+   "peril": "autre",
+   "description": "Les dommages occasionnés en cours de transport, dans une caravane/bateau/camping-car/tente, les objets précieux/d'art/fourrures/timbres, et les biens d'une résidence à jouissance permanente ne sont pas garantis.",
+   "clause_id": "Art. 1.5 §2",
+   "quote": "ne sont pas garantis : • les dommages occasionnés en cours de transport, • les dommages occasionnés dans une caravane, un bateau, un camping-car ou une tente de camping, • les objets précieux, d’art et les fourrures, les timbres, les collections de timbres, la dépréciation des collections, • les biens contenus dans une résidence dont vous avez la jouissance permanente."
+  },
+  {
+   "peril": "incendie",
+   "description": "Les dommages aux appareils électriques ou électroniques ayant pour origine l'incendie ou l'explosion prenant naissance dans l'appareil ne sont pas garantis (indemnisés au titre des dommages électriques).",
+   "clause_id": "Art. 2.1 §2",
+   "quote": "les dommages aux appareils électriques ou électroniques qui ont pour origine l’incendie ou l’explosion prenant naissance dans l’appareil."
+  },
+  {
+   "peril": "incendie",
+   "description": "La fumée provenant de cheminées à feu apparent (dits « à l’ouvert ») n'est pas garantie au titre de l'enfumage accidentel.",
+   "clause_id": "Art. 2.1 §2",
+   "quote": "la fumée provenant de cheminées à feu apparent (dits « à l’ouvert »)."
+  },
+  {
+   "peril": "dommages_electriques",
+   "description": "Les résistances chauffantes, fusibles, disjoncteurs, lampes, transformateurs, le contenu des appareils, les frais de reconstitution de fichiers/données et les dommages sous garantie ou maintenance ne sont pas garantis.",
+   "clause_id": "Art. 2.2 §3",
+   "quote": "ne sont pas garantis : • les résistances chauffantes, les fusibles, les disjoncteurs, les lampes éclairantes, les transformateurs, • le contenu des appareils endommagés, • les frais de reconstitution des fichiers informatiques, • les frais de reconstitution de données, • les dommages sous garantie ou faisant l’objet d’un contrat de maintenance."
+  },
+  {
+   "peril": "evenements_climatiques",
+   "description": "Les dommages occasionnés par le vent aux bâtiments dont les éléments porteurs ne sont pas ancrés, non construits selon les règles de l'art, non entièrement clos et couverts, ainsi qu'à leur contenu, et les objets en plein air (sauf mobilier de jardin assuré) ne sont pas garantis.",
+   "clause_id": "Art. 2.3 §2",
+   "quote": "ne sont pas garantis : • les dommages occasionnés par le vent aux bâtiments dont les éléments porteurs ne sont pas ancrés, à ceux qui ne sont pas construits selon les règles de l’art ou qui ne sont pas entièrement clos et couverts, ainsi qu’à leur contenu, • les objets en plein air, sauf pour le mobilier de jardin assuré dans le Pack Jardin s’il est souscrit."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "autre",
+   "condition_type": "option_ou_formule",
+   "description": "La garantie objets de valeur doit être spécialement mentionnée aux conditions particulières.",
+   "parameter": null,
+   "clause_id": "Art. 1.3",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières."
+  },
+  {
+   "peril": "autre",
+   "condition_type": "option_ou_formule",
+   "description": "La garantie véranda doit être spécialement mentionnée aux conditions particulières.",
+   "parameter": null,
+   "clause_id": "Art. 1.4",
+   "quote": "Cette garantie doit être spécialement mentionnée aux conditions particulières."
+  },
+  {
+   "peril": "dommages_electriques",
+   "condition_type": "option_ou_formule",
+   "description": "La garantie dommages électriques est acquise uniquement pour les formules Confort et Excellence.",
+   "parameter": null,
+   "clause_id": "Art. 2.2",
+   "quote": "Cette garantie est acquise uniquement pour les formules Confort et Excellence."
+  },
+  {
+   "peril": "incendie",
+   "condition_type": "preuve_requise",
+   "description": "Pour le choc d'un véhicule, le véhicule doit être identifié, sinon une plainte doit être déposée auprès des autorités.",
+   "parameter": null,
+   "clause_id": "Art. 2.1",
+   "quote": "Le véhicule doit être identifié, sinon vous devez déposer une plainte auprès des autorités."
+  },
+  {
+   "peril": "evenements_climatiques",
+   "condition_type": "preuve_requise",
+   "description": "Pour le poids de la neige ou de la glace sur les toitures, l'intensité doit détruire/endo mmager d'autres bâtiments voisins ou le caractère exceptionnel doit être attesté par un certificat de la station météorologique la plus proche.",
+   "parameter": null,
+   "clause_id": "Art. 2.3",
+   "quote": "lorsque ces phénomènes ont une intensité telle qu’ils détruisent ou endommagent d’autres bâtiments de bonne construction dans le voisinage ou que leur caractère exceptionnel est attesté par un certificat de la station météorologique la plus proche"
+  }
+ ]
+}

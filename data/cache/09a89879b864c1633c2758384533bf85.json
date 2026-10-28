@@ -1,0 +1,336 @@
+{
+ "guarantees": [
+  {
+   "peril": "incendie",
+   "label": "Incendie et événements annexes",
+   "scope": "Garantie incluse dans les formules Eco, Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Incendie et événements annexes X X X"
+  },
+  {
+   "peril": "dommages_electriques",
+   "label": "Dommages électriques",
+   "scope": "Garantie incluse dans les formules Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Dommages électriques X X"
+  },
+  {
+   "peril": "evenements_climatiques",
+   "label": "Tempête, grêle, avalanche, neige sur les toitures",
+   "scope": "Garantie incluse dans les formules Eco, Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Tempête, grêle, avalanche, neige sur les toitures X X X"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "label": "Venues d’eau et gel",
+   "scope": "Garantie incluse dans les formules Eco, Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Venues d’eau et gel X X X"
+  },
+  {
+   "peril": "vol",
+   "label": "Vol, tentative de vol, actes de vandalisme et de sabotage",
+   "scope": "Garantie incluse dans les formules Eco, Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Vol, tentative de vol, actes de vandalisme et de sabotage X X X"
+  },
+  {
+   "peril": "bris_de_glace",
+   "label": "Bris de glaces",
+   "scope": "Garantie incluse dans les formules Eco, Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Bris de glaces : X X X"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Catastrophes naturelles",
+   "scope": "Garantie incluse dans les formules Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Catastrophes naturelles X X"
+  },
+  {
+   "peril": "catastrophes_naturelles",
+   "label": "Catastrophes technologiques",
+   "scope": "Garantie incluse dans les formules Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Catastrophes technologiques X X"
+  },
+  {
+   "peril": "attentats",
+   "label": "Attentats et actes de terrorisme",
+   "scope": "Garantie incluse dans les formules Eco, Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Attentats et actes de terrorisme X X X"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "Responsabilités civiles liées l’habitation",
+   "scope": "Garantie incluse dans les formules Eco, Confort et Excellence",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Responsabilités civiles liées l’habitation X X X"
+  },
+  {
+   "peril": "protection_juridique",
+   "label": "Protection juridique",
+   "scope": "Garantie optionnelle disponible selon les formules",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Protection juridique option option option"
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance Multirisque Habitation",
+   "scope": "Garantie optionnelle disponible selon les formules",
+   "ceiling": null,
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Tableaux des garanties et plafonds (p. 11)",
+   "quote": "Assistance Multirisque Habitation option option option"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "Plafond global Responsabilités",
+   "scope": "Plafond tous dommages et toutes garanties confondus pour les responsabilités",
+   "ceiling": "100 millions d'euros par année d'assurance",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "Les montants de garanties énoncés dans ce tableau s’entendent avec un plafond tous dommages et toutes garanties confondus de 100 millions d’euros par année d’assurance."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Envers les locataires",
+   "scope": "Garantie responsabilité civile envers les locataires (si propriétaire)",
+   "ceiling": "100 000 000 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "Envers les locataires (si vous êtes propriétaire) 100 000 000 € (1)"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Envers les voisins et tiers",
+   "scope": "Garantie responsabilité civile envers les voisins et les tiers",
+   "ceiling": "100 000 000 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "Envers les voisins et les tiers 100 000 000 € (1)"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Envers le propriétaire",
+   "scope": "Garantie responsabilité civile envers le propriétaire (si locataire)",
+   "ceiling": "100 000 000 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "Envers le propriétaire (si vous êtes locataire) 100 000 000 €"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Dommages corporels",
+   "scope": "Dommages corporels après accident, incendie, explosion, dégât des eaux",
+   "ceiling": "100 000 000 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "Dommages corporels après accident, incendie, explosion, dégât des eaux 100 000 000 €"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Dommages matériels et immatériels",
+   "scope": "Dommages matériels et immatériels consécutifs après accident, incendie, explosion, dégât des eaux",
+   "ceiling": "4 800 000 € dont 20 % pour les dommages immatériels",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "Dommages matériels et immatériels consécutifs après accident, incendie, explosion, dégât des eaux 4 800 000 € dont 20 % pour les dommages immatériels"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Intoxications alimentaires",
+   "scope": "Garantie responsabilité civile pour intoxications alimentaires",
+   "ceiling": "8 000 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "Intoxications alimentaires 8 000 €"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Dommages aux biens confiés",
+   "scope": "Garantie responsabilité civile pour dommages aux biens confiés",
+   "ceiling": "8 000 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "Dommages aux biens confiés 8 000 €"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Bris de glaces",
+   "scope": "Garantie responsabilité civile pour bris de glaces",
+   "ceiling": "8 000 €",
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "Bris de glaces 8 000 €"
+  },
+  {
+   "peril": "protection_juridique",
+   "label": "Plafond Protection Juridique",
+   "scope": "Plafond total des règlements pour la protection juridique",
+   "ceiling": "15 000 € TTC par sinistre",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Tableaux des garanties et plafonds (p. 20)",
+   "quote": "L’ensemble de nos règlements ne pourra excéder un montant de 15 000 € TTC par sinistre."
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance Multirisque - Hébergement",
+   "scope": "Prise en charge des frais d'hôtel en cas de sinistre affectant le domicile",
+   "ceiling": "80 € par personne et par nuit, maximum 400 € par personne",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Tableaux des garanties et plafonds (p. 21)",
+   "quote": "Prise en charge de frais d’hôtel à concurrence de 80 € par personne (petit déjeuner inclus) et par nuit dans la limite totale de 400 € par personne."
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance Multirisque - Effets personnels",
+   "scope": "Remboursement des effets vestimentaires et de première nécessité",
+   "ceiling": "1 000 € par foyer fiscal",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Tableaux des garanties et plafonds (p. 21)",
+   "quote": "Remboursement des effets vestimentaires et de première nécessité dans la limite de 1 000 € par foyer fiscal."
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance Multirisque - Serrurier",
+   "scope": "Intervention d'un serrurier en cas de bris, perte ou vol des clés",
+   "ceiling": "180 € maximum (2 interventions par année civile)",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Tableaux des garanties et plafonds (p. 22)",
+   "quote": "Organisation et prise en charge des frais de déplacement et main d’œuvre d’un serrurier à concurrence de 180 € maximum (2 interventions par année civile)."
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance Multirisque - Plomberie",
+   "scope": "Réparations urgentes de plomberie intérieure",
+   "ceiling": "150 € (2 interventions par année civile)",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Tableaux des garanties et plafonds (p. 22)",
+   "quote": "Aide téléphonique, puis organisation et prise en charge des frais de déplacement, main d’œuvre et pièces jusqu’à hauteur de 150 €. (2 interventions par année civile)"
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance Multirisque - Nuisibles",
+   "scope": "Traitement du domicile en cas d'invasion de nuisibles",
+   "ceiling": "300 € (1 intervention par année civile)",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Tableaux des garanties et plafonds (p. 22)",
+   "quote": "Organisation et prise en charge du traitement du domicile et l’intervention du prestataire à concurrence de 300 € (1 intervention par année civile)."
+  },
+  {
+   "peril": "assistance",
+   "label": "Assistance Multirisque - Violences intrafamiliales",
+   "scope": "Hébergement temporaire en cas de violences intrafamiliales",
+   "ceiling": "80 € TTC par nuit et par personne, maximum 1 200 € TTC par personne, total 3 000 €",
+   "deductible": null,
+   "optional": true,
+   "clause_id": "Tableaux des garanties et plafonds (p. 22)",
+   "quote": "Organisation et prise en charge de l’hébergement temporaire à l’hôtel du bénéficiaire victime et de ses enfants mineurs ou majeurs fiscalement à charge vivant avec le bénéficiaire dans la limite de 80 € TTC par nuit et par personne (petit déjeuner inclus), dans la limite de 1 200 € TTC par personne et dans la limite totale de 3 000 €."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "vol",
+   "description": "Objets de valeur non désignés non couverts en formule Eco",
+   "clause_id": "Tableaux des garanties et plafonds (p. 14)",
+   "quote": "Objets de valeur : • Objet de valeur non désignés (maximum par objet) : - objets précieux - espèces, titres et valeurs - objets d’art et fourrures Non couvert"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Frais consécutifs à la surconsommation d'eau non couverts en formules Eco et Confort",
+   "clause_id": "Tableaux des garanties et plafonds (p. 14)",
+   "quote": "Frais consécutifs à la surconsommation d’eau en cas de sinistre garanti Non couvert Non couvert"
+  },
+  {
+   "peril": "degats_des_eaux",
+   "description": "Débordement des cuves à mazout non couvert en formules Eco et Confort",
+   "clause_id": "Tableaux des garanties et plafonds (p. 14)",
+   "quote": "Débordement des cuves à mazout Non couvert Non couvert"
+  },
+  {
+   "peril": "autre",
+   "description": "Perte des denrées alimentaires sans justificatifs non couverte en formules Eco et Confort",
+   "clause_id": "Tableaux des garanties et plafonds (p. 15)",
+   "quote": "Perte des denrées alimentaires sans justificatifs Non couvert Non couvert"
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "dommages_electriques",
+   "condition_type": "mesure_de_prevention",
+   "description": "Capital garanti doublé si les installations électroniques et téléphoniques sont protégées par un dispositif parafoudre",
+   "parameter": null,
+   "clause_id": "Tableaux des garanties et plafonds (p. 12)",
+   "quote": "(1) Capital garanti doublé si les installations électroniques et téléphoniques sont protégées par un dispositif parafoudre."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "option_ou_formule",
+   "description": "Garantie acquise uniquement quand le contrat concerne une résidence principale",
+   "parameter": null,
+   "clause_id": "Tableaux des garanties et plafonds (p. 16)",
+   "quote": "(1) par sinistre dont 20 % pour les dommages immatériels - (2) garanties acquises uniquement quand le contrat concerne une résidence principale"
+  },
+  {
+   "peril": "assistance",
+   "condition_type": "option_ou_formule",
+   "description": "Prestations acquises uniquement pour un contrat couvrant la résidence principale",
+   "parameter": null,
+   "clause_id": "Tableaux des garanties et plafonds (p. 22)",
+   "quote": "(2) Ces prestations ne sont acquises que pour un contrat « Assurance Multirisque Habitation » couvrant votre résidence principale."
+  }
+ ]
+}

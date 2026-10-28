@@ -1,0 +1,27 @@
+{
+ "verdict": "non couvert",
+ "resume": "Le vol du vélo est exclu car il s'est produit dans les parties communes de l'immeuble, lieu expressément visé par l'exclusion de l'article 16-4.",
+ "raisonnement": [
+  "L'événement est un vol de bien mobilier (vélo). La garantie applicable est le vol (Art. 16).",
+  "L'Art. 16-4 exclut le vol commis dans les 'parties communes d'un immeuble collectif'. Le vélo a été volé dans un local commun, qui relève des parties communes.",
+  "L'Art. 16-3 impose des conditions de fermeture (clés, alarme) pour les locaux assurés. Bien que le local ne soit pas fermé à clé (ce qui pourrait entraîner une réduction de 50% si le local était assuré), l'exclusion de lieu prime sur la condition de fermeture.",
+  "Le vélo n'est pas un bien immobilier ni un bien situé à l'extérieur des locaux d'habitation au sens de l'Art. 10-4 (il est dans un local commun, pas dehors), mais l'exclusion spécifique de l'Art. 16-4 s'applique directement."
+ ],
+ "clauses_citees": [
+  {
+   "clause_id": "Art. 16-4",
+   "page": 26,
+   "citation": "Nous ne garantissons pas le vol, la tentative de vol ou l’acte de vandalisme et les détériorations consécutives : • commis dans : - les parties communes d’un immeuble collectif,",
+   "role": "exclusion"
+  },
+  {
+   "clause_id": "Art. 16-3",
+   "page": 25,
+   "citation": "La mise en jeu des garanties est subordonnée : • à l’existence des moyens de fermeture et de protection des locaux assurés, indiqués ci-après, maintenus en bon état de fonctionnement,",
+   "role": "condition"
+  }
+ ],
+ "informations_manquantes": [],
+ "confiance": "élevée",
+ "raison_confiance": "L'exclusion des parties communes est explicite et sans ambiguïté dans l'Art. 16-4. Le lieu du sinistre (local commun) correspond parfaitement à cette exclusion."
+}

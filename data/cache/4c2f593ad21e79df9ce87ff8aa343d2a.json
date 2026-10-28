@@ -1,0 +1,144 @@
+{
+ "guarantees": [
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Vie Privée",
+   "scope": "Les conséquences pécuniaires de la responsabilité civile encourue pour les dommages causés à autrui au cours de la vie privée, de votre propre fait ou du fait des personnes, animaux domestiques, et biens mobiliers dont vous répondez.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7.1",
+   "quote": "Les conséquences pécuniaires de la responsabilité civile que vous pouvez encourir pour les dommages (corporels, matériels et immatériels consécutifs) résultant d’un événement accidentel causés à autrui au cours de votre vie privée, de votre propre fait ou du fait des personnes, animaux domestiques, et biens mobiliers dont vous répondez."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Propriétaire/Copropriétaire",
+   "scope": "Les conséquences pécuniaires de la responsabilité encourue à la suite d’un sinistre survenu dans les locaux assurés pour les dommages causés à autrui du fait des terrains et immeubles situés à l’adresse déclarée et de votre garage personnel.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7.2",
+   "quote": "Les conséquences pécuniaires de la responsabilité que vous pouvez encourir à la suite d’un sinistre survenu dans les locaux assurés pour les dommages (corporels, matériels et immatériels consécutifs) causés à autrui du fait des terrains et immeubles situés à l’adresse déclarée sur les Conditions Particulières et de votre garage personnel situé dans la même commune ou dans une commune limitrophe."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Locataire envers le propriétaire",
+   "scope": "Les conséquences pécuniaires de la responsabilité encourue à la suite d’un incendie, d’une explosion ou d’un dégât des eaux survenu dans les locaux assurés pour les dommages matériels causés aux biens du propriétaire et la perte des loyers.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7.2 §2",
+   "quote": "Les conséquences pécuniaires de la responsabilité que vous pouvez encourir à la suite d’un incendie, d’une explosion ou d’un dégât des eaux survenu dans les locaux assurés : - pour les dommages matériels causés aux biens du propriétaire, - pour la perte des loyers subie par le propriétaire."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Locataire/Propriétaire envers tiers",
+   "scope": "Les conséquences pécuniaires de la responsabilité encourue à la suite d’un incendie, d’une explosion ou d’un dégât des eaux survenu dans les locaux assurés vis-à-vis des voisins et des tiers pour les dommages qu’ils subissent.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7.2 §3",
+   "quote": "Les conséquences pécuniaires de la responsabilité que vous pouvez encourir à la suite d’un incendie, d’une explosion ou d’un dégât des eaux survenu dans les locaux assurés vis-à-vis des voisins et des tiers pour les dommages (matériels et immatériels consécutifs) qu’ils subissent."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "label": "RC Occupant en voyage",
+   "scope": "Les conséquences pécuniaires de la responsabilité encourue en qualité de locataire ou d’occupant, à l’égard du propriétaire du local occupé en villégiature et à l’égard des voisins et des tiers, pour les dommages causés par un incendie, une explosion, un dégât des eaux.",
+   "ceiling": null,
+   "deductible": null,
+   "optional": false,
+   "clause_id": "Art. 7.3",
+   "quote": "Les conséquences pécuniaires de la responsabilité que vous pouvez encourir en qualité de locataire ou d’occupant, à l’égard du propriétaire du local occupé en villégiature et à l’égard des voisins et des tiers, pour les dommages (matériels et immatériels consécutifs) causés par un incendie, une explosion, un dégât des eaux, pour des séjours dont la durée globale n’excède pas 3 mois par année d’assurance."
+  }
+ ],
+ "exclusions": [
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages subis par les personnes assurées au titre du présent contrat, ainsi que les biens, objets et animaux dont les personnes assurées ont la propriété, l’usage ou la garde.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "Les dommages subis par : - les personnes assurées au titre du présent contrat, - les biens, objets et animaux dont les personnes assurées ont la propriété, l’usage ou la garde."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages causés par tout véhicule terrestre à moteur soumis à l’assurance automobile obligatoire, à l’exception des matériels de jardinage de moins de 16 CV sur terrain privé non ouvert à la circulation publique, et des fauteuils roulants motorisés de handicapés.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "Les dommages causés par : - tout véhicule terrestre à moteur soumis à l’assurance automobile obligatoire, à l’exception des matériels de jardinage de moins de 16 CV sur terrain privé non ouvert à la circulation publique, et des fauteuils roulants motorisés de handicapés,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages causés par les voiliers de plus de 6 mètres et toute embarcation propulsée par un moteur de plus de 4,5 kW (soit 6 CV) dont vous-même ou les personnes assurées avez la conduite, la propriété ou la garde.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "les voiliers de plus de 6 mètres et toute embarcation propulsée par un moteur de plus de 4,5 kW, (soit 6 CV) dont vous-même ou les personnes assurées ont la conduite, la propriété ou la garde,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages causés par les appareils de navigation aérienne.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "les appareils de navigation aérienne,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages causés par les modèles réduits téléguidés ou radio commandés, capables d’évoluer dans les airs, à moteur de plus de 3,5 cm3.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "les modèles réduits téléguidés ou radio commandés, capables d’évoluer dans les airs, à moteur de plus de 3,5 cm3."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages causés par les animaux dont la détention est interdite en France.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "les animaux dont la détention est interdite en France,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages causés par les chiens de 1ère ou 2e catégorie au sens des articles L 211-11 et suivants du Code rural, sauf mention contraire sur les Conditions Particulières.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "les chiens de 1ère ou 2e catégorie au sens des articles L 211-11 et suivants du Code rural, sauf mention contraire sur les Conditions Particulières."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages aux biens de ses parents causés par l’enfant que vous gardez à son domicile dans le cadre d’une activité de baby-sitting.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "Les dommages aux biens de ses parents causés par l’enfant que vous gardez à son domicile dans le cadre d’une activité de baby-sitting."
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages résultant de la pratique de la chasse, de la pêche sous-marine avec bouteilles et de tout sport exercé à titre professionnel.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "de la pratique de la chasse, de la pêche sous-marine avec bouteilles et de tout sport exercé à titre professionnel,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages résultant de toute activité physique ou sportive pratiquée en amateur en tant que membre d’un club ou groupement sportif agréé conformément à la loi du 16 juillet 1984.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "de toute activité physique ou sportive pratiquée en amateur en tant que membre d’un club ou groupement sportif agréé conformément à la loi du 16 juillet 1984,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages résultant de l’organisation ou la participation à toutes épreuves, courses ou compétitions sportives ainsi que de toutes épreuves préparatoires nécessitant une autorisation administrative préalable ou soumise à une obligation d’assurance légale.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "de l’organisation ou la participation à toutes épreuves, courses ou compétitions sportives ainsi que de toutes épreuves préparatoires nécessitant une autorisation administrative préalable ou soumise à une obligation d’assurance légale,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages résultant de toute activité professionnelle et de toute fonction publique rémunérée ou indemnisée.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "de toute activité professionnelle et de toute fonction publique rémunérée ou indemnisée,"
+  },
+  {
+   "peril": "responsabilite_civile",
+   "description": "Les dommages résultant de toute responsabilité contractuelle encourue du fait de la vente de services, de biens ou d’animaux.",
+   "clause_id": "Art. 7.3 §2",
+   "quote": "de toute responsabilité contractuelle encourue du fait de la vente de services, de biens ou d’animaux."
+  }
+ ],
+ "conditions": [
+  {
+   "peril": "responsabilite_civile",
+   "condition_type": "inoccupation_max",
+   "description": "La garantie s'applique pour des séjours dont la durée globale n'excède pas 3 mois par année d'assurance.",
+   "parameter": "3 mois",
+   "clause_id": "Art. 7.3",
+   "quote": "pour des séjours dont la durée globale n’excède pas 3 mois par année d’assurance."
+  }
+ ]
+}
