@@ -18,7 +18,7 @@ from .parse import Clause
 from .schemas import PERILS, ConditionType, SectionExtraction
 from .verify import check_quote
 
-PROMPT_VERSION = "extract-v1"
+PROMPT_VERSION = "extract-v2"
 BATCH_CHARS = 7000
 WORKERS = 4
 
@@ -40,7 +40,12 @@ remplis une base de données. Règles :
 - conditions : conditions de mise en jeu ou obligations dont dépend l'indemnisation ;
   condition_type ∈ {list(ConditionType.__args__)} ; parameter = valeur chiffrée éventuelle (« 90 jours »).
 - Si un extrait ne contient rien de pertinent, renvoie des listes vides.
-Réponds uniquement en JSON : {{"guarantees": [...], "exclusions": [...], "conditions": [...]}}"""
+Réponds uniquement en JSON, avec exactement ces champs :
+{{"guarantees": [{{"peril": "...", "label": "intitulé court", "scope": "...", "ceiling": null, "deductible": null,
+                  "optional": false, "clause_id": "...", "quote": "..."}}],
+ "exclusions": [{{"peril": "... ou null", "description": "...", "clause_id": "...", "quote": "..."}}],
+ "conditions": [{{"peril": "... ou null", "condition_type": "...", "description": "...", "parameter": null,
+                  "clause_id": "...", "quote": "..."}}]}}"""
 
 
 def batches(clauses: list[Clause]) -> list[list[Clause]]:
@@ -97,7 +102,7 @@ def extract_contract(clauses: list[Clause], progress=None) -> tuple[dict[str, li
             res = e
         done += 1
         if progress:
-            progress(done, len(bs))
+            progress(done, len(bs), res if isinstance(res, Exception) else None)
         return res
 
     with ThreadPoolExecutor(WORKERS) as pool:

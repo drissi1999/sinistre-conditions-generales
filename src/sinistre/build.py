@@ -51,7 +51,9 @@ def main(argv: list[str] | None = None) -> int:
             continue
         clauses = store.get_clauses(conn, src.contract_id)
         rows, stats = extract_contract(
-            clauses, progress=lambda i, n: print(f"[{src.contract_id}] extraction lot {i}/{n}", flush=True))
+            clauses, progress=lambda i, n, err: print(
+                f"[{src.contract_id}] extraction lot {i}/{n}" + (f" ÉCHEC : {str(err)[:200]}" if err else ""),
+                flush=True))
         store.save_extraction(conn, src.contract_id, sha, config.LLM_MODEL, PROMPT_VERSION, rows, stats)
         print(f"[{src.contract_id}] extraction : {json.dumps(stats, ensure_ascii=False)}")
     return 0

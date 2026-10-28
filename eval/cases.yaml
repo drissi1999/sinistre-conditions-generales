@@ -1,0 +1,140 @@
+# Cas d'évaluation. Verdicts attendus établis à la lecture des clauses (référencées), pas à partir
+# des sorties du système. À faire relire par un gestionnaire sinistre : c'est la vérité terrain.
+#
+# expected[0] = verdict attendu ; les suivants sont acceptables (ex. un « indéterminé » prudent quand
+# la réponse dépend d'une option ou des conditions particulières).
+# expected_clauses : au moins une doit être citée ET vérifiée pour que le cas soit « bien sourcé ».
+# category : clair_couvert | clair_exclu | ambigu
+
+cases:
+  # --- Les deux cas de l'énoncé, sur les 3 contrats -------------------------------------------
+  - id: velo_local_commun_altima
+    contract_id: altima_mrh
+    category: clair_exclu
+    claim: &velo "Je me fais voler mon vélo dans le local commun de l'immeuble, qui n'était pas fermé à clé. Suis-je couvert ?"
+    expected: [non couvert]
+    expected_clauses: ["Art. 4.7 §2"]
+    note: "Exclusion explicite : vol « dans les locaux à usage commun de plusieurs occupants »."
+
+  - id: velo_local_commun_macsf
+    contract_id: macsf_mh
+    category: clair_exclu
+    claim: *velo
+    expected: [non couvert, indéterminé]
+    expected_clauses: ["Art. 2.5 §2"]
+    note: "Garantie limitée au vol « à l'intérieur des locaux assurés, par effraction ou escalade … traces apparentes » : local non fermé, pas d'effraction."
+
+  - id: velo_local_commun_matmut
+    contract_id: matmut_jeunes
+    category: clair_exclu
+    claim: *velo
+    expected: [non couvert]
+    expected_clauses: ["Art. 16-4", "Art. 10-4"]
+    note: "Exclusion explicite du vol « commis dans les parties communes d'un immeuble collectif »."
+
+  - id: bougie_jardin_altima
+    contract_id: altima_mrh
+    category: clair_exclu
+    claim: &bougie "Un assuré laisse une bougie sur la table de son jardin pendant ses vacances. Avec la chaleur, la bougie fond et abîme la table. Est-ce couvert ?"
+    expected: [non couvert]
+    expected_clauses: ["Art. 4.1 §2", "Art. 4.3 §2"]
+    note: "Exclusion des « dommages dus à la chaleur sans qu'il y ait eu incendie » ; mobilier en plein air exclu."
+
+  - id: bougie_jardin_macsf
+    contract_id: macsf_mh
+    category: clair_exclu
+    claim: *bougie
+    expected: [non couvert, indéterminé]
+    expected_clauses: ["Art. 2.1", "Art. 2.3 §2"]
+    note: "Incendie défini comme « combustion avec flammes en dehors d'un foyer normal » : pas de flammes décrites."
+
+  - id: bougie_jardin_matmut
+    contract_id: matmut_jeunes
+    category: clair_exclu
+    claim: *bougie
+    expected: [non couvert]
+    expected_clauses: ["Art. 14-1 §2", "Art. 10-4"]
+    note: "Exclusion des dommages résultant « de la seule action de la chaleur » ; biens mobiliers à l'extérieur non assurés."
+
+  # --- Cas clairement couverts --------------------------------------------------------------
+  - id: cambriolage_effraction_matmut
+    contract_id: matmut_jeunes
+    category: clair_couvert
+    claim: "Pendant que j'étais au travail, des cambrioleurs ont forcé la serrure de la porte d'entrée de mon appartement et ont volé mon ordinateur portable. La serrure est cassée et j'ai porté plainte."
+    expected: [couvert, indéterminé]
+    expected_clauses: ["Art. 16-1"]
+    note: "Vol par effraction dans les locaux assurés. Indéterminé acceptable : moyens de fermeture exigés (16-3)."
+
+  - id: foudre_surtension_matmut
+    contract_id: matmut_jeunes
+    category: clair_couvert
+    claim: "Pendant un orage, la foudre est tombée près de chez moi. Depuis, mon réfrigérateur et ma box internet ne fonctionnent plus, le réparateur parle d'une surtension."
+    expected: [couvert]
+    expected_clauses: ["Art. 14-5"]
+    note: "Surtension du réseau électrique : dommages aux appareils électriques garantis."
+
+  - id: fuite_canalisation_altima
+    contract_id: altima_mrh
+    category: clair_couvert
+    claim: "Une canalisation d'eau dans le mur de la salle de bain a fui et l'eau a abîmé le parquet du salon."
+    expected: [couvert]
+    expected_clauses: ["Art. 4.5"]
+    note: "Dommages matériels causés par l'eau aux biens assurés."
+
+  - id: vitre_ballon_macsf
+    contract_id: macsf_mh
+    category: clair_couvert
+    claim: "Mon fils a cassé accidentellement la vitre de la porte-fenêtre du salon en jouant au ballon."
+    expected: [couvert]
+    expected_clauses: ["Art. 2-7"]
+    note: "Bris accidentel des vitrages des portes-fenêtres."
+
+  - id: vitre_ballon_altima
+    contract_id: altima_mrh
+    category: clair_couvert
+    claim: "Un ballon a cassé la vitre d'une fenêtre de ma maison."
+    expected: [couvert]
+    expected_clauses: ["Art. 4.8"]
+    note: "Bris accidentel des vitres faisant partie intégrante des bâtiments assurés."
+
+  # --- Cas clairement exclus ---------------------------------------------------------------
+  - id: fer_a_repasser_matmut
+    contract_id: matmut_jeunes
+    category: clair_exclu
+    claim: "En repassant, j'ai laissé le fer posé sur le canapé : le tissu est brûlé, il n'y a pas eu de flammes."
+    expected: [non couvert]
+    expected_clauses: ["Art. 14-1 §2"]
+    note: "Brûlures (« incidents de repassage ») exclues."
+
+  - id: velo_cave_matmut
+    contract_id: matmut_jeunes
+    category: clair_exclu
+    claim: "On m'a volé mon vélo rangé dans ma cave privative, fermée à clé : la porte de la cave a été forcée."
+    expected: [non couvert, indéterminé]
+    expected_clauses: ["Art. 10-4"]
+    note: "Piège : effraction réelle, mais les biens mobiliers « remisés dans les dépendances » ne sont pas assurés par ce contrat."
+
+  # --- Cas ambigus : la réponse dépend d'une option ou d'un fait inconnu -----------------------
+  - id: salon_jardin_vole_macsf
+    contract_id: macsf_mh
+    category: ambigu
+    claim: "On m'a volé mon salon de jardin sur ma terrasse pendant la nuit."
+    expected: [indéterminé, non couvert]
+    expected_clauses: ["Art. 2.5 §4"]
+    note: "Exclu « sauf si le Pack Jardin est souscrit » : dépend des conditions particulières."
+
+  - id: surtension_lave_linge_altima
+    contract_id: altima_mrh
+    category: ambigu
+    claim: "Une surtension a grillé mon lave-linge."
+    expected: [indéterminé, couvert]
+    expected_clauses: ["Art. 4.2", "Art. 4.2 §2"]
+    note: "Garantie dommages électriques « lorsque cette garantie est contenue dans la formule » : dépend de la formule."
+
+  - id: gel_absence_altima
+    contract_id: altima_mrh
+    category: ambigu
+    claim: "Pendant mes trois semaines de vacances en janvier, un tuyau a gelé et éclaté dans ma maison non chauffée. Je n'avais pas coupé l'eau ni vidangé les conduites."
+    expected: [couvert, indéterminé]
+    expected_clauses: ["Art. 4.5 §3", "Art. 4.5"]
+    note: "Garanti, mais 30 % de l'indemnité restent à charge faute de mesures de prévention. Un « non couvert » serait faux."

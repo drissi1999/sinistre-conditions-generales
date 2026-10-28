@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Literal, Optional
 
-from pydantic import BaseModel, ConfigDict, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 # Taxonomie commune à tous les contrats : c'est elle qui rend des centaines de contrats comparables.
 Peril = Literal[
@@ -29,8 +29,8 @@ def _peril_or_autre(v):
 
 class GuaranteeRow(BaseModel):
     peril: Peril
-    label: str = Field(description="Intitulé court de la garantie, en français métier")
-    scope: str = Field(description="Ce qui est couvert, en une phrase")
+    label: str = Field("", description="Intitulé court de la garantie, en français métier")
+    scope: str = Field("", description="Ce qui est couvert, en une phrase")
     ceiling: Optional[str] = None
     deductible: Optional[str] = None
     optional: Optional[bool] = Field(None, description="Vrai si la garantie dépend d'une option ou formule")
@@ -41,6 +41,12 @@ class GuaranteeRow(BaseModel):
     @classmethod
     def _p(cls, v):
         return _peril_or_autre(v)
+
+    @model_validator(mode="after")
+    def _label(self):
+        if not self.label:
+            self.label = (self.scope or self.peril)[:80]
+        return self
 
 
 class ExclusionRow(BaseModel):
