@@ -8,7 +8,7 @@ la réponse dépend d'un fait inconnu.
 Réalisé pour le sujet 1 de l'exercice [recrutement IA du Groupe Foyer](https://lux-guide.github.io/recrutement-ia/).
 Données uniquement publiques (voir [data/sources.md](data/sources.md)).
 
-- **Démo** : _URL à ajouter après déploiement_
+- **Démo** : https://sinistre-conditions-generales-tv8vmtq3bfzriaaq7nerpf.streamlit.app/ (application gratuite : si elle est en veille, cliquer sur « Yes, get this app back up » et patienter ~1 min)
 - **Choix techniques détaillés** : [DECISIONS.md](DECISIONS.md)
 
 ---
