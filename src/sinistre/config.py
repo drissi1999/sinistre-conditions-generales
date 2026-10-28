@@ -7,7 +7,22 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-ROOT = Path(__file__).resolve().parents[2]
+def _find_root() -> Path:
+    """Racine du projet = dossier contenant data/contracts.yaml.
+
+    On cherche depuis le répertoire courant puis depuis ce fichier : une installation non éditable
+    (pip install ., comme sur Streamlit Cloud) place le code dans site-packages, loin de data/.
+    """
+    if os.getenv("SINISTRE_ROOT"):
+        return Path(os.environ["SINISTRE_ROOT"]).resolve()
+    for start in (Path.cwd(), Path(__file__).resolve().parent):
+        for d in (start, *start.parents):
+            if (d / "data" / "contracts.yaml").is_file():
+                return d
+    return Path.cwd()
+
+
+ROOT = _find_root()
 load_dotenv(ROOT / ".env")
 
 DATA_DIR = Path(os.getenv("SINISTRE_DATA_DIR", ROOT / "data"))
