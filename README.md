@@ -257,9 +257,41 @@ Lancer : `python eval/run_eval.py`.
 
 ## Mon expérience terrain
 
-> **[À RÉDIGER PAR MOI]**
-> Ce que j'ai déjà mis en production de comparable, le contexte, ce qui a marché, ce qui a cassé,
-> et ce que j'en ai retenu pour ce projet.
+Ce projet reprend des choix que j'ai déjà dû faire en production sur des produits d'IA dans la santé,
+un domaine où, comme en assurance, une réponse non justifiée n'est pas acceptable.
+
+### MedKit.ai : des documents médicaux non structurés aux données vérifiées (en production)
+
+Plateforme qui transforme des documents médicaux (comptes rendus, courriers, formulaires) en données
+structurées **vérifiées**. Le document source est affiché à côté des champs extraits, pour que le
+professionnel de santé valide chaque valeur au regard de sa source. Stack : React/Vite, Node/Express,
+FastAPI, extraction par modèle de vision exécuté en local (LLaVA via Ollama), SQLite. Le site et le
+programme bêta (inscriptions, contact) sont déployés sur Vercel. Dans le même cadre, un POC pour les
+services de santé au travail (SPSTI) : score d'aide à la priorisation des visites de prévention, sur
+données synthétiques, avec explicabilité SHAP et une analyse RGPD / AI Act avant tout déploiement réel.
+
+**[À COMPLÉTER : utilisateurs ou bêta-testeurs, volume de documents traités, taux de correction
+manuelle des champs, un incident ou un échec et ce qui a été changé ensuite.]**
+
+Dans mon poste actuel, j'ai également conçu et mis en production un assistant d'IA médical fonctionnant
+entièrement en local. Conformément à la règle de l'exercice, je ne le décris pas ici ; je peux en parler
+en entretien, dans les limites de la confidentialité due à mon employeur.
+
+### Ce que j'en ai retenu, et appliqué ici
+
+- **Montrer la source à côté de la réponse.** Dans MedKit, une valeur extraite n'est utile que si
+  l'utilisateur peut la vérifier en un coup d'œil sur le document. Ici, chaque citation est surlignée
+  dans sa clause, avec la page.
+- **Structurer avant de générer.** Une table de champs se contrôle ; un texte libre non. Ici, les
+  contrats deviennent des tables et la réponse un JSON strict, validé.
+- **Des garde-fous en code, pas seulement dans le prompt.** Ici, vérification mot pour mot des citations
+  et rétrogradation automatique du verdict, plutôt qu'une consigne « cite tes sources » laissée au modèle.
+- **La souveraineté des données comme contrainte de conception.** Dans la santé, les données de patients
+  ne sortent pas ; ici, le fournisseur de LLM se change par configuration, ce qui permet Mistral ou un
+  modèle auto-hébergé, adapté aux déclarations de sinistre qui contiennent des données personnelles.
+- **Ne jamais afficher de chiffres non mesurés.** J'ai retiré du site MedKit des indicateurs et des
+  témoignages qui n'étaient pas réels. Ici, l'évaluation publie aussi la première version, moins bonne,
+  et dit sur quels cas elle a été mise au point.
 
 ## Lancer le projet
 
